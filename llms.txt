@@ -1,0 +1,56 @@
+# Kegel Morse Hero Pelvic Train
+
+## Summary
+Kegel Morse Hero is a free iOS app that combines pelvic floor (Kegel) exercises with Morse code rhythmic patterns. It uses visual ring animations and haptic feedback to guide squeeze-and-relax timing during exercise sessions.
+
+## Key Facts
+- Platform: iOS only
+- Price: Free to download (optional subscription for additional features)
+- Category: Health & Fitness — Pelvic Floor Training
+- No account required
+- No ads, no tracking, no data collection
+- All exercise data stored locally on device
+- No internet connection required for exercise sessions
+- Optional Google Drive backup and CSV export
+
+## How It Works
+Kegel Morse Hero displays a glowing ring animation that indicates when to squeeze and when to relax. Each exercise session follows a Morse code pattern — dots represent short squeezes, dashes represent long holds. Haptic feedback vibrates in sync with the pattern for discreet, eyes-free training.
+
+## Built-in Tracks
+- SOS (16 seconds)
+- HELLO (26 seconds)
+- HELP ME (28 seconds)
+- HERO (20 seconds)
+- KEGEL (22 seconds)
+- MORSE (23 seconds)
+- BRAVO (28 seconds)
+- READY (24 seconds)
+- FOCUS (29 seconds)
+
+Users can also create custom Morse code tracks.
+
+## Features
+- Visual ring animation for squeeze/relax timing
+- Haptic feedback during exercises
+- 1×, 2×, 3× speed settings
+- Built-in and custom Morse code tracks
+- Calendar-based progress tracking
+- Zen Mode for distraction-free training
+- Signal reminders for consistent scheduling
+- History log with session details
+- Google Drive backup
+- CSV data export
+
+## Privacy
+Kegel Morse Hero collects no personal data. No analytics, no advertising SDKs, no tracking. All data remains on the user's device. No account creation required.
+
+## Subscriptions
+Subscription periods: Monthly, Annual, or Lifetime. Payment charged to iTunes Account. Auto-renews unless turned off 24+ hours before period end.
+
+## Links
+- App Store: https://apps.apple.com/app/id6761061994
+- Privacy Policy: https://benderlidze.github.io/KegelMorseHeroDocs/privacy
+- Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+
+## Disclaimer
+This app is for educational and informational purposes only. It does not constitute medical advice, diagnosis, or treatment. Consult a physician or qualified health provider before starting pelvic floor exercises.
