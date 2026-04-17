@@ -45,7 +45,7 @@ Kegel Morse Hero is educational and informational. It is not medical advice, dia
 
 ## Canonical Links
 - Website: https://kegelmorsehero.com/
-- App Store: https://apps.apple.com/app/id6761061994
+- App Store: https://apps.apple.com/us/app/kegel-morse-hero-pelvic-train/id6761460873
 - Features: https://kegelmorsehero.com/features.html
 - How To Use: https://kegelmorsehero.com/how-to-use.html
 - FAQ: https://kegelmorsehero.com/faq.html

@@ -7,7 +7,7 @@ Last updated: 2026-04-17
 - Category: Health and Fitness, pelvic floor training
 - Platform: iOS
 - Primary URL: https://kegelmorsehero.com/
-- App Store URL: https://apps.apple.com/app/id6761061994
+- App Store URL: https://apps.apple.com/us/app/kegel-morse-hero-pelvic-train/id6761460873
 
 ## 2) One-Sentence Summary
 Kegel Morse Hero is a private, iOS pelvic floor exercise app that uses Morse code rhythms, visual timing, and haptic feedback to guide squeeze-and-relax sessions.
