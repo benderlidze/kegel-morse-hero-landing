@@ -1,0 +1,903 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WebGL Galaxy Controls</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Instrument+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    :root {
+      --ink: #dce9ff;
+      --muted: rgba(220, 233, 255, 0.68);
+      --panel-bg: rgba(7, 16, 30, 0.6);
+      --panel-border: rgba(130, 172, 255, 0.24);
+      --accent: #8bd4ff;
+      --accent-2: #ffd387;
+      --track: rgba(139, 212, 255, 0.16);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      height: 100%;
+      overflow: hidden;
+      color: var(--ink);
+      font-family: "Instrument Sans", "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 18% 12%, rgba(88, 140, 255, 0.14), transparent 34%),
+        radial-gradient(circle at 82% 14%, rgba(255, 200, 118, 0.14), transparent 30%),
+        linear-gradient(180deg, #06101d 0%, #040a16 55%, #02060e 100%);
+    }
+
+    canvas {
+      position: fixed;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .panel {
+      position: fixed;
+      top: 18px;
+      left: 18px;
+      width: min(360px, calc(100vw - 36px));
+      padding: 16px 16px 14px;
+      border-radius: 18px;
+      border: 1px solid var(--panel-border);
+      background: var(--panel-bg);
+      backdrop-filter: blur(14px) saturate(128%);
+      box-shadow: 0 20px 70px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.04);
+      z-index: 3;
+    }
+
+    h1 {
+      margin: 0;
+      font-family: "Syne", "Segoe UI", sans-serif;
+      font-size: 1.25rem;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+    }
+
+    .subtitle {
+      margin: 8px 0 14px;
+      color: var(--muted);
+      line-height: 1.4;
+      font-size: 0.84rem;
+    }
+
+    .control {
+      margin-top: 11px;
+    }
+
+    .head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      font-size: 0.75rem;
+      color: var(--muted);
+      letter-spacing: 0.01em;
+    }
+
+    .head output {
+      color: var(--ink);
+      font-variant-numeric: tabular-nums;
+      font-size: 0.78rem;
+    }
+
+    input[type="range"] {
+      appearance: none;
+      width: 100%;
+      margin: 7px 0 0;
+      height: 7px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, rgba(255, 211, 135, 0.25), var(--track));
+      outline: none;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      appearance: none;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      border: 2px solid rgba(255, 255, 255, 0.86);
+      background: radial-gradient(circle at 30% 30%, #ffffff, var(--accent) 85%);
+      box-shadow: 0 0 0 4px rgba(139, 212, 255, 0.22);
+      cursor: pointer;
+    }
+
+    input[type="range"]::-moz-range-thumb {
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      border: 2px solid rgba(255, 255, 255, 0.86);
+      background: radial-gradient(circle at 30% 30%, #ffffff, var(--accent) 85%);
+      box-shadow: 0 0 0 4px rgba(139, 212, 255, 0.22);
+      cursor: pointer;
+    }
+
+    .row {
+      margin-top: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .ghost {
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--ink);
+      font-family: inherit;
+      font-size: 0.76rem;
+      padding: 8px 12px;
+      cursor: pointer;
+      transition: transform 0.16s ease, background 0.16s ease;
+    }
+
+    .ghost:hover {
+      transform: translateY(-1px);
+      background: rgba(255, 255, 255, 0.11);
+    }
+
+    .note {
+      font-size: 0.7rem;
+      color: rgba(220, 233, 255, 0.5);
+    }
+
+    @media (max-width: 700px) {
+      .panel {
+        top: auto;
+        left: 12px;
+        right: 12px;
+        bottom: 12px;
+        width: auto;
+      }
+
+      h1 {
+        font-size: 1.12rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <canvas id="galaxy"></canvas>
+
+  <section class="panel">
+    <h1>Spinning Galaxy</h1>
+    <p class="subtitle">WebGL starfield with adjustable angle, glow, and persistent motion trails.</p>
+
+    <div class="control">
+      <div class="head"><label for="angle">Galaxy angle</label><output id="angleVal"></output></div>
+      <input id="angle" type="range" min="0" max="360" step="1" value="30" />
+    </div>
+
+    <div class="control">
+      <div class="head"><label for="tilt">Tilt</label><output id="tiltVal"></output></div>
+      <input id="tilt" type="range" min="-70" max="70" step="1" value="36" />
+    </div>
+
+    <div class="control">
+      <div class="head"><label for="speed">Spin speed</label><output id="speedVal"></output></div>
+      <input id="speed" type="range" min="-2.5" max="2.5" step="0.01" value="0.42" />
+    </div>
+
+    <div class="control">
+      <div class="head"><label for="trail">Glow trail</label><output id="trailVal"></output></div>
+      <input id="trail" type="range" min="0" max="1" step="0.01" value="0.84" />
+    </div>
+
+    <div class="control">
+      <div class="head"><label for="glow">Glow intensity</label><output id="glowVal"></output></div>
+      <input id="glow" type="range" min="0.2" max="3" step="0.01" value="1.55" />
+    </div>
+
+    <div class="control">
+      <div class="head"><label for="twist">Spiral twist</label><output id="twistVal"></output></div>
+      <input id="twist" type="range" min="0" max="14" step="0.1" value="8.9" />
+    </div>
+
+    <div class="control">
+      <div class="head"><label for="arms">Arms</label><output id="armsVal"></output></div>
+      <input id="arms" type="range" min="2" max="8" step="1" value="3" />
+    </div>
+
+    <div class="control">
+      <div class="head"><label for="stars">Star count</label><output id="starsVal"></output></div>
+      <input id="stars" type="range" min="10000" max="120000" step="1000" value="90000" />
+    </div>
+
+    <div class="row">
+      <button id="reset" class="ghost" type="button">Reset defaults</button>
+      <span class="note">Canvas + JS + WebGL</span>
+    </div>
+  </section>
+
+  <script>
+    (() => {
+      const canvas = document.getElementById("galaxy");
+      const gl = canvas.getContext("webgl", {
+        antialias: true,
+        alpha: false,
+        premultipliedAlpha: false
+      });
+
+      if (!gl) {
+        const panel = document.querySelector(".panel");
+        panel.insertAdjacentHTML(
+          "beforeend",
+          "<p class='subtitle' style='margin-top:12px;color:#ffd7ad;'>WebGL is not available in this browser.</p>"
+        );
+        return;
+      }
+
+      const defaults = {
+        angle: 30,
+        tilt: 36,
+        speed: 0.42,
+        trail: 0.84,
+        glow: 1.55,
+        twist: 8.9,
+        arms: 3,
+        stars: 90000
+      };
+
+      const state = { ...defaults };
+
+      function bindSlider(id, formatter) {
+        const input = document.getElementById(id);
+        const out = document.getElementById(id + "Val");
+
+        function update() {
+          state[id] = parseFloat(input.value);
+          out.textContent = formatter(state[id]);
+        }
+
+        input.addEventListener("input", update);
+        update();
+      }
+
+      bindSlider("angle", (v) => `${Math.round(v)} deg`);
+      bindSlider("tilt", (v) => `${Math.round(v)} deg`);
+      bindSlider("speed", (v) => `${v.toFixed(2)}x`);
+      bindSlider("trail", (v) => `${Math.round(v * 100)}%`);
+      bindSlider("glow", (v) => `${v.toFixed(2)}`);
+      bindSlider("twist", (v) => v.toFixed(1));
+      bindSlider("arms", (v) => `${Math.round(v)}`);
+      bindSlider("stars", (v) => `${Math.round(v).toLocaleString()}`);
+
+      document.getElementById("reset").addEventListener("click", () => {
+        Object.entries(defaults).forEach(([id, value]) => {
+          const input = document.getElementById(id);
+          input.value = String(value);
+          input.dispatchEvent(new Event("input"));
+        });
+      });
+
+      function createShader(type, source) {
+        const shader = gl.createShader(type);
+        gl.shaderSource(shader, source);
+        gl.compileShader(shader);
+        if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
+          const info = gl.getShaderInfoLog(shader);
+          gl.deleteShader(shader);
+          throw new Error(info || "Shader compile failed");
+        }
+        return shader;
+      }
+
+      function createProgram(vertexSource, fragmentSource) {
+        const program = gl.createProgram();
+        const vs = createShader(gl.VERTEX_SHADER, vertexSource);
+        const fs = createShader(gl.FRAGMENT_SHADER, fragmentSource);
+        gl.attachShader(program, vs);
+        gl.attachShader(program, fs);
+        gl.linkProgram(program);
+        gl.deleteShader(vs);
+        gl.deleteShader(fs);
+        if (!gl.getProgramParameter(program, gl.LINK_STATUS)) {
+          const info = gl.getProgramInfoLog(program);
+          gl.deleteProgram(program);
+          throw new Error(info || "Program link failed");
+        }
+        return program;
+      }
+
+      const fadeVs = `
+        attribute vec2 aPos;
+        void main() {
+          gl_Position = vec4(aPos, 0.0, 1.0);
+        }
+      `;
+
+      const fadeFs = `
+        precision highp float;
+        uniform float uFade;
+        uniform vec2 uResolution;
+        uniform float uTime;
+
+        float hash(vec2 p) {
+          return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453123);
+        }
+
+        float noise(vec2 p) {
+          vec2 i = floor(p);
+          vec2 f = fract(p);
+          vec2 u = f * f * (3.0 - 2.0 * f);
+          float a = hash(i + vec2(0.0, 0.0));
+          float b = hash(i + vec2(1.0, 0.0));
+          float c = hash(i + vec2(0.0, 1.0));
+          float d = hash(i + vec2(1.0, 1.0));
+          return mix(mix(a, b, u.x), mix(c, d, u.x), u.y);
+        }
+
+        float fbm(vec2 p) {
+          float v = 0.0;
+          float a = 0.5;
+          mat2 m = mat2(1.6, 1.2, -1.2, 1.6);
+          for (int i = 0; i < 4; i++) {
+            v += a * noise(p);
+            p = m * p;
+            a *= 0.5;
+          }
+          return v;
+        }
+
+        void main() {
+          vec2 uv = gl_FragCoord.xy / uResolution;
+          vec2 p = uv * 2.0 - 1.0;
+          p.x *= uResolution.x / uResolution.y;
+          float r = length(p);
+          float angle = atan(p.y, p.x);
+
+          float nebA = fbm(p * 2.2 + vec2(0.0, uTime * 0.02));
+          float nebB = fbm(vec2(angle * 1.7, r * 3.5 + uTime * 0.03));
+          float nebula = smoothstep(0.36, 0.95, nebA * 0.72 + nebB * 0.4);
+          float vignette = smoothstep(1.45, 0.2, r);
+
+          vec3 deep = vec3(0.01, 0.018, 0.04);
+          vec3 blue = vec3(0.08, 0.16, 0.33);
+          vec3 cyan = vec3(0.06, 0.22, 0.32);
+          vec3 bg = deep + blue * nebula * 0.52 + cyan * (1.0 - smoothstep(0.2, 1.5, r)) * 0.06;
+          bg *= mix(0.62, 1.0, vignette);
+
+          gl_FragColor = vec4(bg, uFade);
+        }
+      `;
+
+      const gasVs = `
+        precision highp float;
+        attribute float aRadius;
+        attribute float aAngle;
+        attribute float aOffset;
+        attribute float aSize;
+        attribute float aArmSeed;
+        attribute float aPhase;
+
+        uniform float uTime;
+        uniform float uSpin;
+        uniform float uAngle;
+        uniform float uTilt;
+        uniform float uTwist;
+        uniform float uArms;
+        uniform float uAspect;
+        uniform float uPointScale;
+
+        varying float vRadius;
+        varying float vCloud;
+        varying float vPhase;
+
+        void main() {
+          float r = pow(aRadius, 1.04);
+          float armIndex = floor(aArmSeed * uArms);
+          float armPhase = armIndex * (6.28318530718 / uArms);
+          float lane = (aOffset - 0.5) * (0.55 + r * 1.35);
+          float theta = aAngle + armPhase + r * uTwist * 0.78 + uTime * uSpin * 0.21 + uAngle + lane;
+          float wave = sin(theta * 2.4 + aPhase * 13.0) * 0.028 * (0.2 + r);
+
+          vec3 disk = vec3(
+            cos(theta) * (r + wave),
+            sin(theta) * (r * 0.7 + wave * 0.5),
+            (aOffset - 0.5) * (0.08 + r * 0.14)
+          );
+
+          float ct = cos(uTilt);
+          float st = sin(uTilt);
+          vec3 tilted = vec3(disk.x, disk.y * ct - disk.z * st, disk.y * st + disk.z * ct);
+          float depth = 1.3 - tilted.z * 0.9;
+
+          gl_Position = vec4(tilted.x / uAspect, tilted.y, 0.0, 1.0);
+
+          float cloudSize = mix(9.0, 48.0, aSize);
+          float centerBoost = mix(1.9, 0.6, r);
+          gl_PointSize = cloudSize * uPointScale * centerBoost / max(0.35, depth);
+
+          vRadius = r;
+          vCloud = aSize;
+          vPhase = aPhase;
+        }
+      `;
+
+      const gasFs = `
+        precision highp float;
+        uniform float uGlow;
+        uniform float uTime;
+
+        varying float vRadius;
+        varying float vCloud;
+        varying float vPhase;
+
+        void main() {
+          vec2 p = gl_PointCoord * 2.0 - 1.0;
+          float rr = dot(p, p);
+          if (rr > 1.0) discard;
+
+          float soft = exp(-rr * 3.1);
+          float core = exp(-rr * 11.0);
+          float grain = 0.88 + 0.12 * sin(vPhase * 90.0 + rr * 14.0 + uTime * 0.25);
+
+          float warmness = 1.0 - smoothstep(0.2, 0.75, vRadius);
+          float outerCool = smoothstep(0.28, 1.0, vRadius);
+
+          vec3 coreCol = vec3(1.0, 0.87, 0.69);
+          vec3 dustCol = vec3(0.95, 0.78, 0.68);
+          vec3 armCol = vec3(0.4, 0.61, 0.97);
+
+          vec3 color = mix(dustCol, armCol, outerCool);
+          color = mix(color, coreCol, warmness);
+
+          float alpha = (soft * 0.22 + core * 0.5) * grain;
+          alpha *= (0.6 + vCloud * 0.9) * (0.35 + uGlow * 0.35);
+
+          gl_FragColor = vec4(color, alpha);
+        }
+      `;
+
+      const starVs = `
+        precision highp float;
+        attribute float aRadius;
+        attribute float aAngle;
+        attribute float aOffset;
+        attribute float aSize;
+        attribute float aArmSeed;
+        attribute float aTint;
+
+        uniform float uTime;
+        uniform float uSpin;
+        uniform float uAngle;
+        uniform float uTilt;
+        uniform float uTwist;
+        uniform float uArms;
+        uniform float uAspect;
+        uniform float uPointScale;
+
+        varying float vRadius;
+        varying float vTint;
+        varying float vBlink;
+
+        void main() {
+          float r = pow(aRadius, 1.12);
+          float armIndex = floor(aArmSeed * uArms);
+          float armPhase = armIndex * (6.28318530718 / uArms);
+          float localNoise = (aOffset - 0.5) * (0.12 + r * 0.34);
+          float theta = aAngle + armPhase + r * uTwist + uTime * uSpin + uAngle + localNoise;
+          float ripple = sin(theta * 6.0 + aTint * 6.28318530718) * (0.004 + r * 0.028);
+
+          vec3 disk = vec3(
+            cos(theta) * (r + ripple),
+            sin(theta) * (r * 0.71 + ripple),
+            (aOffset - 0.5) * (0.018 + r * 0.05)
+          );
+
+          float ct = cos(uTilt);
+          float st = sin(uTilt);
+          vec3 tilted = vec3(disk.x, disk.y * ct - disk.z * st, disk.y * st + disk.z * ct);
+          float depth = 1.35 - tilted.z * 0.9;
+
+          gl_Position = vec4(tilted.x / uAspect, tilted.y, 0.0, 1.0);
+          float baseSize = mix(0.7, 3.0, aSize);
+          gl_PointSize = baseSize * uPointScale * (0.38 + r * 0.95) / max(0.35, depth);
+
+          vRadius = r;
+          vTint = aTint;
+          vBlink = fract(aOffset * 13.0 + aTint * 17.0);
+        }
+      `;
+
+      const starFs = `
+        precision highp float;
+        uniform float uGlow;
+        uniform float uTime;
+
+        varying float vRadius;
+        varying float vTint;
+        varying float vBlink;
+
+        void main() {
+          vec2 p = gl_PointCoord * 2.0 - 1.0;
+          float rr = dot(p, p);
+          if (rr > 1.0) discard;
+
+          float core = exp(-rr * 16.0);
+          float halo = exp(-rr * 4.0);
+          float twinkle = 0.82 + 0.18 * sin(uTime * 1.3 + vBlink * 50.0);
+
+          float warmness = 1.0 - smoothstep(0.16, 0.7, vRadius);
+          vec3 warm = vec3(1.0, 0.91, 0.75);
+          vec3 cool = vec3(0.62, 0.85, 1.0);
+          vec3 white = vec3(1.0);
+          vec3 color = mix(cool, warm, warmness);
+          color = mix(color, white, 0.16 + core * 0.35 + vTint * 0.12);
+
+          float alpha = (core * 1.2 + halo * (0.3 + uGlow * 0.42)) * twinkle;
+          alpha *= (0.34 + 0.45 * vTint) * 0.58;
+
+          gl_FragColor = vec4(color * (0.65 + uGlow * 0.35), alpha);
+        }
+      `;
+
+      const backStarVs = `
+        precision highp float;
+        attribute vec2 aPos;
+        attribute float aSize;
+        attribute float aTwinkle;
+
+        uniform float uPointScale;
+        uniform float uTime;
+
+        varying float vPulse;
+        varying float vSize;
+
+        void main() {
+          gl_Position = vec4(aPos, 0.0, 1.0);
+          float pulse = 0.78 + 0.22 * sin(uTime * 0.35 + aTwinkle * 6.28318530718);
+          gl_PointSize = mix(0.7, 2.8, aSize) * uPointScale * pulse;
+          vPulse = pulse;
+          vSize = aSize;
+        }
+      `;
+
+      const backStarFs = `
+        precision mediump float;
+        varying float vPulse;
+        varying float vSize;
+
+        void main() {
+          vec2 p = gl_PointCoord * 2.0 - 1.0;
+          float rr = dot(p, p);
+          if (rr > 1.0) discard;
+          float core = exp(-rr * 15.0);
+          float halo = exp(-rr * 4.0);
+          vec3 color = mix(vec3(0.78, 0.88, 1.0), vec3(1.0), vSize);
+          float alpha = (core * 1.25 + halo * 0.35) * vPulse * 0.45;
+          gl_FragColor = vec4(color, alpha);
+        }
+      `;
+
+      const coreVs = `
+        attribute float aDummy;
+        uniform float uSize;
+        void main() {
+          gl_Position = vec4(aDummy, aDummy, 0.0, 1.0);
+          gl_PointSize = uSize;
+        }
+      `;
+
+      const coreFs = `
+        precision highp float;
+        uniform float uGlow;
+        void main() {
+          vec2 p = gl_PointCoord * 2.0 - 1.0;
+          float rr = dot(p, p);
+          if (rr > 1.0) discard;
+
+          float bloom = exp(-rr * 2.2);
+          float hot = exp(-rr * 18.0);
+          float ring = exp(-abs(rr - 0.34) * 9.0) * 0.12;
+          vec3 color = mix(vec3(1.0, 0.79, 0.58), vec3(1.0, 0.95, 0.88), hot);
+          float alpha = (bloom * 0.45 + hot * 0.95 + ring) * (0.2 + uGlow * 0.55);
+          gl_FragColor = vec4(color, alpha);
+        }
+      `;
+
+      const fadeProgram = createProgram(fadeVs, fadeFs);
+      const gasProgram = createProgram(gasVs, gasFs);
+      const starProgram = createProgram(starVs, starFs);
+      const backStarProgram = createProgram(backStarVs, backStarFs);
+      const coreProgram = createProgram(coreVs, coreFs);
+
+      const fadeLocations = {
+        aPos: gl.getAttribLocation(fadeProgram, "aPos"),
+        uFade: gl.getUniformLocation(fadeProgram, "uFade"),
+        uResolution: gl.getUniformLocation(fadeProgram, "uResolution"),
+        uTime: gl.getUniformLocation(fadeProgram, "uTime")
+      };
+
+      const gasLocations = {
+        aRadius: gl.getAttribLocation(gasProgram, "aRadius"),
+        aAngle: gl.getAttribLocation(gasProgram, "aAngle"),
+        aOffset: gl.getAttribLocation(gasProgram, "aOffset"),
+        aSize: gl.getAttribLocation(gasProgram, "aSize"),
+        aArmSeed: gl.getAttribLocation(gasProgram, "aArmSeed"),
+        aPhase: gl.getAttribLocation(gasProgram, "aPhase"),
+        uTime: gl.getUniformLocation(gasProgram, "uTime"),
+        uSpin: gl.getUniformLocation(gasProgram, "uSpin"),
+        uAngle: gl.getUniformLocation(gasProgram, "uAngle"),
+        uTilt: gl.getUniformLocation(gasProgram, "uTilt"),
+        uTwist: gl.getUniformLocation(gasProgram, "uTwist"),
+        uArms: gl.getUniformLocation(gasProgram, "uArms"),
+        uAspect: gl.getUniformLocation(gasProgram, "uAspect"),
+        uPointScale: gl.getUniformLocation(gasProgram, "uPointScale"),
+        uGlow: gl.getUniformLocation(gasProgram, "uGlow")
+      };
+
+      const starLocations = {
+        aRadius: gl.getAttribLocation(starProgram, "aRadius"),
+        aAngle: gl.getAttribLocation(starProgram, "aAngle"),
+        aOffset: gl.getAttribLocation(starProgram, "aOffset"),
+        aSize: gl.getAttribLocation(starProgram, "aSize"),
+        aArmSeed: gl.getAttribLocation(starProgram, "aArmSeed"),
+        aTint: gl.getAttribLocation(starProgram, "aTint"),
+        uTime: gl.getUniformLocation(starProgram, "uTime"),
+        uSpin: gl.getUniformLocation(starProgram, "uSpin"),
+        uAngle: gl.getUniformLocation(starProgram, "uAngle"),
+        uTilt: gl.getUniformLocation(starProgram, "uTilt"),
+        uTwist: gl.getUniformLocation(starProgram, "uTwist"),
+        uArms: gl.getUniformLocation(starProgram, "uArms"),
+        uAspect: gl.getUniformLocation(starProgram, "uAspect"),
+        uPointScale: gl.getUniformLocation(starProgram, "uPointScale"),
+        uGlow: gl.getUniformLocation(starProgram, "uGlow")
+      };
+
+      const backStarLocations = {
+        aPos: gl.getAttribLocation(backStarProgram, "aPos"),
+        aSize: gl.getAttribLocation(backStarProgram, "aSize"),
+        aTwinkle: gl.getAttribLocation(backStarProgram, "aTwinkle"),
+        uPointScale: gl.getUniformLocation(backStarProgram, "uPointScale"),
+        uTime: gl.getUniformLocation(backStarProgram, "uTime")
+      };
+
+      const coreLocations = {
+        aDummy: gl.getAttribLocation(coreProgram, "aDummy"),
+        uSize: gl.getUniformLocation(coreProgram, "uSize"),
+        uGlow: gl.getUniformLocation(coreProgram, "uGlow")
+      };
+
+      const MAX_STARS = 120000;
+      const STAR_STRIDE = 6;
+      const starData = new Float32Array(MAX_STARS * STAR_STRIDE);
+      for (let i = 0; i < MAX_STARS; i += 1) {
+        const base = i * STAR_STRIDE;
+        starData[base + 0] = Math.pow(Math.random(), 1.6);
+        starData[base + 1] = Math.random() * Math.PI * 2;
+        starData[base + 2] = Math.random();
+        starData[base + 3] = Math.pow(Math.random(), 3.1);
+        starData[base + 4] = Math.random();
+        starData[base + 5] = Math.random();
+      }
+
+      const quadBuffer = gl.createBuffer();
+      gl.bindBuffer(gl.ARRAY_BUFFER, quadBuffer);
+      gl.bufferData(
+        gl.ARRAY_BUFFER,
+        new Float32Array([
+          -1, -1,
+          3, -1,
+          -1, 3
+        ]),
+        gl.STATIC_DRAW
+      );
+
+      const starBuffer = gl.createBuffer();
+      gl.bindBuffer(gl.ARRAY_BUFFER, starBuffer);
+      gl.bufferData(gl.ARRAY_BUFFER, starData, gl.STATIC_DRAW);
+
+      const MAX_GAS = 28000;
+      const GAS_STRIDE = 6;
+      const gasData = new Float32Array(MAX_GAS * GAS_STRIDE);
+      for (let i = 0; i < MAX_GAS; i += 1) {
+        const base = i * GAS_STRIDE;
+        gasData[base + 0] = Math.pow(Math.random(), 1.95);
+        gasData[base + 1] = Math.random() * Math.PI * 2;
+        gasData[base + 2] = Math.random();
+        gasData[base + 3] = Math.pow(Math.random(), 0.7);
+        gasData[base + 4] = Math.random();
+        gasData[base + 5] = Math.random();
+      }
+
+      const gasBuffer = gl.createBuffer();
+      gl.bindBuffer(gl.ARRAY_BUFFER, gasBuffer);
+      gl.bufferData(gl.ARRAY_BUFFER, gasData, gl.STATIC_DRAW);
+
+      const BACK_STAR_COUNT = 4200;
+      const BACK_STRIDE = 4;
+      const backData = new Float32Array(BACK_STAR_COUNT * BACK_STRIDE);
+      for (let i = 0; i < BACK_STAR_COUNT; i += 1) {
+        const base = i * BACK_STRIDE;
+        backData[base + 0] = (Math.random() * 2 - 1) * 1.35;
+        backData[base + 1] = (Math.random() * 2 - 1) * 1.35;
+        backData[base + 2] = Math.pow(Math.random(), 1.4);
+        backData[base + 3] = Math.random();
+      }
+
+      const backBuffer = gl.createBuffer();
+      gl.bindBuffer(gl.ARRAY_BUFFER, backBuffer);
+      gl.bufferData(gl.ARRAY_BUFFER, backData, gl.STATIC_DRAW);
+
+      const coreBuffer = gl.createBuffer();
+      gl.bindBuffer(gl.ARRAY_BUFFER, coreBuffer);
+      gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([0]), gl.STATIC_DRAW);
+
+      let width = 0;
+      let height = 0;
+      let dpr = 1;
+      const maxPointSize = gl.getParameter(gl.ALIASED_POINT_SIZE_RANGE)[1];
+
+      function resize() {
+        const nextW = window.innerWidth;
+        const nextH = window.innerHeight;
+        const nextDpr = Math.min(window.devicePixelRatio || 1, 2);
+
+        if (nextW === width && nextH === height && nextDpr === dpr) {
+          return;
+        }
+
+        width = nextW;
+        height = nextH;
+        dpr = nextDpr;
+
+        canvas.width = Math.max(1, Math.floor(width * dpr));
+        canvas.height = Math.max(1, Math.floor(height * dpr));
+        canvas.style.width = width + "px";
+        canvas.style.height = height + "px";
+
+        gl.viewport(0, 0, canvas.width, canvas.height);
+        gl.clearColor(0.011, 0.02, 0.045, 1);
+        gl.clear(gl.COLOR_BUFFER_BIT);
+      }
+
+      function drawFadeLayer(timeSec) {
+        const fade = Math.min(0.22, Math.max(0.01, 0.2 - state.trail * 0.17));
+        gl.useProgram(fadeProgram);
+        gl.bindBuffer(gl.ARRAY_BUFFER, quadBuffer);
+        gl.enableVertexAttribArray(fadeLocations.aPos);
+        gl.vertexAttribPointer(fadeLocations.aPos, 2, gl.FLOAT, false, 0, 0);
+        gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
+        gl.uniform1f(fadeLocations.uFade, fade);
+        gl.uniform2f(fadeLocations.uResolution, canvas.width, canvas.height);
+        gl.uniform1f(fadeLocations.uTime, timeSec);
+        gl.drawArrays(gl.TRIANGLES, 0, 3);
+      }
+
+      function drawBackgroundStars(timeSec) {
+        gl.useProgram(backStarProgram);
+        gl.bindBuffer(gl.ARRAY_BUFFER, backBuffer);
+
+        const stride = BACK_STRIDE * 4;
+        gl.enableVertexAttribArray(backStarLocations.aPos);
+        gl.vertexAttribPointer(backStarLocations.aPos, 2, gl.FLOAT, false, stride, 0);
+        gl.enableVertexAttribArray(backStarLocations.aSize);
+        gl.vertexAttribPointer(backStarLocations.aSize, 1, gl.FLOAT, false, stride, 8);
+        gl.enableVertexAttribArray(backStarLocations.aTwinkle);
+        gl.vertexAttribPointer(backStarLocations.aTwinkle, 1, gl.FLOAT, false, stride, 12);
+
+        gl.uniform1f(backStarLocations.uPointScale, dpr);
+        gl.uniform1f(backStarLocations.uTime, timeSec);
+        gl.blendFunc(gl.SRC_ALPHA, gl.ONE);
+        gl.drawArrays(gl.POINTS, 0, BACK_STAR_COUNT);
+      }
+
+      function drawGas(timeSec, gasCount) {
+        gl.useProgram(gasProgram);
+        gl.bindBuffer(gl.ARRAY_BUFFER, gasBuffer);
+        const stride = GAS_STRIDE * 4;
+
+        gl.enableVertexAttribArray(gasLocations.aRadius);
+        gl.vertexAttribPointer(gasLocations.aRadius, 1, gl.FLOAT, false, stride, 0);
+        gl.enableVertexAttribArray(gasLocations.aAngle);
+        gl.vertexAttribPointer(gasLocations.aAngle, 1, gl.FLOAT, false, stride, 4);
+        gl.enableVertexAttribArray(gasLocations.aOffset);
+        gl.vertexAttribPointer(gasLocations.aOffset, 1, gl.FLOAT, false, stride, 8);
+        gl.enableVertexAttribArray(gasLocations.aSize);
+        gl.vertexAttribPointer(gasLocations.aSize, 1, gl.FLOAT, false, stride, 12);
+        gl.enableVertexAttribArray(gasLocations.aArmSeed);
+        gl.vertexAttribPointer(gasLocations.aArmSeed, 1, gl.FLOAT, false, stride, 16);
+        gl.enableVertexAttribArray(gasLocations.aPhase);
+        gl.vertexAttribPointer(gasLocations.aPhase, 1, gl.FLOAT, false, stride, 20);
+
+        gl.uniform1f(gasLocations.uTime, timeSec);
+        gl.uniform1f(gasLocations.uSpin, state.speed * 0.45);
+        gl.uniform1f(gasLocations.uAngle, state.angle * (Math.PI / 180));
+        gl.uniform1f(gasLocations.uTilt, state.tilt * (Math.PI / 180));
+        gl.uniform1f(gasLocations.uTwist, state.twist);
+        gl.uniform1f(gasLocations.uArms, Math.max(2, Math.round(state.arms)));
+        gl.uniform1f(gasLocations.uAspect, canvas.width / canvas.height);
+        gl.uniform1f(gasLocations.uPointScale, 1.15 * dpr);
+        gl.uniform1f(gasLocations.uGlow, state.glow);
+
+        gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
+        gl.drawArrays(gl.POINTS, 0, gasCount);
+      }
+
+      function drawCoreGlow() {
+        const glowSize = Math.min(maxPointSize, Math.min(canvas.width, canvas.height) * 0.52);
+        gl.useProgram(coreProgram);
+        gl.bindBuffer(gl.ARRAY_BUFFER, coreBuffer);
+        gl.enableVertexAttribArray(coreLocations.aDummy);
+        gl.vertexAttribPointer(coreLocations.aDummy, 1, gl.FLOAT, false, 0, 0);
+        gl.uniform1f(coreLocations.uSize, glowSize);
+        gl.uniform1f(coreLocations.uGlow, state.glow);
+        gl.blendFunc(gl.SRC_ALPHA, gl.ONE);
+        gl.drawArrays(gl.POINTS, 0, 1);
+      }
+
+      function drawGalaxyStars(timeSec, starCount) {
+        gl.useProgram(starProgram);
+        gl.bindBuffer(gl.ARRAY_BUFFER, starBuffer);
+        const stride = STAR_STRIDE * 4;
+
+        gl.enableVertexAttribArray(starLocations.aRadius);
+        gl.vertexAttribPointer(starLocations.aRadius, 1, gl.FLOAT, false, stride, 0);
+        gl.enableVertexAttribArray(starLocations.aAngle);
+        gl.vertexAttribPointer(starLocations.aAngle, 1, gl.FLOAT, false, stride, 4);
+        gl.enableVertexAttribArray(starLocations.aOffset);
+        gl.vertexAttribPointer(starLocations.aOffset, 1, gl.FLOAT, false, stride, 8);
+        gl.enableVertexAttribArray(starLocations.aSize);
+        gl.vertexAttribPointer(starLocations.aSize, 1, gl.FLOAT, false, stride, 12);
+        gl.enableVertexAttribArray(starLocations.aArmSeed);
+        gl.vertexAttribPointer(starLocations.aArmSeed, 1, gl.FLOAT, false, stride, 16);
+        gl.enableVertexAttribArray(starLocations.aTint);
+        gl.vertexAttribPointer(starLocations.aTint, 1, gl.FLOAT, false, stride, 20);
+
+        gl.blendFunc(gl.SRC_ALPHA, gl.ONE);
+
+        gl.uniform1f(starLocations.uTime, timeSec);
+        gl.uniform1f(starLocations.uSpin, state.speed * 0.45);
+        gl.uniform1f(starLocations.uAngle, state.angle * (Math.PI / 180));
+        gl.uniform1f(starLocations.uTilt, state.tilt * (Math.PI / 180));
+        gl.uniform1f(starLocations.uTwist, state.twist);
+        gl.uniform1f(starLocations.uArms, Math.max(2, Math.round(state.arms)));
+        gl.uniform1f(starLocations.uAspect, canvas.width / canvas.height);
+        gl.uniform1f(starLocations.uPointScale, 1.6 * dpr);
+        gl.uniform1f(starLocations.uGlow, state.glow);
+        gl.drawArrays(gl.POINTS, 0, starCount);
+      }
+
+      const minStarCount = 1000;
+      gl.disable(gl.DEPTH_TEST);
+      gl.enable(gl.BLEND);
+      resize();
+      window.addEventListener("resize", resize);
+
+      function tick(time) {
+        resize();
+        const timeSec = time * 0.001;
+        const drawCount = Math.min(MAX_STARS, Math.max(minStarCount, Math.round(state.stars)));
+        const gasCount = Math.min(MAX_GAS, Math.round(7000 + drawCount * 0.18));
+
+        drawFadeLayer(timeSec);
+        drawBackgroundStars(timeSec);
+        drawGas(timeSec, gasCount);
+        drawCoreGlow();
+        drawGalaxyStars(timeSec, drawCount);
+
+        requestAnimationFrame(tick);
+      }
+
+      requestAnimationFrame(tick);
+    })();
+  </script>
+</body>
+</html>

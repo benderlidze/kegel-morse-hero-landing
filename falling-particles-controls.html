@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Falling Particles Controls</title>
+  <style>
+    :root {
+      --bg-1: #06131f;
+      --bg-2: #0b2234;
+      --panel: rgba(10, 18, 28, 0.6);
+      --panel-border: rgba(255,255,255,0.12);
+      --text: #eef6ff;
+      --muted: rgba(238,246,255,0.72);
+      --accent: #7dd3fc;
+      --accent-2: #c084fc;
+      --glow: rgba(125, 211, 252, 0.35);
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; height: 100%; overflow: hidden; font-family: Inter, ui-sans-serif, system-ui, sans-serif; }
+    body {
+      background:
+        radial-gradient(circle at 20% 20%, rgba(192,132,252,0.15), transparent 35%),
+        radial-gradient(circle at 80% 10%, rgba(125,211,252,0.14), transparent 30%),
+        linear-gradient(180deg, var(--bg-2), var(--bg-1) 58%, #02070d 100%);
+      color: var(--text);
+    }
+    canvas { position: fixed; inset: 0; width: 100%; height: 100%; display: block; }
+    .hud {
+      position: fixed;
+      top: 18px;
+      left: 18px;
+      width: min(360px, calc(100vw - 36px));
+      padding: 18px;
+      border: 1px solid var(--panel-border);
+      border-radius: 20px;
+      background: var(--panel);
+      backdrop-filter: blur(18px) saturate(130%);
+      box-shadow: 0 20px 60px rgba(0,0,0,0.35), inset 0 1px 0 rgba(255,255,255,0.05);
+      z-index: 2;
+    }
+    h1 { margin: 0 0 6px; font-size: 20px; letter-spacing: 0.02em; }
+    p { margin: 0 0 14px; color: var(--muted); font-size: 13px; line-height: 1.5; }
+    .grid { display: grid; grid-template-columns: 1fr 64px; gap: 10px 12px; align-items: center; }
+    label { font-size: 12px; color: var(--muted); }
+    input[type="range"] {
+      width: 100%; appearance: none; height: 6px; border-radius: 999px;
+      background: linear-gradient(90deg, rgba(125,211,252,0.28), rgba(192,132,252,0.28));
+      outline: none;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+      appearance: none; width: 16px; height: 16px; border-radius: 50%;
+      background: white; box-shadow: 0 0 0 4px var(--glow);
+      cursor: pointer;
+    }
+    .value {
+      text-align: right; font-variant-numeric: tabular-nums; font-size: 12px;
+      color: var(--text); opacity: 0.9;
+    }
+    .buttons { display: flex; gap: 10px; margin-top: 16px; }
+    button {
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(255,255,255,0.06);
+      color: var(--text); padding: 10px 12px; border-radius: 999px; cursor: pointer;
+      transition: transform .16s ease, background .16s ease, border-color .16s ease;
+    }
+    button:hover { transform: translateY(-1px); background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.2); }
+    .footer {
+      margin-top: 12px; font-size: 11px; color: rgba(238,246,255,0.5);
+      display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+    }
+    @media (max-width: 640px) {
+      .hud { top: auto; bottom: 14px; left: 14px; right: 14px; width: auto; padding: 14px; }
+      h1 { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+
+  <section class="hud">
+    <h1>Falling particles</h1>
+    <p>Soft glowing particles with vertical drift, silky trails, and live controls.</p>
+    <div class="grid" id="controls"></div>
+    <div class="buttons">
+      <button id="burstBtn">Burst</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+    <div class="footer">
+      <span>Drag sliders to tune the mood.</span>
+      <span>Canvas + vanilla JS</span>
+    </div>
+  </section>
+
+  <script>
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+    const controlsHost = document.getElementById('controls');
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+
+    const defaults = {
+      count: 180,
+      speed: 2.2,
+      wind: 0.45,
+      trail: 0.18,
+      size: 2.2,
+      glow: 16,
+      sway: 1.0,
+      hue: 205,
+      spread: 1.0,
+      twinkle: 0.55
+    };
+
+    const config = { ...defaults };
+
+    const schema = [
+      ['count', 'Count', 30, 500, 1],
+      ['speed', 'Speed', 0.2, 8, 0.1],
+      ['wind', 'Wind', -2, 2, 0.01],
+      ['trail', 'Trail fade', 0.02, 0.35, 0.01],
+      ['size', 'Size', 0.6, 5, 0.1],
+      ['glow', 'Glow', 0, 40, 1],
+      ['sway', 'Sway', 0, 3, 0.01],
+      ['hue', 'Hue', 180, 320, 1],
+      ['spread', 'Spawn spread', 0.2, 2, 0.01],
+      ['twinkle', 'Twinkle', 0, 1.5, 0.01]
+    ];
+
+    const valueEls = {};
+
+    function addControl([key, label, min, max, step]) {
+      const lab = document.createElement('label');
+      lab.textContent = label;
+      lab.htmlFor = key;
+
+      const value = document.createElement('div');
+      value.className = 'value';
+      valueEls[key] = value;
+
+      const input = document.createElement('input');
+      input.type = 'range';
+      input.id = key;
+      input.min = min;
+      input.max = max;
+      input.step = step;
+      input.value = config[key];
+      input.addEventListener('input', () => {
+        config[key] = parseFloat(input.value);
+        value.textContent = input.value;
+        if (key === 'count') syncCount();
+      });
+
+      controlsHost.appendChild(lab);
+      controlsHost.appendChild(value);
+      controlsHost.appendChild(input);
+      const spacer = document.createElement('div');
+      spacer.style.display = 'none';
+      controlsHost.appendChild(spacer);
+      value.textContent = input.value;
+    }
+
+    schema.forEach(addControl);
+    controlsHost.style.gridTemplateColumns = '1fr 64px';
+    [...controlsHost.querySelectorAll('input')].forEach(input => input.style.gridColumn = '1 / span 2');
+
+    let w = 0;
+    let h = 0;
+    let particles = [];
+    let tick = 0;
+
+    class Particle {
+      constructor(resetTop = false) {
+        this.reset(resetTop);
+      }
+      reset(resetTop = false) {
+        this.x = Math.random() * w;
+        this.y = resetTop ? -Math.random() * h : Math.random() * h;
+        this.vx = (Math.random() - 0.5) * 0.6;
+        this.vy = 0.7 + Math.random() * 2.2;
+        this.size = 0.4 + Math.random() * 1.6;
+        this.alpha = 0.2 + Math.random() * 0.8;
+        this.phase = Math.random() * Math.PI * 2;
+        this.life = 0.5 + Math.random() * 0.5;
+        this.length = 8 + Math.random() * 22;
+      }
+      update(t) {
+        const sway = Math.sin(t * 0.018 + this.phase) * config.sway;
+        this.x += this.vx + config.wind + sway * 0.16;
+        this.y += this.vy * config.speed;
+        if (this.y > h + 40 || this.x < -80 || this.x > w + 80) this.reset(true);
+      }
+      draw(t) {
+        const px = this.x;
+        const py = this.y;
+        const radius = this.size * config.size;
+        const tw = 0.7 + Math.sin(t * 0.04 + this.phase * 2.0) * config.twinkle;
+        const a = Math.max(0.04, Math.min(1, this.alpha * 0.65 * tw));
+        const hue = config.hue + Math.sin(this.phase + t * 0.002) * 16;
+        const glow = config.glow;
+
+        ctx.save();
+        ctx.globalCompositeOperation = 'lighter';
+        ctx.strokeStyle = `hsla(${hue}, 95%, 75%, ${a * 0.22})`;
+        ctx.lineWidth = Math.max(1, radius * 0.75);
+        ctx.beginPath();
+        ctx.moveTo(px, py - this.length * config.speed * 0.8);
+        ctx.lineTo(px, py + radius * 0.5);
+        ctx.stroke();
+
+        if (glow > 0) {
+          const grad = ctx.createRadialGradient(px, py, 0, px, py, radius + glow);
+          grad.addColorStop(0, `hsla(${hue}, 100%, 82%, ${a * 0.55})`);
+          grad.addColorStop(0.35, `hsla(${hue + 10}, 100%, 72%, ${a * 0.16})`);
+          grad.addColorStop(1, `hsla(${hue + 20}, 100%, 60%, 0)`);
+          ctx.fillStyle = grad;
+          ctx.beginPath();
+          ctx.arc(px, py, radius + glow, 0, Math.PI * 2);
+          ctx.fill();
+        }
+
+        ctx.fillStyle = `hsla(${hue}, 100%, 88%, ${a})`;
+        ctx.beginPath();
+        ctx.arc(px, py, radius, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.restore();
+      }
+    }
+
+    function syncCount() {
+      const target = Math.round(config.count);
+      if (particles.length < target) {
+        while (particles.length < target) particles.push(new Particle(true));
+      } else if (particles.length > target) {
+        particles.length = target;
+      }
+    }
+
+    function resize() {
+      w = window.innerWidth;
+      h = window.innerHeight;
+      canvas.width = Math.floor(w * dpr);
+      canvas.height = Math.floor(h * dpr);
+      canvas.style.width = w + 'px';
+      canvas.style.height = h + 'px';
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+
+    function paintBackground() {
+      ctx.globalCompositeOperation = 'source-over';
+      ctx.fillStyle = `rgba(2, 9, 18, ${config.trail})`;
+      ctx.fillRect(0, 0, w, h);
+
+      const beam = ctx.createLinearGradient(0, 0, 0, h);
+      beam.addColorStop(0, 'rgba(110, 180, 255, 0.02)');
+      beam.addColorStop(0.4, 'rgba(255,255,255,0.00)');
+      beam.addColorStop(1, 'rgba(180, 120, 255, 0.025)');
+      ctx.fillStyle = beam;
+      ctx.fillRect(0, 0, w, h);
+    }
+
+    function animate() {
+      tick++;
+      paintBackground();
+      for (const p of particles) {
+        p.update(tick);
+        p.draw(tick);
+      }
+      requestAnimationFrame(animate);
+    }
+
+    document.getElementById('resetBtn').addEventListener('click', () => {
+      Object.assign(config, defaults);
+      schema.forEach(([key]) => {
+        const input = document.getElementById(key);
+        input.value = config[key];
+        valueEls[key].textContent = String(config[key]);
+      });
+      syncCount();
+      particles.forEach(p => p.reset(false));
+    });
+
+    document.getElementById('burstBtn').addEventListener('click', () => {
+      for (let i = 0; i < 60; i++) {
+        const p = new Particle(true);
+        p.x = Math.random() * w;
+        p.y = -Math.random() * 80;
+        p.vy *= 1.5 + Math.random() * 0.8;
+        p.length *= 1.4;
+        particles.push(p);
+      }
+      setTimeout(syncCount, 1200);
+    });
+
+    window.addEventListener('resize', resize);
+    resize();
+    syncCount();
+    ctx.fillStyle = '#020912';
+    ctx.fillRect(0, 0, w, h);
+    animate();
+  </script>
+</body>
+</html>
