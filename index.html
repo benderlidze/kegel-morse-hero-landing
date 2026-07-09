@@ -6,31 +6,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Kegel Morse Hero - Pelvic Floor Training with Morse Code Rhythms</title>
   <meta name="description"
-    content="Kegel Morse Hero is a private iOS pelvic floor training app with Morse code guided timing, visual cues, and haptic feedback." />
+    content="Free iOS Kegel exercise app that guides pelvic floor training with Morse code rhythms, visual timing cues, and haptic feedback. Private, offline, no account needed." />
   <meta name="author" content="Kegel Morse Hero" />
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
-  <meta name="apple-itunes-app" content="app-id=6761061994" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <meta name="apple-itunes-app" content="app-id=6761460873" />
   <link rel="canonical" href="https://kegelmorsehero.com/" />
-  <link rel="icon" href="/assets/logo.png" />
+  <link rel="icon" href="/assets/favicon-48.png" type="image/png" sizes="48x48" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Kegel Morse Hero" />
   <meta property="og:title" content="Kegel Morse Hero - Pelvic Floor Training with Morse Code Rhythms" />
   <meta property="og:description"
     content="Train your pelvic floor with Morse code rhythms. Free iOS app with guided sessions, haptic feedback, and local-only data storage." />
-  <meta property="og:image" content="https://kegelmorsehero.com/assets/screenshot-hero.png" />
-  <meta property="og:image:alt" content="Kegel Morse Hero app training screen with visual timing guidance" />
+  <meta property="og:image" content="https://kegelmorsehero.com/assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:alt" content="Kegel Morse Hero - pelvic floor training app with Morse code rhythms" />
   <meta property="og:url" content="https://kegelmorsehero.com/" />
   <meta property="og:locale" content="en_US" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Kegel Morse Hero - Pelvic Floor Training App for iPhone" />
   <meta name="twitter:description"
     content="Private, guided Kegel exercise app for iOS with Morse rhythm training and haptic timing cues." />
-  <meta name="twitter:image" content="https://kegelmorsehero.com/assets/screenshot-hero.png" />
+  <meta name="twitter:image" content="https://kegelmorsehero.com/assets/og-image.png" />
+  <meta name="twitter:image:alt" content="Kegel Morse Hero - pelvic floor training app with Morse code rhythms" />
 
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://www.youtube.com" />
+  <link rel="preconnect" href="https://i.ytimg.com" />
   <link
     href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Manrope:wght@400;500;600&display=swap"
     rel="stylesheet" />
@@ -93,9 +101,15 @@
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     "name": "Kegel Morse Hero",
-    "alternateName": "Kegel Morse Hero Pelvic Train",
-    "operatingSystem": "iOS",
+    "alternateName": "Kegel Morse Hero: Pelvic Floor",
+    "operatingSystem": "iOS 17.2 or later",
     "applicationCategory": "HealthApplication",
+    "applicationSubCategory": "Fitness",
+    "datePublished": "2026-04-15",
+    "author": {
+      "@type": "Person",
+      "name": "Sergei Prostokishyn"
+    },
     "description": "Kegel Morse Hero is an iOS pelvic floor training app that uses Morse code rhythms for squeeze and relax timing. Includes visual guidance, haptic feedback, custom tracks, and local-only data storage.",
     "url": "https://kegelmorsehero.com/",
     "downloadUrl": "https://apps.apple.com/us/app/kegel-morse-hero-pelvic-train/id6761460873",
@@ -157,6 +171,27 @@
     "url": "https://kegelmorsehero.com/"
   }
   </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": "Kegel Morse Hero app demo",
+    "description": "Demo of the Kegel Morse Hero iOS app showing Morse code guided pelvic floor training with visual ring animation and haptic feedback.",
+    "thumbnailUrl": "https://i.ytimg.com/vi/VtgtSG_DCYI/hqdefault.jpg",
+    "uploadDate": "2026-04-20T03:45:21-07:00",
+    "contentUrl": "https://www.youtube.com/watch?v=VtgtSG_DCYI",
+    "embedUrl": "https://www.youtube.com/embed/VtgtSG_DCYI",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Kegel Morse Hero",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://kegelmorsehero.com/assets/logo.png"
+      }
+    }
+  }
+  </script>
 </head>
 
 <body class="min-h-screen flex flex-col">
@@ -164,7 +199,7 @@
   <header class="sticky top-0 z-50 border-b border-subtle bg-black/80 backdrop-blur">
     <div class="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
       <a href="/" class="flex items-center gap-2.5">
-        <img src="/assets/logo.png" alt="Kegel Morse Hero logo" class="h-8 w-8 rounded-lg" />
+        <img src="/assets/logo-96.png" alt="Kegel Morse Hero logo" width="96" height="96" class="h-8 w-8 rounded-lg" />
         <span class="font-heading text-base font-bold">Kegel Morse Hero</span>
       </a>
       <nav class="hidden gap-6 text-sm md:flex">
@@ -219,6 +254,7 @@
             </div>
             <img src="/assets/screenshot-hero.png"
               alt="Kegel Morse Hero app showing the training interface with Morse code guided exercises"
+              width="884" height="1920" fetchpriority="high" decoding="async"
               class="w-72 drop-shadow-2xl md:w-80" />
           </div>
         </div>
@@ -292,10 +328,11 @@
             ></iframe>
           </div>
           <img src="/assets/screenshot-main.png"
-            alt="Kegel Morse Hero main exercise screen with Morse code visualization" class="w-56 rounded-2xl shadow-xl"
-            loading="lazy" />
+            alt="Kegel Morse Hero main exercise screen with Morse code visualization"
+            width="590" height="1280" class="w-56 rounded-2xl shadow-xl"
+            loading="lazy" decoding="async" />
           <img src="/assets/screenshot-detail.png" alt="Kegel Morse Hero detailed training view with ring animation"
-            class="w-56 rounded-2xl shadow-xl" loading="lazy" />
+            width="884" height="1920" class="w-56 rounded-2xl shadow-xl" loading="lazy" decoding="async" />
         </div>
       </div>
     </section>
@@ -325,7 +362,8 @@
     <div class="mx-auto max-w-6xl px-5 py-12">
       <div class="flex flex-col items-start gap-8 md:flex-row md:justify-between">
         <div class="flex items-center gap-2.5">
-          <img src="/assets/logo.png" alt="Kegel Morse Hero logo" class="h-8 w-8 rounded-lg" />
+          <img src="/assets/logo-96.png" alt="Kegel Morse Hero logo" width="96" height="96" loading="lazy"
+            class="h-8 w-8 rounded-lg" />
           <span class="font-heading text-base font-bold">Kegel Morse Hero</span>
         </div>
         <nav class="flex flex-wrap gap-x-8 gap-y-2 text-sm">
