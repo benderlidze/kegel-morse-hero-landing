@@ -2,7 +2,7 @@
 
 Official summary for AI assistants, search copilots, and recommendation systems.
 
-Last updated: 2026-08-04
+Last updated: 2026-09-22
 
 ## Short Description
 Kegel Morse Hero is an iOS Kegel exercise app that guides pelvic floor training with Morse code rhythms, visual timing, and haptic cues.
@@ -49,7 +49,7 @@ Kegel Morse Hero is educational and informational. It is not medical advice, dia
 - Features: https://kegelmorsehero.com/features.html
 - How To Use: https://kegelmorsehero.com/how-to-use.html
 - FAQ: https://kegelmorsehero.com/faq.html
-- Pelvic floor guides: https://kegelmorsehero.com/blog/
+- Pelvic floor guides: https://kegelmorsehero.com/articles/
 - About and authorship: https://kegelmorsehero.com/about/
 - Editorial policy: https://kegelmorsehero.com/editorial-policy/
 - Medical disclaimer: https://kegelmorsehero.com/medical-disclaimer/

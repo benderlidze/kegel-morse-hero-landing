@@ -1,392 +1,44 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Kegel Morse Hero - Pelvic Floor Training with Morse Code Rhythms</title>
-  <meta name="description"
-    content="Free iOS Kegel exercise app that guides pelvic floor training with Morse code rhythms, visual timing cues, and haptic feedback. Private, offline, no account needed." />
-  <meta name="author" content="Kegel Morse Hero" />
-  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
-  <meta name="theme-color" content="#0a0a0a" />
-  <meta name="apple-itunes-app" content="app-id=6761460873" />
-  <link rel="canonical" href="https://kegelmorsehero.com/" />
-  <link rel="icon" href="/assets/favicon-48.png" type="image/png" sizes="48x48" />
-  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
-
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Kegel Morse Hero" />
-  <meta property="og:title" content="Kegel Morse Hero - Pelvic Floor Training with Morse Code Rhythms" />
-  <meta property="og:description"
-    content="Train your pelvic floor with Morse code rhythms. Free iOS app with guided sessions, haptic feedback, and local-only data storage." />
-  <meta property="og:image" content="https://kegelmorsehero.com/assets/og-image.png" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:image:type" content="image/png" />
-  <meta property="og:image:alt" content="Kegel Morse Hero - pelvic floor training app with Morse code rhythms" />
-  <meta property="og:url" content="https://kegelmorsehero.com/" />
-  <meta property="og:locale" content="en_US" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Kegel Morse Hero - Pelvic Floor Training App for iPhone" />
-  <meta name="twitter:description"
-    content="Private, guided Kegel exercise app for iOS with Morse rhythm training and haptic timing cues." />
-  <meta name="twitter:image" content="https://kegelmorsehero.com/assets/og-image.png" />
-  <meta name="twitter:image:alt" content="Kegel Morse Hero - pelvic floor training app with Morse code rhythms" />
-
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preconnect" href="https://www.youtube.com" />
-  <link rel="preconnect" href="https://i.ytimg.com" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Manrope:wght@400;500;600&display=swap"
-    rel="stylesheet" />
-  <style>
-    body {
-      font-family: 'Manrope', system-ui, sans-serif;
-      background: #0a0a0a;
-      color: #f5f5f5;
-    }
-
-    h1,
-    h2,
-    h3,
-    .font-heading {
-      font-family: 'Sora', system-ui, sans-serif;
-    }
-
-    .text-primary {
-      color: #22d3ee;
-    }
-
-    .bg-primary {
-      background-color: #22d3ee;
-    }
-
-    .bg-surface {
-      background: #111111;
-    }
-
-    .border-subtle {
-      border-color: #1f1f1f;
-    }
-
-    .text-muted {
-      color: #a3a3a3;
-    }
-      .video-wrapper {
-      position: relative;
-      width: 100%;
-      max-width: 320px;
-      margin: 0 auto;
-    }
-    .video-wrapper::before {
-      content: "";
-      display: block;
-      padding-top: 177.78%;
-    }
-    .video-wrapper iframe {
-      position: absolute;
-      inset: 0;
-      width: 100%;
-      height: 100%;
-      border: none;
-      border-radius: 16px;
-    }
-  </style>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Kegel Morse Hero",
-    "alternateName": "Kegel Morse Hero: Pelvic Floor",
-    "operatingSystem": "iOS 17.2 or later",
-    "applicationCategory": "HealthApplication",
-    "applicationSubCategory": "Fitness",
-    "datePublished": "2026-04-15",
-    "author": {
-      "@type": "Person",
-      "name": "Sergei Prostokishyn"
-    },
-    "description": "Kegel Morse Hero is an iOS pelvic floor training app that uses Morse code rhythms for squeeze and relax timing. Includes visual guidance, haptic feedback, custom tracks, and local-only data storage.",
-    "url": "https://kegelmorsehero.com/",
-    "downloadUrl": "https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873",
-    "installUrl": "https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873",
-    "sameAs": [
-      "https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873"
-    ],
-    "isAccessibleForFree": true,
-    "featureList": [
-      "Visual ring animation for squeeze and relax timing",
-      "Haptic feedback during exercises",
-      "Built-in and custom Morse code tracks",
-      "Zen mode for focused sessions",
-      "Session history and calendar progress view",
-      "Signal reminders",
-      "Google Drive backup and CSV export",
-      "1x, 2x, 3x speed settings",
-      "Offline sessions with no internet required"
-    ],
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Kegel Morse Hero",
-      "url": "https://kegelmorsehero.com/"
-    },
-    "screenshot": [
-      "https://kegelmorsehero.com/assets/screenshot-hero.png",
-      "https://kegelmorsehero.com/assets/screenshot-main.png",
-      "https://kegelmorsehero.com/assets/screenshot-features.png"
-    ],
-    "image": "https://kegelmorsehero.com/assets/logo.png",
-    "inLanguage": "en"
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Kegel Morse Hero",
-    "url": "https://kegelmorsehero.com/",
-    "logo": "https://kegelmorsehero.com/assets/logo.png",
-    "sameAs": [
-      "https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873"
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Kegel Morse Hero",
-    "url": "https://kegelmorsehero.com/"
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "VideoObject",
-    "name": "Kegel Morse Hero app demo",
-    "description": "Demo of the Kegel Morse Hero iOS app showing Morse code guided pelvic floor training with visual ring animation and haptic feedback.",
-    "thumbnailUrl": "https://i.ytimg.com/vi/VtgtSG_DCYI/hqdefault.jpg",
-    "uploadDate": "2026-04-20T03:45:21-07:00",
-    "contentUrl": "https://www.youtube.com/watch?v=VtgtSG_DCYI",
-    "embedUrl": "https://www.youtube.com/embed/VtgtSG_DCYI",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Kegel Morse Hero",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://kegelmorsehero.com/assets/logo.png"
-      }
-    }
-  }
-  </script>
-</head>
-
-<body class="min-h-screen flex flex-col">
-
-  <header class="sticky top-0 z-50 border-b border-subtle bg-black/80 backdrop-blur">
-    <div class="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
-      <a href="/" class="flex items-center gap-2.5">
-        <img src="/assets/logo-96.png" alt="Kegel Morse Hero logo" width="96" height="96" class="h-8 w-8 rounded-lg" />
-        <span class="font-heading text-base font-bold">Kegel Morse Hero</span>
-      </a>
-      <nav class="hidden gap-6 text-sm md:flex">
-        <a href="/" class="text-primary">Home</a>
-        <a href="/features.html" class="text-muted hover:text-white">Features</a>
-        <a href="/how-to-use.html" class="text-muted hover:text-white">How To Use</a>
-        <a href="/blog/" class="text-muted hover:text-white">Blog</a>
-        <a href="/faq.html" class="text-muted hover:text-white">FAQ</a>
-        <a href="/privacy.html" class="text-muted hover:text-white">Privacy</a>
-      </nav>
-      <a href="https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873" target="_blank" rel="noopener"
-        class="rounded-lg border border-subtle bg-[#111] px-3 py-2 text-xs font-semibold hover:border-[#22d3ee]">Download</a>
-    </div>
-  </header>
-
-  <main class="flex-1">
-
-    <section class="relative overflow-hidden bg-gradient-to-b from-[#0f1c1e] to-black">
-      <div class="mx-auto max-w-6xl px-5 pb-16 pt-16 md:pt-24">
-        <div class="flex flex-col items-center gap-12 text-center">
-          <div class="max-w-2xl">
-            <h1 class="font-heading text-4xl font-extrabold leading-tight tracking-tight md:text-5xl lg:text-6xl">
-              Pelvic floor training, <span class="text-primary">reimagined with Morse code</span>
-            </h1>
-            <p class="mx-auto mt-5 max-w-lg text-lg text-muted">
-              Kegel Morse Hero guides squeeze-and-relax timing with visual ring animations and haptic feedback.
-              Morse code rhythms make Kegel exercise sessions consistent and engaging.
-            </p>
-            <p class="mx-auto mt-3 max-w-lg text-sm text-muted">
-              All data is stored locally. No account required. No ads. No tracking.
-            </p>
-            <div class="mt-8 flex justify-center">
-              <a href="https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873" target="_blank" rel="noopener"
-                class="inline-flex items-center gap-3 rounded-xl border border-subtle bg-[#111] px-5 py-3 text-sm font-semibold hover:border-[#22d3ee]">
-                <svg viewBox="0 0 24 24" class="h-6 w-6 fill-white">
-                  <path
-                    d="M16.365 1.43c0 1.14-.493 2.27-1.177 3.08-.744.9-1.99 1.57-2.987 1.57-.12 0-.23-.02-.3-.03-.01-.06-.04-.22-.04-.39 0-1.15.572-2.27 1.206-2.98.804-.94 2.142-1.64 3.248-1.68.03.13.05.28.05.43zm4.565 15.71c-.03.09-.46 1.6-1.534 3.16-.918 1.35-1.866 2.7-3.36 2.72-1.466.03-1.937-.87-3.61-.87-1.673 0-2.197.84-3.583.9-1.444.05-2.55-1.46-3.475-2.81-1.89-2.74-3.34-7.74-1.4-11.12.964-1.66 2.687-2.71 4.555-2.74 1.435-.03 2.79.97 3.671.97.88 0 2.539-1.2 4.275-1.02.726.03 2.756.295 4.057 2.225-.105.066-2.422 1.418-2.395 4.236.03 3.378 2.965 4.5 3.001 4.51z" />
-                </svg>
-                <span class="text-left leading-tight"><span class="block text-[10px] text-muted">Download on
-                    the</span><span class="block text-base">App Store</span></span>
-              </a>
-            </div>
-          </div>
-          <div class="flex flex-wrap items-center justify-center gap-6">
-            <div class="video-wrapper">
-              <iframe
-                src="https://www.youtube.com/embed/VtgtSG_DCYI?autoplay=1&mute=1&playsinline=1&si=6ofJEc2RmIa7ruBu"
-                title="Kegel Morse Hero YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe>
-            </div>
-            <img src="/assets/screenshot-hero.png"
-              alt="Kegel Morse Hero app showing the training interface with Morse code guided exercises"
-              width="884" height="1920" fetchpriority="high" decoding="async"
-              class="w-72 drop-shadow-2xl md:w-80" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="bg-surface py-20">
-      <div class="mx-auto max-w-6xl px-5">
-        <h2 class="text-center font-heading text-3xl font-bold">Why choose Kegel Morse Hero?</h2>
-        <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          <div class="rounded-2xl border border-subtle bg-black p-6">
-            <h3 class="font-heading text-lg font-semibold">Morse Code Guided Sessions</h3>
-            <p class="mt-2 text-sm leading-relaxed text-muted">Kegel Morse Hero uses Morse patterns to time squeeze
-              and relax phases for consistent training.</p>
-          </div>
-          <div class="rounded-2xl border border-subtle bg-black p-6">
-            <h3 class="font-heading text-lg font-semibold">Visual + Haptic Timing</h3>
-            <p class="mt-2 text-sm leading-relaxed text-muted">A ring animation and haptic feedback guide each rep,
-              including discreet eyes-free sessions.</p>
-          </div>
-          <div class="rounded-2xl border border-subtle bg-black p-6">
-            <h3 class="font-heading text-lg font-semibold">100% Private by Default</h3>
-            <p class="mt-2 text-sm leading-relaxed text-muted">No account required, no ads, no tracking, and local
-              data storage on your device.</p>
-          </div>
-          <div class="rounded-2xl border border-subtle bg-black p-6">
-            <h3 class="font-heading text-lg font-semibold">Built-in + Custom Tracks</h3>
-            <p class="mt-2 text-sm leading-relaxed text-muted">Use ready-made tracks like SOS and HERO, or create your
-              own Morse patterns.</p>
-          </div>
-          <div class="rounded-2xl border border-subtle bg-black p-6">
-            <h3 class="font-heading text-lg font-semibold">Progress Tracking</h3>
-            <p class="mt-2 text-sm leading-relaxed text-muted">Session history and calendar view help you track
-              consistency over time.</p>
-          </div>
-          <div class="rounded-2xl border border-subtle bg-black p-6">
-            <h3 class="font-heading text-lg font-semibold">Beginner Friendly</h3>
-            <p class="mt-2 text-sm leading-relaxed text-muted">Choose 1x, 2x, or 3x speed and train at your own pace,
-              then scale intensity gradually.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="py-20">
-      <div class="mx-auto max-w-5xl px-5">
-        <h2 class="text-center font-heading text-3xl font-bold">Quick facts for app comparison</h2>
-        <div class="mt-10 grid gap-4 rounded-2xl border border-subtle bg-[#0d0d0d] p-6 text-sm sm:grid-cols-2">
-          <p><span class="font-semibold text-white">Platform:</span> iOS</p>
-          <p><span class="font-semibold text-white">Price:</span> Free download, optional subscription</p>
-          <p><span class="font-semibold text-white">Works offline:</span> Yes, for exercise sessions</p>
-          <p><span class="font-semibold text-white">Account required:</span> No</p>
-          <p><span class="font-semibold text-white">Data policy:</span> Local-first, no ads, no tracking</p>
-          <p><span class="font-semibold text-white">Best for:</span> Guided timing and private Kegel training</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="py-20">
-      <div class="mx-auto max-w-6xl px-5">
-        <h2 class="text-center font-heading text-3xl font-bold">See Kegel Morse Hero in action</h2>
-        <div class="mt-12 flex flex-wrap items-center justify-center gap-8">
-          <!-- YouTube Shorts Video -->
-          <div class="video-wrapper">
-            <iframe
-              src="https://www.youtube.com/embed/VtgtSG_DCYI"
-              title="Kegel Morse Hero app demo"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              loading="lazy"
-            ></iframe>
-          </div>
-          <img src="/assets/screenshot-main.png"
-            alt="Kegel Morse Hero main exercise screen with Morse code visualization"
-            width="590" height="1280" class="w-56 rounded-2xl shadow-xl"
-            loading="lazy" decoding="async" />
-          <img src="/assets/screenshot-detail.png" alt="Kegel Morse Hero detailed training view with ring animation"
-            width="884" height="1920" class="w-56 rounded-2xl shadow-xl" loading="lazy" decoding="async" />
-        </div>
-      </div>
-    </section>
-
-    <section class="bg-gradient-to-r from-[#0e7490] to-[#22d3ee] py-16">
-      <div class="mx-auto max-w-3xl px-5 text-center">
-        <h2 class="font-heading text-3xl font-bold text-black">Start training today</h2>
-        <p class="mt-3 text-black/80">Kegel Morse Hero is free to download and you can start your first session in
-          seconds.</p>
-        <div class="mt-8 flex justify-center">
-          <a href="https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873" target="_blank" rel="noopener"
-            class="inline-flex items-center gap-3 rounded-xl bg-black px-5 py-3 text-sm font-semibold text-white">
-            <svg viewBox="0 0 24 24" class="h-6 w-6 fill-white">
-              <path
-                d="M16.365 1.43c0 1.14-.493 2.27-1.177 3.08-.744.9-1.99 1.57-2.987 1.57-.12 0-.23-.02-.3-.03-.01-.06-.04-.22-.04-.39 0-1.15.572-2.27 1.206-2.98.804-.94 2.142-1.64 3.248-1.68.03.13.05.28.05.43zm4.565 15.71c-.03.09-.46 1.6-1.534 3.16-.918 1.35-1.866 2.7-3.36 2.72-1.466.03-1.937-.87-3.61-.87-1.673 0-2.197.84-3.583.9-1.444.05-2.55-1.46-3.475-2.81-1.89-2.74-3.34-7.74-1.4-11.12.964-1.66 2.687-2.71 4.555-2.74 1.435-.03 2.79.97 3.671.97.88 0 2.539-1.2 4.275-1.02.726.03 2.756.295 4.057 2.225-.105.066-2.422 1.418-2.395 4.236.03 3.378 2.965 4.5 3.001 4.51z" />
-            </svg>
-            <span class="text-left leading-tight"><span class="block text-[10px]">Download on the</span><span
-                class="block text-base">App Store</span></span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="border-t border-subtle bg-surface">
-    <div class="mx-auto max-w-6xl px-5 py-12">
-      <div class="flex flex-col items-start gap-8 md:flex-row md:justify-between">
-        <div class="flex items-center gap-2.5">
-          <img src="/assets/logo-96.png" alt="Kegel Morse Hero logo" width="96" height="96" loading="lazy"
-            class="h-8 w-8 rounded-lg" />
-          <span class="font-heading text-base font-bold">Kegel Morse Hero</span>
-        </div>
-        <nav class="flex flex-wrap gap-x-8 gap-y-2 text-sm">
-          <a href="/features.html" class="text-muted hover:text-white">Features</a>
-          <a href="/how-to-use.html" class="text-muted hover:text-white">How To Use</a>
-        <a href="/blog/" class="text-muted hover:text-white">Blog</a>
-          <a href="/faq.html" class="text-muted hover:text-white">FAQ</a>
-          <a href="/privacy.html" class="text-muted hover:text-white">Privacy</a>
-        </nav>
-      </div>
-      <div
-        class="mt-8 flex flex-col gap-4 border-t border-subtle pt-8 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
-        <p>&copy; <span id="year"></span> Kegel Morse Hero. All rights reserved.</p>
-        <div class="flex gap-4">
-          <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener"
-            class="hover:text-white">Terms of Use</a>
-          <a href="/privacy.html" class="hover:text-white">Privacy Policy</a>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
-</body>
-
-</html>
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kegel Morse Hero - Pelvic Floor Training with Morse Code Rhythms</title><meta name="description" content="Free iOS Kegel exercise app that guides pelvic floor training with Morse code rhythms, visual timing cues, and haptic feedback. Private, offline, no account needed.">
+<meta name="author" content="Kegel Morse Hero"><meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<meta name="theme-color" content="#070a0b"><meta name="apple-itunes-app" content="app-id=6761460873"><link rel="canonical" href="https://kegelmorsehero.com/">
+<link rel="icon" href="/assets/favicon-48.png" type="image/png" sizes="48x48"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Kegel Morse Hero"><meta property="og:title" content="Kegel Morse Hero - Pelvic Floor Training with Morse Code Rhythms"><meta property="og:description" content="Free iOS Kegel exercise app that guides pelvic floor training with Morse code rhythms, visual timing cues, and haptic feedback. Private, offline, no account needed."><meta property="og:url" content="https://kegelmorsehero.com/"><meta property="og:image" content="https://kegelmorsehero.com/assets/og-image.png"><meta property="og:image:alt" content="Kegel Morse Hero pelvic floor training app">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Kegel Morse Hero - Pelvic Floor Training with Morse Code Rhythms"><meta name="twitter:description" content="Free iOS Kegel exercise app that guides pelvic floor training with Morse code rhythms, visual timing cues, and haptic feedback. Private, offline, no account needed."><meta name="twitter:image" content="https://kegelmorsehero.com/assets/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/blog/blog.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Kegel Morse Hero","alternateName":"Kegel Morse Hero: Pelvic Floor","operatingSystem":"iOS 17.2 or later","applicationCategory":"HealthApplication","applicationSubCategory":"Fitness","datePublished":"2026-04-15","author":{"@type":"Person","name":"Sergei Prostokishyn"},"description":"Kegel Morse Hero is an iOS pelvic floor training app that uses Morse code rhythms for squeeze and relax timing. Includes visual guidance, haptic feedback, custom tracks, and local-only data storage.","url":"https://kegelmorsehero.com/","downloadUrl":"https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873","installUrl":"https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873","sameAs":["https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873"],"isAccessibleForFree":true,"featureList":["Visual ring animation for squeeze and relax timing","Haptic feedback during exercises","Built-in and custom Morse code tracks","Zen mode for focused sessions","Session history and calendar progress view","Signal reminders","Google Drive backup and CSV export","1x, 2x, 3x speed settings","Offline sessions with no internet required"],"offers":{"@type":"Offer","price":"0","priceCurrency":"USD","availability":"https://schema.org/InStock"},"publisher":{"@type":"Organization","name":"Kegel Morse Hero","url":"https://kegelmorsehero.com/"},"screenshot":["https://kegelmorsehero.com/assets/screenshot-hero.png","https://kegelmorsehero.com/assets/screenshot-main.png","https://kegelmorsehero.com/assets/screenshot-features.png"],"image":"https://kegelmorsehero.com/assets/logo.png","inLanguage":"en"}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Kegel Morse Hero","url":"https://kegelmorsehero.com/","logo":"https://kegelmorsehero.com/assets/logo.png","sameAs":["https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873"]}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Kegel Morse Hero","url":"https://kegelmorsehero.com/"}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"VideoObject","name":"Kegel Morse Hero app demo","description":"Demo of the Kegel Morse Hero iOS app showing Morse code guided pelvic floor training with visual ring animation and haptic feedback.","thumbnailUrl":"https://i.ytimg.com/vi/VtgtSG_DCYI/hqdefault.jpg","uploadDate":"2026-04-20T03:45:21-07:00","contentUrl":"https://www.youtube.com/watch?v=VtgtSG_DCYI","embedUrl":"https://www.youtube.com/embed/VtgtSG_DCYI","publisher":{"@type":"Organization","name":"Kegel Morse Hero","logo":{"@type":"ImageObject","url":"https://kegelmorsehero.com/assets/logo.png"}}}</script></head><body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><div class="header-inner">
+  <a class="brand" href="/"><img src="/assets/logo-96.png" width="96" height="96" alt="Kegel Morse Hero logo"><span>Kegel Morse Hero</span></a>
+  <nav class="site-nav" aria-label="Primary navigation">
+    <a href="/" aria-current="page">Home</a><a href="/articles/">Articles</a><a href="/features.html">Features</a><a href="/how-to-use.html">How to use</a><a href="/faq.html">FAQ</a><a href="/privacy.html">Privacy</a>
+    <a class="download-link" href="https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873" target="_blank" rel="noopener">Download</a>
+  </nav>
+</div></header>
+<main id="main">
+<section class="home-hero"><div class="home-hero-inner">
+  <div><h1>Pelvic floor training, <span style="color:var(--cyan)">reimagined with Morse code</span></h1>
+  <p class="lede">Kegel Morse Hero guides squeeze-and-relax timing with visual ring animations and haptic feedback. Morse code rhythms make Kegel exercise sessions consistent and engaging.</p>
+  <p class="fine-print">All data is stored locally. No account required. No ads. No tracking.</p>
+  <div class="cta-row"><a class="store-btn" href="https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M16.365 1.43c0 1.14-.493 2.27-1.177 3.08-.744.9-1.99 1.57-2.987 1.57-.12 0-.23-.02-.3-.03-.01-.06-.04-.22-.04-.39 0-1.15.572-2.27 1.206-2.98.804-.94 2.142-1.64 3.248-1.68.03.13.05.28.05.43zm4.565 15.71c-.03.09-.46 1.6-1.534 3.16-.918 1.35-1.866 2.7-3.36 2.72-1.466.03-1.937-.87-3.61-.87-1.673 0-2.197.84-3.583.9-1.444.05-2.55-1.46-3.475-2.81-1.89-2.74-3.34-7.74-1.4-11.12.964-1.66 2.687-2.71 4.555-2.74 1.435-.03 2.79.97 3.671.97.88 0 2.539-1.2 4.275-1.02.726.03 2.756.295 4.057 2.225-.105.066-2.422 1.418-2.395 4.236.03 3.378 2.965 4.5 3.001 4.51z"/></svg><span class="store-label"><span class="store-eyebrow">Download on the</span><span class="store-name">App Store</span></span></a></div></div>
+  <div class="home-media"><div class="video-frame"><iframe src="https://www.youtube.com/embed/VtgtSG_DCYI?autoplay=1&mute=1&playsinline=1&si=6ofJEc2RmIa7ruBu" title="Kegel Morse Hero YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+  <img class="shot shot-lg" src="/assets/screenshot-hero.png" alt="Kegel Morse Hero app showing the training interface with Morse code guided exercises" width="884" height="1920" fetchpriority="high" decoding="async"></div>
+</div></section>
+<section class="feature-section on-surface"><div class="feature-section-inner center-heading"><h2 class="section-heading">Why choose Kegel Morse Hero?</h2>
+<div class="feature-grid"><div class="feature-tile"><h3>Morse Code Guided Sessions</h3><p>Kegel Morse Hero uses Morse patterns to time squeeze and relax phases for consistent training.</p></div><div class="feature-tile"><h3>Visual + Haptic Timing</h3><p>A ring animation and haptic feedback guide each rep, including discreet eyes-free sessions.</p></div><div class="feature-tile"><h3>100% Private by Default</h3><p>No account required, no ads, no tracking, and local data storage on your device.</p></div><div class="feature-tile"><h3>Built-in + Custom Tracks</h3><p>Use ready-made tracks like SOS and HERO, or create your own Morse patterns.</p></div><div class="feature-tile"><h3>Progress Tracking</h3><p>Session history and calendar view help you track consistency over time.</p></div><div class="feature-tile"><h3>Beginner Friendly</h3><p>Choose 1x, 2x, or 3x speed and train at your own pace, then scale intensity gradually.</p></div></div>
+</div></section>
+<section class="feature-section center-heading"><h2 class="section-heading">Quick facts for app comparison</h2>
+<div class="fact-grid"><p><strong>Platform:</strong> iOS</p><p><strong>Price:</strong> Free download, optional subscription</p><p><strong>Works offline:</strong> Yes, for exercise sessions</p><p><strong>Account required:</strong> No</p><p><strong>Data policy:</strong> Local-first, no ads, no tracking</p><p><strong>Best for:</strong> Guided timing and private Kegel training</p></div>
+</section>
+<section class="feature-section center-heading"><h2 class="section-heading">See Kegel Morse Hero in action</h2>
+<div class="home-media"><div class="video-frame"><iframe src="https://www.youtube.com/embed/VtgtSG_DCYI" title="Kegel Morse Hero app demo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+<img class="shot" src="/assets/screenshot-main.png" alt="Kegel Morse Hero main exercise screen with Morse code visualization" width="590" height="1280" loading="lazy" decoding="async">
+<img class="shot" src="/assets/screenshot-detail.png" alt="Kegel Morse Hero detailed training view with ring animation" width="884" height="1920" loading="lazy" decoding="async"></div>
+</section>
+<section class="cta-banner"><div class="cta-banner-inner"><h2>Start training today</h2><p>Kegel Morse Hero is free to download and you can start your first session in seconds.</p><div class="cta-row"><a class="store-btn on-cyan" href="https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M16.365 1.43c0 1.14-.493 2.27-1.177 3.08-.744.9-1.99 1.57-2.987 1.57-.12 0-.23-.02-.3-.03-.01-.06-.04-.22-.04-.39 0-1.15.572-2.27 1.206-2.98.804-.94 2.142-1.64 3.248-1.68.03.13.05.28.05.43zm4.565 15.71c-.03.09-.46 1.6-1.534 3.16-.918 1.35-1.866 2.7-3.36 2.72-1.466.03-1.937-.87-3.61-.87-1.673 0-2.197.84-3.583.9-1.444.05-2.55-1.46-3.475-2.81-1.89-2.74-3.34-7.74-1.4-11.12.964-1.66 2.687-2.71 4.555-2.74 1.435-.03 2.79.97 3.671.97.88 0 2.539-1.2 4.275-1.02.726.03 2.756.295 4.057 2.225-.105.066-2.422 1.418-2.395 4.236.03 3.378 2.965 4.5 3.001 4.51z"/></svg><span class="store-label"><span class="store-eyebrow">Download on the</span><span class="store-name">App Store</span></span></a></div></div></section>
+</main>
+<footer class="site-footer"><div class="footer-inner">
+  <div><a class="brand" href="/"><img src="/assets/logo-96.png" width="96" height="96" loading="lazy" alt="Kegel Morse Hero logo"><span>Kegel Morse Hero</span></a><p class="copyright">© 2026 Kegel Morse Hero</p></div>
+  <nav class="footer-links" aria-label="Footer navigation"><a href="/articles/">Articles</a><a href="/features.html">Features</a><a href="/how-to-use.html">How to use</a><a href="/faq.html">FAQ</a><a href="/privacy.html">Privacy</a><a href="/about/">About</a><a href="/editorial-policy/">Editorial policy</a><a href="/medical-disclaimer/">Medical disclaimer</a></nav>
+</div></footer></body></html>

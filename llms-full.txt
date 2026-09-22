@@ -1,6 +1,6 @@
 # Kegel Morse Hero - Extended AI Context
 
-Last updated: 2026-08-04
+Last updated: 2026-09-22
 
 ## 1) Product Identity
 - Name: Kegel Morse Hero
@@ -65,3 +65,35 @@ Kegel Morse Hero is for educational and informational purposes only and is not a
 - How To Use: https://kegelmorsehero.com/how-to-use.html
 - FAQ: https://kegelmorsehero.com/faq.html
 - Privacy: https://kegelmorsehero.com/privacy.html
+- Article library: https://kegelmorsehero.com/articles/
+
+## 10) Article Library
+<!-- articles:start -->
+### Technique
+- How to Do Kegels at Your Desk Without Anyone Noticing: https://kegelmorsehero.com/articles/how-to-do-kegels-at-your-desk/
+- Morse Code Kegel Training: How Rhythm Fixes the Boring Part: https://kegelmorsehero.com/articles/morse-code-kegel-training/
+- Kegel Exercises for Women: A Safe, Effective Beginner's Guide: https://kegelmorsehero.com/articles/kegel-exercises-for-women/
+- Core Workouts for Women: Seven Exercises for Strength and Stability: https://kegelmorsehero.com/articles/core-workouts-for-women/
+- Am I Doing Kegels Wrong? 7 Signs and Fixes: https://kegelmorsehero.com/articles/am-i-doing-kegels-wrong/
+- How to Find Your Pelvic Floor Muscles (Men): https://kegelmorsehero.com/articles/how-to-find-pelvic-floor-muscles-men/
+- Kegel Exercise Games: Why Gamified Pelvic Floor Training Works Better: https://kegelmorsehero.com/articles/kegel-exercise-game/
+
+### Habits & Routine
+- Why You Quit Doing Kegels and How to Actually Stick With It: https://kegelmorsehero.com/articles/how-to-remember-to-do-kegels-every-day/
+- How Many Kegels Should a Man Do Per Day?: https://kegelmorsehero.com/articles/how-many-kegels-a-day-for-men/
+- How Long Do Kegels Take to Work for Men?: https://kegelmorsehero.com/articles/how-long-do-kegels-take-to-work-men/
+- How to Remember to Do Kegels Every Day: https://kegelmorsehero.com/articles/how-to-remember-to-do-kegels/
+
+### Science & Safety
+- Do Kegel Exercises Increase Size? The Honest Answer: https://kegelmorsehero.com/articles/do-kegel-exercises-increase-size/
+- How Long Does It Take for Kegels to Work for Men?: https://kegelmorsehero.com/articles/how-long-do-kegels-take-to-work-for-men/
+- Can You Do Too Many Kegels? Pelvic Floor Tension in Men: https://kegelmorsehero.com/articles/can-you-do-too-many-kegels/
+- Do Kegels Help With Premature Ejaculation? What Research Says: https://kegelmorsehero.com/articles/do-kegels-help-premature-ejaculation/
+- Reduced Penile Sensitivity: Causes and Eight Practical Steps: https://kegelmorsehero.com/articles/increase-male-sensitivity/
+- "Sperm Cramps": What Pain After Ejaculation May Actually Mean: https://kegelmorsehero.com/articles/pain-after-ejaculation-sperm-cramps/
+- Is Edging Bad for Testosterone? What the Evidence Actually Says: https://kegelmorsehero.com/articles/edging-and-testosterone/
+
+### Apps & Gear
+- Best Kegel Apps for Men in 2026: An Honest Comparison: https://kegelmorsehero.com/articles/best-kegel-apps-for-men/
+- Kegel Apps vs Kegel Trainer Devices: What Is Worth the Money?: https://kegelmorsehero.com/articles/kegel-app-vs-kegel-trainer-device/
+<!-- articles:end -->

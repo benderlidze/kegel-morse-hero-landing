@@ -3,7 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const contentDir = path.join(root, 'blog', 'content');
+const contentDir = path.join(root, 'content', 'articles');
 const errors = [];
 const files = (await readdir(contentDir)).filter((file) => /^\d{2}-.*\.md$/.test(file)).sort();
 
@@ -17,20 +17,24 @@ const resolveInternal = (href) => {
 
 for (const file of files) {
   const markdown = await readFile(path.join(contentDir, file), 'utf8');
-  const slug = markdown.match(/^slug:\s*["']?\/blog\/([^"'\r\n]+)/m)?.[1]?.replace(/\/$/, '');
+  const slug = markdown.match(/^slug:\s*["']?\/articles\/([^"'\r\n]+)/m)?.[1]?.replace(/\/$/, '');
   if (!slug) { errors.push(`${file}: missing slug`); continue; }
-  const outputPath = path.join(root, 'blog', slug, 'index.html');
+  const categorySlug = markdown.match(/^category_slug:\s*["']?([^"'\r\n]+)/m)?.[1];
+  if (!categorySlug) errors.push(`${file}: missing category_slug`);
+  const outputPath = path.join(root, 'articles', slug, 'index.html');
   let html;
   try { html = await readFile(outputPath, 'utf8'); } catch { errors.push(`${file}: missing generated page`); continue; }
 
   const check = (condition, message) => { if (!condition) errors.push(`${file}: ${message}`); };
   check((html.match(/<h1\b/g) || []).length === 1, 'must contain exactly one H1');
   check(/<meta name="description" content="[^"]+">/.test(html), 'missing meta description');
-  check(new RegExp(`<link rel="canonical" href="https://kegelmorsehero\\.com/blog/${slug}/">`).test(html), 'canonical mismatch');
-  check(/<time datetime="2026-08-04">/.test(html), 'missing visible reviewed date');
+  check(new RegExp(`<link rel="canonical" href="https://kegelmorsehero\\.com/articles/${slug}/">`).test(html), 'canonical mismatch');
+  const reviewedDate = markdown.match(/^last_reviewed:\s*["']?([^"'\r\n]+)/m)?.[1];
+  check(reviewedDate && html.includes(`<time datetime="${reviewedDate}">`), 'missing visible reviewed date');
   check(/rel="author"/.test(html), 'missing author link');
   check(/id="sources(?:-and-listings)?"/.test(html), 'missing sources heading');
   check(/not medical advice/i.test(html), 'missing visible medical disclaimer');
+  check(/class="article-cover"/.test(html), 'missing article cover image');
   const articleBody = html.match(/<article class="article-body">([\s\S]*?)<\/article>/)?.[1] || '';
   check((markdown.match(/^#{2,3}\s+/gm) || []).length === (articleBody.match(/<h[23]\b/g) || []).length, 'heading count changed during rendering');
   check((markdown.match(/^\|.+\|\r?$/gm) || []).length === 0 || html.includes('<table>'), 'table was not rendered');
@@ -51,6 +55,12 @@ for (const file of files) {
   for (const match of html.matchAll(/href="(\/[^"#]*)"/g)) {
     try { await access(resolveInternal(match[1])); } catch { errors.push(`${file}: unresolved internal link ${match[1]}`); }
   }
+
+  // Legacy /blog/<slug>/ must still resolve and redirect forward to the new location.
+  try {
+    const legacy = await readFile(path.join(root, 'blog', slug, 'index.html'), 'utf8');
+    check(legacy.includes(`url=/articles/${slug}/`), `legacy /blog/${slug}/ does not redirect to /articles/${slug}/`);
+  } catch { errors.push(`${file}: missing legacy /blog/${slug}/ redirect page`); }
 }
 
 const sitemap = await readFile(path.join(root, 'sitemap.xml'), 'utf8');
@@ -60,13 +70,18 @@ for (const file of files) {
   if (!sitemap.includes(`<loc>${canonical}</loc>`)) errors.push(`${file}: absent from sitemap`);
 }
 
-const pe = await readFile(path.join(root, 'blog', 'do-kegels-help-premature-ejaculation', 'index.html'), 'utf8');
+try {
+  const blogIndex = await readFile(path.join(root, 'blog', 'index.html'), 'utf8');
+  if (!blogIndex.includes('url=/articles/')) errors.push('/blog/ index does not redirect to /articles/');
+} catch { errors.push('missing /blog/ redirect index'); }
+
+const pe = await readFile(path.join(root, 'articles', 'do-kegels-help-premature-ejaculation', 'index.html'), 'utf8');
 if (pe.includes('apps.apple.com') || pe.includes('article-cta')) errors.push('Premature-ejaculation article contains injected app promotion');
 
-if (files.length !== 10) errors.push(`expected 10 Markdown files, found ${files.length}`);
+if (files.length < 10) errors.push(`expected at least 10 Markdown files, found ${files.length}`);
 if (errors.length) {
   console.error(errors.join('\n'));
   process.exitCode = 1;
 } else {
-  console.log('Validated 10 article pages: metadata, headings, sources, disclaimers, internal links, sitemap, and JSON-LD.');
+  console.log(`Validated ${files.length} article pages: metadata, categories, headings, sources, disclaimers, internal links, legacy redirects, sitemap, and JSON-LD.`);
 }
