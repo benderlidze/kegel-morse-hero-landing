@@ -16,6 +16,7 @@ content_status: "editorially ready; medical review recommended"
 schema_type: "Article"
 category_slug: "science"
 category_label: "Science & Safety"
+cover_image: "how-long-do-kegels-take-to-work-for-men.webp"
 ---
 
 # How Long Does It Take for Kegels to Work for Men?

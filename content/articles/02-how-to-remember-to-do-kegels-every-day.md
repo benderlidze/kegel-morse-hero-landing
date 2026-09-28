@@ -16,6 +16,7 @@ content_status: "editorially ready; medical review recommended"
 schema_type: "Article"
 category_slug: "habits"
 category_label: "Habits & Routine"
+cover_image: "how-to-remember-to-do-kegels-every-day.webp"
 ---
 
 # Why You Quit Doing Kegels and How to Actually Stick With It

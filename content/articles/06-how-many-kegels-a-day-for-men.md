@@ -16,6 +16,7 @@ content_status: "editorially ready; medical review recommended"
 schema_type: "Article"
 category_slug: "habits"
 category_label: "Habits & Routine"
+cover_image: "how-many-kegels-a-day-for-men.webp"
 ---
 
 # How Many Kegels Should a Man Do Per Day?

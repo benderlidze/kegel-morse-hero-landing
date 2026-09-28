@@ -16,6 +16,7 @@ content_status: "editorially ready; medical review recommended"
 schema_type: "Article"
 category_slug: "science"
 category_label: "Science & Safety"
+cover_image: "do-kegels-help-premature-ejaculation.webp"
 ---
 
 # Do Kegels Help With Premature Ejaculation? What Research Says

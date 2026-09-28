@@ -16,6 +16,7 @@ content_status: "editorially ready; medical review recommended"
 schema_type: "Article"
 category_slug: "apps"
 category_label: "Apps & Gear"
+cover_image: "kegel-app-vs-kegel-trainer-device.webp"
 ---
 
 # Kegel Apps vs Kegel Trainer Devices: What Is Worth the Money?

@@ -16,6 +16,7 @@ content_status: "editorially ready; medical review recommended"
 schema_type: "Article"
 category_slug: "science"
 category_label: "Science & Safety"
+cover_image: "can-you-do-too-many-kegels.webp"
 ---
 
 # Can You Do Too Many Kegels? Pelvic Floor Tension in Men

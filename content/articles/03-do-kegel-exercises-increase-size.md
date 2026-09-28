@@ -16,6 +16,7 @@ content_status: "editorially ready; medical review recommended"
 schema_type: "Article"
 category_slug: "science"
 category_label: "Science & Safety"
+cover_image: "do-kegel-exercises-increase-size.webp"
 ---
 
 # Do Kegel Exercises Increase Size? The Honest Answer

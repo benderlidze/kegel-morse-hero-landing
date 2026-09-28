@@ -16,6 +16,7 @@ content_status: "editorially ready; medical review recommended"
 schema_type: "Article"
 category_slug: "apps"
 category_label: "Apps & Gear"
+cover_image: "best-kegel-apps-for-men.webp"
 ---
 
 # Best Kegel Apps for Men in 2026: An Honest Comparison

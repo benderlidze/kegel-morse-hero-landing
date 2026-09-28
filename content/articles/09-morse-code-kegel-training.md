@@ -16,6 +16,7 @@ content_status: "editorially ready; medical review recommended"
 schema_type: "Article"
 category_slug: "technique"
 category_label: "Technique"
+cover_image: "morse-code-kegel-training.webp"
 ---
 
 # Morse Code Kegel Training: How Rhythm Fixes the Boring Part
