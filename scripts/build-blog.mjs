@@ -287,20 +287,22 @@ const homeFeatures = [
 ];
 
 const homeHtml = `${documentHead({
-  title: 'Kegel Morse Hero - Pelvic Floor Training with Morse Code Rhythms',
-  description: 'Free iOS Kegel exercise app that guides pelvic floor training with Morse code rhythms, visual timing cues, and haptic feedback. Private, offline, no account needed.',
+  title: 'Kegel App & Pelvic Floor Timer | Kegel Morse Hero',
+  description: 'Build your Kegel routine with a private iPhone app: guided timing, haptic cues, reminders, and session history. Free download with in-app purchases.',
   canonical: `${site}/`,
   extraMeta: '<meta name="apple-itunes-app" content="app-id=6761460873">',
   jsonLd: homeJsonLd
 })}<body>${header('home')}
 <main id="main">
 <section class="home-hero"><div class="home-hero-inner">
-  <div><h1>Pelvic floor training, <span style="color:var(--cyan)">reimagined with Morse code</span></h1>
-  <p class="lede">Kegel Morse Hero guides squeeze-and-relax timing with visual ring animations and haptic feedback. Morse code rhythms make Kegel exercise sessions consistent and engaging.</p>
-  <p class="fine-print">All data is stored locally. No account required. No ads. No tracking.</p>
-  <div class="cta-row">${storeButton()}</div></div>
-  <div class="home-media"><div class="video-frame"><iframe src="https://www.youtube.com/embed/VtgtSG_DCYI?autoplay=1&mute=1&playsinline=1&si=6ofJEc2RmIa7ruBu" title="Kegel Morse Hero YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-  <img class="shot shot-lg" src="/assets/screenshot-hero.png" alt="Kegel Morse Hero app showing the training interface with Morse code guided exercises" width="884" height="1920" fetchpriority="high" decoding="async"></div>
+  <div class="home-hero-copy"><p class="eyebrow">Pelvic floor training</p>
+  <h1>Kegel Exercise App <span>for iPhone</span></h1>
+  <p class="lede">Follow squeeze-and-relax timing with visual and haptic cues. Set reminders and keep track of your pelvic floor routine.</p>
+  <p class="home-rhythm">Morse code patterns give each session a rhythm to follow.</p>
+  <div class="cta-row">${storeButton()}<a class="home-how-link" href="/how-to-use.html">See how it works</a></div>
+  <p class="fine-print">Free download. In-app purchases. Requires iOS 17.2 or later.</p>
+  <p class="home-privacy">Private exercise sessions. No account, ads, or tracking.</p></div>
+  <div class="home-hero-preview"><img class="shot" src="/assets/screenshot-hero.png" alt="Kegel Morse Hero on iPhone showing its guided exercise timer" width="884" height="1920" fetchpriority="high" decoding="async"></div>
 </div></section>
 <section class="feature-section on-surface"><div class="feature-section-inner center-heading"><h2 class="section-heading">Why choose Kegel Morse Hero?</h2>
 <div class="feature-grid">${homeFeatures.map(([h, p]) => `<div class="feature-tile"><h3>${esc(h)}</h3><p>${esc(p)}</p></div>`).join('')}</div>
@@ -436,7 +438,7 @@ for (const page of trustPages) {
 }
 
 const staticUrls = [
-  ['/', '1.0', 'weekly', '2026-08-04'], ['/features.html', '.8', 'monthly', '2026-07-09'], ['/how-to-use.html', '.8', 'monthly', '2026-07-09'], ['/faq.html', '.7', 'monthly', '2026-07-09'], ['/privacy.html', '.4', 'yearly', '2026-07-09'],
+  ['/', '1.0', 'weekly', '2026-09-29'], ['/features.html', '.8', 'monthly', '2026-07-09'], ['/how-to-use.html', '.8', 'monthly', '2026-07-09'], ['/faq.html', '.7', 'monthly', '2026-07-09'], ['/privacy.html', '.4', 'yearly', '2026-07-09'],
   ['/articles/', '.9', 'weekly', '2026-08-04'], ['/about/', '.5', 'yearly', '2026-08-04'], ['/editorial-policy/', '.5', 'yearly', '2026-08-04'], ['/medical-disclaimer/', '.5', 'yearly', '2026-08-04'], ['/llms.txt', '.6', 'monthly', '2026-08-04'], ['/llms-full.txt', '.5', 'monthly', '2026-08-04']
 ];
 const sitemapEntries = [...staticUrls, ...articles.map((article) => [`/articles/${article.slug}/`, '.8', 'monthly', article.last_reviewed])];
