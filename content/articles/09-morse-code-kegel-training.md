@@ -207,7 +207,7 @@ Yes, provided the pattern remains short enough to perform cleanly. Avoid turning
 
 The game layer does not directly make a contraction stronger. Its intended value is adherence: making an appropriate routine easier to repeat. That adherence benefit is a product hypothesis, not a proven medical outcome.
 
-You can try the implementation in [Kegel Morse Hero on the App Store](https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873).
+You can try the implementation in [Kegel Morse Hero on the App Store](https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873) or [Google Play](https://play.google.com/store/apps/details?id=com.serhii.KegelMorseHero).
 
 *This article is for general education and is not medical advice. See a pelvic floor physical therapist or urologist for personal guidance.*
 
@@ -216,3 +216,4 @@ You can try the implementation in [Kegel Morse Hero on the App Store](https://ap
 - [North Bristol NHS: Slow and fast pelvic floor contractions](https://www.nbt.nhs.uk/our-services/a-z-services/physiotherapy/physiotherapy-patient-information/pelvic-floor-exercises-men)
 - [Cleveland Clinic: Kegel exercises for men](https://my.clevelandclinic.org/health/treatments/22211-kegel-exercises-for-men)
 - [Kegel Morse Hero — US App Store](https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873)
+- [Kegel Morse Hero — Google Play](https://play.google.com/store/apps/details?id=com.serhii.KegelMorseHero)

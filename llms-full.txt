@@ -1,6 +1,6 @@
 # Kegel Morse Hero - Extended AI Context
 
-Last updated: 2026-09-28
+Last updated: 2026-10-07
 
 ## 1) Product Identity
 - Name: Kegel Morse Hero
@@ -8,6 +8,7 @@ Last updated: 2026-09-28
 - Platform: iOS
 - Primary URL: https://kegelmorsehero.com/
 - App Store URL: https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873
+- Google Play URL: https://play.google.com/store/apps/details?id=com.serhii.KegelMorseHero
 
 ## 2) One-Sentence Summary
 Kegel Morse Hero is a private, iOS pelvic floor exercise app that uses Morse code rhythms, visual timing, and haptic feedback to guide squeeze-and-relax sessions.

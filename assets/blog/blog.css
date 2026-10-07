@@ -233,3 +233,6 @@ img { max-width: 100%; }
   .home-hero-inner { padding-top: 2.5rem; }
   .step { gap: 1rem; }
 }
+
+.store-btns { display: inline-flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: .75rem 1rem; }
+@media (max-width: 760px) { .download-link-android { display: none; } }

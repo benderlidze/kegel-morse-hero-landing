@@ -7,8 +7,11 @@ const contentDir = path.join(root, 'content', 'articles');
 const articlesDir = path.join(root, 'articles');
 const site = 'https://kegelmorsehero.com';
 const appStore = 'https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873';
+const playStore = 'https://play.google.com/store/apps/details?id=com.serhii.KegelMorseHero';
+const playGlyph = '<svg viewBox="0 0 24 24"><path d="M3.6 1.8c-.3.2-.5.6-.5 1.1v18.2c0 .5.2.9.5 1.1l10-10.2zM14.7 11.9l2.8-2.8L5.1 2l9.6 9.9zm0 .2L5.1 22l12.4-7.1zM18.6 9.7l-3 3 3 3 3.4-2c.9-.5.9-1.6 0-2.1z"/></svg>';
 const appleGlyph = '<svg viewBox="0 0 24 24"><path d="M16.365 1.43c0 1.14-.493 2.27-1.177 3.08-.744.9-1.99 1.57-2.987 1.57-.12 0-.23-.02-.3-.03-.01-.06-.04-.22-.04-.39 0-1.15.572-2.27 1.206-2.98.804-.94 2.142-1.64 3.248-1.68.03.13.05.28.05.43zm4.565 15.71c-.03.09-.46 1.6-1.534 3.16-.918 1.35-1.866 2.7-3.36 2.72-1.466.03-1.937-.87-3.61-.87-1.673 0-2.197.84-3.583.9-1.444.05-2.55-1.46-3.475-2.81-1.89-2.74-3.34-7.74-1.4-11.12.964-1.66 2.687-2.71 4.555-2.74 1.435-.03 2.79.97 3.671.97.88 0 2.539-1.2 4.275-1.02.726.03 2.756.295 4.057 2.225-.105.066-2.422 1.418-2.395 4.236.03 3.378 2.965 4.5 3.001 4.51z"/></svg>';
 const storeButton = (variant = '') => `<a class="store-btn${variant ? ` ${variant}` : ''}" href="${appStore}" target="_blank" rel="noopener">${appleGlyph}<span class="store-label"><span class="store-eyebrow">Download on the</span><span class="store-name">App Store</span></span></a>`;
+const storeButtons = (variant = '') => `<span class="store-btns">${storeButton(variant)}<a class="store-btn${variant ? ` ${variant}` : ''}" href="${playStore}" target="_blank" rel="noopener">${playGlyph}<span class="store-label"><span class="store-eyebrow">Get it on</span><span class="store-name">Google Play</span></span></a></span>`;
 
 const esc = (value = '') => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const plain = (value = '') => value.replace(/[*_`]/g, '').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
@@ -129,7 +132,7 @@ const header = (current = 'articles', showDownload = true) => `
   <a class="brand" href="/"><img src="/assets/logo-96.png" width="96" height="96" alt="Kegel Morse Hero logo"><span>Kegel Morse Hero</span></a>
   <nav class="site-nav" aria-label="Primary navigation">
     <a href="/"${current === 'home' ? ' aria-current="page"' : ''}>Home</a><a href="/articles/"${current === 'articles' ? ' aria-current="page"' : ''}>Articles</a><a href="/features.html"${current === 'features' ? ' aria-current="page"' : ''}>Features</a><a href="/how-to-use.html"${current === 'how-to-use' ? ' aria-current="page"' : ''}>How to use</a><a href="/faq.html"${current === 'faq' ? ' aria-current="page"' : ''}>FAQ</a><a href="/privacy.html"${current === 'privacy' ? ' aria-current="page"' : ''}>Privacy</a>
-    ${showDownload ? `<a class="download-link" href="${appStore}" target="_blank" rel="noopener">Download</a>` : ''}
+    ${showDownload ? `<a class="download-link" href="${appStore}" target="_blank" rel="noopener">Download</a><a class="download-link download-link-android" href="${playStore}" target="_blank" rel="noopener">Google Play</a>` : ''}
   </nav>
 </div></header>`;
 
@@ -224,7 +227,7 @@ for (let index = 0; index < articles.length; index += 1) {
   const jsonLd = `<script type="application/ld+json">${JSON.stringify(structured).replace(/</g, '\\u003c')}</script>`;
   const showAppPromo = !article.file.startsWith('10-');
   const articleCta = showAppPromo && !rendered.html.includes('class="article-cta"')
-    ? `<section class="cta-banner article-end-cta"><div class="cta-banner-inner"><h2>Train with Kegel Morse Hero</h2><p>Turn this into a guided session: short squeezes and long holds become Morse code dots and dashes, with built-in rest so you never lose count.</p><div class="cta-row">${storeButton('on-cyan')}</div></div></section>`
+    ? `<section class="cta-banner article-end-cta"><div class="cta-banner-inner"><h2>Train with Kegel Morse Hero</h2><p>Turn this into a guided session: short squeezes and long holds become Morse code dots and dashes, with built-in rest so you never lose count.</p><div class="cta-row">${storeButtons('on-cyan')}</div></div></section>`
     : '';
   const html = `${documentHead({ title: article.meta_title, description: article.meta_description, canonical: article.canonical, type: 'article', modified: article.last_reviewed, jsonLd, image: article.cover_image ? ogImage : undefined })}<body>${header('articles', showAppPromo)}
 <main id="main"><nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/articles/">Articles</a></li><li><a href="/articles/#${article.categoryId}">${esc(categoryLabel)}</a></li><li aria-current="page">${esc(article.h1)}</li></ol></nav>
@@ -271,8 +274,8 @@ await mkdir(contentDir, { recursive: true });
 
 // --- Home page ---
 const homeJsonLd = [
-  { '@context': 'https://schema.org', '@type': 'SoftwareApplication', name: 'Kegel Morse Hero', alternateName: 'Kegel Morse Hero: Pelvic Floor', operatingSystem: 'iOS 17.2 or later', applicationCategory: 'HealthApplication', applicationSubCategory: 'Fitness', datePublished: '2026-04-15', author: { '@type': 'Person', name: 'Sergei Prostokishyn' }, description: 'Kegel Morse Hero is an iOS pelvic floor training app that uses Morse code rhythms for squeeze and relax timing. Includes visual guidance, haptic feedback, custom tracks, and local-only data storage.', url: `${site}/`, downloadUrl: appStore, installUrl: appStore, sameAs: [appStore], isAccessibleForFree: true, featureList: ['Visual ring animation for squeeze and relax timing', 'Haptic feedback during exercises', 'Built-in and custom Morse code tracks', 'Zen mode for focused sessions', 'Session history and calendar progress view', 'Signal reminders', 'Google Drive backup and CSV export', '1x, 2x, 3x speed settings', 'Offline sessions with no internet required'], offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD', availability: 'https://schema.org/InStock' }, publisher: { '@type': 'Organization', name: 'Kegel Morse Hero', url: `${site}/` }, screenshot: [`${site}/assets/screenshot-hero.png`, `${site}/assets/screenshot-main.png`, `${site}/assets/screenshot-features.png`], image: `${site}/assets/logo.png`, inLanguage: 'en' },
-  { '@context': 'https://schema.org', '@type': 'Organization', name: 'Kegel Morse Hero', url: `${site}/`, logo: `${site}/assets/logo.png`, sameAs: [appStore] },
+  { '@context': 'https://schema.org', '@type': 'SoftwareApplication', name: 'Kegel Morse Hero', alternateName: 'Kegel Morse Hero: Pelvic Floor', operatingSystem: 'iOS 17.2 or later', applicationCategory: 'HealthApplication', applicationSubCategory: 'Fitness', datePublished: '2026-04-15', author: { '@type': 'Person', name: 'Sergei Prostokishyn' }, description: 'Kegel Morse Hero is an iOS pelvic floor training app that uses Morse code rhythms for squeeze and relax timing. Includes visual guidance, haptic feedback, custom tracks, and local-only data storage.', url: `${site}/`, downloadUrl: appStore, installUrl: appStore, sameAs: [appStore, playStore], isAccessibleForFree: true, featureList: ['Visual ring animation for squeeze and relax timing', 'Haptic feedback during exercises', 'Built-in and custom Morse code tracks', 'Zen mode for focused sessions', 'Session history and calendar progress view', 'Signal reminders', 'Google Drive backup and CSV export', '1x, 2x, 3x speed settings', 'Offline sessions with no internet required'], offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD', availability: 'https://schema.org/InStock' }, publisher: { '@type': 'Organization', name: 'Kegel Morse Hero', url: `${site}/` }, screenshot: [`${site}/assets/screenshot-hero.png`, `${site}/assets/screenshot-main.png`, `${site}/assets/screenshot-features.png`], image: `${site}/assets/logo.png`, inLanguage: 'en' },
+  { '@context': 'https://schema.org', '@type': 'Organization', name: 'Kegel Morse Hero', url: `${site}/`, logo: `${site}/assets/logo.png`, sameAs: [appStore, playStore] },
   { '@context': 'https://schema.org', '@type': 'WebSite', name: 'Kegel Morse Hero', url: `${site}/` },
   { '@context': 'https://schema.org', '@type': 'VideoObject', name: 'Kegel Morse Hero app demo', description: 'Demo of the Kegel Morse Hero iOS app showing Morse code guided pelvic floor training with visual ring animation and haptic feedback.', thumbnailUrl: 'https://i.ytimg.com/vi/VtgtSG_DCYI/hqdefault.jpg', uploadDate: '2026-04-20T03:45:21-07:00', contentUrl: 'https://www.youtube.com/watch?v=VtgtSG_DCYI', embedUrl: 'https://www.youtube.com/embed/VtgtSG_DCYI', publisher: { '@type': 'Organization', name: 'Kegel Morse Hero', logo: { '@type': 'ImageObject', url: `${site}/assets/logo.png` } } }
 ].map((obj) => `<script type="application/ld+json">${JSON.stringify(obj).replace(/</g, '\\u003c')}</script>`).join('');
@@ -299,7 +302,7 @@ const homeHtml = `${documentHead({
   <h1>Kegel Exercise App <span>for iPhone</span></h1>
   <p class="lede">Follow squeeze-and-relax timing with visual and haptic cues. Set reminders and keep track of your pelvic floor routine.</p>
   <p class="home-rhythm">Morse code patterns give each session a rhythm to follow.</p>
-  <div class="cta-row">${storeButton()}<a class="home-how-link" href="/how-to-use.html">See how it works</a></div>
+  <div class="cta-row">${storeButtons()}<a class="home-how-link" href="/how-to-use.html">See how it works</a></div>
   <p class="fine-print">Free download. In-app purchases. Requires iOS 17.2 or later.</p>
   <p class="home-privacy">Private exercise sessions. No account, ads, or tracking.</p></div>
   <div class="home-hero-preview"><img class="shot" src="/assets/screenshot-hero.png" alt="Kegel Morse Hero on iPhone showing its guided exercise timer" width="884" height="1920" fetchpriority="high" decoding="async"></div>
@@ -315,7 +318,7 @@ const homeHtml = `${documentHead({
 <img class="shot" src="/assets/screenshot-main.png" alt="Kegel Morse Hero main exercise screen with Morse code visualization" width="590" height="1280" loading="lazy" decoding="async">
 <img class="shot" src="/assets/screenshot-detail.png" alt="Kegel Morse Hero detailed training view with ring animation" width="884" height="1920" loading="lazy" decoding="async"></div>
 </section>
-<section class="cta-banner"><div class="cta-banner-inner"><h2>Start training today</h2><p>Kegel Morse Hero is free to download and you can start your first session in seconds.</p><div class="cta-row">${storeButton('on-cyan')}</div></div></section>
+<section class="cta-banner"><div class="cta-banner-inner"><h2>Start training today</h2><p>Kegel Morse Hero is free to download and you can start your first session in seconds.</p><div class="cta-row">${storeButtons('on-cyan')}</div></div></section>
 </main>${footer()}</body></html>`;
 await writeFile(path.join(root, 'index.html'), homeHtml, 'utf8');
 
@@ -338,7 +341,7 @@ const featuresHtml = `${documentHead({
 <main id="main"><section class="feature-section no-border"><p class="eyebrow">Kegel Morse Hero</p><h1 style="font:800 clamp(2.1rem,6vw,3.4rem)/1.1 Sora,sans-serif;letter-spacing:-.03em;margin:0">Features</h1><p class="lede" style="max-width:620px">Everything included in Kegel Morse Hero to support your pelvic floor training.</p>
 <div class="home-media" style="margin-top:2.5rem"><img class="shot" src="/assets/screenshot-main.png" alt="Kegel Morse Hero exercise screen" loading="lazy"><img class="shot" src="/assets/screenshot-features.png" alt="Kegel Morse Hero track selection with custom tracks, reminders, and history log" loading="lazy"></div>
 <div class="qa-list">${featureFaqs.map(([h, p]) => `<div class="qa-item"><h2>${esc(h)}</h2><p>${esc(p)}</p></div>`).join('')}</div>
-<div class="center-cta">${storeButton()}</div>
+<div class="center-cta">${storeButtons()}</div>
 </section></main>${footer()}</body></html>`;
 await writeFile(path.join(root, 'features.html'), featuresHtml, 'utf8');
 
@@ -360,7 +363,7 @@ const howToHtml = `${documentHead({
 <main id="main"><section class="feature-section no-border"><p class="eyebrow">Kegel Morse Hero</p><h1 style="font:800 clamp(2.1rem,6vw,3.4rem)/1.1 Sora,sans-serif;letter-spacing:-.03em;margin:0">How To Use Kegel Morse Hero</h1><p class="lede" style="max-width:620px">A step-by-step guide to start pelvic floor training with clear timing.</p>
 <div class="steps">${steps.map(([h, p], i) => `<div class="step"><span class="step-number">${i + 1}</span><div><h2>${esc(h)}</h2><p>${esc(p)}</p></div></div>`).join('')}</div>
 <div class="tips-box"><h2>Tips for effective training</h2><ul><li>Train consistently. Many users aim for 2 to 3 short sessions per day.</li><li>Use haptic feedback for discreet, eyes-free guidance.</li><li>Start with slower tracks at 1x speed and increase gradually.</li><li>Consult a healthcare professional if you are unsure where to start.</li></ul></div>
-<div class="center-cta">${storeButton()}</div>
+<div class="center-cta">${storeButtons()}</div>
 </section></main>${footer()}</body></html>`;
 await writeFile(path.join(root, 'how-to-use.html'), howToHtml, 'utf8');
 
@@ -385,7 +388,7 @@ const faqHtml = `${documentHead({
 })}<body>${header('faq')}
 <main id="main"><section class="feature-section no-border"><p class="eyebrow">Kegel Morse Hero</p><h1 style="font:800 clamp(2.1rem,6vw,3.4rem)/1.1 Sora,sans-serif;letter-spacing:-.03em;margin:0">Frequently Asked Questions</h1><p class="lede" style="max-width:620px">Common questions about Kegel Morse Hero and pelvic floor training.</p>
 <div class="qa-list">${faqs.map(([q, a]) => `<div class="qa-item"><h2>${esc(q)}</h2><p>${esc(a)}</p></div>`).join('')}</div>
-<div class="center-cta">${storeButton()}</div>
+<div class="center-cta">${storeButtons()}</div>
 </section></main>${footer()}</body></html>`;
 await writeFile(path.join(root, 'faq.html'), faqHtml, 'utf8');
 

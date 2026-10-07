@@ -232,5 +232,6 @@ Only when the added structure or content keeps you consistent. A subscription is
 - [Squeezy Men — US App Store](https://apps.apple.com/us/app/squeezy-men/id929618748)
 - [Kegel Trainer PFM Exercises — US App Store](https://apps.apple.com/us/app/kegel-trainer-pfm-exercises/id578148339)
 - [Kegel Morse Hero — US App Store](https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873)
+- [Kegel Morse Hero — Google Play](https://play.google.com/store/apps/details?id=com.serhii.KegelMorseHero)
 - [Squeeze Time for Men — US App Store](https://apps.apple.com/us/app/squeeze-time-for-men-kegel/id1395804535)
 - [Dr. Kegel — US App Store](https://apps.apple.com/us/app/dr-kegel-for-mens-health/id1470065487)
