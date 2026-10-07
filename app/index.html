@@ -1,0 +1,41 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Get Kegel Morse Hero | Kegel Morse Hero</title>
+<meta name="description" content="Download Kegel Morse Hero from the App Store or Google Play.">
+<meta name="robots" content="noindex,follow"><meta name="theme-color" content="#070a0b">
+<link rel="canonical" href="https://kegelmorsehero.com/app/">
+<link rel="icon" href="/assets/favicon-48.png" type="image/png" sizes="48x48"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<style>
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#070a0b;color:#f2f6f7;font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif;text-align:center;padding:24px;box-sizing:border-box}
+img{width:96px;height:96px;border-radius:22px}
+h1{font-size:1.4rem;margin:1rem 0 .3rem}p{color:#9aa8ab;margin:.2rem 0 1.4rem}
+.btns{display:flex;flex-direction:column;gap:.75rem;align-items:center}
+a.b{display:block;min-width:220px;padding:.85rem 1.4rem;border:1px solid #2a3538;border-radius:.9rem;background:#10171a;color:#f2f6f7;text-decoration:none;font-weight:700}
+a.b:hover{border-color:#22d3ee}
+</style>
+</head><body>
+<main>
+<img src="/assets/logo-96.png" width="96" height="96" alt="Kegel Morse Hero logo">
+<h1>Kegel Morse Hero</h1>
+<p id="msg">Choose your store</p>
+<div class="btns">
+<a class="b" href="https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873">Download on the App Store</a>
+<a class="b" href="https://play.google.com/store/apps/details?id=com.serhii.KegelMorseHero">Get it on Google Play</a>
+</div>
+</main>
+<script>
+(function () {
+  var ua = navigator.userAgent || '';
+  var q = new URLSearchParams(location.search).get('to');
+  var target = null;
+  if (q === 'ios') target = 'https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873';
+  else if (q === 'android') target = 'https://play.google.com/store/apps/details?id=com.serhii.KegelMorseHero';
+  else if (/Android/i.test(ua)) target = 'https://play.google.com/store/apps/details?id=com.serhii.KegelMorseHero';
+  else if (/iPhone|iPad|iPod/i.test(ua) || (/Macintosh/i.test(ua) && navigator.maxTouchPoints > 1)) target = 'https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873';
+  if (target) {
+    document.getElementById('msg').textContent = 'Redirecting to the store…';
+    location.replace(target);
+  }
+})();
+</script>
+</body></html>
