@@ -1,0 +1,80 @@
+{
+  "pages": [
+    {
+      "url": "https://kegelmorsehero.com/",
+      "width": 390,
+      "scrollWidth": 390,
+      "firstScreenLinks": [
+        {
+          "text": "Kegel Morse Hero",
+          "href": "https://kegelmorsehero.com/"
+        },
+        {
+          "text": "Download",
+          "href": "https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873"
+        },
+        {
+          "text": "Download on the\nApp Store",
+          "href": "https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873"
+        }
+      ],
+      "brokenImages": []
+    },
+    {
+      "url": "https://kegelmorsehero.com/articles/",
+      "width": 390,
+      "scrollWidth": 390,
+      "firstScreenLinks": [
+        {
+          "text": "Kegel Morse Hero",
+          "href": "https://kegelmorsehero.com/"
+        },
+        {
+          "text": "Download",
+          "href": "https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873"
+        },
+        {
+          "text": "TECHNIQUE\nHow to Do Kegels at Your Desk Without Anyone Noticing\n\nLearn how to do Kegel exercises at your desk without holding your breath, clenching visible muscles, or drawing attention at work.\n\nReviewed Aug 4, 2026",
+          "href": "https://kegelmorsehero.com/articles/how-to-do-kegels-at-your-desk/"
+        }
+      ],
+      "brokenImages": []
+    },
+    {
+      "url": "https://kegelmorsehero.com/articles/how-to-do-kegels-without-doing-them-wrong/",
+      "width": 390,
+      "scrollWidth": 390,
+      "firstScreenLinks": [
+        {
+          "text": "Kegel Morse Hero",
+          "href": "https://kegelmorsehero.com/"
+        },
+        {
+          "text": "Download",
+          "href": "https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873"
+        },
+        {
+          "text": "Home",
+          "href": "https://kegelmorsehero.com/"
+        },
+        {
+          "text": "Articles",
+          "href": "https://kegelmorsehero.com/articles/"
+        },
+        {
+          "text": "Technique",
+          "href": "https://kegelmorsehero.com/articles/#technique"
+        },
+        {
+          "text": "Kegel Morse Hero",
+          "href": "https://kegelmorsehero.com/about/"
+        }
+      ],
+      "brokenImages": []
+    }
+  ],
+  "categoryQuery": {
+    "visibleCards": 24,
+    "active": "All 24"
+  }
+}

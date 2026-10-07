@@ -1,0 +1,65 @@
+{
+  "date": "2026-09-29",
+  "html_pages": 33,
+  "articles": 24,
+  "bad_statuses": [],
+  "non_single_h1": [],
+  "canonical_mismatches": [],
+  "missing_metadata": [],
+  "lighthouse": {
+    "home": {
+      "url": "https://kegelmorsehero.com/",
+      "version": "12.8.2",
+      "fetchTime": "2026-09-29T07:41:41.676Z",
+      "scores": {
+        "performance": 74,
+        "accessibility": 100,
+        "best-practices": 96,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": 5527.239,
+        "cumulative-layout-shift": 0.07127780886751812,
+        "total-blocking-time": 100,
+        "total-byte-weight": 2367906
+      },
+      "warnings": []
+    },
+    "articles": {
+      "url": "https://kegelmorsehero.com/articles/",
+      "version": "12.8.2",
+      "fetchTime": "2026-09-29T07:42:17.421Z",
+      "scores": {
+        "performance": 97,
+        "accessibility": 94,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": 2007.3970000000002,
+        "cumulative-layout-shift": 0.06047450783085474,
+        "total-blocking-time": 0,
+        "total-byte-weight": 659574
+      },
+      "warnings": []
+    },
+    "guide": {
+      "url": "https://kegelmorsehero.com/articles/how-to-do-kegels-without-doing-them-wrong/",
+      "version": "12.8.2",
+      "fetchTime": "2026-09-29T07:43:27.121Z",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": 1947.315,
+        "cumulative-layout-shift": 0.002149366577577199,
+        "total-blocking-time": 0,
+        "total-byte-weight": 156165
+      },
+      "warnings": []
+    }
+  }
+}
