@@ -1,0 +1,29 @@
+[
+  {
+    "slug": "constipation-pelvic-floor-dysfunction",
+    "tool": "built-in imagegen",
+    "referencePath": "assets/articles/pain-after-ejaculation-sperm-cramps.webp",
+    "prompt": "Use case: photorealistic-natural\nAsset type: landscape editorial blog cover for Kegel Morse Hero, 16:9\nInput images: Image 1 is a style reference only; create a completely new scene and people\nPrimary request: tasteful wellness editorial image for an article about constipation caused by pelvic floor muscles failing to relax\nScene/backdrop: bright warm ivory pelvic health clinic with pale oak furniture, soft peach and muted teal geometric accents, one leafy plant\nSubject: fully clothed adult man about 40 in a navy polo and dark trousers sitting in a comfortable chair, speaking with a male pelvic floor physiotherapist in neutral professional clothing; a small neutral anatomical pelvis model rests on a side table; both look calm and engaged\nStyle/medium: polished realistic editorial photography with natural skin and fabric texture\nComposition/framing: wide 16:9, both people visible from knees up, important subjects inside center 80%, clean card crop\nLighting/mood: soft natural daylight, reassuring, respectful, nonsexual health education\nColor palette: warm ivory, pale oak, muted teal, soft peach, navy\nConstraints: no toilet, no bathroom scene, no intimate gesture, no visible genitals, no pain glow, no anatomical cutaway, no text, no labels, no logos, no watermark\nAvoid: shame, distress, exaggerated medical imagery, stock-photo handshake",
+    "originalPath": "C:\\Users\\S\\.codex\\generated_images\\01a11fd9-3cb0-7290-a641-683ea4dc135f\\exec-b70b4451-7dfa-401a-a284-c6fff471f410.png",
+    "finalPath": "assets/articles/constipation-pelvic-floor-dysfunction.webp",
+    "finalDimensions": "1200x675"
+  },
+  {
+    "slug": "kegels-after-prostate-surgery",
+    "tool": "built-in imagegen",
+    "referencePath": "assets/articles/am-i-doing-kegels-wrong.webp",
+    "prompt": "Use case: photorealistic-natural\nAsset type: landscape editorial blog cover for Kegel Morse Hero, 16:9\nInput images: Image 1 is a style reference only; create a completely new scene and people\nPrimary request: reassuring editorial image for an article about pelvic floor recovery and urine leakage after prostate surgery\nScene/backdrop: airy warm ivory rehabilitation studio with pale oak bench, muted teal mat, soft peach and teal geometric wall accents, one leafy plant\nSubject: fully clothed adult man about 58 in a navy long-sleeve athletic top and navy trousers sitting upright on the edge of a therapy bench, practicing a gentle pelvic floor contraction while breathing normally; female pelvic health physiotherapist about 45 sits nearby and coaches with a calm open-hand gesture; no touch and no visible surgery signs\nStyle/medium: polished realistic wellness editorial photography with natural skin and fabric texture\nComposition/framing: wide 16:9, three-quarter view, both people visible, important subjects inside center 80%, clean card crop\nLighting/mood: soft natural daylight, hopeful, practical, respectful, nonsexual medical education\nColor palette: warm ivory, pale oak, muted teal, soft peach, navy\nConstraints: no catheter, no urine, no pads, no hospital bed, no visible incision, no anatomical cutaway, no text, no labels, no logos, no watermark\nAvoid: dramatic pain, shame, surgery scene, unrealistic anatomy",
+    "originalPath": "C:\\Users\\S\\.codex\\generated_images\\01a11fd9-3cb0-7290-a641-683ea4dc135f\\exec-40dacba4-82bb-4d9a-95d9-5ddbe116010e.png",
+    "finalPath": "assets/articles/kegels-after-prostate-surgery.webp",
+    "finalDimensions": "1200x675"
+  },
+  {
+    "slug": "kegels-erectile-dysfunction",
+    "tool": "built-in imagegen",
+    "referencePath": "assets/articles/pain-after-ejaculation-sperm-cramps.webp",
+    "prompt": "Use case: photorealistic-natural\nAsset type: landscape editorial blog cover for Kegel Morse Hero, 16:9\nInput images: Image 1 is a style reference only; create a completely new scene and people\nPrimary request: respectful editorial image for an evidence-aware article asking whether Kegel exercises can help erectile dysfunction\nScene/backdrop: bright modern men's health consultation room, warm ivory walls, pale oak desk, soft peach and muted teal geometric accents, one leafy plant\nSubject: fully clothed adult man about 45 in a navy shirt sitting across from a male clinician about 50 in a light neutral shirt; the clinician is using a small neutral anatomical pelvis model to explain pelvic floor function; the patient looks thoughtful and reassured, not embarrassed\nStyle/medium: polished realistic wellness editorial photography with natural skin and fabric texture\nComposition/framing: wide 16:9, three-quarter conversational view, both people and model visible, important subjects inside center 80%, clean card crop\nLighting/mood: soft natural daylight, candid, calm, credible, nonsexual medical education\nColor palette: warm ivory, pale oak, muted teal, soft peach, navy\nConstraints: no nudity, no visible genitals, no suggestive pose, no pills, no anatomical cutaway, no red glow, no text, no labels, no logos, no watermark\nAvoid: shame, distress, comedy, exaggerated claims, stock-photo handshake",
+    "originalPath": "C:\\Users\\S\\.codex\\generated_images\\01a11fd9-3cb0-7290-a641-683ea4dc135f\\exec-7b83a176-962b-4957-a59f-a99b2b97e8af.png",
+    "finalPath": "assets/articles/kegels-erectile-dysfunction.webp",
+    "finalDimensions": "1200x675"
+  }
+]

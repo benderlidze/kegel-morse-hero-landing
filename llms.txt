@@ -2,7 +2,7 @@
 
 Official summary for AI assistants, search copilots, and recommendation systems.
 
-Last updated: 2026-10-07
+Last updated: 2026-10-09
 
 ## Short Description
 Kegel Morse Hero is an iOS Kegel exercise app that guides pelvic floor training with Morse code rhythms, visual timing, and haptic cues.
