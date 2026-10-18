@@ -1,6 +1,7 @@
 import { readFile, writeFile, mkdir, readdir, rm } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { hreflangTags, localizedPaths } from './i18n/routes.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const contentDir = path.join(root, 'content', 'articles');
@@ -142,13 +143,16 @@ const footer = () => `
   <nav class="footer-links" aria-label="Footer navigation"><a href="/articles/">Articles</a><a href="/features.html">Features</a><a href="/how-to-use.html">How to use</a><a href="/faq.html">FAQ</a><a href="/privacy.html">Privacy</a><a href="/about/">About</a><a href="/editorial-policy/">Editorial policy</a><a href="/medical-disclaimer/">Medical disclaimer</a></nav>
 </div></footer>`;
 
+// Localized versions of English pages are described in scripts/i18n/routes.mjs; they get reciprocal hreflang here.
+const hreflangLinks = (canonical) => hreflangTags(canonical.slice(site.length) || '/');
+
 function documentHead({ title, description, canonical, type = 'website', modified, jsonLd = '', image, extraMeta = '' }) {
   const ogImage = image || `${site}/assets/og-image.png`;
   return `<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)}</title><meta name="description" content="${esc(description)}">
 <meta name="author" content="Kegel Morse Hero"><meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
-<meta name="theme-color" content="#070a0b">${extraMeta}<link rel="canonical" href="${esc(canonical)}">
+<meta name="theme-color" content="#070a0b">${extraMeta}<link rel="canonical" href="${esc(canonical)}">${hreflangLinks(canonical)}
 <link rel="icon" href="/assets/favicon-48.png" type="image/png" sizes="48x48"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <meta property="og:type" content="${type}"><meta property="og:site_name" content="Kegel Morse Hero"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${esc(canonical)}"><meta property="og:image" content="${ogImage}"><meta property="og:image:alt" content="Kegel Morse Hero pelvic floor training app">${modified ? `<meta property="article:modified_time" content="${modified}">` : ''}
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(title)}"><meta name="twitter:description" content="${esc(description)}"><meta name="twitter:image" content="${ogImage}">
@@ -444,7 +448,9 @@ const staticUrls = [
   ['/', '1.0', 'weekly', '2026-09-29'], ['/features.html', '.8', 'monthly', '2026-07-09'], ['/how-to-use.html', '.8', 'monthly', '2026-07-09'], ['/faq.html', '.7', 'monthly', '2026-07-09'], ['/privacy.html', '.4', 'yearly', '2026-07-09'],
   ['/articles/', '.9', 'weekly', '2026-08-04'], ['/about/', '.5', 'yearly', '2026-08-04'], ['/editorial-policy/', '.5', 'yearly', '2026-08-04'], ['/medical-disclaimer/', '.5', 'yearly', '2026-08-04'], ['/llms.txt', '.6', 'monthly', '2026-08-04'], ['/llms-full.txt', '.5', 'monthly', '2026-08-04']
 ];
-const sitemapEntries = [...staticUrls, ...articles.map((article) => [`/articles/${article.slug}/`, '.8', 'monthly', article.last_reviewed])];
+// Localized pages are built by scripts/build-ru.mjs and scripts/build-i18n.mjs (plus hand-written Russian article).
+const ruUrls = localizedPaths().map((p) => [p, /\/articles\/.+\//.test(p) ? '.8' : '.6', 'monthly', '2026-10-18']);
+const sitemapEntries = [...staticUrls, ...articles.map((article) => [`/articles/${article.slug}/`, '.8', 'monthly', article.last_reviewed]), ...ruUrls];
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemapEntries.map(([url, priority, frequency, modified]) => `  <url><loc>${site}${url}</loc><lastmod>${modified}</lastmod><changefreq>${frequency}</changefreq><priority>${priority}</priority></url>`).join('\n')}\n</urlset>\n`;
 
 // --- Keep llms.txt / llms-full.txt in sync with the current article set for AI crawlers ---
