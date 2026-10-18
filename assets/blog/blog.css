@@ -236,3 +236,13 @@ img { max-width: 100%; }
 
 .store-btns { display: inline-flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: .75rem 1rem; }
 @media (max-width: 760px) { .download-link-android { display: none; } }
+
+/* Language dropdown (header) */
+.lang-menu { position: relative; font-size: .83rem; }
+.lang-menu summary { list-style: none; cursor: pointer; padding: .42rem .65rem; border: 1px solid var(--line); border-radius: .65rem; background: var(--surface); color: var(--text); font-weight: 700; white-space: nowrap; }
+.lang-menu summary::-webkit-details-marker { display: none; }
+.lang-menu[open] summary, .lang-menu summary:hover { border-color: var(--cyan); }
+.lang-menu-list { position: absolute; right: 0; top: calc(100% + .4rem); z-index: 50; display: flex; flex-direction: column; min-width: 10.5rem; padding: .35rem; border: 1px solid var(--line); border-radius: .75rem; background: var(--surface); box-shadow: 0 12px 30px rgba(0,0,0,.35); }
+.lang-menu-list a { display: block !important; padding: .5rem .65rem; border-radius: .5rem; color: var(--text); text-decoration: none; }
+.lang-menu-list a:hover { background: var(--surface-2, rgba(255,255,255,.06)); }
+.lang-menu-list a[aria-current="true"] { color: var(--cyan); }

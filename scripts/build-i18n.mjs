@@ -5,7 +5,7 @@ import { writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { readFileSync } from 'node:fs';
-import { site, LANGS, ARTICLE_SLUGS, EN_ARTICLE, EN_ARTICLES, MD_TRANSLATIONS, HAND_BUILT_ARTICLE, alternatesFor, hreflangTags, langRow } from './i18n/routes.mjs';
+import { site, LANGS, ARTICLE_SLUGS, EN_ARTICLE, EN_ARTICLES, MD_TRANSLATIONS, HAND_BUILT_ARTICLE, alternatesFor, hreflangTags, langRow, LANG_MENU } from './i18n/routes.mjs';
 import { createRenderer, parseFrontMatter } from './lib/markdown.mjs';
 import uiExtra from './i18n/ui-extra.mjs';
 
@@ -61,6 +61,7 @@ ${jsonLd}</head>`;
   <nav class="site-nav" aria-label="${esc(u.navAria)}">
     ${navItems.map(([id, href, label]) => `<a href="${href}"${current === id ? ' aria-current="page"' : ''}>${esc(label)}</a>`).join('')}<a href="${enPath}" hreflang="en" lang="en">English</a>
     <a class="download-link" href="${appStore}" target="_blank" rel="noopener">App Store</a><a class="download-link download-link-android" href="${play}" target="_blank" rel="noopener">Google Play</a>
+    ${LANG_MENU}
   </nav>
 </div></header>`;
   const footer = (enPath) => `

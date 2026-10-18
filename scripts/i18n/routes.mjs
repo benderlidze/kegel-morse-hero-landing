@@ -98,3 +98,7 @@ export const langRow = (enPath, current) => {
 };
 
 export const localizedPaths = () => Object.keys(LANGS).flatMap((l) => Object.values(PAGES).map((f) => f(l))).filter(Boolean);
+
+// Header language dropdown. No per-page plumbing: a tiny script builds the list from the page's own hreflang <link> tags,
+// so every page links to the same page in the other languages. Without JS it degrades to a link to /languages/.
+export const LANG_MENU = `<details class="lang-menu"><summary aria-label="Language">🌐 <span data-lang-current>EN</span></summary><div class="lang-menu-list" data-lang-menu><a href="/languages/">All languages</a></div></details><script>(function(){var box=document.querySelector('[data-lang-menu]');if(!box)return;var names={en:'English',ru:'Русский',pl:'Polski',de:'Deutsch',es:'Español',fr:'Français',uk:'Українська'};var cur=(document.documentElement.lang||'en').slice(0,2);var cs=document.querySelector('[data-lang-current]');if(cs)cs.textContent=cur.toUpperCase();var list=[].slice.call(document.querySelectorAll('link[rel=alternate][hreflang]')).filter(function(l){return names[l.getAttribute('hreflang')]}).map(function(l){return{l:l.getAttribute('hreflang'),h:l.getAttribute('href').replace(/^https?:\\/\\/[^/]+/,'')}});if(!list.length){list=Object.keys(names).map(function(k){return{l:k,h:k==='en'?'/':'/'+k+'/'}})}box.innerHTML=list.map(function(x){return'<a href="'+x.h+'" hreflang="'+x.l+'" lang="'+x.l+'"'+(x.l===cur?' aria-current="true"':'')+'>'+names[x.l]+'</a>'}).join('')+'<a href="/languages/">…</a>'})()</script>`;

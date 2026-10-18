@@ -4,7 +4,7 @@
 import { writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { hreflangTags, langRow } from './i18n/routes.mjs';
+import { hreflangTags, langRow, LANG_MENU } from './i18n/routes.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const site = 'https://kegelmorsehero.com';
@@ -42,6 +42,7 @@ const header = (current, enPath) => (currentEn = enPath, `
   <nav class="site-nav" aria-label="Основная навигация">
     ${[['home', '/ru/', 'Главная'], ['articles', '/ru/articles/', 'Статьи'], ['features', '/ru/features/', 'Возможности'], ['how-to-use', '/ru/how-to-use/', 'Как пользоваться'], ['faq', '/ru/faq/', 'FAQ'], ['privacy', '/ru/privacy/', 'Конфиденциальность']].map(([id, href, label]) => `<a href="${href}"${current === id ? ' aria-current="page"' : ''}>${label}</a>`).join('')}<a href="${enPath}" hreflang="en" lang="en">English</a>
     <a class="download-link" href="${appStore}" target="_blank" rel="noopener">App Store</a><a class="download-link download-link-android" href="${playStore}" target="_blank" rel="noopener">Google Play</a>
+    ${LANG_MENU}
   </nav>
 </div></header>`);
 

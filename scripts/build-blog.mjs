@@ -1,7 +1,7 @@
 import { readFile, writeFile, mkdir, readdir, rm } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { hreflangTags, localizedPaths, LANGS } from './i18n/routes.mjs';
+import { hreflangTags, localizedPaths, LANGS, LANG_MENU } from './i18n/routes.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const contentDir = path.join(root, 'content', 'articles');
@@ -134,6 +134,7 @@ const header = (current = 'articles', showDownload = true) => `
   <nav class="site-nav" aria-label="Primary navigation">
     <a href="/"${current === 'home' ? ' aria-current="page"' : ''}>Home</a><a href="/articles/"${current === 'articles' ? ' aria-current="page"' : ''}>Articles</a><a href="/features.html"${current === 'features' ? ' aria-current="page"' : ''}>Features</a><a href="/how-to-use.html"${current === 'how-to-use' ? ' aria-current="page"' : ''}>How to use</a><a href="/faq.html"${current === 'faq' ? ' aria-current="page"' : ''}>FAQ</a><a href="/privacy.html"${current === 'privacy' ? ' aria-current="page"' : ''}>Privacy</a>
     ${showDownload ? `<a class="download-link" href="${appStore}" target="_blank" rel="noopener">Download</a><a class="download-link download-link-android" href="${playStore}" target="_blank" rel="noopener">Google Play</a>` : ''}
+    ${LANG_MENU}
   </nav>
 </div></header>`;
 
