@@ -1,7 +1,7 @@
 import { readFile, writeFile, mkdir, readdir, rm } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { hreflangTags, localizedPaths } from './i18n/routes.mjs';
+import { hreflangTags, localizedPaths, LANGS } from './i18n/routes.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const contentDir = path.join(root, 'content', 'articles');
@@ -139,7 +139,7 @@ const header = (current = 'articles', showDownload = true) => `
 
 const footer = () => `
 <footer class="site-footer"><div class="footer-inner">
-  <div><a class="brand" href="/"><img src="/assets/logo-96.png" width="96" height="96" loading="lazy" alt="Kegel Morse Hero logo"><span>Kegel Morse Hero</span></a><p class="copyright">© 2026 Kegel Morse Hero</p></div>
+  <div><a class="brand" href="/"><img src="/assets/logo-96.png" width="96" height="96" loading="lazy" alt="Kegel Morse Hero logo"><span>Kegel Morse Hero</span></a><p class="copyright">© 2026 Kegel Morse Hero</p><p class="lang-row" style="display:flex;flex-wrap:wrap;gap:.35rem .9rem;margin:.6rem 0 0;font-size:.85rem">${Object.entries(LANGS).map(([l, v]) => `<a href="/${l}/" hreflang="${l}" lang="${l}">${v.name}</a>`).join('')}<a href="/languages/">All languages</a></p></div>
   <nav class="footer-links" aria-label="Footer navigation"><a href="/articles/">Articles</a><a href="/features.html">Features</a><a href="/how-to-use.html">How to use</a><a href="/faq.html">FAQ</a><a href="/privacy.html">Privacy</a><a href="/about/">About</a><a href="/editorial-policy/">Editorial policy</a><a href="/medical-disclaimer/">Medical disclaimer</a></nav>
 </div></footer>`;
 
@@ -444,7 +444,14 @@ for (const page of trustPages) {
   await writeFile(path.join(outputDir, 'index.html'), html, 'utf8');
 }
 
+// --- Languages hub (crawlable list of every language version) ---
+const langItems = Object.entries(LANGS).map(([l, v]) => `<li><a href="/${l}/" hreflang="${l}" lang="${l}"><strong>${v.name}</strong></a> — <a href="/${l}/articles/" hreflang="${l}" lang="${l}">/${l}/articles/</a></li>`).join('');
+const languagesHtml = `${documentHead({ title: 'Languages | Kegel Morse Hero', description: 'Kegel Morse Hero in your language: Russian, Polish, German, Spanish, French and Ukrainian versions of the site and articles.', canonical: `${site}/languages/` })}<body>${header('other')}<main id="main" class="trust-page"><p class="eyebrow">Kegel Morse Hero</p><h1>Languages</h1><p>The site and the main guides are available in several languages. English is the original version.</p><ul>${langItems}</ul><p><a href="/">English</a> · <a href="/articles/">English articles</a></p></main>${footer()}</body></html>`;
+await mkdir(path.join(root, 'languages'), { recursive: true });
+await writeFile(path.join(root, 'languages', 'index.html'), languagesHtml, 'utf8');
+
 const staticUrls = [
+  ['/languages/', '.5', 'monthly', '2026-10-18'],
   ['/', '1.0', 'weekly', '2026-09-29'], ['/features.html', '.8', 'monthly', '2026-07-09'], ['/how-to-use.html', '.8', 'monthly', '2026-07-09'], ['/faq.html', '.7', 'monthly', '2026-07-09'], ['/privacy.html', '.4', 'yearly', '2026-07-09'],
   ['/articles/', '.9', 'weekly', '2026-08-04'], ['/about/', '.5', 'yearly', '2026-08-04'], ['/editorial-policy/', '.5', 'yearly', '2026-08-04'], ['/medical-disclaimer/', '.5', 'yearly', '2026-08-04'], ['/llms.txt', '.6', 'monthly', '2026-08-04'], ['/llms-full.txt', '.5', 'monthly', '2026-08-04']
 ];
