@@ -3,6 +3,7 @@
 import { readdirSync, readFileSync, existsSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { data as workoutsData, PUBLISH as WORKOUTS_PUBLISHED, loadTr as loadWorkoutsTr, programPath, exercisePath, hubPath } from '../lib/workouts-data.mjs';
 
 export const site = 'https://kegelmorsehero.com';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
@@ -73,6 +74,14 @@ const PAGES = {
 };
 for (const article of EN_ARTICLES) {
   PAGES[`/articles/${article.slug}/`] = (l) => (localizedSlug(article.slug, l) ? `/${l}/articles/${localizedSlug(article.slug, l)}/` : undefined);
+}
+
+// /workouts/ section: a language has pages only when content/workouts/i18n/<lang>.json exists (and the section is published).
+if (WORKOUTS_PUBLISHED) {
+  const has = (l) => !!loadWorkoutsTr(l);
+  PAGES['/workouts/'] = (l) => (has(l) ? hubPath(l) : undefined);
+  for (const p of workoutsData.programs) PAGES[`/workouts/${p.slug}/`] = (l) => (has(l) ? programPath(l, p.slug) : undefined);
+  for (const id of Object.keys(workoutsData.exercises)) PAGES[exercisePath('en', id)] = (l) => (has(l) ? exercisePath(l, id) : undefined);
 }
 
 export const alternatesFor = (enPath) => {

@@ -5,6 +5,8 @@ import { writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { hreflangTags, langRow, LANG_MENU } from './i18n/routes.mjs';
+import { loadTr as loadWorkoutsTr, PUBLISH as WORKOUTS_PUBLISHED, hubPath as workoutsHub } from './lib/workouts-data.mjs';
+const wkLabel = WORKOUTS_PUBLISHED && loadWorkoutsTr('ru') ? loadWorkoutsTr('ru').ui.navWorkouts : null; // /ru/workouts/ section
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const site = 'https://kegelmorsehero.com';
@@ -40,7 +42,7 @@ const header = (current, enPath) => (currentEn = enPath, `
 <header class="site-header"><div class="header-inner">
   <a class="brand" href="/ru/"><img src="/assets/logo-96.png" width="96" height="96" alt="Логотип Kegel Morse Hero"><span>Kegel Morse Hero</span></a>
   <nav class="site-nav" aria-label="Основная навигация">
-    ${[['home', '/ru/', 'Главная'], ['articles', '/ru/articles/', 'Статьи'], ['features', '/ru/features/', 'Возможности'], ['how-to-use', '/ru/how-to-use/', 'Как пользоваться'], ['faq', '/ru/faq/', 'FAQ'], ['privacy', '/ru/privacy/', 'Конфиденциальность']].map(([id, href, label]) => `<a href="${href}"${current === id ? ' aria-current="page"' : ''}>${label}</a>`).join('')}<a href="${enPath}" hreflang="en" lang="en">English</a>
+    ${[['home', '/ru/', 'Главная'], ['articles', '/ru/articles/', 'Статьи'], ...(wkLabel ? [['workouts', workoutsHub('ru'), wkLabel]] : []), ['features', '/ru/features/', 'Возможности'], ['how-to-use', '/ru/how-to-use/', 'Как пользоваться'], ['faq', '/ru/faq/', 'FAQ'], ['privacy', '/ru/privacy/', 'Конфиденциальность']].map(([id, href, label]) => `<a href="${href}"${current === id ? ' aria-current="page"' : ''}>${label}</a>`).join('')}<a href="${enPath}" hreflang="en" lang="en">English</a>
     <a class="download-link" href="${appStore}" target="_blank" rel="noopener">App Store</a><a class="download-link download-link-android" href="${playStore}" target="_blank" rel="noopener">Google Play</a>
     ${LANG_MENU}
   </nav>
@@ -49,7 +51,7 @@ const header = (current, enPath) => (currentEn = enPath, `
 const footerHtml = (enPath) => `
 <footer class="site-footer"><div class="footer-inner">
   <div><a class="brand" href="/ru/"><img src="/assets/logo-96.png" width="96" height="96" loading="lazy" alt="Логотип Kegel Morse Hero"><span>Kegel Morse Hero</span></a><p class="copyright">© 2026 Kegel Morse Hero</p>${langRow(enPath, 'ru')}</div>
-  <nav class="footer-links" aria-label="Навигация в подвале"><a href="/ru/articles/">Статьи</a><a href="/ru/features/">Возможности</a><a href="/ru/how-to-use/">Как пользоваться</a><a href="/ru/faq/">FAQ</a><a href="/ru/privacy/">Конфиденциальность</a><a href="/ru/about/">О проекте</a><a href="/ru/editorial-policy/">Редакционная политика</a><a href="/ru/medical-disclaimer/">Медицинский отказ от ответственности</a></nav>
+  <nav class="footer-links" aria-label="Навигация в подвале"><a href="/ru/articles/">Статьи</a>${wkLabel ? `<a href="${workoutsHub('ru')}">${wkLabel}</a>` : ''}<a href="/ru/features/">Возможности</a><a href="/ru/how-to-use/">Как пользоваться</a><a href="/ru/faq/">FAQ</a><a href="/ru/privacy/">Конфиденциальность</a><a href="/ru/about/">О проекте</a><a href="/ru/editorial-policy/">Редакционная политика</a><a href="/ru/medical-disclaimer/">Медицинский отказ от ответственности</a></nav>
 </div></footer>`;
 // Template literals call toString() lazily, so ${footer} renders with the enPath set by the page's header() call.
 const footer = { toString: () => footerHtml(currentEn) };

@@ -1,0 +1,276 @@
+{
+  "ui": {
+    "navWorkouts": "Workouts",
+    "hubTitle": "Beckenboden-Workouts mit Bildern",
+    "hubDescription": "Beckenboden- und Kegel-Workouts für Männer und Frauen mit Bildern: Jede Übung zeigt Start- und Endposition, die beanspruchten Muskeln und die Wiederholungen.",
+    "hubH1": "Beckenboden-Workouts mit Bildern",
+    "hubLede": "Kurze Routinen für zu Hause, für Männer und für Frauen. Jede Übung hat ein Start- und ein Endbild, drei Technik-Hinweise und die Wiederholungen; in den Männer-Routinen sind die arbeitenden Muskeln hervorgehoben.",
+    "groupMen": "Für Männer",
+    "groupWomen": "Für Frauen",
+    "allExercises": "Alle Übungen",
+    "cardMeta": "{n} Übungen · ~{m} Min. · {level}",
+    "eyebrowMen": "Workout für Männer · {n} Übungen · ~{m} Min.",
+    "eyebrowWomen": "Workout für Frauen · {n} Übungen · ~{m} Min.",
+    "levels": { "Beginner": "Für Einsteiger", "Easy": "Leichtes Niveau", "Intermediate": "Mittleres Niveau" },
+    "equipmentNone": "Ohne Geräte",
+    "equipmentBall": "Kleiner Ball oder Kissen",
+    "atHome": "Zu Hause",
+    "minutes": "{m} Minuten",
+    "theWorkout": "Das Workout",
+    "sliderAria": "Workout-Folien, mit den Pfeiltasten blättern",
+    "slideLabel": "{i} von {n}: {name}",
+    "prevExercise": "Vorherige Übung",
+    "nextExercise": "Nächste Übung",
+    "details": "Details ↓",
+    "works": "Beansprucht",
+    "start": "Start",
+    "finish": "Ende",
+    "mistake": "Häufiger Fehler:",
+    "instead": "Besser so:",
+    "howRoutine": "So machst du diese Routine",
+    "appH2": "Takte deine Kegel-Übungen mit Kegel Morse Hero",
+    "appP": "Die App führt jedes Anspannen und Entspannen mit einem Ring und Vibration, sodass du den Kegel-Teil dieser Routine ohne Blick aufs Display trainieren kannst. Kein Konto, keine Werbung.",
+    "safety": "Keine medizinische Beratung. Brich ab, wenn etwas wehtut. Bei Schmerzen, Urinverlust oder anderen Beschwerden oder nach einer Operation im Beckenbereich sprich zuerst mit einer Ärztin, einem Arzt oder einer Beckenboden-Physiotherapeutin.",
+    "safetyLink": "Medizinischer Haftungsausschluss",
+    "prev": "← Zurück",
+    "next": "Weiter →",
+    "moreAria": "Weitere Workouts",
+    "beforeStart": "Bevor du anfängst:",
+    "breadcrumbAria": "Brotkrumen-Navigation",
+    "exerciseEyebrow": "Übung · {reps}",
+    "exerciseH1": "{name}: so geht’s (mit Bildern)",
+    "exerciseTitle": "{name}: so geht’s (mit Bildern)",
+    "exerciseDesc": "{name}: {short}. Drei Technik-Hinweise, die beanspruchten Muskeln, Wiederholungen und ein häufiger Fehler, mit Bildern.",
+    "howToDo": "So geht’s",
+    "inThese": "In diesen Workouts",
+    "howToName": "So geht die Übung „{name}“",
+    "altPair": "Start- und Endposition",
+    "altSingle": "Position",
+    "altAnatomy": "{name}: {pos}, hervorgehoben: {works}",
+    "altFlat": "{name}: {pos}",
+    "std": ["Mach die Übungen der Reihe nach, einmal durch.", "Ruhe dich zwischen den Übungen etwa 30 Sekunden aus.", "Drei- bis viermal pro Woche ist ein guter Anfang; Qualität schlägt Tempo."],
+    "muscles": {
+      "Pelvic floor": "Beckenboden", "Diaphragm": "Zwerchfell", "Glutes": "Gesäßmuskeln", "Hamstrings": "Beinrückseite", "Inner thighs": "Oberschenkelinnenseite",
+      "Deep core": "Tiefe Rumpfmuskeln", "Lower abdominals": "Untere Bauchmuskeln", "Hip flexors": "Hüftbeuger", "Deep abdominals": "Tiefe Bauchmuskeln", "Lower back": "Unterer Rücken",
+      "Hips": "Hüftbereich", "Side glutes": "Seitliche Gesäßmuskeln", "Back muscles": "Rückenmuskeln", "Spine": "Wirbelsäule", "Abdominals": "Bauchmuskeln",
+      "Shoulders": "Schultern", "Obliques": "Schräge Bauchmuskeln", "Thighs": "Oberschenkelmuskeln"
+    }
+  },
+  "exercises": {
+    "kegelLying": { "name": "Kegel-Übung im Liegen", "short": "Anspannen, halten, loslassen", "cues": ["Lege dich auf den Rücken, Knie angewinkelt, Füße flach auf dem Boden", "Spanne an, als würdest du den Urinstrahl stoppen, und zieh nach oben und innen", "Entspanne zwischen den Wiederholungen vollständig"], "reps": "10 Wiederholungen · 3 s halten", "tip": "Atme normal weiter. Wenn Bauch, Po oder Oberschenkel mitspannen, ist das Anspannen zu stark: mach es leichter." },
+    "kegelSitting": { "name": "Kegel-Übung im Sitzen", "short": "Dasselbe Anspannen, aufrecht sitzend", "cues": ["Sitze aufrecht, Füße flach auf dem Boden", "Spanne an und zieh nach oben, der Po bleibt locker", "Atme ruhig weiter"], "reps": "10 Wiederholungen · 5 s halten", "tip": "Geht auf dem Stuhl, im Auto oder am Schreibtisch: Niemand sieht es. Schultern locker." },
+    "kegelStanding": { "name": "Kegel-Übung im Stehen", "short": "Am schwersten: gegen die Schwerkraft", "cues": ["Stelle dich aufrecht hin, Knie leicht gebeugt", "Spanne an und zieh nach oben und innen", "Bauch und Po bleiben entspannt"], "reps": "10 Wiederholungen · 5 s halten", "tip": "Die schwerste Position, weil die Schwerkraft dagegen arbeitet. Beherrsche zuerst die Variante im Liegen." },
+    "breathing": { "name": "Bauchatmung", "short": "Langsame Atemzüge in den Bauch", "cues": ["Eine Hand auf dem Bauch", "Einatmen: Der Bauch hebt sich, der Beckenboden entspannt", "Ausatmen: sanftes Anheben nach oben"], "reps": "1–2 Min.", "tip": "Lass den Beckenboden beim Einatmen weich werden. Das ist genauso wichtig wie das Anspannen." },
+    "bridge": { "name": "Gesäßbrücke", "short": "Hüfte heben, oben das Gesäß anspannen", "cues": ["Füße flach, hüftbreit", "Ausatmen, Gesäß anspannen und die Hüfte heben", "Langsam wieder absenken"], "reps": "12 Wiederholungen", "mistake": { "wrong": "Hohlkreuz oben", "right": "Rippen unten, gerade Linie von den Knien bis zu den Schultern" } },
+    "bridgeBall": { "name": "Brücke mit Ball zwischen den Knien", "short": "Brücke und Ball mit den Knien drücken", "cues": ["Ball oder Kissen zwischen den Knien", "Drücke den Ball zusammen und hebe die Hüfte", "Halte oben 2 s"], "reps": "10 Wiederholungen", "tip": "Kein Ball? Nimm ein Kissen oder ein aufgerolltes Handtuch." },
+    "singleLegBridge": { "name": "Einbeinige Brücke", "short": "Ein Fuß am Boden, ein Bein oben", "cues": ["Ein Bein gestreckt in der Luft", "Drücke dich über die Ferse des Standbeins hoch", "Die Hüfte bleibt gerade"], "reps": "8 pro Seite" },
+    "bridgeMarch": { "name": "Brücke mit Marschieren", "short": "Brücke halten und marschieren", "cues": ["Hebe die Hüfte in die Brücke", "Hebe einen Fuß, dann den anderen", "Die Hüfte sinkt nicht ab"], "reps": "10 Schritte" },
+    "heelSlides": { "name": "Fersengleiten", "short": "Ferse nach vorn und zurück gleiten lassen", "cues": ["Lege dich auf den Rücken, Knie angewinkelt", "Beim Ausatmen eine Ferse wegschieben", "Der Rücken bleibt ruhig"], "reps": "10 pro Seite" },
+    "supineMarch": { "name": "Knieheben im Liegen", "short": "Angewinkelte Knie abwechselnd heben", "cues": ["Lege dich auf den Rücken, Knie angewinkelt", "Hebe ein Knie auf 90°", "Langsam absenken und wechseln"], "reps": "10 pro Seite" },
+    "deadBug": { "name": "„Dead Bug“", "short": "Gegenüberliegenden Arm und Bein absenken", "cues": ["Arme nach oben, Knie über der Hüfte", "Senke gegenüberliegenden Arm und Bein ab", "Der untere Rücken bleibt am Boden"], "reps": "8 pro Seite", "mistake": { "wrong": "Der untere Rücken hebt sich vom Boden", "right": "Drücke den Rücken nach unten und bewege dich langsamer" } },
+    "pelvicTilt": { "name": "Beckenkippen", "short": "Becken nach oben und unten kippen", "cues": ["Lege dich auf den Rücken, Knie angewinkelt", "Drücke den unteren Rücken auf den Boden", "Löse und wiederhole"], "reps": "12 Wiederholungen" },
+    "kneeFallout": { "name": "Knie zur Seite sinken lassen", "short": "Ein Knie zur Seite absenken", "cues": ["Lege dich auf den Rücken, Knie angewinkelt", "Senke ein Knie langsam zur Seite", "Das Becken bleibt ruhig"], "reps": "10 pro Seite" },
+    "clamshell": { "name": "„Muschel“", "short": "Oberes Knie öffnen, Füße zusammen", "cues": ["Lege dich auf die Seite, Knie angewinkelt", "Füße zusammen, hebe das obere Knie", "Kippe die Hüfte nicht nach hinten"], "reps": "12 pro Seite" },
+    "sideLegRaise": { "name": "Beinheben in Seitenlage", "short": "Das obere Bein gerade anheben", "cues": ["Lege dich auf die Seite, Beine gestreckt", "Hebe das obere Bein langsam an", "Die Zehen zeigen nach vorn"], "reps": "12 pro Seite" },
+    "birdDog": { "name": "„Bird Dog“", "short": "Gegenüberliegenden Arm und Bein strecken", "cues": ["Hände unter den Schultern, Knie unter der Hüfte", "Strecke gegenüberliegenden Arm und Bein lang aus", "Halte den Rücken gerade"], "reps": "8 pro Seite" },
+    "catCow": { "name": "„Katze-Kuh“", "short": "Erst runden, dann durchhängen", "cues": ["Beginne im Vierfüßlerstand", "Ausatmen: Rücken nach oben runden", "Einatmen: Bauch senken, Blick nach oben"], "reps": "8 langsame Runden", "tip": "Bewege dich langsam und passe die Bewegung deinem Atem an." },
+    "plank": { "name": "Unterarmstütz (Plank)", "short": "Gerade Linie auf den Unterarmen", "cues": ["Ellbogen unter den Schultern", "Gesäß anspannen, Bauch festigen", "Atme weiter"], "reps": "20–40 s", "mistake": { "wrong": "Die Hüfte hängt durch", "right": "Gerade Linie von Kopf bis Fersen" }, "tip": "Ist die volle Variante zu schwer, geh auf die Knie. Ein sauberes kurzes Halten ist besser als ein langes mit durchhängender Hüfte." },
+    "sidePlank": { "name": "Seitstütz", "short": "Hüfte hoch auf einem Unterarm", "cues": ["Ellbogen unter der Schulter", "Hebe die Hüfte in eine gerade Linie", "Knie am Boden = leichter"], "reps": "15–30 s pro Seite" },
+    "superman": { "name": "„Superman“", "short": "Arme und Beine vom Boden abheben", "cues": ["Lege dich auf den Bauch", "Hebe Arme, Brust und Beine ein Stück an", "2 s halten, langsam absenken"], "reps": "10 Wiederholungen" },
+    "childPose": { "name": "Kindhaltung", "short": "Nach hinten setzen, Arme lang", "cues": ["Knie weit, große Zehen zusammen", "Setze dich auf die Fersen", "Atme in den unteren Rücken"], "reps": "30–60 s", "tip": "Lass Bauch und Beckenboden hier vollständig los. Dehne nicht in den Schmerz." },
+    "happyBaby": { "name": "„Glückliches Baby“", "short": "Füße greifen, Knie weit", "cues": ["Lege dich auf den Rücken", "Greife die Füße, Knie Richtung Achseln", "Schaukle sanft von Seite zu Seite"], "reps": "30–60 s" },
+    "butterfly": { "name": "Schmetterling-Dehnung", "short": "Fußsohlen zusammen, nach vorn lehnen", "cues": ["Sitze aufrecht, Fußsohlen aneinander", "Lass die Knie nach außen sinken", "Lehne dich aus der Hüfte nach vorn"], "reps": "30–60 s" },
+    "frogStretch": { "name": "Frosch-Dehnung", "short": "Knie weit, Hüfte nach hinten", "cues": ["Im Vierfüßlerstand die Knie weit öffnen", "Knöchel in einer Linie mit den Knien", "Schiebe die Hüfte langsam nach hinten"], "reps": "30–60 s" },
+    "hipFlexor": { "name": "Hüftbeuger-Dehnung", "short": "Hinknien und nach vorn schieben", "cues": ["Halber Kniestand, hinteres Knie am Boden", "Spanne das hintere Gesäß an", "Schiebe die Hüfte sanft nach vorn"], "reps": "30 s pro Seite" },
+    "squat": { "name": "Kniebeuge mit Körpergewicht", "short": "Nach unten gehen, wieder aufstehen", "cues": ["Füße schulterbreit", "Setze die Hüfte nach hinten, Brust hoch", "Beim Aufstehen ausatmen"], "reps": "12 Wiederholungen", "mistake": { "wrong": "Runder Rücken", "right": "Brust hoch, Rücken lang" } },
+    "sumoSquat": { "name": "Sumo-Kniebeuge", "short": "Breiter Stand, Zehen nach außen", "cues": ["Breiter Stand, Zehen nach außen gedreht", "Knie folgen den Zehen", "Komm hoch und spanne dabei das Gesäß an"], "reps": "12 Wiederholungen" },
+    "wallSit": { "name": "Wandsitzen", "short": "Rücken an der Wand, halten", "cues": ["Rücken flach an der Wand", "Rutsche nach unten, Knie im 90°-Winkel", "Füge beim Halten das Kegel-Anspannen hinzu"], "reps": "20–40 s", "tip": "Hör auf, bevor die Oberschenkel stark zittern. Atme die ganze Zeit." },
+    "lunge": { "name": "Ausfallschritt rückwärts", "short": "Schritt zurück, runter, hoch", "cues": ["Mach mit einem Fuß einen Schritt zurück", "Senke das hintere Knie ab", "Drücke dich über die vordere Ferse hoch"], "reps": "8 pro Seite" },
+    "ballSqueeze": { "name": "Ball mit den Knien zusammendrücken", "short": "Einen Ball zwischen den Knien drücken", "cues": ["Sitze aufrecht, Ball zwischen den Knien", "Drücke Ball und Beckenboden zusammen", "5 s halten, dann loslassen"], "reps": "10 Wiederholungen", "tip": "Kein Ball? Ein aufgerolltes Handtuch oder ein Kissen geht auch." }
+  },
+  "programs": {
+    "pelvic-floor-exercises-for-men-beginner": {
+      "title": "Beckenbodenübungen für Männer: Einsteiger-Routine mit 6 Übungen",
+      "h1": "Beckenbodenübungen für Männer: Einsteiger-Routine mit 6 Übungen",
+      "description": "Einfache Routine mit 6 Beckenbodenübungen für Männer mit Anatomie-Bildern: Kegel, Gesäßbrücke, Muschel, Bird Dog, Dead Bug und Kniebeuge. Etwa 8 Minuten.",
+      "lede": "Sechs einfache Übungen für den Beckenboden und die Muskeln drumherum. Jede hat ein Start- und ein Endbild mit hervorgehobenen Muskeln, drei Technik-Hinweise und die Wiederholungen.",
+      "howTo": "Beginne mit einer Runde. Wenn es leicht fällt, mach zwei Runden."
+    },
+    "kegel-exercises-for-men-5-minute-routine": {
+      "title": "Kegel-Übungen für Männer: tägliche 5-Minuten-Routine",
+      "h1": "Kegel-Übungen für Männer: tägliche 5-Minuten-Routine",
+      "description": "Kegel-Übungen für Männer in 5 Minuten am Tag: Kegel im Liegen, Sitzen und Stehen, Gesäßbrücke und Bauchatmung, mit Anatomie-Bildern. Ohne Geräte.",
+      "lede": "Eine kurze tägliche Routine rund um die Kegel-Übung selbst: drei Positionen sowie Brücke und Bauchatmung, damit du den Muskel findest und ihn auch vollständig entspannst.",
+      "howTo": "Einmal am Tag reicht. Beende die Routine mit der Atmung, damit der Muskel loslässt."
+    },
+    "evening-kegel-routine-for-men": {
+      "title": "Abendliche Kegel-Routine für Männer: 5 ruhige Übungen vor dem Schlafen",
+      "h1": "Abendliche Kegel-Routine für Männer: 5 ruhige Übungen vor dem Schlafen",
+      "description": "Abendliche Kegel-Routine für Männer: fünf ruhige Übungen auf Bett oder Matte vor dem Schlafen, mit Anatomie-Bildern. Etwa 7 Minuten, ohne Geräte.",
+      "lede": "Langsame Übungen ohne Anstrengung für das Tagesende. Alles im Liegen oder im Sitzen auf dem Boden, also direkt neben dem Bett machbar.",
+      "howTo": "Dimme das Licht und bewege dich langsam; hör mit jeder Übung auf, bevor sie anstrengend wird."
+    },
+    "morning-pelvic-floor-workout-for-men": {
+      "title": "Morgendliches Beckenboden-Workout für Männer: 6 Übungen",
+      "h1": "Morgendliches Beckenboden-Workout für Männer: 6 Übungen zum Start in den Tag",
+      "description": "Morgendliches Beckenboden-Workout für Männer: sechs Übungen von Katze-Kuh bis Kniebeuge, die Hüfte, Gesäß und Rumpf wecken, mit Anatomie-Bildern. Ohne Geräte.",
+      "lede": "Eine Aufwach-Routine: von langsamen Übungen am Boden zu Übungen im Stehen, damit du auf den Beinen endest und bereit für den Tag bist.",
+      "howTo": "Mach sie vor dem Frühstück oder gleich nach dem Aufwachen; Aufwärmen ist nicht nötig."
+    },
+    "kegel-exercises-at-your-desk-for-men": {
+      "title": "Kegel-Übungen am Schreibtisch: Büro-Routine für Männer",
+      "h1": "Kegel-Übungen am Schreibtisch: Büro-Routine für Männer",
+      "description": "Kegel-Übungen am Schreibtisch für Männer: fünf unauffällige Übungen fürs Büro, von der Kegel-Übung im Sitzen bis zur Hüftbeuger-Dehnung, mit Anatomie-Bildern.",
+      "lede": "Fünf Übungen für einen langen Arbeitstag. Zwei davon machst du, ohne vom Stuhl aufzustehen, die übrigen dauern eine Minute neben dem Schreibtisch.",
+      "howTo": "Stell dir stündlich eine Erinnerung und mach ein, zwei Übungen statt einer vollen Runde."
+    },
+    "pelvic-floor-exercises-for-men-over-40": {
+      "title": "Beckenbodenübungen für Männer über 40",
+      "h1": "Beckenbodenübungen für Männer über 40: Routine mit 6 Übungen",
+      "description": "Beckenbodenübungen für Männer über 40: Kegel, Gesäßbrücke, Dead Bug, Muschel und Wandsitzen, mit Anatomie-Bildern. Etwa 9 Minuten, ohne Geräte.",
+      "lede": "Eine ausgewogene Routine für alle, die später anfangen: die Kegel-Übung plus Gesäß, Hüfte und tiefe Rumpfmuskeln, die mit ihr zusammenarbeiten.",
+      "howTo": "Geh langsam vor und lass jede Übung aus, die wehtut; steigere die Wiederholungen über einige Wochen."
+    },
+    "pelvic-floor-exercises-for-men-over-50": {
+      "title": "Sanfte Beckenboden-Routine für Männer über 50",
+      "h1": "Sanfte Beckenboden-Routine für Männer über 50",
+      "description": "Sanfte Beckenboden-Routine für Männer über 50: Bauchatmung, Kegel im Liegen und Sitzen, Fersengleiten und Beckenkippen, mit Anatomie-Bildern.",
+      "lede": "Gelenkschonende Übungen im Liegen oder Sitzen: kein Springen, keine tiefen Kniebeugen, keine langen Haltephasen.",
+      "howTo": "Lass dir zwischen den Übungen Zeit. Wenn sich etwas nicht richtig anfühlt, hör auf und sprich mit deinem Arzt."
+    },
+    "pelvic-floor-workout-for-lifters": {
+      "title": "Beckenboden-Workout für Kraftsportler: vor schweren Kniebeugen",
+      "h1": "Beckenboden-Workout für Kraftsportler: vor schweren Kniebeugen",
+      "description": "Beckenboden-Workout für Kraftsportler: Atmung, Brücke mit Marschieren, Sumo-Kniebeuge, Wandsitzen, Ausfallschritt und Dead Bug, mit Anatomie-Bildern. Aufwärmen für den Beintag.",
+      "lede": "Kraftsportler spannen den Rumpf stark an, trainieren aber selten die Muskeln am unteren Ende des Rumpfs. Diese Routine wärmt Atmung, Hüfte und Gesäß vor schweren Kniebeugen oder Kreuzheben auf.",
+      "howTo": "Nutze sie als Aufwärmen vor dem Beintag. Beginne mit der Atmung, um Anspannen und Loslassen zu üben."
+    },
+    "pelvic-floor-exercises-for-runners-and-cyclists": {
+      "title": "Beckenbodenübungen für Läufer und Radfahrer",
+      "h1": "Beckenbodenübungen für Läufer und Radfahrer",
+      "description": "Beckenbodenübungen für Läufer und Radfahrer: einbeinige Brücke, Beinheben in Seitenlage, Hüftbeuger-Dehnung und Ausfallschritte, mit Anatomie-Bildern.",
+      "lede": "Stunden auf der Laufstrecke oder dem Rad belasten Hüfte und Gesäß. Diese Übungen trainieren die Muskeln, die das Becken stabilisieren, und dehnen danach die Hüfte.",
+      "howTo": "Mach sie an Ruhetagen oder nach einer lockeren Einheit, nicht direkt vor einem harten Lauf."
+    },
+    "pelvic-floor-stretches-for-men": {
+      "title": "Beckenboden-Dehnübungen für Männer: 6 Übungen bei verspannter Hüfte",
+      "h1": "Beckenboden-Dehnübungen für Männer: 6 Übungen bei verspannter Hüfte",
+      "description": "Beckenboden-Dehnübungen für Männer: Hüftbeuger, Schmetterling, Frosch, Glückliches Baby, Kindhaltung und Katze-Kuh, mit Anatomie-Bildern. Etwa 6 Minuten.",
+      "lede": "Sechs langsame Dehnungen für verspannte Hüften und einen angespannten Beckenboden. Atme ruhig und lass die Muskeln weich werden.",
+      "howTo": "Halte jede Dehnung 30–60 Sekunden und dehne nie in den Schmerz."
+    },
+    "core-and-pelvic-floor-workout-for-men": {
+      "title": "Rumpf- und Beckenboden-Workout für Männer: ohne Geräte",
+      "h1": "Rumpf- und Beckenboden-Workout für Männer: ohne Geräte",
+      "description": "Rumpf- und Beckenboden-Workout für Männer: Plank, Seitstütz, Dead Bug, Bird Dog, Superman und Brücke mit Marschieren, mit Anatomie-Bildern. Ohne Geräte.",
+      "lede": "Eine anspruchsvollere Routine am Boden, die den ganzen Rumpf gemeinsam trainiert: Bauch, Rücken, Gesäß und die tiefen Muskeln darunter.",
+      "howTo": "Beginne mit einer Runde und füge eine zweite hinzu, wenn die erste sicher klappt."
+    },
+    "pelvic-floor-exercises-for-drivers": {
+      "title": "Beckenbodenübungen für lange Fahrten: Routine für Autofahrer",
+      "h1": "Beckenbodenübungen für lange Fahrten: Routine für Autofahrer",
+      "description": "Beckenbodenübungen für lange Fahrten: eine Kegel-Übung im Sitzen fürs Auto und vier Dehnungen für Hüfte und Rücken beim nächsten Stopp, mit Anatomie-Bildern.",
+      "lede": "Eine Übung für den Fahrersitz und vier für den nächsten Rastplatz, um Hüfte und unteren Rücken nach langem Sitzen zu lockern.",
+      "howTo": "Mach die Kegel-Übung im Sitzen nur beim Parken oder als Beifahrer; den Rest am Rastplatz."
+    },
+    "kegel-exercises-for-women-beginner-routine": {
+      "title": "Kegel-Übungen für Frauen: Einsteiger-Routine mit 6 Übungen",
+      "h1": "Kegel-Übungen für Frauen: Einsteiger-Routine mit 6 Übungen",
+      "description": "Kegel-Übungen für Frauen: Einsteiger-Routine mit 6 Übungen: Kegel im Liegen und Sitzen, Gesäßbrücke, Muschel und Katze-Kuh. Etwa 8 Minuten, ohne Geräte.",
+      "lede": "Die Kegel-Übung plus die Hüft- und Gesäßmuskeln, die sie unterstützen. Beginne im Liegen, wo man den Muskel am leichtesten spürt, und steigere dich dann.",
+      "howTo": "Spanne sanft an, als würdest du den Urinstrahl stoppen, und entspanne zwischen den Wiederholungen vollständig."
+    },
+    "pelvic-floor-exercises-for-women-5-minute-routine": {
+      "title": "Beckenbodenübungen für Frauen: tägliche 5-Minuten-Routine",
+      "h1": "Beckenbodenübungen für Frauen: tägliche 5-Minuten-Routine",
+      "description": "Beckenbodenübungen für Frauen in 5 Minuten am Tag: Kegel im Liegen, Brücke mit Ball, Fersengleiten, Kegel im Sitzen und Bauchatmung, mit Bildern.",
+      "lede": "Eine kurze Routine, die in jeden Tag passt. Ein kleiner Ball oder ein Kissen ergänzt die Brücke um das Drücken der Oberschenkelinnenseiten.",
+      "howTo": "Einmal am Tag reicht völlig. Beende die Routine mit der Atmung, damit die Muskeln loslassen."
+    },
+    "morning-pelvic-floor-routine-for-women": {
+      "title": "Morgendliche Beckenboden-Routine für Frauen",
+      "h1": "Morgendliche Beckenboden-Routine für Frauen",
+      "description": "Morgendliche Beckenboden-Routine für Frauen: Katze-Kuh, Beckenkippen, Gesäßbrücke, Bird Dog und Kegel im Stehen zum Start in den Tag, mit Bildern.",
+      "lede": "Sanftes Aufwachen: von Übungen am Boden zu Übungen im Stehen, am Ende mit einer Kegel-Übung auf den Füßen.",
+      "howTo": "Mach sie vor dem ersten Kaffee; bewege dich langsam und atme."
+    },
+    "evening-pelvic-floor-routine-for-women": {
+      "title": "Abendliche Beckenboden-Routine für Frauen: ruhige Übungen vor dem Schlafen",
+      "h1": "Abendliche Beckenboden-Routine für Frauen: ruhige Übungen vor dem Schlafen",
+      "description": "Abendliche Beckenboden-Routine für Frauen: Bauchatmung, Kegel im Liegen, Glückliches Baby, Schmetterling und Kindhaltung zum Runterkommen vor dem Schlafen, mit Bildern.",
+      "lede": "Langsame Übungen für das Tagesende. Atmung und Dehnungen helfen dem Beckenboden beim Loslassen genauso, wie die Kegel-Übung beim Anspannen hilft.",
+      "howTo": "Dimme das Licht, bewege dich langsam und lass jede Dehnung weich werden."
+    },
+    "pelvic-floor-exercises-for-women-at-home": {
+      "title": "Beckenbodenübungen für Frauen zu Hause: ohne Geräte",
+      "h1": "Beckenbodenübungen für Frauen zu Hause: ohne Geräte",
+      "description": "Beckenbodenübungen für Frauen zu Hause: Brücke, Muschel, Beinheben in Seitenlage, Dead Bug, Kniebeuge und Kegel, mit Bildern. Etwa 9 Minuten, ohne Geräte.",
+      "lede": "Eine Routine am Boden und im Stehen, für die du nur eine Matte oder einen Teppich brauchst. Sie trainiert den Beckenboden zusammen mit Gesäß und tiefen Rumpfmuskeln.",
+      "howTo": "Mach dreimal pro Woche eine Runde und füge langsam Wiederholungen hinzu."
+    },
+    "pelvic-floor-exercises-for-women-over-40": {
+      "title": "Beckenbodenübungen für Frauen über 40",
+      "h1": "Beckenbodenübungen für Frauen über 40: Routine mit 6 Übungen",
+      "description": "Beckenbodenübungen für Frauen über 40: Kegel im Liegen, Brücke mit Ball, Bird Dog, Wandsitzen und Muschel, mit Bildern. Etwa 9 Minuten.",
+      "lede": "Eine stabile Routine für die Jahre, in denen Kraft und Beweglichkeit Aufmerksamkeit brauchen: die Kegel-Übung plus Gesäß, Hüfte und tiefe Rumpfmuskeln.",
+      "howTo": "Steigere dich langsam und lass jede Übung aus, die wehtut."
+    },
+    "pelvic-floor-exercises-for-women-over-50": {
+      "title": "Beckenbodenübungen für Frauen über 50: sanfte Routine",
+      "h1": "Beckenbodenübungen für Frauen über 50: sanfte Routine",
+      "description": "Beckenbodenübungen für Frauen über 50: sanfte Routine aus Bauchatmung, Kegel, Fersengleiten und Beckenkippen, mit Bildern. Ohne Geräte.",
+      "lede": "Gelenkschonende Übungen im Liegen oder Sitzen. Kein Springen, keine tiefen Kniebeugen.",
+      "howTo": "Lass dir Zeit. Wenn sich etwas nicht richtig anfühlt, hör auf und sprich mit deiner Ärztin oder deinem Arzt."
+    },
+    "postpartum-pelvic-floor-exercises": {
+      "title": "Beckenbodenübungen nach der Geburt: sanfte erste Routine",
+      "h1": "Beckenbodenübungen nach der Geburt: sanfte erste Routine",
+      "description": "Beckenbodenübungen nach der Geburt: sanfte erste Routine mit Bauchatmung, Kegel im Liegen, Beckenkippen, Fersengleiten und Knie-Absenken, mit Bildern.",
+      "lede": "Fünf sehr sanfte Übungen für die ersten Wochen nach der Geburt, sobald dein Arzt oder deine Hebamme grünes Licht gibt.",
+      "howTo": "Geh sehr sanft vor, hör bei Schmerzen oder Blutungen auf und frag deine Hebamme oder Physiotherapeutin nach dem nächsten Schritt.",
+      "note": "Hol dir zuerst das Okay deiner Ärztin, deines Arztes oder deiner Hebamme, besonders nach einem Kaiserschnitt oder einer schweren Geburt."
+    },
+    "bladder-control-routine-for-women": {
+      "title": "Blasenkontroll-Routine für Frauen: 6 Beckenbodenübungen",
+      "h1": "Blasenkontroll-Routine für Frauen: 6 Beckenbodenübungen",
+      "description": "Blasenkontroll-Routine für Frauen: Kegel in drei Positionen, Brücke mit Ball, Ball drücken und Bauchatmung, mit Anatomie-Bildern.",
+      "lede": "Beckenbodenübungen sind ein häufiger Bestandteil von Programmen zur Blasenkontrolle. Diese Routine deckt die Grundlagen ab: den Muskel finden, ihn in verschiedenen Positionen anspannen und ihn entspannen. Sie ist keine Behandlung.",
+      "howTo": "Wenn du Urin verlierst oder Schmerzen hast, geh zu einer Ärztin, einem Arzt oder einer Beckenboden-Physiotherapeutin; Übungen allein reichen unter Umständen nicht aus."
+    },
+    "pelvic-floor-stretches-for-women": {
+      "title": "Beckenboden-Dehnübungen für Frauen: entspannen und loslassen",
+      "h1": "Beckenboden-Dehnübungen für Frauen: entspannen und loslassen",
+      "description": "Beckenboden-Dehnübungen für Frauen: Glückliches Baby, Schmetterling, Kindhaltung, Frosch, Katze-Kuh und Bauchatmung, mit Bildern. Etwa 7 Minuten.",
+      "lede": "Langsame Dehnungen für einen angespannten Beckenboden und die Hüfte. Atme aus und lass los.",
+      "howTo": "Halte jede Dehnung 30–60 Sekunden und dehne nie in den Schmerz."
+    },
+    "core-and-pelvic-floor-workout-for-women": {
+      "title": "Rumpf- und Beckenboden-Workout für Frauen",
+      "h1": "Rumpf- und Beckenboden-Workout für Frauen",
+      "description": "Rumpf- und Beckenboden-Workout für Frauen: Dead Bug, Bird Dog, Plank, Seitstütz, Brücke mit Marschieren und Kegel, mit Anatomie-Bildern. Ohne Geräte.",
+      "lede": "Eine kräftigere Routine am Boden, die Bauch, Rücken, Gesäß und die tiefen Muskeln gemeinsam trainiert.",
+      "howTo": "Beginne mit einer Runde. Geh beim Plank auf die Knie, wenn es nötig ist."
+    },
+    "pelvic-floor-exercises-for-women-runners": {
+      "title": "Beckenbodenübungen für Läuferinnen",
+      "h1": "Beckenbodenübungen für Läuferinnen",
+      "description": "Beckenbodenübungen für Läuferinnen: einbeinige Brücke, Beinheben in Seitenlage, Ausfallschritt, Muschel, Hüftbeuger-Dehnung und Kegel im Stehen, mit Bildern.",
+      "lede": "Ein kräftiges Gesäß und starke Hüften halten das Becken bei jedem Schritt stabil. Diese Routine trainiert sie und dehnt danach die Hüfte.",
+      "howTo": "Mach sie an lockeren Tagen oder nach dem Lauf, nicht direkt vor einer harten Einheit."
+    },
+    "desk-pelvic-floor-routine-for-women": {
+      "title": "Beckenboden-Routine am Schreibtisch für Frauen, die den ganzen Tag sitzen",
+      "h1": "Beckenboden-Routine am Schreibtisch für Frauen, die den ganzen Tag sitzen",
+      "description": "Beckenboden-Routine am Schreibtisch für Frauen: Kegel im Sitzen, Ball drücken, Hüftbeuger-Dehnung, Kniebeuge und Katze-Kuh für lange Bürotage, mit Bildern.",
+      "lede": "Fünf Übungen für den Arbeitstag. Zwei davon machst du, ohne vom Stuhl aufzustehen, die anderen dauern eine Minute neben dem Schreibtisch.",
+      "howTo": "Stell dir stündlich eine Erinnerung und mach ein, zwei Übungen statt einer vollen Runde."
+    },
+    "yoga-style-pelvic-floor-routine-for-women": {
+      "title": "Beckenboden-Routine im Yoga-Stil für Frauen",
+      "h1": "Beckenboden-Routine im Yoga-Stil für Frauen",
+      "description": "Beckenboden-Routine im Yoga-Stil für Frauen: Katze-Kuh, Kindhaltung, Glückliches Baby, Schmetterling, Brücke und Bauchatmung, mit Anatomie-Bildern.",
+      "lede": "Fließende, vom Atem geführte Übungen, die dehnen und kräftigen. Bewege dich mit deinem Atem und bleib ruhig.",
+      "howTo": "Verbinde jede Übung mit dem Atem: ausatmen bei der Anstrengung, einatmen zum Loslassen."
+    }
+  }
+}

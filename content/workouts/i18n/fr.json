@@ -1,0 +1,276 @@
+{
+  "ui": {
+    "navWorkouts": "Entraînements",
+    "hubTitle": "Entraînements du périnée avec images",
+    "hubDescription": "Entraînements du périnée et de Kegel pour hommes et femmes avec images : chaque mouvement montre la position de départ et d’arrivée, les muscles sollicités et les répétitions.",
+    "hubH1": "Entraînements du périnée avec images",
+    "hubLede": "De courtes routines à faire chez soi, pour les hommes et pour les femmes. Chaque exercice a une image de départ et d’arrivée, trois conseils de technique et les répétitions ; dans les routines pour hommes, les muscles sollicités sont mis en évidence.",
+    "groupMen": "Pour les hommes",
+    "groupWomen": "Pour les femmes",
+    "allExercises": "Tous les exercices",
+    "cardMeta": "{n} exercices · ~{m} min · {level}",
+    "eyebrowMen": "Entraînement pour hommes · {n} exercices · ~{m} min",
+    "eyebrowWomen": "Entraînement pour femmes · {n} exercices · ~{m} min",
+    "levels": { "Beginner": "Pour débutants", "Easy": "Niveau facile", "Intermediate": "Niveau intermédiaire" },
+    "equipmentNone": "Sans matériel",
+    "equipmentBall": "Un petit ballon ou un coussin",
+    "atHome": "À la maison",
+    "minutes": "{m} minutes",
+    "theWorkout": "L’entraînement",
+    "sliderAria": "Diapositives de l’entraînement, utilisez les flèches du clavier",
+    "slideLabel": "{i} sur {n} : {name}",
+    "prevExercise": "Exercice précédent",
+    "nextExercise": "Exercice suivant",
+    "details": "Détails ↓",
+    "works": "Sollicite",
+    "start": "Départ",
+    "finish": "Arrivée",
+    "mistake": "Erreur fréquente :",
+    "instead": "À la place :",
+    "howRoutine": "Comment faire cette routine",
+    "appH2": "Chronométrez vos Kegel avec Kegel Morse Hero",
+    "appP": "L’appli guide chaque contraction et chaque relâchement avec un anneau et des vibrations : vous pouvez donc faire la partie Kegel de cette routine sans regarder l’écran. Sans compte, sans publicité.",
+    "safety": "Ceci n’est pas un avis médical. Arrêtez si quelque chose fait mal. En cas de douleur, de fuites urinaires ou d’autres symptômes, ou après une opération du bassin, consultez d’abord un médecin ou un kinésithérapeute spécialisé en rééducation périnéale.",
+    "safetyLink": "Avertissement médical",
+    "prev": "← Précédent",
+    "next": "Suivant →",
+    "moreAria": "Autres entraînements",
+    "beforeStart": "Avant de commencer :",
+    "breadcrumbAria": "Fil d’Ariane",
+    "exerciseEyebrow": "Exercice · {reps}",
+    "exerciseH1": "{name} : comment le faire (avec images)",
+    "exerciseTitle": "{name} : comment le faire (avec images)",
+    "exerciseDesc": "{name} : {short}. Trois conseils de technique, les muscles sollicités, les répétitions et une erreur fréquente, avec images.",
+    "howToDo": "Comment le faire",
+    "inThese": "Dans ces entraînements",
+    "howToName": "Comment faire l’exercice « {name} »",
+    "altPair": "position de départ et d’arrivée",
+    "altSingle": "position",
+    "altAnatomy": "{name} : {pos}, mis en évidence : {works}",
+    "altFlat": "{name} : {pos}",
+    "std": ["Faites les mouvements dans l’ordre, un seul tour.", "Reposez-vous environ 30 secondes entre les mouvements.", "Trois à quatre fois par semaine, c’est un bon début ; la qualité prime sur la vitesse."],
+    "muscles": {
+      "Pelvic floor": "Périnée", "Diaphragm": "Diaphragme", "Glutes": "Fessiers", "Hamstrings": "Ischio-jambiers", "Inner thighs": "Face interne des cuisses",
+      "Deep core": "Core profond", "Lower abdominals": "Bas du ventre", "Hip flexors": "Fléchisseurs de la hanche", "Deep abdominals": "Abdominaux profonds", "Lower back": "Bas du dos",
+      "Hips": "Région des hanches", "Side glutes": "Fessiers latéraux", "Back muscles": "Muscles du dos", "Spine": "Colonne vertébrale", "Abdominals": "Abdominaux",
+      "Shoulders": "Épaules", "Obliques": "Obliques", "Thighs": "Cuisses"
+    }
+  },
+  "exercises": {
+    "kegelLying": { "name": "Kegel sur le dos", "short": "Contractez, maintenez, relâchez", "cues": ["Allongez-vous sur le dos, genoux fléchis, pieds à plat", "Contractez comme pour interrompre le jet d’urine et remontez vers le haut et l’intérieur", "Relâchez complètement entre les répétitions"], "reps": "10 répétitions · maintien 3 s", "tip": "Respirez normalement. Si le ventre, les fessiers ou les cuisses se contractent, la contraction est trop forte : faites plus léger." },
+    "kegelSitting": { "name": "Kegel en position assise", "short": "La même contraction, assis bien droit", "cues": ["Asseyez-vous droit, pieds à plat", "Contractez et remontez, fessiers détendus", "Respirez calmement"], "reps": "10 répétitions · maintien 5 s", "tip": "À faire sur une chaise, en voiture ou au bureau : personne ne le voit. Épaules relâchées." },
+    "kegelStanding": { "name": "Kegel debout", "short": "Le plus difficile : contre la gravité", "cues": ["Tenez-vous droit, genoux légèrement fléchis", "Contractez et remontez vers le haut et l’intérieur", "Ventre et fessiers détendus"], "reps": "10 répétitions · maintien 5 s", "tip": "La position la plus difficile, car la gravité joue contre vous. Maîtrisez d’abord la version sur le dos." },
+    "breathing": { "name": "Respiration abdominale", "short": "Respirations lentes vers le ventre", "cues": ["Une main sur le ventre", "Inspirez : le ventre se soulève, le périnée se relâche", "Expirez : léger soulèvement vers le haut"], "reps": "1–2 min", "tip": "Laissez le périnée s’assouplir à l’inspiration. C’est aussi important que la contraction." },
+    "bridge": { "name": "Pont fessier", "short": "Soulevez les hanches, contractez les fessiers en haut", "cues": ["Pieds à plat, écartés de la largeur des hanches", "Expirez, contractez les fessiers et soulevez les hanches", "Redescendez lentement"], "reps": "12 répétitions", "mistake": { "wrong": "Cambrer le bas du dos en haut", "right": "Côtes basses, ligne droite des genoux aux épaules" } },
+    "bridgeBall": { "name": "Pont avec ballon entre les genoux", "short": "Pont en serrant un ballon avec les genoux", "cues": ["Ballon ou coussin entre les genoux", "Serrez le ballon et soulevez les hanches", "Maintenez 2 s en haut"], "reps": "10 répétitions", "tip": "Pas de ballon ? Utilisez un coussin ou une serviette roulée." },
+    "singleLegBridge": { "name": "Pont sur une jambe", "short": "Un pied au sol, une jambe en l’air", "cues": ["Une jambe tendue en l’air", "Poussez dans le talon du pied d’appui", "Gardez les hanches à niveau"], "reps": "8 de chaque côté" },
+    "bridgeMarch": { "name": "Pont avec marche", "short": "Gardez le pont et marchez", "cues": ["Montez en pont", "Levez un pied, puis l’autre", "Les hanches ne descendent pas"], "reps": "10 pas" },
+    "heelSlides": { "name": "Glissement des talons", "short": "Faites glisser un talon vers l’avant puis revenez", "cues": ["Allongez-vous sur le dos, genoux fléchis", "En expirant, faites glisser un talon", "Le dos reste immobile"], "reps": "10 de chaque côté" },
+    "supineMarch": { "name": "Montées de genoux sur le dos", "short": "Levez les genoux fléchis l’un après l’autre", "cues": ["Allongez-vous sur le dos, genoux fléchis", "Levez un genou à 90°", "Redescendez lentement et changez"], "reps": "10 de chaque côté" },
+    "deadBug": { "name": "« Dead bug »", "short": "Abaissez le bras et la jambe opposés", "cues": ["Bras en l’air, genoux au-dessus des hanches", "Abaissez le bras et la jambe opposés", "Le bas du dos reste plaqué au sol"], "reps": "8 de chaque côté", "mistake": { "wrong": "Le bas du dos se décolle du sol", "right": "Plaquez le dos au sol et allez plus lentement" } },
+    "pelvicTilt": { "name": "Bascule du bassin", "short": "Basculez le bassin vers le haut et le bas", "cues": ["Allongez-vous sur le dos, genoux fléchis", "Plaquez le bas du dos contre le sol", "Relâchez et recommencez"], "reps": "12 répétitions" },
+    "kneeFallout": { "name": "Genoux sur les côtés", "short": "Laissez tomber un genou sur le côté", "cues": ["Allongez-vous sur le dos, genoux fléchis", "Abaissez lentement un genou vers l’extérieur", "Le bassin reste immobile"], "reps": "10 de chaque côté" },
+    "clamshell": { "name": "« Coquillage »", "short": "Ouvrez le genou du haut, pieds joints", "cues": ["Allongez-vous sur le côté, genoux fléchis", "Pieds joints, levez le genou du haut", "Ne faites pas basculer la hanche vers l’arrière"], "reps": "12 de chaque côté" },
+    "sideLegRaise": { "name": "Élévation latérale de jambe", "short": "Levez la jambe du haut en ligne droite", "cues": ["Allongez-vous sur le côté, jambes tendues", "Levez lentement la jambe du haut", "Les orteils pointent vers l’avant"], "reps": "12 de chaque côté" },
+    "birdDog": { "name": "« Bird dog »", "short": "Tendez le bras et la jambe opposés", "cues": ["Mains sous les épaules, genoux sous les hanches", "Tendez le bras et la jambe opposés", "Gardez le dos plat"], "reps": "8 de chaque côté" },
+    "catCow": { "name": "« Chat-vache »", "short": "Arrondissez le dos, puis creusez-le", "cues": ["Commencez à quatre pattes", "Expirez : arrondissez le dos vers le haut", "Inspirez : abaissez le ventre et regardez vers le haut"], "reps": "8 cycles lents", "tip": "Bougez lentement et synchronisez le mouvement avec la respiration." },
+    "plank": { "name": "Planche", "short": "Ligne droite sur les avant-bras", "cues": ["Coudes sous les épaules", "Serrez les fessiers, gainez le ventre", "Continuez à respirer"], "reps": "20–40 s", "mistake": { "wrong": "Les hanches s’affaissent", "right": "Ligne droite de la tête aux talons" }, "tip": "Si la version complète est trop dure, posez les genoux. Un maintien court et propre vaut mieux qu’un long avec les hanches affaissées." },
+    "sidePlank": { "name": "Planche latérale", "short": "Hanches en haut sur un avant-bras", "cues": ["Coude sous l’épaule", "Soulevez les hanches en ligne droite", "Genoux au sol = plus facile"], "reps": "15–30 s de chaque côté" },
+    "superman": { "name": "« Superman »", "short": "Décollez bras et jambes du sol", "cues": ["Allongez-vous sur le ventre", "Soulevez un peu les bras, la poitrine et les jambes", "Maintenez 2 s et redescendez lentement"], "reps": "10 répétitions" },
+    "childPose": { "name": "Posture de l’enfant", "short": "Asseyez-vous vers l’arrière, bras allongés", "cues": ["Genoux écartés, gros orteils joints", "Asseyez-vous sur les talons", "Respirez vers le bas du dos"], "reps": "30–60 s", "tip": "Laissez le ventre et le périnée se relâcher complètement. Ne forcez pas en cas de douleur." },
+    "happyBaby": { "name": "« Bébé heureux »", "short": "Attrapez les pieds, genoux écartés", "cues": ["Allongez-vous sur le dos", "Attrapez les pieds, genoux vers les aisselles", "Balancez-vous doucement d’un côté à l’autre"], "reps": "30–60 s" },
+    "butterfly": { "name": "Étirement « Papillon »", "short": "Plantes de pieds jointes, penchez-vous en avant", "cues": ["Asseyez-vous droit, plantes des pieds jointes", "Laissez les genoux tomber vers l’extérieur", "Penchez-vous en avant depuis les hanches"], "reps": "30–60 s" },
+    "frogStretch": { "name": "Étirement « Grenouille »", "short": "Genoux écartés, hanches vers l’arrière", "cues": ["À quatre pattes, écartez les genoux", "Chevilles alignées avec les genoux", "Poussez lentement les hanches vers l’arrière"], "reps": "30–60 s" },
+    "hipFlexor": { "name": "Étirement des fléchisseurs de la hanche", "short": "À genoux, avancez les hanches", "cues": ["Demi-fente, genou arrière au sol", "Contractez le fessier de la jambe arrière", "Avancez doucement les hanches"], "reps": "30 s de chaque côté" },
+    "squat": { "name": "Squat au poids du corps", "short": "Descendez puis remontez", "cues": ["Pieds écartés de la largeur des épaules", "Reculez les hanches, poitrine haute", "Expirez en remontant"], "reps": "12 répétitions", "mistake": { "wrong": "Dos arrondi", "right": "Poitrine haute, dos long" } },
+    "sumoSquat": { "name": "Squat sumo", "short": "Appui large, pointes de pieds vers l’extérieur", "cues": ["Appui large, orteils tournés vers l’extérieur", "Les genoux suivent la direction des orteils", "Remontez en serrant les fessiers"], "reps": "12 répétitions" },
+    "wallSit": { "name": "« Chaise » contre le mur", "short": "Dos au mur, maintenez", "cues": ["Dos à plat contre le mur", "Glissez vers le bas, genoux à 90°", "Ajoutez une contraction de Kegel pendant le maintien"], "reps": "20–40 s", "tip": "Arrêtez avant que les cuisses ne tremblent fort. Respirez tout du long." },
+    "lunge": { "name": "Fente arrière", "short": "Pas en arrière, descendez, remontez", "cues": ["Faites un pas en arrière avec un pied", "Abaissez le genou arrière", "Poussez dans le talon avant"], "reps": "8 de chaque côté" },
+    "ballSqueeze": { "name": "Serrer un ballon avec les genoux", "short": "Serrez un ballon entre les genoux", "cues": ["Asseyez-vous droit, ballon entre les genoux", "Serrez le ballon et le périnée", "Maintenez 5 s puis relâchez"], "reps": "10 répétitions", "tip": "Pas de ballon ? Une serviette roulée ou un coussin fait l’affaire." }
+  },
+  "programs": {
+    "pelvic-floor-exercises-for-men-beginner": {
+      "title": "Exercices du périnée pour hommes : routine de 6 mouvements pour débutants",
+      "h1": "Exercices du périnée pour hommes : routine de 6 mouvements pour débutants",
+      "description": "Routine simple de 6 exercices du périnée pour hommes avec images anatomiques : Kegel, pont fessier, coquillage, bird dog, dead bug et squat. Environ 8 minutes.",
+      "lede": "Six mouvements simples pour le périnée et les muscles qui l’entourent. Chacun a une image de départ et d’arrivée avec les muscles sollicités mis en évidence, trois conseils de technique et les répétitions.",
+      "howTo": "Commencez par un tour. Quand cela devient facile, faites-en deux."
+    },
+    "kegel-exercises-for-men-5-minute-routine": {
+      "title": "Exercices de Kegel pour hommes : routine quotidienne de 5 minutes",
+      "h1": "Exercices de Kegel pour hommes : routine quotidienne de 5 minutes",
+      "description": "Exercices de Kegel pour hommes en 5 minutes par jour : Kegel sur le dos, assis et debout, pont fessier et respiration abdominale, avec images anatomiques. Sans matériel.",
+      "lede": "Une courte routine quotidienne autour de l’exercice de Kegel lui-même : trois positions, plus un pont et la respiration abdominale pour trouver le muscle et le relâcher complètement.",
+      "howTo": "Une fois par jour suffit. Terminez par la respiration pour que le muscle se relâche."
+    },
+    "evening-kegel-routine-for-men": {
+      "title": "Routine de Kegel du soir pour hommes : 5 mouvements calmes avant de dormir",
+      "h1": "Routine de Kegel du soir pour hommes : 5 mouvements calmes avant de dormir",
+      "description": "Routine de Kegel du soir pour hommes : cinq mouvements calmes sur le lit ou un tapis avant de dormir, avec images anatomiques. Environ 7 minutes, sans matériel.",
+      "lede": "Des mouvements lents et sans effort pour la fin de journée. Tout se fait allongé ou assis au sol, donc juste à côté du lit.",
+      "howTo": "Baissez la lumière et bougez lentement ; arrêtez chaque mouvement avant qu’il ne devienne un effort."
+    },
+    "morning-pelvic-floor-workout-for-men": {
+      "title": "Entraînement du périnée du matin pour hommes : 6 mouvements",
+      "h1": "Entraînement du périnée du matin pour hommes : 6 mouvements pour bien commencer la journée",
+      "description": "Entraînement du périnée du matin pour hommes : six mouvements, du chat-vache aux squats, qui réveillent hanches, fessiers et core, avec images anatomiques.",
+      "lede": "Une routine de réveil : de mouvements lents au sol à d’autres debout, pour finir sur vos jambes et prêt pour la journée.",
+      "howTo": "Faites-la avant le petit-déjeuner ou dès le réveil ; pas besoin d’échauffement."
+    },
+    "kegel-exercises-at-your-desk-for-men": {
+      "title": "Exercices de Kegel au bureau : routine de bureau pour hommes",
+      "h1": "Exercices de Kegel au bureau : routine de bureau pour hommes",
+      "description": "Exercices de Kegel au bureau pour hommes : cinq mouvements discrets, du Kegel assis à l’étirement des fléchisseurs de la hanche, avec images anatomiques.",
+      "lede": "Cinq mouvements pour une longue journée de travail. Deux se font sans quitter votre chaise, les autres prennent une minute à côté du bureau.",
+      "howTo": "Réglez un rappel toutes les heures et faites un ou deux mouvements plutôt qu’un tour complet."
+    },
+    "pelvic-floor-exercises-for-men-over-40": {
+      "title": "Exercices du périnée pour hommes après 40 ans",
+      "h1": "Exercices du périnée pour hommes après 40 ans : routine de 6 mouvements",
+      "description": "Exercices du périnée pour hommes après 40 ans : Kegel, pont fessier, dead bug, coquillage et chaise contre le mur, avec images anatomiques. Environ 9 minutes.",
+      "lede": "Une routine équilibrée pour ceux qui commencent plus tard : l’exercice de Kegel plus les fessiers, les hanches et le core profond qui travaillent avec lui.",
+      "howTo": "Allez-y doucement et sautez tout mouvement qui fait mal ; augmentez les répétitions sur plusieurs semaines."
+    },
+    "pelvic-floor-exercises-for-men-over-50": {
+      "title": "Routine douce du périnée pour hommes après 50 ans",
+      "h1": "Routine douce du périnée pour hommes après 50 ans",
+      "description": "Routine douce du périnée pour hommes après 50 ans : respiration abdominale, Kegel sur le dos et assis, glissement des talons et bascule du bassin, avec images anatomiques.",
+      "lede": "Des mouvements sans impact, allongé ou assis : pas de sauts, pas de squats profonds, pas de longs maintiens.",
+      "howTo": "Prenez votre temps entre les mouvements. Si quelque chose vous semble anormal, arrêtez et parlez-en à votre médecin."
+    },
+    "pelvic-floor-workout-for-lifters": {
+      "title": "Entraînement du périnée pour les athlètes de force : avant de gros squats",
+      "h1": "Entraînement du périnée pour les athlètes de force : avant de gros squats",
+      "description": "Entraînement du périnée pour les athlètes de force : respiration, pont avec marche, squat sumo, chaise, fente et dead bug, avec images. Échauffement avant le jour des jambes.",
+      "lede": "Les athlètes de force se gainent beaucoup mais entraînent rarement les muscles du bas du core. Cette routine échauffe la respiration, les hanches et les fessiers avant des squats ou soulevés de terre lourds.",
+      "howTo": "Utilisez-la comme échauffement avant le jour des jambes. Commencez par la respiration pour travailler la contraction et le relâchement."
+    },
+    "pelvic-floor-exercises-for-runners-and-cyclists": {
+      "title": "Exercices du périnée pour coureurs et cyclistes",
+      "h1": "Exercices du périnée pour coureurs et cyclistes",
+      "description": "Exercices du périnée pour coureurs et cyclistes : pont sur une jambe, élévation latérale de jambe, étirement des fléchisseurs de la hanche et fentes, avec images anatomiques.",
+      "lede": "Des heures de course ou de vélo sollicitent hanches et fessiers. Ces mouvements entraînent les muscles qui stabilisent le bassin, puis étirent les hanches.",
+      "howTo": "Faites-la les jours de repos ou après une sortie tranquille, pas juste avant une séance dure."
+    },
+    "pelvic-floor-stretches-for-men": {
+      "title": "Étirements du périnée pour hommes : 6 mouvements pour hanches tendues",
+      "h1": "Étirements du périnée pour hommes : 6 mouvements pour hanches tendues",
+      "description": "Étirements du périnée pour hommes : fléchisseurs de la hanche, papillon, grenouille, bébé heureux, posture de l’enfant et chat-vache, avec images anatomiques. Environ 6 minutes.",
+      "lede": "Six étirements lents pour des hanches tendues et un périnée contracté. Respirez calmement et laissez les muscles s’assouplir.",
+      "howTo": "Maintenez chaque étirement de 30 à 60 secondes et ne forcez jamais en cas de douleur."
+    },
+    "core-and-pelvic-floor-workout-for-men": {
+      "title": "Entraînement du core et du périnée pour hommes : sans matériel",
+      "h1": "Entraînement du core et du périnée pour hommes : sans matériel",
+      "description": "Entraînement du core et du périnée pour hommes : planche, planche latérale, dead bug, bird dog, superman et pont avec marche, avec images anatomiques. Sans matériel.",
+      "lede": "Une routine plus exigeante au sol qui travaille tout le tronc ensemble : abdominaux, dos, fessiers et muscles profonds en dessous.",
+      "howTo": "Commencez par un tour et ajoutez-en un second quand le premier passe bien."
+    },
+    "pelvic-floor-exercises-for-drivers": {
+      "title": "Exercices du périnée pour les longs trajets : routine pour conducteurs",
+      "h1": "Exercices du périnée pour les longs trajets : routine pour conducteurs",
+      "description": "Exercices du périnée pour les longs trajets : un Kegel assis pour la voiture et quatre étirements des hanches et du dos à la prochaine pause, avec images anatomiques.",
+      "lede": "Un mouvement pour le siège conducteur et quatre pour la prochaine pause, afin de dénouer hanches et bas du dos après de longues heures assis.",
+      "howTo": "Faites le Kegel assis uniquement à l’arrêt ou en tant que passager ; le reste à la pause."
+    },
+    "kegel-exercises-for-women-beginner-routine": {
+      "title": "Exercices de Kegel pour femmes : routine de 6 mouvements pour débutantes",
+      "h1": "Exercices de Kegel pour femmes : routine de 6 mouvements pour débutantes",
+      "description": "Exercices de Kegel pour femmes : routine de 6 mouvements pour débutantes avec Kegel sur le dos et assise, pont fessier, coquillage et chat-vache. Environ 8 minutes, sans matériel.",
+      "lede": "L’exercice de Kegel plus les hanches et les fessiers qui le soutiennent. Commencez allongée, là où il est le plus facile de sentir le muscle, puis progressez.",
+      "howTo": "Contractez doucement, comme pour interrompre le jet d’urine, et relâchez complètement entre les répétitions."
+    },
+    "pelvic-floor-exercises-for-women-5-minute-routine": {
+      "title": "Exercices du périnée pour femmes : routine quotidienne de 5 minutes",
+      "h1": "Exercices du périnée pour femmes : routine quotidienne de 5 minutes",
+      "description": "Exercices du périnée pour femmes en 5 minutes par jour : Kegel sur le dos, pont avec ballon, glissement des talons, Kegel assise et respiration abdominale, avec images.",
+      "lede": "Une courte routine qui s’intègre dans toutes les journées. Un petit ballon ou un coussin ajoute au pont la pression de l’intérieur des cuisses.",
+      "howTo": "Une fois par jour suffit. Terminez par la respiration pour que les muscles se relâchent."
+    },
+    "morning-pelvic-floor-routine-for-women": {
+      "title": "Routine du périnée du matin pour femmes",
+      "h1": "Routine du périnée du matin pour femmes",
+      "description": "Routine du périnée du matin pour femmes : chat-vache, bascule du bassin, pont fessier, bird dog et Kegel debout pour bien commencer la journée, avec images.",
+      "lede": "Un réveil en douceur : de mouvements au sol à d’autres debout, avec un Kegel debout pour finir.",
+      "howTo": "Faites-la avant le premier café ; bougez lentement et respirez."
+    },
+    "evening-pelvic-floor-routine-for-women": {
+      "title": "Routine du périnée du soir pour femmes : mouvements calmes avant de dormir",
+      "h1": "Routine du périnée du soir pour femmes : mouvements calmes avant de dormir",
+      "description": "Routine du périnée du soir pour femmes : respiration abdominale, Kegel sur le dos, bébé heureux, papillon et posture de l’enfant pour se détendre avant de dormir, avec images.",
+      "lede": "Des mouvements lents pour la fin de journée. La respiration et les étirements aident le périnée à se relâcher autant que le Kegel l’aide à se contracter.",
+      "howTo": "Baissez la lumière, bougez lentement et laissez chaque étirement s’adoucir."
+    },
+    "pelvic-floor-exercises-for-women-at-home": {
+      "title": "Exercices du périnée pour femmes à la maison : sans matériel",
+      "h1": "Exercices du périnée pour femmes à la maison : sans matériel",
+      "description": "Exercices du périnée pour femmes à la maison : pont, coquillage, élévation latérale de jambe, dead bug, squat et Kegel, avec images. Environ 9 minutes, sans matériel.",
+      "lede": "Une routine au sol et debout qui ne demande qu’un tapis. Elle travaille le périnée avec les fessiers et le core profond.",
+      "howTo": "Faites un tour trois fois par semaine et ajoutez des répétitions petit à petit."
+    },
+    "pelvic-floor-exercises-for-women-over-40": {
+      "title": "Exercices du périnée pour femmes après 40 ans",
+      "h1": "Exercices du périnée pour femmes après 40 ans : routine de 6 mouvements",
+      "description": "Exercices du périnée pour femmes après 40 ans : Kegel sur le dos, pont avec ballon, bird dog, chaise contre le mur et coquillage, avec images. Environ 9 minutes.",
+      "lede": "Une routine stable pour les années où force et souplesse demandent de l’attention : l’exercice de Kegel plus fessiers, hanches et core profond.",
+      "howTo": "Progressez lentement et sautez tout mouvement qui fait mal."
+    },
+    "pelvic-floor-exercises-for-women-over-50": {
+      "title": "Exercices du périnée pour femmes après 50 ans : routine douce",
+      "h1": "Exercices du périnée pour femmes après 50 ans : routine douce",
+      "description": "Exercices du périnée pour femmes après 50 ans : routine douce de respiration abdominale, Kegel, glissement des talons et bascule du bassin, avec images. Sans matériel.",
+      "lede": "Des mouvements sans impact, allongée ou assise. Pas de sauts, pas de squats profonds.",
+      "howTo": "Prenez votre temps. Si quelque chose vous semble anormal, arrêtez et parlez-en à votre médecin."
+    },
+    "postpartum-pelvic-floor-exercises": {
+      "title": "Exercices du périnée après l’accouchement : première routine douce",
+      "h1": "Exercices du périnée après l’accouchement : première routine douce",
+      "description": "Exercices du périnée après l’accouchement : première routine douce avec respiration abdominale, Kegel sur le dos, bascule du bassin, glissement des talons et genoux sur les côtés, avec images.",
+      "lede": "Cinq mouvements très doux pour les premières semaines après l’accouchement, quand votre médecin ou votre sage-femme vous dit que vous pouvez commencer.",
+      "howTo": "Allez-y très doucement, arrêtez en cas de douleur ou de saignement et demandez à votre sage-femme ou à votre kinésithérapeute quelle est la prochaine étape.",
+      "note": "Demandez d’abord l’accord de votre médecin ou de votre sage-femme, surtout après une césarienne ou un accouchement difficile."
+    },
+    "bladder-control-routine-for-women": {
+      "title": "Routine de contrôle de la vessie pour femmes : 6 mouvements du périnée",
+      "h1": "Routine de contrôle de la vessie pour femmes : 6 mouvements du périnée",
+      "description": "Routine de contrôle de la vessie pour femmes : Kegel dans trois positions, pont avec ballon, serrer le ballon et respiration abdominale, avec images anatomiques.",
+      "lede": "Les exercices du périnée font souvent partie des programmes de contrôle de la vessie. Cette routine couvre les bases : trouver le muscle, le contracter dans différentes positions et le relâcher. Ce n’est pas un traitement.",
+      "howTo": "En cas de fuites urinaires ou de douleur, consultez un médecin ou un kinésithérapeute spécialisé en rééducation périnéale ; les exercices seuls peuvent ne pas suffire."
+    },
+    "pelvic-floor-stretches-for-women": {
+      "title": "Étirements du périnée pour femmes : détendez et relâchez",
+      "h1": "Étirements du périnée pour femmes : détendez et relâchez",
+      "description": "Étirements du périnée pour femmes : bébé heureux, papillon, posture de l’enfant, grenouille, chat-vache et respiration abdominale, avec images. Environ 7 minutes.",
+      "lede": "Des étirements lents pour un périnée et des hanches tendus. Expirez et relâchez.",
+      "howTo": "Maintenez chaque étirement de 30 à 60 secondes et ne forcez jamais en cas de douleur."
+    },
+    "core-and-pelvic-floor-workout-for-women": {
+      "title": "Entraînement du core et du périnée pour femmes",
+      "h1": "Entraînement du core et du périnée pour femmes",
+      "description": "Entraînement du core et du périnée pour femmes : dead bug, bird dog, planche, planche latérale, pont avec marche et Kegel, avec images anatomiques. Sans matériel.",
+      "lede": "Une routine plus soutenue au sol qui travaille ensemble abdominaux, dos, fessiers et muscles profonds.",
+      "howTo": "Commencez par un tour. Posez les genoux pour la planche si besoin."
+    },
+    "pelvic-floor-exercises-for-women-runners": {
+      "title": "Exercices du périnée pour coureuses",
+      "h1": "Exercices du périnée pour coureuses",
+      "description": "Exercices du périnée pour coureuses : pont sur une jambe, élévation latérale de jambe, fente, coquillage, étirement des fléchisseurs de la hanche et Kegel debout, avec images.",
+      "lede": "Des fessiers et des hanches solides aident à garder le bassin stable à chaque foulée. Cette routine les entraîne puis étire les hanches.",
+      "howTo": "Faites-la les jours faciles ou après une course, pas juste avant une séance dure."
+    },
+    "desk-pelvic-floor-routine-for-women": {
+      "title": "Routine du périnée au bureau pour femmes assises toute la journée",
+      "h1": "Routine du périnée au bureau pour femmes assises toute la journée",
+      "description": "Routine du périnée au bureau pour femmes : Kegel assise, serrer le ballon, étirement des fléchisseurs, squat et chat-vache pour une longue journée de bureau, avec images.",
+      "lede": "Cinq mouvements pour la journée de travail. Deux se font sans quitter votre chaise, les autres prennent une minute à côté du bureau.",
+      "howTo": "Réglez un rappel toutes les heures et faites un ou deux mouvements plutôt qu’un tour complet."
+    },
+    "yoga-style-pelvic-floor-routine-for-women": {
+      "title": "Routine du périnée de style yoga pour femmes",
+      "h1": "Routine du périnée de style yoga pour femmes",
+      "description": "Routine du périnée de style yoga pour femmes : chat-vache, posture de l’enfant, bébé heureux, papillon, pont et respiration abdominale, avec images anatomiques.",
+      "lede": "Des mouvements fluides guidés par la respiration, qui étirent et renforcent. Bougez avec votre souffle et restez calme.",
+      "howTo": "Calez chaque mouvement sur la respiration : expirez pendant l’effort, inspirez pour relâcher."
+    }
+  }
+}

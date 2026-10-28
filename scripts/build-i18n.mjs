@@ -8,6 +8,7 @@ import { readFileSync } from 'node:fs';
 import { site, LANGS, ARTICLE_SLUGS, EN_ARTICLE, EN_ARTICLES, MD_TRANSLATIONS, HAND_BUILT_ARTICLE, alternatesFor, hreflangTags, langRow, LANG_MENU } from './i18n/routes.mjs';
 import { createRenderer, parseFrontMatter } from './lib/markdown.mjs';
 import uiExtra from './i18n/ui-extra.mjs';
+import { loadTr as loadWorkoutsTr, PUBLISH as WORKOUTS_PUBLISHED, hubPath as workoutsHub } from './lib/workouts-data.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 // Neutral storefront URL: Apple redirects to the visitor's own country.
@@ -53,7 +54,8 @@ ${hreflangTags(enPath)}
 ${jsonLd}</head>`;
   };
 
-  const navItems = [['home', `${base}/`, u.nav.home], ['articles', `${base}/articles/`, u.nav.articles], ['features', `${base}/features/`, u.nav.features], ['how-to-use', `${base}/how-to-use/`, u.nav.howto], ['faq', `${base}/faq/`, u.nav.faq], ['privacy', `${base}/privacy/`, u.nav.privacy]];
+  const wk = WORKOUTS_PUBLISHED && loadWorkoutsTr(code) ? loadWorkoutsTr(code).ui.navWorkouts : null; // /workouts/ section (content/workouts/i18n/<lang>.json)
+  const navItems = [['home', `${base}/`, u.nav.home], ['articles', `${base}/articles/`, u.nav.articles], ...(wk ? [['workouts', workoutsHub(code), wk]] : []), ['features', `${base}/features/`, u.nav.features], ['how-to-use', `${base}/how-to-use/`, u.nav.howto], ['faq', `${base}/faq/`, u.nav.faq], ['privacy', `${base}/privacy/`, u.nav.privacy]];
   const header = (current, enPath) => `
 <a class="skip-link" href="#main">${esc(u.skip)}</a>
 <header class="site-header"><div class="header-inner">
@@ -67,7 +69,7 @@ ${jsonLd}</head>`;
   const footer = (enPath) => `
 <footer class="site-footer"><div class="footer-inner">
   <div><a class="brand" href="${base}/"><img src="/assets/logo-96.png" width="96" height="96" loading="lazy" alt="${esc(u.logoAlt)}"><span>Kegel Morse Hero</span></a><p class="copyright">© 2026 Kegel Morse Hero</p>${langRow(enPath, code)}</div>
-  <nav class="footer-links" aria-label="${esc(u.footerAria)}"><a href="${base}/articles/">${esc(u.nav.articles)}</a><a href="${base}/features/">${esc(u.nav.features)}</a><a href="${base}/how-to-use/">${esc(u.nav.howto)}</a><a href="${base}/faq/">${esc(u.nav.faq)}</a><a href="${base}/privacy/">${esc(u.nav.privacy)}</a><a href="${base}/about/">${esc(u.nav.about)}</a><a href="${base}/editorial-policy/">${esc(u.nav.editorial)}</a><a href="${base}/medical-disclaimer/">${esc(u.nav.disclaimer)}</a></nav>
+  <nav class="footer-links" aria-label="${esc(u.footerAria)}"><a href="${base}/articles/">${esc(u.nav.articles)}</a>${wk ? `<a href="${workoutsHub(code)}">${esc(wk)}</a>` : ''}<a href="${base}/features/">${esc(u.nav.features)}</a><a href="${base}/how-to-use/">${esc(u.nav.howto)}</a><a href="${base}/faq/">${esc(u.nav.faq)}</a><a href="${base}/privacy/">${esc(u.nav.privacy)}</a><a href="${base}/about/">${esc(u.nav.about)}</a><a href="${base}/editorial-policy/">${esc(u.nav.editorial)}</a><a href="${base}/medical-disclaimer/">${esc(u.nav.disclaimer)}</a></nav>
 </div></footer>`;
 
   const intro = (h1, lede) => `<p class="eyebrow">Kegel Morse Hero</p><h1 style="${h1Style}">${esc(h1)}</h1><p class="lede" style="max-width:620px">${esc(lede)}</p>`;

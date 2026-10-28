@@ -1,0 +1,276 @@
+{
+  "ui": {
+    "navWorkouts": "Entrenamientos",
+    "hubTitle": "Entrenamientos del suelo pélvico con imágenes",
+    "hubDescription": "Entrenamientos del suelo pélvico y de Kegel para hombres y mujeres con imágenes: cada movimiento muestra la posición inicial y final, los músculos que trabajan y las repeticiones.",
+    "hubH1": "Entrenamientos del suelo pélvico con imágenes",
+    "hubLede": "Rutinas cortas que puedes hacer en casa, para hombres y para mujeres. Cada ejercicio tiene una imagen de la posición inicial y final, tres consejos de técnica y las repeticiones; en las rutinas para hombres se resaltan los músculos que trabajan.",
+    "groupMen": "Para hombres",
+    "groupWomen": "Para mujeres",
+    "allExercises": "Todos los ejercicios",
+    "cardMeta": "{n} ejercicios · ~{m} min · {level}",
+    "eyebrowMen": "Entrenamiento para hombres · {n} ejercicios · ~{m} min",
+    "eyebrowWomen": "Entrenamiento para mujeres · {n} ejercicios · ~{m} min",
+    "levels": { "Beginner": "Para principiantes", "Easy": "Nivel fácil", "Intermediate": "Nivel intermedio" },
+    "equipmentNone": "Sin material",
+    "equipmentBall": "Una pelota pequeña o un cojín",
+    "atHome": "En casa",
+    "minutes": "{m} minutos",
+    "theWorkout": "El entrenamiento",
+    "sliderAria": "Diapositivas del entrenamiento, usa las flechas del teclado",
+    "slideLabel": "{i} de {n}: {name}",
+    "prevExercise": "Ejercicio anterior",
+    "nextExercise": "Ejercicio siguiente",
+    "details": "Detalles ↓",
+    "works": "Trabajan",
+    "start": "Inicio",
+    "finish": "Final",
+    "mistake": "Error común:",
+    "instead": "En su lugar:",
+    "howRoutine": "Cómo hacer esta rutina",
+    "appH2": "Cronometra tus Kegel con Kegel Morse Hero",
+    "appP": "La app guía cada contracción y relajación con un anillo y vibración, así que puedes entrenar la parte de Kegel de esta rutina sin mirar la pantalla. Sin cuenta y sin anuncios.",
+    "safety": "No es un consejo médico. Para si algo te duele. Si tienes dolor, pérdidas de orina u otros síntomas, o te han operado en la zona pélvica, consulta antes con un médico o un fisioterapeuta de suelo pélvico.",
+    "safetyLink": "Aviso médico",
+    "prev": "← Anterior",
+    "next": "Siguiente →",
+    "moreAria": "Más entrenamientos",
+    "beforeStart": "Antes de empezar:",
+    "breadcrumbAria": "Migas de pan",
+    "exerciseEyebrow": "Ejercicio · {reps}",
+    "exerciseH1": "{name}: cómo hacerlo (con imágenes)",
+    "exerciseTitle": "{name}: cómo hacerlo (con imágenes)",
+    "exerciseDesc": "{name}: {short}. Tres consejos de técnica, los músculos que trabaja, repeticiones y un error común, con imágenes.",
+    "howToDo": "Cómo hacerlo",
+    "inThese": "En estos entrenamientos",
+    "howToName": "Cómo hacer el ejercicio «{name}»",
+    "altPair": "posición inicial y final",
+    "altSingle": "posición",
+    "altAnatomy": "{name}: {pos}, resaltado: {works}",
+    "altFlat": "{name}: {pos}",
+    "std": ["Haz los movimientos en orden, una sola vuelta.", "Descansa unos 30 segundos entre movimientos.", "Tres o cuatro veces por semana es un buen comienzo; la calidad importa más que la velocidad."],
+    "muscles": {
+      "Pelvic floor": "Suelo pélvico", "Diaphragm": "Diafragma", "Glutes": "Glúteos", "Hamstrings": "Parte posterior del muslo", "Inner thighs": "Cara interna de los muslos",
+      "Deep core": "Core profundo", "Lower abdominals": "Abdomen inferior", "Hip flexors": "Flexores de la cadera", "Deep abdominals": "Abdominales profundos", "Lower back": "Zona lumbar",
+      "Hips": "Zona de la cadera", "Side glutes": "Glúteos laterales", "Back muscles": "Músculos de la espalda", "Spine": "Columna", "Abdominals": "Abdominales",
+      "Shoulders": "Hombros", "Obliques": "Oblicuos", "Thighs": "Muslos"
+    }
+  },
+  "exercises": {
+    "kegelLying": { "name": "Kegel boca arriba", "short": "Aprieta, mantén, relaja", "cues": ["Échate boca arriba, rodillas dobladas y pies apoyados", "Aprieta como si cortaras el chorro de orina y sube hacia arriba y hacia dentro", "Relaja por completo entre repeticiones"], "reps": "10 repeticiones · mantén 3 s", "tip": "Respira con normalidad. Si se tensan el abdomen, los glúteos o los muslos, la contracción es demasiado fuerte: hazla más suave." },
+    "kegelSitting": { "name": "Kegel sentado", "short": "La misma contracción, sentado y erguido", "cues": ["Siéntate erguido, pies apoyados en el suelo", "Aprieta y sube, con los glúteos relajados", "Respira con normalidad"], "reps": "10 repeticiones · mantén 5 s", "tip": "Puedes hacerlo en una silla, en el coche o en el escritorio: nadie lo nota. Hombros sueltos." },
+    "kegelStanding": { "name": "Kegel de pie", "short": "El más difícil: luchas contra la gravedad", "cues": ["Ponte de pie, rodillas ligeramente flexionadas", "Aprieta y sube hacia arriba y hacia dentro", "Abdomen y glúteos relajados"], "reps": "10 repeticiones · mantén 5 s", "tip": "Es la posición más difícil porque la gravedad va en contra. Domina primero la versión boca arriba." },
+    "breathing": { "name": "Respiración abdominal", "short": "Respiraciones lentas hacia el abdomen", "cues": ["Una mano sobre el abdomen", "Inspira: el abdomen sube y el suelo pélvico se relaja", "Espira: elevación suave hacia arriba"], "reps": "1–2 min", "tip": "Deja que el suelo pélvico se suavice al inspirar. Es tan importante como la contracción." },
+    "bridge": { "name": "Puente de glúteos", "short": "Sube la cadera y aprieta arriba", "cues": ["Pies apoyados, a la anchura de las caderas", "Espira, aprieta los glúteos y sube la cadera", "Baja despacio"], "reps": "12 repeticiones", "mistake": { "wrong": "Arquear la zona lumbar arriba", "right": "Costillas abajo, línea recta de las rodillas a los hombros" } },
+    "bridgeBall": { "name": "Puente con pelota entre las rodillas", "short": "Puente apretando una pelota con las rodillas", "cues": ["Pelota o cojín entre las rodillas", "Aprieta la pelota y sube la cadera", "Mantén 2 s arriba"], "reps": "10 repeticiones", "tip": "¿Sin pelota? Usa un cojín o una toalla enrollada." },
+    "singleLegBridge": { "name": "Puente a una pierna", "short": "Un pie en el suelo, una pierna arriba", "cues": ["Una pierna estirada en el aire", "Empuja con el talón del pie de apoyo", "Mantén la cadera nivelada"], "reps": "8 por lado" },
+    "bridgeMarch": { "name": "Puente con marcha", "short": "Mantén el puente y marcha", "cues": ["Sube a un puente", "Levanta un pie y luego el otro", "La cadera no cae"], "reps": "10 pasos" },
+    "heelSlides": { "name": "Deslizamiento de talones", "short": "Desliza un talón hacia fuera y de vuelta", "cues": ["Échate boca arriba, rodillas dobladas", "Espirando, desliza un talón hacia fuera", "La espalda se queda quieta"], "reps": "10 por lado" },
+    "supineMarch": { "name": "Elevación de rodillas boca arriba", "short": "Sube las rodillas dobladas, una a una", "cues": ["Échate boca arriba, rodillas dobladas", "Sube una rodilla a 90°", "Baja despacio y cambia"], "reps": "10 por lado" },
+    "deadBug": { "name": "«Bicho muerto»", "short": "Baja el brazo y la pierna opuestos", "cues": ["Brazos arriba, rodillas sobre las caderas", "Baja el brazo y la pierna opuestos", "La zona lumbar se queda pegada al suelo"], "reps": "8 por lado", "mistake": { "wrong": "La zona lumbar se despega del suelo", "right": "Presiona la espalda contra el suelo y ve más despacio" } },
+    "pelvicTilt": { "name": "Inclinación pélvica", "short": "Inclina la pelvis hacia arriba y abajo", "cues": ["Échate boca arriba, rodillas dobladas", "Aplana la zona lumbar contra el suelo", "Suelta y repite"], "reps": "12 repeticiones" },
+    "kneeFallout": { "name": "Rodillas hacia los lados", "short": "Deja caer una rodilla hacia un lado", "cues": ["Échate boca arriba, rodillas dobladas", "Baja despacio una rodilla hacia fuera", "La pelvis se queda quieta"], "reps": "10 por lado" },
+    "clamshell": { "name": "«Almeja»", "short": "Abre la rodilla de arriba, pies juntos", "cues": ["Échate de lado, rodillas dobladas", "Pies juntos, levanta la rodilla de arriba", "No gires la cadera hacia atrás"], "reps": "12 por lado" },
+    "sideLegRaise": { "name": "Elevación lateral de pierna", "short": "Levanta la pierna de arriba en línea recta", "cues": ["Échate de lado, piernas estiradas", "Levanta despacio la pierna de arriba", "Los dedos de los pies apuntan hacia delante"], "reps": "12 por lado" },
+    "birdDog": { "name": "«Pájaro-perro»", "short": "Estira el brazo y la pierna opuestos", "cues": ["Manos bajo los hombros, rodillas bajo las caderas", "Estira el brazo y la pierna opuestos", "Mantén la espalda plana"], "reps": "8 por lado" },
+    "catCow": { "name": "«Gato-vaca»", "short": "Redondea la espalda y luego arquéala", "cues": ["Empieza a cuatro apoyos", "Espira: redondea la espalda hacia arriba", "Inspira: baja el abdomen y mira hacia arriba"], "reps": "8 rondas lentas", "tip": "Muévete despacio y acompasa el movimiento con la respiración." },
+    "plank": { "name": "Plancha", "short": "Línea recta sobre los antebrazos", "cues": ["Codos bajo los hombros", "Aprieta los glúteos y activa el abdomen", "Sigue respirando"], "reps": "20–40 s", "mistake": { "wrong": "La cadera se hunde", "right": "Línea recta de la cabeza a los talones" }, "tip": "Si la versión completa es muy difícil, apoya las rodillas. Un mantenimiento corto y limpio vale más que uno largo con la cadera hundida." },
+    "sidePlank": { "name": "Plancha lateral", "short": "Cadera arriba sobre un antebrazo", "cues": ["Codo bajo el hombro", "Sube la cadera hasta formar una línea recta", "Rodillas apoyadas = más fácil"], "reps": "15–30 s por lado" },
+    "superman": { "name": "«Superman»", "short": "Levanta brazos y piernas del suelo", "cues": ["Échate boca abajo", "Levanta un poco brazos, pecho y piernas", "Mantén 2 s y baja despacio"], "reps": "10 repeticiones" },
+    "childPose": { "name": "Postura del niño", "short": "Siéntate hacia atrás, brazos largos", "cues": ["Rodillas separadas, dedos gordos de los pies juntos", "Siéntate sobre los talones", "Respira hacia la zona lumbar"], "reps": "30–60 s", "tip": "Deja que el abdomen y el suelo pélvico se relajen por completo. No fuerces si hay dolor." },
+    "happyBaby": { "name": "«Bebé feliz»", "short": "Agarra los pies, rodillas abiertas", "cues": ["Échate boca arriba", "Agarra los pies, rodillas hacia las axilas", "Balancéate suavemente de lado a lado"], "reps": "30–60 s" },
+    "butterfly": { "name": "Estiramiento «Mariposa»", "short": "Plantas de los pies juntas, inclínate hacia delante", "cues": ["Siéntate erguido, plantas de los pies juntas", "Deja caer las rodillas hacia los lados", "Inclínate hacia delante desde las caderas"], "reps": "30–60 s" },
+    "frogStretch": { "name": "Estiramiento «Rana»", "short": "Rodillas abiertas, cadera hacia atrás", "cues": ["A cuatro apoyos, abre las rodillas", "Tobillos alineados con las rodillas", "Lleva despacio la cadera hacia atrás"], "reps": "30–60 s" },
+    "hipFlexor": { "name": "Estiramiento de flexores de la cadera", "short": "Arrodíllate y desplaza la cadera hacia delante", "cues": ["Media rodilla en el suelo, rodilla trasera apoyada", "Aprieta el glúteo de la pierna de atrás", "Desplaza la cadera suavemente hacia delante"], "reps": "30 s por lado" },
+    "squat": { "name": "Sentadilla con peso corporal", "short": "Baja y vuelve a subir", "cues": ["Pies a la anchura de los hombros", "Lleva la cadera atrás, pecho arriba", "Espira al subir"], "reps": "12 repeticiones", "mistake": { "wrong": "Redondear la espalda", "right": "Pecho arriba, espalda larga" } },
+    "sumoSquat": { "name": "Sentadilla sumo", "short": "Postura ancha, puntas hacia fuera", "cues": ["Postura ancha, puntas de los pies hacia fuera", "Las rodillas siguen la dirección de los pies", "Sube apretando los glúteos"], "reps": "12 repeticiones" },
+    "wallSit": { "name": "«Silla» en la pared", "short": "Espalda en la pared, mantén", "cues": ["Espalda plana contra la pared", "Desliza hacia abajo, rodillas a 90°", "Añade una contracción de Kegel mientras mantienes"], "reps": "20–40 s", "tip": "Para antes de que los muslos tiemblen mucho. Respira todo el tiempo." },
+    "lunge": { "name": "Zancada hacia atrás", "short": "Paso atrás, abajo, arriba", "cues": ["Da un paso atrás con un pie", "Baja la rodilla de atrás", "Empuja con el talón delantero"], "reps": "8 por lado" },
+    "ballSqueeze": { "name": "Apretar la pelota con las rodillas", "short": "Aprieta una pelota entre las rodillas", "cues": ["Siéntate erguido, pelota entre las rodillas", "Aprieta la pelota y el suelo pélvico", "Mantén 5 s y relaja"], "reps": "10 repeticiones", "tip": "¿Sin pelota? Sirve una toalla enrollada o un cojín." }
+  },
+  "programs": {
+    "pelvic-floor-exercises-for-men-beginner": {
+      "title": "Ejercicios del suelo pélvico para hombres: rutina de 6 movimientos para principiantes",
+      "h1": "Ejercicios del suelo pélvico para hombres: rutina de 6 movimientos para principiantes",
+      "description": "Rutina sencilla de 6 ejercicios del suelo pélvico para hombres con imágenes anatómicas: Kegel, puente de glúteos, almeja, pájaro-perro, bicho muerto y sentadilla. Unos 8 minutos.",
+      "lede": "Seis movimientos sencillos para el suelo pélvico y los músculos que lo rodean. Cada uno tiene una imagen de la posición inicial y final con los músculos que trabajan resaltados, tres consejos de técnica y las repeticiones.",
+      "howTo": "Empieza con una vuelta. Cuando te resulte fácil, haz dos."
+    },
+    "kegel-exercises-for-men-5-minute-routine": {
+      "title": "Ejercicios de Kegel para hombres: rutina diaria de 5 minutos",
+      "h1": "Ejercicios de Kegel para hombres: rutina diaria de 5 minutos",
+      "description": "Ejercicios de Kegel para hombres en 5 minutos al día: Kegel boca arriba, sentado y de pie, puente de glúteos y respiración abdominal, con imágenes anatómicas. Sin material.",
+      "lede": "Una rutina diaria corta centrada en el propio ejercicio de Kegel: tres posiciones, más un puente y respiración abdominal para encontrar el músculo y relajarlo por completo.",
+      "howTo": "Una vez al día es suficiente. Termina con la respiración para que el músculo se relaje."
+    },
+    "evening-kegel-routine-for-men": {
+      "title": "Rutina de Kegel nocturna para hombres: 5 movimientos tranquilos antes de dormir",
+      "h1": "Rutina de Kegel nocturna para hombres: 5 movimientos tranquilos antes de dormir",
+      "description": "Rutina de Kegel nocturna para hombres: cinco movimientos tranquilos en la cama o en una esterilla antes de dormir, con imágenes anatómicas. Unos 7 minutos, sin material.",
+      "lede": "Movimientos lentos y sin esfuerzo para el final del día. Todo se hace tumbado o sentado en el suelo, así que puedes hacerlo junto a la cama.",
+      "howTo": "Baja la luz y muévete despacio; detén cada movimiento antes de que suponga esfuerzo."
+    },
+    "morning-pelvic-floor-workout-for-men": {
+      "title": "Entrenamiento matutino del suelo pélvico para hombres: 6 movimientos",
+      "h1": "Entrenamiento matutino del suelo pélvico para hombres: 6 movimientos para empezar el día",
+      "description": "Entrenamiento matutino del suelo pélvico para hombres: seis movimientos, del gato-vaca a las sentadillas, que despiertan caderas, glúteos y core, con imágenes anatómicas.",
+      "lede": "Una rutina para despertar: de movimientos lentos en el suelo a otros de pie, para terminar de pie y listo para el día.",
+      "howTo": "Hazla antes del desayuno o nada más despertar; no hace falta calentar."
+    },
+    "kegel-exercises-at-your-desk-for-men": {
+      "title": "Ejercicios de Kegel en el escritorio: rutina de oficina para hombres",
+      "h1": "Ejercicios de Kegel en el escritorio: rutina de oficina para hombres",
+      "description": "Ejercicios de Kegel en el escritorio para hombres: cinco movimientos discretos para la oficina, del Kegel sentado al estiramiento de flexores de la cadera, con imágenes anatómicas.",
+      "lede": "Cinco movimientos para una larga jornada de trabajo. Dos de ellos los haces sin levantarte de la silla; el resto lleva un minuto junto al escritorio.",
+      "howTo": "Pon un recordatorio cada hora y haz uno o dos movimientos en lugar de una vuelta completa."
+    },
+    "pelvic-floor-exercises-for-men-over-40": {
+      "title": "Ejercicios del suelo pélvico para hombres mayores de 40",
+      "h1": "Ejercicios del suelo pélvico para hombres mayores de 40: rutina de 6 movimientos",
+      "description": "Ejercicios del suelo pélvico para hombres mayores de 40: Kegel, puente de glúteos, bicho muerto, almeja y silla en la pared, con imágenes anatómicas. Unos 9 minutos.",
+      "lede": "Una rutina equilibrada para quien empieza más tarde: el ejercicio de Kegel más los glúteos, las caderas y el core profundo que trabajan con él.",
+      "howTo": "Ve despacio y omite cualquier movimiento que duela; aumenta las repeticiones a lo largo de varias semanas."
+    },
+    "pelvic-floor-exercises-for-men-over-50": {
+      "title": "Rutina suave del suelo pélvico para hombres mayores de 50",
+      "h1": "Rutina suave del suelo pélvico para hombres mayores de 50",
+      "description": "Rutina suave del suelo pélvico para hombres mayores de 50: respiración abdominal, Kegel tumbado y sentado, deslizamiento de talones e inclinación pélvica, con imágenes anatómicas.",
+      "lede": "Movimientos de bajo impacto, tumbado o sentado: sin saltos, sin sentadillas profundas y sin mantenimientos largos.",
+      "howTo": "Tómate tu tiempo entre movimientos. Si algo no te parece bien, para y habla con tu médico."
+    },
+    "pelvic-floor-workout-for-lifters": {
+      "title": "Entrenamiento del suelo pélvico para levantadores: antes de sentadillas pesadas",
+      "h1": "Entrenamiento del suelo pélvico para levantadores: antes de sentadillas pesadas",
+      "description": "Entrenamiento del suelo pélvico para levantadores: respiración, puente con marcha, sentadilla sumo, silla en la pared, zancada y bicho muerto, con imágenes. Calentamiento para el día de pierna.",
+      "lede": "Los levantadores se tensan mucho, pero rara vez entrenan los músculos de la parte baja del core. Esta rutina calienta la respiración, las caderas y los glúteos antes de sentadillas o peso muerto pesados.",
+      "howTo": "Úsala como calentamiento antes del día de pierna. Empieza con la respiración para practicar tensar y soltar."
+    },
+    "pelvic-floor-exercises-for-runners-and-cyclists": {
+      "title": "Ejercicios del suelo pélvico para corredores y ciclistas",
+      "h1": "Ejercicios del suelo pélvico para corredores y ciclistas",
+      "description": "Ejercicios del suelo pélvico para corredores y ciclistas: puente a una pierna, elevación lateral de pierna, estiramiento de flexores de la cadera y zancadas, con imágenes anatómicas.",
+      "lede": "Las horas corriendo o pedaleando cargan caderas y glúteos. Estos movimientos entrenan los músculos que estabilizan la pelvis y después estiran las caderas.",
+      "howTo": "Hazla en días de descanso o tras una sesión suave, no justo antes de una carrera intensa."
+    },
+    "pelvic-floor-stretches-for-men": {
+      "title": "Estiramientos del suelo pélvico para hombres: 6 movimientos para caderas tensas",
+      "h1": "Estiramientos del suelo pélvico para hombres: 6 movimientos para caderas tensas",
+      "description": "Estiramientos del suelo pélvico para hombres: flexores de la cadera, mariposa, rana, bebé feliz, postura del niño y gato-vaca, con imágenes anatómicas. Unos 6 minutos.",
+      "lede": "Seis estiramientos lentos para caderas tensas y un suelo pélvico contraído. Respira despacio y deja que los músculos se suavicen.",
+      "howTo": "Mantén cada estiramiento de 30 a 60 segundos y nunca fuerces si hay dolor."
+    },
+    "core-and-pelvic-floor-workout-for-men": {
+      "title": "Entrenamiento de core y suelo pélvico para hombres: sin material",
+      "h1": "Entrenamiento de core y suelo pélvico para hombres: sin material",
+      "description": "Entrenamiento de core y suelo pélvico para hombres: plancha, plancha lateral, bicho muerto, pájaro-perro, superman y puente con marcha, con imágenes anatómicas. Sin material.",
+      "lede": "Una rutina más exigente en el suelo que entrena todo el tronco a la vez: abdominales, espalda, glúteos y los músculos profundos de debajo.",
+      "howTo": "Empieza con una vuelta y añade una segunda cuando la primera te salga con solidez."
+    },
+    "pelvic-floor-exercises-for-drivers": {
+      "title": "Ejercicios del suelo pélvico para viajes largos: rutina para conductores",
+      "h1": "Ejercicios del suelo pélvico para viajes largos: rutina para conductores",
+      "description": "Ejercicios del suelo pélvico para viajes largos: un Kegel sentado para el coche y cuatro estiramientos de cadera y espalda para tu próxima parada, con imágenes anatómicas.",
+      "lede": "Un movimiento para el asiento del conductor y cuatro para tu próxima parada, para aflojar caderas y zona lumbar tras horas sentado.",
+      "howTo": "Haz el Kegel sentado solo con el coche aparcado o como pasajero; el resto, en la parada."
+    },
+    "kegel-exercises-for-women-beginner-routine": {
+      "title": "Ejercicios de Kegel para mujeres: rutina de 6 movimientos para principiantes",
+      "h1": "Ejercicios de Kegel para mujeres: rutina de 6 movimientos para principiantes",
+      "description": "Ejercicios de Kegel para mujeres: rutina de 6 movimientos para principiantes con Kegel tumbada y sentada, puente de glúteos, almeja y gato-vaca. Unos 8 minutos, sin material.",
+      "lede": "El ejercicio de Kegel más las caderas y los glúteos que lo apoyan. Empieza tumbada, donde es más fácil sentir el músculo, y luego avanza.",
+      "howTo": "Aprieta con suavidad, como si cortaras el chorro de orina, y relaja por completo entre repeticiones."
+    },
+    "pelvic-floor-exercises-for-women-5-minute-routine": {
+      "title": "Ejercicios del suelo pélvico para mujeres: rutina diaria de 5 minutos",
+      "h1": "Ejercicios del suelo pélvico para mujeres: rutina diaria de 5 minutos",
+      "description": "Ejercicios del suelo pélvico para mujeres en 5 minutos al día: Kegel tumbada, puente con pelota, deslizamiento de talones, Kegel sentada y respiración abdominal, con imágenes.",
+      "lede": "Una rutina corta que encaja en cualquier día. Una pelota pequeña o un cojín añaden al puente el apretón de la cara interna de los muslos.",
+      "howTo": "Una vez al día es suficiente. Termina con la respiración para que los músculos se relajen."
+    },
+    "morning-pelvic-floor-routine-for-women": {
+      "title": "Rutina matutina del suelo pélvico para mujeres",
+      "h1": "Rutina matutina del suelo pélvico para mujeres",
+      "description": "Rutina matutina del suelo pélvico para mujeres: gato-vaca, inclinación pélvica, puente de glúteos, pájaro-perro y Kegel de pie para empezar el día, con imágenes.",
+      "lede": "Un despertar suave: de movimientos en el suelo a otros de pie, terminando con un Kegel de pie.",
+      "howTo": "Hazla antes del primer café; muévete despacio y respira."
+    },
+    "evening-pelvic-floor-routine-for-women": {
+      "title": "Rutina nocturna del suelo pélvico para mujeres: movimientos tranquilos antes de dormir",
+      "h1": "Rutina nocturna del suelo pélvico para mujeres: movimientos tranquilos antes de dormir",
+      "description": "Rutina nocturna del suelo pélvico para mujeres: respiración abdominal, Kegel tumbada, bebé feliz, mariposa y postura del niño para relajarte antes de dormir, con imágenes.",
+      "lede": "Movimientos lentos para el final del día. La respiración y los estiramientos ayudan al suelo pélvico a soltarse tanto como el Kegel le ayuda a activarse.",
+      "howTo": "Baja la luz, muévete despacio y deja que cada estiramiento se suavice."
+    },
+    "pelvic-floor-exercises-for-women-at-home": {
+      "title": "Ejercicios del suelo pélvico para mujeres en casa: sin material",
+      "h1": "Ejercicios del suelo pélvico para mujeres en casa: sin material",
+      "description": "Ejercicios del suelo pélvico para mujeres en casa: puente, almeja, elevación lateral de pierna, bicho muerto, sentadilla y Kegel, con imágenes. Unos 9 minutos, sin material.",
+      "lede": "Una rutina en el suelo y de pie que solo necesita una esterilla o una alfombra. Entrena el suelo pélvico junto con los glúteos y el core profundo.",
+      "howTo": "Haz una vuelta tres veces por semana y añade repeticiones poco a poco."
+    },
+    "pelvic-floor-exercises-for-women-over-40": {
+      "title": "Ejercicios del suelo pélvico para mujeres mayores de 40",
+      "h1": "Ejercicios del suelo pélvico para mujeres mayores de 40: rutina de 6 movimientos",
+      "description": "Ejercicios del suelo pélvico para mujeres mayores de 40: Kegel tumbada, puente con pelota, pájaro-perro, silla en la pared y almeja, con imágenes. Unos 9 minutos.",
+      "lede": "Una rutina estable para los años en que la fuerza y la flexibilidad piden atención: el ejercicio de Kegel más glúteos, caderas y core profundo.",
+      "howTo": "Avanza poco a poco y omite cualquier movimiento que duela."
+    },
+    "pelvic-floor-exercises-for-women-over-50": {
+      "title": "Ejercicios del suelo pélvico para mujeres mayores de 50: rutina suave",
+      "h1": "Ejercicios del suelo pélvico para mujeres mayores de 50: rutina suave",
+      "description": "Ejercicios del suelo pélvico para mujeres mayores de 50: rutina suave de respiración abdominal, Kegel, deslizamiento de talones e inclinación pélvica, con imágenes. Sin material.",
+      "lede": "Movimientos de bajo impacto, tumbada o sentada. Sin saltos ni sentadillas profundas.",
+      "howTo": "Tómate tu tiempo. Si algo no te parece bien, para y habla con tu médico."
+    },
+    "postpartum-pelvic-floor-exercises": {
+      "title": "Ejercicios del suelo pélvico tras el parto: primera rutina suave",
+      "h1": "Ejercicios del suelo pélvico tras el parto: primera rutina suave",
+      "description": "Ejercicios del suelo pélvico tras el parto: primera rutina suave con respiración abdominal, Kegel tumbada, inclinación pélvica, deslizamiento de talones y rodillas hacia los lados, con imágenes.",
+      "lede": "Cinco movimientos muy suaves para las primeras semanas tras el parto, cuando tu médico o tu matrona te diga que puedes empezar.",
+      "howTo": "Ve con mucha suavidad, para si hay dolor o sangrado y pregunta a tu matrona o fisioterapeuta cuál es el siguiente paso.",
+      "note": "Consulta primero con tu médico o matrona, sobre todo tras una cesárea o un parto difícil."
+    },
+    "bladder-control-routine-for-women": {
+      "title": "Rutina de control de la vejiga para mujeres: 6 movimientos del suelo pélvico",
+      "h1": "Rutina de control de la vejiga para mujeres: 6 movimientos del suelo pélvico",
+      "description": "Rutina de control de la vejiga para mujeres: Kegel en tres posiciones, puente con pelota, apretar la pelota y respiración abdominal, con imágenes anatómicas.",
+      "lede": "Los ejercicios del suelo pélvico forman parte habitual de los programas de control de la vejiga. Esta rutina cubre lo básico: encontrar el músculo, contraerlo en distintas posiciones y relajarlo. No es un tratamiento.",
+      "howTo": "Si tienes pérdidas de orina o dolor, consulta con un médico o un fisioterapeuta de suelo pélvico; los ejercicios por sí solos pueden no bastar."
+    },
+    "pelvic-floor-stretches-for-women": {
+      "title": "Estiramientos del suelo pélvico para mujeres: relaja y suelta",
+      "h1": "Estiramientos del suelo pélvico para mujeres: relaja y suelta",
+      "description": "Estiramientos del suelo pélvico para mujeres: bebé feliz, mariposa, postura del niño, rana, gato-vaca y respiración abdominal, con imágenes. Unos 7 minutos.",
+      "lede": "Estiramientos lentos para un suelo pélvico y unas caderas tensas. Espira y suelta.",
+      "howTo": "Mantén cada estiramiento de 30 a 60 segundos y nunca fuerces si hay dolor."
+    },
+    "core-and-pelvic-floor-workout-for-women": {
+      "title": "Entrenamiento de core y suelo pélvico para mujeres",
+      "h1": "Entrenamiento de core y suelo pélvico para mujeres",
+      "description": "Entrenamiento de core y suelo pélvico para mujeres: bicho muerto, pájaro-perro, plancha, plancha lateral, puente con marcha y Kegel, con imágenes anatómicas. Sin material.",
+      "lede": "Una rutina más fuerte en el suelo que entrena juntos abdominales, espalda, glúteos y músculos profundos.",
+      "howTo": "Empieza con una vuelta. Apoya las rodillas en la plancha si lo necesitas."
+    },
+    "pelvic-floor-exercises-for-women-runners": {
+      "title": "Ejercicios del suelo pélvico para corredoras",
+      "h1": "Ejercicios del suelo pélvico para corredoras",
+      "description": "Ejercicios del suelo pélvico para corredoras: puente a una pierna, elevación lateral de pierna, zancada, almeja, estiramiento de flexores de la cadera y Kegel de pie, con imágenes.",
+      "lede": "Unos glúteos y unas caderas fuertes ayudan a mantener estable la pelvis en cada zancada. Esta rutina los entrena y luego estira las caderas.",
+      "howTo": "Hazla en días suaves o después de correr, no justo antes de una sesión dura."
+    },
+    "desk-pelvic-floor-routine-for-women": {
+      "title": "Rutina de suelo pélvico en el escritorio para mujeres que pasan el día sentadas",
+      "h1": "Rutina de suelo pélvico en el escritorio para mujeres que pasan el día sentadas",
+      "description": "Rutina de suelo pélvico en el escritorio para mujeres: Kegel sentada, apretar la pelota, estiramiento de flexores, sentadilla y gato-vaca para un día largo de oficina, con imágenes.",
+      "lede": "Cinco movimientos para la jornada laboral. Dos los haces sin levantarte de la silla; el resto lleva un minuto junto al escritorio.",
+      "howTo": "Pon un recordatorio cada hora y haz uno o dos movimientos en lugar de una vuelta completa."
+    },
+    "yoga-style-pelvic-floor-routine-for-women": {
+      "title": "Rutina de suelo pélvico estilo yoga para mujeres",
+      "h1": "Rutina de suelo pélvico estilo yoga para mujeres",
+      "description": "Rutina de suelo pélvico estilo yoga para mujeres: gato-vaca, postura del niño, bebé feliz, mariposa, puente y respiración abdominal, con imágenes anatómicas.",
+      "lede": "Movimientos fluidos guiados por la respiración que estiran y fortalecen. Muévete con tu respiración y mantén la calma.",
+      "howTo": "Acompasa cada movimiento con la respiración: espira en el esfuerzo, inspira para soltar."
+    }
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "ui": {
+    "navWorkouts": "Treningi",
+    "hubTitle": "Treningi mięśni dna miednicy z obrazkami",
+    "hubDescription": "Treningi dna miednicy i ćwiczenia Kegla dla mężczyzn i kobiet z obrazkami: każdy ruch pokazuje pozycję początkową i końcową, pracujące mięśnie i liczbę powtórzeń.",
+    "hubH1": "Treningi dna miednicy z obrazkami",
+    "hubLede": "Krótkie zestawy, które możesz robić w domu, dla mężczyzn i dla kobiet. Każde ćwiczenie ma obrazek pozycji początkowej i końcowej, trzy wskazówki techniczne i liczbę powtórzeń; w zestawach dla mężczyzn pracujące mięśnie są zaznaczone.",
+    "groupMen": "Dla mężczyzn",
+    "groupWomen": "Dla kobiet",
+    "allExercises": "Wszystkie ćwiczenia",
+    "cardMeta": "{n} ćwiczeń · ~{m} min · {level}",
+    "eyebrowMen": "Trening dla mężczyzn · {n} ćwiczeń · ~{m} min",
+    "eyebrowWomen": "Trening dla kobiet · {n} ćwiczeń · ~{m} min",
+    "levels": { "Beginner": "Dla początkujących", "Easy": "Poziom łatwy", "Intermediate": "Poziom średni" },
+    "equipmentNone": "Bez sprzętu",
+    "equipmentBall": "Mała piłka lub poduszka",
+    "atHome": "W domu",
+    "minutes": "{m} min",
+    "theWorkout": "Trening",
+    "sliderAria": "Slajdy treningu, przewijaj strzałkami na klawiaturze",
+    "slideLabel": "{i} z {n}: {name}",
+    "prevExercise": "Poprzednie ćwiczenie",
+    "nextExercise": "Następne ćwiczenie",
+    "details": "Szczegóły ↓",
+    "works": "Pracują",
+    "start": "Start",
+    "finish": "Koniec",
+    "mistake": "Częsty błąd:",
+    "instead": "Jak poprawnie:",
+    "howRoutine": "Jak wykonać ten zestaw",
+    "appH2": "Mierz skurcze w Kegel Morse Hero",
+    "appP": "Aplikacja prowadzi każde napięcie i rozluźnienie pierścieniem i wibracją, więc część Kegla w tym zestawie możesz robić bez patrzenia w ekran. Bez konta i bez reklam.",
+    "safety": "To nie jest porada medyczna. Przerwij, jeśli coś boli. Jeśli masz ból, popuszczanie moczu lub inne objawy albo przeszłaś(-eś) operację w obrębie miednicy, najpierw skonsultuj się z lekarzem lub fizjoterapeutą dna miednicy.",
+    "safetyLink": "Zastrzeżenie medyczne",
+    "prev": "← Poprzedni",
+    "next": "Następny →",
+    "moreAria": "Więcej treningów",
+    "beforeStart": "Zanim zaczniesz:",
+    "breadcrumbAria": "Nawigacja okruszkowa",
+    "exerciseEyebrow": "Ćwiczenie · {reps}",
+    "exerciseH1": "{name}: jak wykonać (z obrazkami)",
+    "exerciseTitle": "{name}: jak wykonać (z obrazkami)",
+    "exerciseDesc": "{name}: {short}. Trzy wskazówki techniczne, pracujące mięśnie, powtórzenia i częsty błąd, z obrazkami.",
+    "howToDo": "Jak wykonać",
+    "inThese": "W tych treningach",
+    "howToName": "Jak wykonać ćwiczenie „{name}”",
+    "altPair": "pozycja początkowa i końcowa",
+    "altSingle": "pozycja",
+    "altAnatomy": "{name}: {pos}, zaznaczone: {works}",
+    "altFlat": "{name}: {pos}",
+    "std": ["Wykonuj ruchy po kolei, jedna runda.", "Odpoczywaj około 30 sekund między ruchami.", "Trzy–cztery razy w tygodniu to dobry początek; jakość jest ważniejsza niż tempo."],
+    "muscles": {
+      "Pelvic floor": "Dno miednicy", "Diaphragm": "Przepona", "Glutes": "Mięśnie pośladkowe", "Hamstrings": "Tylna strona ud", "Inner thighs": "Wewnętrzna strona ud",
+      "Deep core": "Głębokie mięśnie core", "Lower abdominals": "Dolna część brzucha", "Hip flexors": "Zginacze bioder", "Deep abdominals": "Głębokie mięśnie brzucha", "Lower back": "Dolny odcinek pleców",
+      "Hips": "Okolice bioder", "Side glutes": "Boczne mięśnie pośladkowe", "Back muscles": "Mięśnie grzbietu", "Spine": "Kręgosłup", "Abdominals": "Mięśnie brzucha",
+      "Shoulders": "Barki", "Obliques": "Mięśnie skośne brzucha", "Thighs": "Mięśnie ud"
+    }
+  },
+  "exercises": {
+    "kegelLying": { "name": "Ćwiczenie Kegla leżąc", "short": "Napnij, utrzymaj, rozluźnij", "cues": ["Połóż się na plecach, kolana zgięte, stopy płasko na podłodze", "Napnij mięśnie, jakbyś zatrzymywał(a) strumień moczu, i unieś je do góry i do środka", "Całkowicie się rozluźniaj między powtórzeniami"], "reps": "10 powtórzeń · utrzymanie 3 s", "tip": "Oddychaj normalnie. Jeśli napinają się brzuch, pośladki lub uda, napięcie jest za mocne: zrób lżejsze." },
+    "kegelSitting": { "name": "Ćwiczenie Kegla siedząc", "short": "To samo napięcie, siedząc prosto", "cues": ["Usiądź prosto, stopy płasko na podłodze", "Napnij i unieś do góry, pośladki rozluźnione", "Oddychaj spokojnie"], "reps": "10 powtórzeń · utrzymanie 5 s", "tip": "Możesz ćwiczyć na krześle, w aucie lub przy biurku: nikt tego nie zauważy. Ramiona rozluźnione." },
+    "kegelStanding": { "name": "Ćwiczenie Kegla stojąc", "short": "Najtrudniejsze: walczysz z grawitacją", "cues": ["Stań prosto, kolana lekko ugięte", "Napnij i unieś do góry i do środka", "Brzuch i pośladki rozluźnione"], "reps": "10 powtórzeń · utrzymanie 5 s", "tip": "To najtrudniejsza pozycja, bo przeszkadza grawitacja. Najpierw opanuj wersję leżącą." },
+    "breathing": { "name": "Oddychanie brzuchem", "short": "Powolne oddechy do brzucha", "cues": ["Jedna dłoń na brzuchu", "Wdech: brzuch się unosi, dno miednicy się rozluźnia", "Wydech: delikatne uniesienie do góry"], "reps": "1–2 min", "tip": "Na wdechu pozwól dnu miednicy zmięknąć. To tak samo ważne jak napięcie." },
+    "bridge": { "name": "Mostek pośladkowy", "short": "Unieś biodra, ściśnij pośladki na górze", "cues": ["Stopy płasko, na szerokość bioder", "Na wydechu ściśnij pośladki i unieś biodra", "Opuść się powoli"], "reps": "12 powtórzeń", "mistake": { "wrong": "Wygięcie w dolnej części pleców na górze", "right": "Żebra opuszczone, prosta linia od kolan do barków" } },
+    "bridgeBall": { "name": "Mostek z piłką między kolanami", "short": "Mostek z piłką ściśniętą kolanami", "cues": ["Piłka lub poduszka między kolanami", "Ściśnij piłkę i unieś biodra", "Zatrzymaj się na górze na 2 s"], "reps": "10 powtórzeń", "tip": "Nie masz piłki? Użyj poduszki lub zwiniętego ręcznika." },
+    "singleLegBridge": { "name": "Mostek na jednej nodze", "short": "Jedna stopa na podłodze, druga noga w górze", "cues": ["Jedna noga prosta w powietrzu", "Dociskaj piętę nogi podporowej", "Biodra pozostają równo"], "reps": "8 na stronę" },
+    "bridgeMarch": { "name": "Mostek z „marszem”", "short": "Utrzymaj mostek i unoś kolana", "cues": ["Unieś się do mostka", "Unieś jedną stopę, potem drugą", "Biodra nie opadają"], "reps": "10 „kroków”" },
+    "heelSlides": { "name": "Zsuwanie pięt", "short": "Wysuwaj piętę i wracaj", "cues": ["Połóż się na plecach, kolana zgięte", "Na wydechu wysuń jedną piętę", "Plecy pozostają nieruchomo"], "reps": "10 na stronę" },
+    "supineMarch": { "name": "Unoszenie kolan w leżeniu", "short": "Unoś zgięte kolana po kolei", "cues": ["Połóż się na plecach, kolana zgięte", "Unieś jedno kolano do 90°", "Opuść powoli i zmień nogę"], "reps": "10 na stronę" },
+    "deadBug": { "name": "„Martwy robak”", "short": "Opuszczaj przeciwną rękę i nogę", "cues": ["Ręce w górę, kolana nad biodrami", "Opuść przeciwną rękę i nogę", "Dolny odcinek pleców pozostaje przyciśnięty do podłogi"], "reps": "8 na stronę", "mistake": { "wrong": "Dolny odcinek pleców odrywa się od podłogi", "right": "Dociśnij plecy do podłogi i poruszaj się wolniej" } },
+    "pelvicTilt": { "name": "Przechylanie miednicy", "short": "Przechylaj miednicę w górę i w dół", "cues": ["Połóż się na plecach, kolana zgięte", "Dociśnij dolny odcinek pleców do podłogi", "Rozluźnij się i powtórz"], "reps": "12 powtórzeń" },
+    "kneeFallout": { "name": "Opuszczanie kolan na boki", "short": "Opuszczaj kolano na bok", "cues": ["Połóż się na plecach, kolana zgięte", "Powoli opuść jedno kolano na bok", "Miednica pozostaje nieruchomo"], "reps": "10 na stronę" },
+    "clamshell": { "name": "„Muszla”", "short": "Otwórz górne kolano, stopy razem", "cues": ["Połóż się na boku, kolana zgięte", "Stopy razem, unieś górne kolano", "Nie przechylaj miednicy do tyłu"], "reps": "12 na stronę" },
+    "sideLegRaise": { "name": "Unoszenie nogi w leżeniu bokiem", "short": "Unoś górną nogę prosto w górę", "cues": ["Połóż się na boku, nogi proste", "Powoli unieś górną nogę", "Palce stóp skierowane do przodu"], "reps": "12 na stronę" },
+    "birdDog": { "name": "„Ptak-pies”", "short": "Wyciągaj przeciwną rękę i nogę", "cues": ["Dłonie pod barkami, kolana pod biodrami", "Wyciągnij przeciwną rękę i nogę", "Plecy pozostają proste"], "reps": "8 na stronę" },
+    "catCow": { "name": "„Kot-krowa”", "short": "Zaokrąglij plecy, potem wygnij", "cues": ["Zacznij w podporze na rękach i kolanach", "Na wydechu zaokrąglij plecy do góry", "Na wdechu opuść brzuch i unieś wzrok"], "reps": "8 powolnych powtórzeń", "tip": "Poruszaj się powoli i dopasuj ruch do oddechu." },
+    "plank": { "name": "Deska", "short": "Prosta linia na przedramionach", "cues": ["Łokcie pod barkami", "Ściśnij pośladki, napnij brzuch", "Nie wstrzymuj oddechu"], "reps": "20–40 s", "mistake": { "wrong": "Biodra opadają", "right": "Prosta linia od głowy do pięt" }, "tip": "Jeśli pełna wersja jest za trudna, oprzyj się na kolanach. Czyste krótkie utrzymanie jest lepsze niż długie z opadającymi biodrami." },
+    "sidePlank": { "name": "Deska boczna", "short": "Biodra w górę na jednym przedramieniu", "cues": ["Łokieć pod barkiem", "Unieś biodra do prostej linii", "Kolana na podłodze = łatwiej"], "reps": "15–30 s na stronę" },
+    "superman": { "name": "„Superman”", "short": "Unoś ręce i nogi nad podłogę", "cues": ["Połóż się na brzuchu", "Unieś trochę ręce, klatkę piersiową i nogi", "Przytrzymaj 2 s i opuść powoli"], "reps": "10 powtórzeń" },
+    "childPose": { "name": "Poza dziecka", "short": "Usiądź do tyłu, ramiona wyciągnięte", "cues": ["Kolana szeroko, duże palce stóp razem", "Usiądź na piętach", "Oddychaj w dolny odcinek pleców"], "reps": "30–60 s", "tip": "Pozwól brzuchowi i dnu miednicy całkowicie się rozluźnić. Nie ciągnij na siłę przez ból." },
+    "happyBaby": { "name": "„Szczęśliwe dziecko”", "short": "Chwyć stopy, kolana szeroko", "cues": ["Połóż się na plecach", "Chwyć stopy, kolana w stronę pach", "Delikatnie kołysz się na boki"], "reps": "30–60 s" },
+    "butterfly": { "name": "Rozciąganie „Motyl”", "short": "Stopy razem, pochylenie do przodu", "cues": ["Usiądź prosto, podeszwy stóp razem", "Pozwól kolanom opaść na boki", "Pochyl się do przodu od bioder"], "reps": "30–60 s" },
+    "frogStretch": { "name": "Rozciąganie „Żaba”", "short": "Kolana szeroko, biodra do tyłu", "cues": ["W podporze rozszerz kolana", "Kostki na jednej linii z kolanami", "Powoli odsuń biodra do tyłu"], "reps": "30–60 s" },
+    "hipFlexor": { "name": "Rozciąganie zginaczy bioder", "short": "Uklęknij i przesuń biodra do przodu", "cues": ["Klęk na jednym kolanie, tylne kolano na podłodze", "Ściśnij pośladek tylnej nogi", "Delikatnie przesuń biodra do przodu"], "reps": "30 s na stronę" },
+    "squat": { "name": "Przysiad z ciężarem własnym", "short": "Opuść się i wstań", "cues": ["Stopy na szerokość barków", "Odsuń biodra do tyłu, klatka piersiowa w górę", "Wstawaj na wydechu"], "reps": "12 powtórzeń", "mistake": { "wrong": "Zaokrąglone plecy", "right": "Klatka piersiowa w górę, plecy długie" } },
+    "sumoSquat": { "name": "Przysiad sumo", "short": "Szeroka postawa, palce na zewnątrz", "cues": ["Szeroka postawa, palce stóp na zewnątrz", "Kolana nad palcami stóp", "Wstawaj, ściskając pośladki"], "reps": "12 powtórzeń" },
+    "wallSit": { "name": "„Krzesełko” przy ścianie", "short": "Plecy przy ścianie, utrzymaj", "cues": ["Plecy płasko przy ścianie", "Zsuń się w dół, kolana pod kątem 90°", "Dodaj napięcie Kegla podczas utrzymania"], "reps": "20–40 s", "tip": "Zakończ, zanim uda zaczną mocno drżeć. Oddychaj przez cały czas." },
+    "lunge": { "name": "Wykrok do tyłu", "short": "Krok w tył, w dół, w górę", "cues": ["Zrób krok jedną nogą do tyłu", "Opuść tylne kolano", "Odepchnij się przednią piętą"], "reps": "8 na stronę" },
+    "ballSqueeze": { "name": "Ściskanie piłki kolanami", "short": "Ściskaj piłkę między kolanami", "cues": ["Usiądź prosto, piłka między kolanami", "Ściśnij piłkę i dno miednicy", "Utrzymaj 5 s i rozluźnij"], "reps": "10 powtórzeń", "tip": "Nie masz piłki? Zwinięty ręcznik lub poduszka też się nadadzą." }
+  },
+  "programs": {
+    "pelvic-floor-exercises-for-men-beginner": {
+      "title": "Ćwiczenia dna miednicy dla mężczyzn: zestaw 6 ruchów dla początkujących",
+      "h1": "Ćwiczenia dna miednicy dla mężczyzn: zestaw 6 ruchów dla początkujących",
+      "description": "Prosty zestaw 6 ćwiczeń dna miednicy dla mężczyzn z obrazkami anatomicznymi: Kegel, mostek pośladkowy, muszla, ptak-pies, martwy robak i przysiad. Około 8 minut.",
+      "lede": "Sześć prostych ruchów dla dna miednicy i otaczających je mięśni. Każdy ma obrazek pozycji początkowej i końcowej z zaznaczonymi pracującymi mięśniami, trzy wskazówki techniczne i liczbę powtórzeń.",
+      "howTo": "Zacznij od jednej rundy. Gdy będzie łatwo, rób dwie rundy."
+    },
+    "kegel-exercises-for-men-5-minute-routine": {
+      "title": "Ćwiczenia Kegla dla mężczyzn: codzienny zestaw na 5 minut",
+      "h1": "Ćwiczenia Kegla dla mężczyzn: codzienny zestaw na 5 minut",
+      "description": "Ćwiczenia Kegla dla mężczyzn w 5 minut dziennie: Kegel leżąc, siedząc i stojąc, mostek pośladkowy i oddychanie brzuchem, z obrazkami anatomicznymi. Bez sprzętu.",
+      "lede": "Krótki codzienny zestaw oparty na samym ćwiczeniu Kegla: trzy pozycje oraz mostek i oddychanie brzuchem, by znaleźć mięsień i całkowicie go rozluźniać.",
+      "howTo": "Raz dziennie wystarczy. Zakończ oddychaniem, żeby mięsień się rozluźnił."
+    },
+    "evening-kegel-routine-for-men": {
+      "title": "Wieczorny zestaw Kegla dla mężczyzn: 5 spokojnych ruchów przed snem",
+      "h1": "Wieczorny zestaw Kegla dla mężczyzn: 5 spokojnych ruchów przed snem",
+      "description": "Wieczorny zestaw Kegla dla mężczyzn: pięć spokojnych ruchów na łóżku lub macie przed snem, z obrazkami anatomicznymi. Około 7 minut, bez sprzętu.",
+      "lede": "Powolne ruchy bez wysiłku na koniec dnia. Wszystko robisz w leżeniu lub siedząc na podłodze, więc możesz ćwiczyć tuż przy łóżku.",
+      "howTo": "Przyćmij światło i poruszaj się powoli; zatrzymuj każdy ruch, zanim zacznie męczyć."
+    },
+    "morning-pelvic-floor-workout-for-men": {
+      "title": "Poranny trening dna miednicy dla mężczyzn: 6 ruchów",
+      "h1": "Poranny trening dna miednicy dla mężczyzn: 6 ruchów na dobry początek dnia",
+      "description": "Poranny trening dna miednicy dla mężczyzn: sześć ruchów od kota-krowy po przysiady, które budzą biodra, pośladki i core, z obrazkami anatomicznymi. Bez sprzętu.",
+      "lede": "Zestaw na pobudkę: od powolnych ruchów na podłodze do stojących, żebyś skończył na nogach i był gotowy na dzień.",
+      "howTo": "Rób przed śniadaniem lub zaraz po przebudzeniu; rozgrzewka nie jest potrzebna."
+    },
+    "kegel-exercises-at-your-desk-for-men": {
+      "title": "Ćwiczenia Kegla przy biurku: zestaw dla mężczyzn w biurze",
+      "h1": "Ćwiczenia Kegla przy biurku: biurowy zestaw dla mężczyzn",
+      "description": "Ćwiczenia Kegla przy biurku dla mężczyzn: pięć dyskretnych ruchów do biura, od Kegla w pozycji siedzącej po rozciąganie zginaczy bioder, z obrazkami anatomicznymi.",
+      "lede": "Pięć ruchów na długi dzień pracy. Dwa z nich zrobisz, nie wstając z krzesła, pozostałe zajmą minutę obok biurka.",
+      "howTo": "Ustaw przypomnienie raz na godzinę i rób jeden–dwa ruchy zamiast pełnej rundy."
+    },
+    "pelvic-floor-exercises-for-men-over-40": {
+      "title": "Ćwiczenia dna miednicy dla mężczyzn po 40.",
+      "h1": "Ćwiczenia dna miednicy dla mężczyzn po 40.: zestaw 6 ruchów",
+      "description": "Ćwiczenia dna miednicy dla mężczyzn po 40.: Kegel, mostek pośladkowy, martwy robak, muszla i krzesełko przy ścianie, z obrazkami anatomicznymi. Około 9 minut.",
+      "lede": "Wyważony zestaw dla tych, którzy zaczynają później: ćwiczenie Kegla oraz pośladki, biodra i głębokie mięśnie core, które z nim współpracują.",
+      "howTo": "Poruszaj się powoli i pomijaj każdy ruch, który boli; powtórzenia dodawaj stopniowo przez kilka tygodni."
+    },
+    "pelvic-floor-exercises-for-men-over-50": {
+      "title": "Delikatny zestaw dla dna miednicy dla mężczyzn po 50.",
+      "h1": "Delikatny zestaw dla dna miednicy dla mężczyzn po 50.",
+      "description": "Delikatny zestaw dla dna miednicy dla mężczyzn po 50.: oddychanie brzuchem, Kegel leżąc i siedząc, zsuwanie pięt i przechylanie miednicy, z obrazkami anatomicznymi.",
+      "lede": "Ruchy bez obciążenia udarowego, w leżeniu lub siedzeniu: bez skoków, głębokich przysiadów i długich utrzymań.",
+      "howTo": "Nie spiesz się między ruchami. Jeśli coś wydaje się nie tak, przerwij i porozmawiaj z lekarzem."
+    },
+    "pelvic-floor-workout-for-lifters": {
+      "title": "Trening dna miednicy dla siłaczy: przed ciężkimi przysiadami",
+      "h1": "Trening dna miednicy dla siłaczy: przed ciężkimi przysiadami",
+      "description": "Trening dna miednicy dla siłaczy: oddychanie, mostek z marszem, przysiad sumo, krzesełko, wykrok i martwy robak, z obrazkami anatomicznymi. Rozgrzewka przed dniem nóg.",
+      "lede": "Siłacze mocno napinają tułów, ale rzadko trenują mięśnie na dole core. Ten zestaw rozgrzewa oddychanie, biodra i pośladki przed ciężkimi przysiadami lub martwym ciągiem.",
+      "howTo": "Użyj jako rozgrzewki przed dniem nóg. Zacznij od oddychania, by przećwiczyć napinanie i rozluźnianie."
+    },
+    "pelvic-floor-exercises-for-runners-and-cyclists": {
+      "title": "Ćwiczenia dna miednicy dla biegaczy i rowerzystów",
+      "h1": "Ćwiczenia dna miednicy dla biegaczy i rowerzystów",
+      "description": "Ćwiczenia dna miednicy dla biegaczy i rowerzystów: mostek na jednej nodze, unoszenie nogi w leżeniu bokiem, rozciąganie zginaczy bioder i wykroki, z obrazkami anatomicznymi.",
+      "lede": "Godziny biegania lub jazdy obciążają biodra i pośladki. Te ruchy trenują mięśnie stabilizujące miednicę, a potem rozciągają biodra.",
+      "howTo": "Rób w dni odpoczynku lub po lekkim treningu, nie tuż przed ciężkim biegiem."
+    },
+    "pelvic-floor-stretches-for-men": {
+      "title": "Rozciąganie dna miednicy dla mężczyzn: 6 ruchów na spięte biodra",
+      "h1": "Rozciąganie dna miednicy dla mężczyzn: 6 ruchów na spięte biodra",
+      "description": "Rozciąganie dna miednicy dla mężczyzn: zginacze bioder, motyl, żaba, szczęśliwe dziecko, poza dziecka i kot-krowa, z obrazkami anatomicznymi. Około 6 minut.",
+      "lede": "Sześć powolnych rozciągań na spięte biodra i napięte dno miednicy. Oddychaj spokojnie i pozwól mięśniom zmięknąć.",
+      "howTo": "Utrzymuj każde rozciąganie 30–60 sekund i nigdy nie ciągnij przez ból."
+    },
+    "core-and-pelvic-floor-workout-for-men": {
+      "title": "Trening core i dna miednicy dla mężczyzn: bez sprzętu",
+      "h1": "Trening core i dna miednicy dla mężczyzn: bez sprzętu",
+      "description": "Trening core i dna miednicy dla mężczyzn: deska, deska boczna, martwy robak, ptak-pies, superman i mostek z marszem, z obrazkami anatomicznymi. Bez sprzętu.",
+      "lede": "Trudniejszy zestaw na podłodze, który trenuje cały tułów razem: brzuch, plecy, pośladki i głębokie mięśnie pod nimi.",
+      "howTo": "Zacznij od jednej rundy i dodaj drugą, gdy pierwsza pójdzie pewnie."
+    },
+    "pelvic-floor-exercises-for-drivers": {
+      "title": "Ćwiczenia dna miednicy na długą trasę: zestaw dla kierowców",
+      "h1": "Ćwiczenia dna miednicy na długą trasę: zestaw dla kierowców",
+      "description": "Ćwiczenia dna miednicy na długą trasę: Kegel w pozycji siedzącej do auta i cztery rozciągania bioder i pleców na najbliższym postoju, z obrazkami anatomicznymi.",
+      "lede": "Jeden ruch na fotel kierowcy i cztery na najbliższy postój, żeby rozluźnić biodra i dolny odcinek pleców po długim siedzeniu.",
+      "howTo": "Kegla siedząc rób tylko na parkingu lub jako pasażer; resztę na postoju."
+    },
+    "kegel-exercises-for-women-beginner-routine": {
+      "title": "Ćwiczenia Kegla dla kobiet: zestaw 6 ruchów dla początkujących",
+      "h1": "Ćwiczenia Kegla dla kobiet: zestaw 6 ruchów dla początkujących",
+      "description": "Ćwiczenia Kegla dla kobiet: zestaw 6 ruchów dla początkujących — Kegel leżąc i siedząc, mostek pośladkowy, muszla i kot-krowa. Około 8 minut, bez sprzętu.",
+      "lede": "Ćwiczenie Kegla plus biodra i pośladki, które je wspierają. Zacznij w leżeniu, gdzie najłatwiej poczuć mięsień, a potem przechodź dalej.",
+      "howTo": "Napinaj delikatnie, jakbyś zatrzymywała strumień moczu, i całkowicie się rozluźniaj między powtórzeniami."
+    },
+    "pelvic-floor-exercises-for-women-5-minute-routine": {
+      "title": "Ćwiczenia dna miednicy dla kobiet: codzienny zestaw na 5 minut",
+      "h1": "Ćwiczenia dna miednicy dla kobiet: codzienny zestaw na 5 minut",
+      "description": "Ćwiczenia dna miednicy dla kobiet w 5 minut dziennie: Kegel leżąc, mostek z piłką, zsuwanie pięt, Kegel siedząc i oddychanie brzuchem, z obrazkami.",
+      "lede": "Krótki zestaw, który wpasuje się w każdy dzień. Mała piłka lub poduszka dodaje do mostka ściskanie wewnętrznej strony ud.",
+      "howTo": "Raz dziennie wystarczy. Zakończ oddychaniem, żeby mięśnie się rozluźniły."
+    },
+    "morning-pelvic-floor-routine-for-women": {
+      "title": "Poranny zestaw dla dna miednicy dla kobiet",
+      "h1": "Poranny zestaw dla dna miednicy dla kobiet",
+      "description": "Poranny zestaw dla dna miednicy dla kobiet: kot-krowa, przechylanie miednicy, mostek pośladkowy, ptak-pies i Kegel stojąc na dobry początek dnia, z obrazkami.",
+      "lede": "Łagodna pobudka: od ruchów na podłodze do stojących, z Keglem w staniu na końcu.",
+      "howTo": "Rób przed pierwszą kawą; poruszaj się powoli i oddychaj."
+    },
+    "evening-pelvic-floor-routine-for-women": {
+      "title": "Wieczorny zestaw dla dna miednicy dla kobiet: spokojne ruchy przed snem",
+      "h1": "Wieczorny zestaw dla dna miednicy dla kobiet: spokojne ruchy przed snem",
+      "description": "Wieczorny zestaw dla dna miednicy dla kobiet: oddychanie brzuchem, Kegel leżąc, szczęśliwe dziecko, motyl i poza dziecka na wyciszenie przed snem, z obrazkami.",
+      "lede": "Powolne ruchy na koniec dnia. Oddychanie i rozciąganie pomagają dnu miednicy się rozluźnić tak samo, jak Kegel pomaga mu się napinać.",
+      "howTo": "Przyćmij światło, poruszaj się powoli i pozwól każdemu rozciąganiu zmięknąć."
+    },
+    "pelvic-floor-exercises-for-women-at-home": {
+      "title": "Ćwiczenia dna miednicy dla kobiet w domu: bez sprzętu",
+      "h1": "Ćwiczenia dna miednicy dla kobiet w domu: bez sprzętu",
+      "description": "Ćwiczenia dna miednicy dla kobiet w domu: mostek, muszla, unoszenie nogi w leżeniu bokiem, martwy robak, przysiad i Kegel, z obrazkami. Około 9 minut, bez sprzętu.",
+      "lede": "Zestaw na podłodze i w staniu, który wymaga tylko maty lub dywanu. Trenuje dno miednicy razem z pośladkami i głębokimi mięśniami core.",
+      "howTo": "Rób jedną rundę trzy razy w tygodniu i powoli dodawaj powtórzenia."
+    },
+    "pelvic-floor-exercises-for-women-over-40": {
+      "title": "Ćwiczenia dna miednicy dla kobiet po 40.",
+      "h1": "Ćwiczenia dna miednicy dla kobiet po 40.: zestaw 6 ruchów",
+      "description": "Ćwiczenia dna miednicy dla kobiet po 40.: Kegel leżąc, mostek z piłką, ptak-pies, krzesełko przy ścianie i muszla, z obrazkami. Około 9 minut.",
+      "lede": "Stały zestaw na lata, gdy siła i elastyczność wymagają uwagi: ćwiczenie Kegla plus pośladki, biodra i głębokie mięśnie core.",
+      "howTo": "Zwiększaj obciążenie powoli i pomijaj każdy ruch, który boli."
+    },
+    "pelvic-floor-exercises-for-women-over-50": {
+      "title": "Ćwiczenia dna miednicy dla kobiet po 50.: delikatny zestaw",
+      "h1": "Ćwiczenia dna miednicy dla kobiet po 50.: delikatny zestaw",
+      "description": "Ćwiczenia dna miednicy dla kobiet po 50.: delikatny zestaw z oddychania brzuchem, Kegla, zsuwania pięt i przechylania miednicy, z obrazkami. Bez sprzętu.",
+      "lede": "Ruchy bez obciążenia udarowego, w leżeniu lub siedzeniu. Bez skoków i głębokich przysiadów.",
+      "howTo": "Nie spiesz się. Jeśli coś wydaje się nie tak, przerwij i porozmawiaj z lekarzem."
+    },
+    "postpartum-pelvic-floor-exercises": {
+      "title": "Ćwiczenia dna miednicy po porodzie: delikatny pierwszy zestaw",
+      "h1": "Ćwiczenia dna miednicy po porodzie: delikatny pierwszy zestaw",
+      "description": "Ćwiczenia dna miednicy po porodzie: delikatny pierwszy zestaw — oddychanie brzuchem, Kegel leżąc, przechylanie miednicy, zsuwanie pięt i opuszczanie kolan, z obrazkami.",
+      "lede": "Pięć bardzo delikatnych ruchów na pierwsze tygodnie po porodzie, gdy lekarz lub położna powie, że można zaczynać.",
+      "howTo": "Poruszaj się bardzo delikatnie, przerwij przy bólu lub krwawieniu i zapytaj położną lub fizjoterapeutę o kolejny krok.",
+      "note": "Najpierw uzyskaj zgodę lekarza lub położnej, zwłaszcza po cesarskim cięciu lub trudnym porodzie."
+    },
+    "bladder-control-routine-for-women": {
+      "title": "Zestaw na kontrolę pęcherza dla kobiet: 6 ruchów dla dna miednicy",
+      "h1": "Zestaw na kontrolę pęcherza dla kobiet: 6 ruchów dla dna miednicy",
+      "description": "Zestaw na kontrolę pęcherza dla kobiet: Kegel w trzech pozycjach, mostek z piłką, ściskanie piłki i oddychanie brzuchem, z obrazkami anatomicznymi.",
+      "lede": "Ćwiczenia dna miednicy często wchodzą w skład programów kontroli pęcherza. Ten zestaw obejmuje podstawy: znalezienie mięśnia, napinanie go w różnych pozycjach i rozluźnianie. To nie jest leczenie.",
+      "howTo": "Jeśli masz popuszczanie moczu lub ból, zgłoś się do lekarza lub fizjoterapeuty dna miednicy; same ćwiczenia mogą nie wystarczyć."
+    },
+    "pelvic-floor-stretches-for-women": {
+      "title": "Rozciąganie dna miednicy dla kobiet: rozluźnij i puść",
+      "h1": "Rozciąganie dna miednicy dla kobiet: rozluźnij i puść",
+      "description": "Rozciąganie dna miednicy dla kobiet: szczęśliwe dziecko, motyl, poza dziecka, żaba, kot-krowa i oddychanie brzuchem, z obrazkami. Około 7 minut.",
+      "lede": "Powolne rozciąganie na napięte dno miednicy i biodra. Wydychaj powietrze i puszczaj napięcie.",
+      "howTo": "Utrzymuj każde rozciąganie 30–60 sekund i nigdy nie ciągnij przez ból."
+    },
+    "core-and-pelvic-floor-workout-for-women": {
+      "title": "Trening core i dna miednicy dla kobiet",
+      "h1": "Trening core i dna miednicy dla kobiet",
+      "description": "Trening core i dna miednicy dla kobiet: martwy robak, ptak-pies, deska, deska boczna, mostek z marszem i Kegel, z obrazkami anatomicznymi. Bez sprzętu.",
+      "lede": "Mocniejszy zestaw na podłodze, który trenuje razem brzuch, plecy, pośladki i głębokie mięśnie.",
+      "howTo": "Zacznij od jednej rundy. W desce oprzyj się na kolanach, jeśli trzeba."
+    },
+    "pelvic-floor-exercises-for-women-runners": {
+      "title": "Ćwiczenia dna miednicy dla biegaczek",
+      "h1": "Ćwiczenia dna miednicy dla biegaczek",
+      "description": "Ćwiczenia dna miednicy dla biegaczek: mostek na jednej nodze, unoszenie nogi w leżeniu bokiem, wykrok, muszla, rozciąganie zginaczy bioder i Kegel stojąc, z obrazkami.",
+      "lede": "Silne pośladki i biodra pomagają utrzymać miednicę stabilnie przy każdym kroku. Ten zestaw je trenuje, a potem rozciąga biodra.",
+      "howTo": "Rób w lekkie dni lub po biegu, nie tuż przed ciężkim treningiem."
+    },
+    "desk-pelvic-floor-routine-for-women": {
+      "title": "Biurowy zestaw dla dna miednicy dla kobiet, które siedzą cały dzień",
+      "h1": "Biurowy zestaw dla dna miednicy dla kobiet, które siedzą cały dzień",
+      "description": "Biurowy zestaw dla dna miednicy dla kobiet: Kegel siedząc, ściskanie piłki, rozciąganie zginaczy bioder, przysiad i kot-krowa na długi dzień przy biurku, z obrazkami.",
+      "lede": "Pięć ruchów na dzień pracy. Dwa z nich zrobisz, nie wstając z krzesła, pozostałe zajmą minutę obok biurka.",
+      "howTo": "Ustaw co godzinę przypomnienie i rób jeden–dwa ruchy zamiast pełnej rundy."
+    },
+    "yoga-style-pelvic-floor-routine-for-women": {
+      "title": "Zestaw dla dna miednicy w stylu jogi dla kobiet",
+      "h1": "Zestaw dla dna miednicy w stylu jogi dla kobiet",
+      "description": "Zestaw dla dna miednicy w stylu jogi dla kobiet: kot-krowa, poza dziecka, szczęśliwe dziecko, motyl, mostek i oddychanie brzuchem, z obrazkami anatomicznymi.",
+      "lede": "Płynne ruchy prowadzone oddechem, które rozciągają i wzmacniają. Poruszaj się razem z oddechem i zachowaj spokój.",
+      "howTo": "Łącz każdy ruch z oddechem: wydech przy wysiłku, wdech, by puścić."
+    }
+  }
+}
