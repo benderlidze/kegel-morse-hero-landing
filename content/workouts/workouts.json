@@ -1,0 +1,1101 @@
+{
+  "publish": true,
+  "updated": "2026-10-28",
+  "_note": "Workout section (/workouts/). Exercises: names, cues and reps come from the carousel factory (E:/kmh-video-gen/catalog.js); pictures are the 'anatomy' character (assets/workouts/anatomy/<id>.webp, two poses = start -> finish). Wording rule: technique cues only, no health promises. Built by scripts/build-workouts.mjs.",
+  "exercises": {
+    "kegelLying": {
+      "name": "Kegel (lying)",
+      "short": "Squeeze, hold, relax",
+      "single": true,
+      "works": [
+        "Pelvic floor"
+      ],
+      "cues": [
+        "Lie on your back, knees bent, feet flat",
+        "Squeeze as if stopping your pee and lift up and in",
+        "Relax fully between reps"
+      ],
+      "reps": "10 reps · 3 s hold",
+      "tip": "Breathe normally. If your belly, glutes or thighs tense up, the squeeze is too hard: go lighter."
+    },
+    "kegelSitting": {
+      "name": "Kegel (sitting)",
+      "short": "Same squeeze, sitting tall",
+      "single": true,
+      "works": [
+        "Pelvic floor"
+      ],
+      "cues": [
+        "Sit tall, feet flat",
+        "Squeeze and lift, keep glutes soft",
+        "Breathe normally"
+      ],
+      "reps": "10 reps · 5 s hold",
+      "tip": "Do it on a chair, in a car or at a desk: nobody can see it. Keep your shoulders loose."
+    },
+    "kegelStanding": {
+      "name": "Kegel (standing)",
+      "short": "Hardest: fight gravity",
+      "single": true,
+      "works": [
+        "Pelvic floor"
+      ],
+      "cues": [
+        "Stand tall, knees soft",
+        "Squeeze and lift up and in",
+        "Keep your belly and glutes relaxed"
+      ],
+      "reps": "10 reps · 5 s hold",
+      "tip": "The hardest position because gravity works against you. Master the lying version first."
+    },
+    "breathing": {
+      "name": "Belly Breathing",
+      "short": "Slow breaths into the belly",
+      "single": true,
+      "works": [
+        "Diaphragm",
+        "Pelvic floor"
+      ],
+      "cues": [
+        "One hand on your belly",
+        "Inhale: belly rises, floor relaxes",
+        "Exhale: gentle lift"
+      ],
+      "reps": "1–2 min",
+      "tip": "Let the pelvic floor soften on the inhale. This is as important as the squeeze."
+    },
+    "bridge": {
+      "name": "Glute Bridge",
+      "short": "Lift hips, squeeze at the top",
+      "works": [
+        "Glutes",
+        "Hamstrings",
+        "Pelvic floor"
+      ],
+      "cues": [
+        "Feet flat, hip-width apart",
+        "Exhale, squeeze and lift your hips",
+        "Lower slowly"
+      ],
+      "reps": "12 reps",
+      "mistake": {
+        "wrong": "Arching your lower back at the top",
+        "right": "Ribs down, straight line from knees to shoulders"
+      }
+    },
+    "bridgeBall": {
+      "name": "Bridge + Ball Squeeze",
+      "short": "Bridge with a ball between knees",
+      "works": [
+        "Glutes",
+        "Inner thighs",
+        "Pelvic floor"
+      ],
+      "cues": [
+        "Ball or pillow between your knees",
+        "Squeeze the ball and lift",
+        "Hold 2 s at the top"
+      ],
+      "reps": "10 reps",
+      "tip": "No ball? Use a pillow or a rolled-up towel between your knees."
+    },
+    "singleLegBridge": {
+      "name": "Single-Leg Bridge",
+      "short": "One foot down, one leg up",
+      "works": [
+        "Glutes",
+        "Hamstrings",
+        "Deep core"
+      ],
+      "cues": [
+        "One leg straight in the air",
+        "Push through the planted heel",
+        "Keep hips level"
+      ],
+      "reps": "8 each side"
+    },
+    "bridgeMarch": {
+      "name": "Bridge March",
+      "short": "Hold the bridge, march",
+      "works": [
+        "Glutes",
+        "Deep core"
+      ],
+      "cues": [
+        "Lift into a bridge",
+        "Lift one foot, then the other",
+        "Hips don't drop"
+      ],
+      "reps": "10 marches"
+    },
+    "heelSlides": {
+      "name": "Heel Slides",
+      "short": "Slide one heel out and back",
+      "works": [
+        "Lower abdominals",
+        "Hip flexors"
+      ],
+      "cues": [
+        "Lie on your back, knees bent",
+        "Exhale, slide one heel away",
+        "Keep your back still"
+      ],
+      "reps": "10 each side"
+    },
+    "supineMarch": {
+      "name": "Supine March",
+      "short": "Lift bent knees one at a time",
+      "works": [
+        "Lower abdominals",
+        "Hip flexors"
+      ],
+      "cues": [
+        "Lie on your back, knees bent",
+        "Lift one knee to 90°",
+        "Lower slowly, switch"
+      ],
+      "reps": "10 each side"
+    },
+    "deadBug": {
+      "name": "Dead Bug",
+      "short": "Lower opposite arm and leg",
+      "works": [
+        "Deep abdominals"
+      ],
+      "cues": [
+        "Arms up, knees over hips",
+        "Lower opposite arm and leg",
+        "Lower back stays on the floor"
+      ],
+      "reps": "8 each side",
+      "mistake": {
+        "wrong": "Lower back lifting off the floor",
+        "right": "Press your back down and move slower"
+      }
+    },
+    "pelvicTilt": {
+      "name": "Pelvic Tilts",
+      "short": "Tilt your pelvis up and down",
+      "works": [
+        "Lower abdominals",
+        "Lower back"
+      ],
+      "cues": [
+        "Lie on your back, knees bent",
+        "Flatten your lower back to the floor",
+        "Release and repeat"
+      ],
+      "reps": "12 reps"
+    },
+    "kneeFallout": {
+      "name": "Knee Fallouts",
+      "short": "Let one knee drop to the side",
+      "works": [
+        "Inner thighs",
+        "Hips"
+      ],
+      "cues": [
+        "Lie on your back, knees bent",
+        "Slowly lower one knee out",
+        "Pelvis stays still"
+      ],
+      "reps": "10 each side"
+    },
+    "clamshell": {
+      "name": "Clamshell",
+      "short": "Open the top knee, feet together",
+      "works": [
+        "Side glutes",
+        "Hips"
+      ],
+      "cues": [
+        "Lie on your side, knees bent",
+        "Feet together, lift the top knee",
+        "Don't roll your hips back"
+      ],
+      "reps": "12 each side"
+    },
+    "sideLegRaise": {
+      "name": "Side Leg Raise",
+      "short": "Lift the top leg straight up",
+      "works": [
+        "Side glutes",
+        "Hips"
+      ],
+      "cues": [
+        "Lie on your side, legs straight",
+        "Lift the top leg slowly",
+        "Toes point forward"
+      ],
+      "reps": "12 each side"
+    },
+    "birdDog": {
+      "name": "Bird Dog",
+      "short": "Reach opposite arm and leg",
+      "works": [
+        "Back muscles",
+        "Glutes",
+        "Deep core"
+      ],
+      "cues": [
+        "Hands under shoulders, knees under hips",
+        "Reach opposite arm and leg long",
+        "Keep your back flat"
+      ],
+      "reps": "8 each side"
+    },
+    "catCow": {
+      "name": "Cat-Cow",
+      "short": "Round up, then arch down",
+      "works": [
+        "Spine",
+        "Deep core"
+      ],
+      "cues": [
+        "Start on hands and knees",
+        "Exhale: round your back up",
+        "Inhale: drop your belly, look up"
+      ],
+      "reps": "8 slow rounds",
+      "tip": "Move slowly and match the movement to your breath."
+    },
+    "plank": {
+      "name": "Plank",
+      "short": "Straight line on forearms",
+      "works": [
+        "Abdominals",
+        "Glutes",
+        "Shoulders"
+      ],
+      "cues": [
+        "Elbows under shoulders",
+        "Squeeze glutes, brace your belly",
+        "Keep breathing"
+      ],
+      "reps": "20–40 s",
+      "mistake": {
+        "wrong": "Hips sagging",
+        "right": "Straight line head to heels"
+      },
+      "tip": "If the full version is too hard, drop to your knees. A clean short hold beats a sagging long one."
+    },
+    "sidePlank": {
+      "name": "Side Plank",
+      "short": "Hips up on one forearm",
+      "works": [
+        "Obliques",
+        "Side glutes"
+      ],
+      "cues": [
+        "Elbow under shoulder",
+        "Lift hips into a straight line",
+        "Knees down = easier"
+      ],
+      "reps": "15–30 s each side"
+    },
+    "superman": {
+      "name": "Superman",
+      "short": "Lift arms and legs off the floor",
+      "works": [
+        "Back muscles",
+        "Glutes"
+      ],
+      "cues": [
+        "Lie face down",
+        "Lift arms, chest and legs a little",
+        "Hold 2 s, lower slowly"
+      ],
+      "reps": "10 reps"
+    },
+    "childPose": {
+      "name": "Child's Pose",
+      "short": "Sit back, arms long",
+      "works": [
+        "Lower back",
+        "Hips"
+      ],
+      "cues": [
+        "Knees wide, big toes together",
+        "Sit back on your heels",
+        "Breathe into your lower back"
+      ],
+      "reps": "30–60 s",
+      "tip": "Let your belly and pelvic floor fully relax here. Do not push into any pain."
+    },
+    "happyBaby": {
+      "name": "Happy Baby",
+      "short": "Hold your feet, knees wide",
+      "works": [
+        "Inner thighs",
+        "Hips"
+      ],
+      "cues": [
+        "Lie on your back",
+        "Hold your feet, knees toward armpits",
+        "Rock gently side to side"
+      ],
+      "reps": "30–60 s"
+    },
+    "butterfly": {
+      "name": "Butterfly Stretch",
+      "short": "Soles together, lean forward",
+      "works": [
+        "Inner thighs",
+        "Hips"
+      ],
+      "cues": [
+        "Sit tall, soles of feet together",
+        "Let knees drop out",
+        "Lean forward from the hips"
+      ],
+      "reps": "30–60 s"
+    },
+    "frogStretch": {
+      "name": "Frog Stretch",
+      "short": "Knees wide, hips back",
+      "works": [
+        "Inner thighs",
+        "Hips"
+      ],
+      "cues": [
+        "On all fours, knees wide",
+        "Ankles in line with knees",
+        "Slowly push hips back"
+      ],
+      "reps": "30–60 s"
+    },
+    "hipFlexor": {
+      "name": "Hip Flexor Stretch",
+      "short": "Kneel and shift forward",
+      "works": [
+        "Hip flexors"
+      ],
+      "cues": [
+        "Half-kneel, back knee down",
+        "Squeeze the back glute",
+        "Shift hips forward gently"
+      ],
+      "reps": "30 s each side"
+    },
+    "squat": {
+      "name": "Bodyweight Squat",
+      "short": "Lower down, rise back up",
+      "works": [
+        "Glutes",
+        "Thighs"
+      ],
+      "cues": [
+        "Feet shoulder-width apart",
+        "Sit back, chest up",
+        "Exhale and lift as you stand"
+      ],
+      "reps": "12 reps",
+      "mistake": {
+        "wrong": "Rounding your back",
+        "right": "Chest up, back long"
+      }
+    },
+    "sumoSquat": {
+      "name": "Sumo Squat",
+      "short": "Wide stance, toes out",
+      "works": [
+        "Inner thighs",
+        "Glutes"
+      ],
+      "cues": [
+        "Wide stance, toes turned out",
+        "Knees track over toes",
+        "Squeeze up to standing"
+      ],
+      "reps": "12 reps"
+    },
+    "wallSit": {
+      "name": "Wall Sit",
+      "short": "Back on the wall, hold",
+      "works": [
+        "Thighs",
+        "Glutes"
+      ],
+      "cues": [
+        "Back flat on a wall",
+        "Slide down, knees at 90°",
+        "Add a Kegel squeeze while holding"
+      ],
+      "reps": "20–40 s",
+      "tip": "Stop before your thighs shake hard. Breathe the whole time."
+    },
+    "lunge": {
+      "name": "Reverse Lunge",
+      "short": "Step back, lower, push up",
+      "works": [
+        "Glutes",
+        "Thighs"
+      ],
+      "cues": [
+        "Step one foot back",
+        "Lower the back knee",
+        "Push through the front heel"
+      ],
+      "reps": "8 each side"
+    },
+    "ballSqueeze": {
+      "name": "Ball Squeeze",
+      "short": "Squeeze a ball between knees",
+      "works": [
+        "Inner thighs",
+        "Pelvic floor"
+      ],
+      "cues": [
+        "Sit tall, ball between knees",
+        "Squeeze ball + pelvic floor",
+        "Hold 5 s, relax"
+      ],
+      "reps": "10 reps",
+      "tip": "No ball? A rolled-up towel or a pillow works too."
+    }
+  },
+  "programs": [
+    {
+      "slug": "pelvic-floor-exercises-for-men-beginner",
+      "title": "Pelvic Floor Exercises for Men: 6-Move Beginner Routine",
+      "h1": "Pelvic floor exercises for men: a 6-move beginner routine",
+      "description": "A simple 6-exercise pelvic floor routine for men with anatomy pictures: Kegels, glute bridge, clamshell, bird dog, dead bug and squat. About 8 minutes, no equipment.",
+      "lede": "Six simple moves for the pelvic floor and the muscles around it. Each one has a start and finish picture with the working muscles highlighted, three technique cues and the reps.",
+      "level": "Beginner",
+      "minutes": 8,
+      "equipment": "None",
+      "items": [
+        "kegelLying",
+        "bridge",
+        "clamshell",
+        "birdDog",
+        "deadBug",
+        "squat"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "Start with one round. When it feels easy, do two rounds.",
+        "Three to four times a week is a good start; quality beats speed."
+      ],
+      "character": "anatomy"
+    },
+    {
+      "slug": "kegel-exercises-for-men-5-minute-routine",
+      "title": "Kegel Exercises for Men: 5-Minute Daily Routine",
+      "h1": "Kegel exercises for men: a 5-minute daily routine",
+      "description": "Kegel exercises for men in 5 minutes a day: lying, sitting and standing Kegels, a glute bridge and belly breathing, with anatomy pictures. No equipment.",
+      "lede": "A short daily routine built around the Kegel itself: three positions, plus a bridge and belly breathing to help you find the muscle and relax it fully.",
+      "level": "Beginner",
+      "minutes": 5,
+      "equipment": "None",
+      "character": "anatomy",
+      "items": [
+        "kegelLying",
+        "kegelSitting",
+        "kegelStanding",
+        "bridge",
+        "breathing"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "Once a day is enough. Finish with the breathing so the muscle relaxes.",
+        "Three to four times a week is a good start; quality beats speed."
+      ]
+    },
+    {
+      "slug": "evening-kegel-routine-for-men",
+      "title": "Evening Kegel Routine for Men: 5 Calm Moves Before Bed",
+      "h1": "Evening Kegel routine for men: 5 calm moves before bed",
+      "description": "Evening Kegel routine for men: five calm moves you can do lying on a bed or mat before sleep, with anatomy pictures. About 7 minutes, no equipment.",
+      "lede": "Slow, low-effort moves for the end of the day. Everything is done lying down or sitting on the floor, so you can do it right next to your bed.",
+      "level": "Beginner",
+      "minutes": 7,
+      "equipment": "None",
+      "character": "anatomy",
+      "items": [
+        "kegelLying",
+        "pelvicTilt",
+        "butterfly",
+        "kneeFallout",
+        "frogStretch"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "Keep the lights low and the pace slow; stop each move before it feels like effort.",
+        "Three to four times a week is a good start; quality beats speed."
+      ]
+    },
+    {
+      "slug": "morning-pelvic-floor-workout-for-men",
+      "title": "Morning Pelvic Floor Workout for Men: 6 Moves",
+      "h1": "Morning pelvic floor workout for men: 6 moves to start the day",
+      "description": "Morning pelvic floor workout for men: six moves from cat-cow to squats that wake up your hips, glutes and core, with anatomy pictures. No equipment.",
+      "lede": "A wake-up routine that goes from slow floor moves to standing ones, so you finish upright and ready to go.",
+      "level": "Beginner",
+      "minutes": 8,
+      "equipment": "None",
+      "character": "anatomy",
+      "items": [
+        "catCow",
+        "bridge",
+        "birdDog",
+        "supineMarch",
+        "squat",
+        "kegelStanding"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "Do it before breakfast or right after waking; no warm-up needed.",
+        "Three to four times a week is a good start; quality beats speed."
+      ]
+    },
+    {
+      "slug": "kegel-exercises-at-your-desk-for-men",
+      "title": "Kegel Exercises at Your Desk: Office Routine for Men",
+      "h1": "Kegel exercises at your desk: an office routine for men",
+      "description": "Kegel exercises at your desk for men: five discreet moves for the office, from a seated Kegel to a hip flexor stretch, with anatomy pictures.",
+      "lede": "Five moves for a long workday. Two of them you can do without leaving your chair, the rest take a minute next to your desk.",
+      "level": "Beginner",
+      "minutes": 6,
+      "equipment": "None",
+      "character": "anatomy",
+      "items": [
+        "kegelSitting",
+        "ballSqueeze",
+        "hipFlexor",
+        "squat",
+        "kegelStanding"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "Set a reminder once an hour and do one or two moves instead of a full round.",
+        "Three to four times a week is a good start; quality beats speed."
+      ]
+    },
+    {
+      "slug": "pelvic-floor-exercises-for-men-over-40",
+      "title": "Pelvic Floor Exercises for Men Over 40",
+      "h1": "Pelvic floor exercises for men over 40: a 6-move routine",
+      "description": "Pelvic floor exercises for men over 40: Kegels, glute bridge, dead bug, clamshell and wall sit, with anatomy pictures. About 9 minutes, no equipment.",
+      "lede": "A balanced routine for starting later: the Kegel plus the glutes, hips and deep core that work with it.",
+      "level": "Beginner",
+      "minutes": 9,
+      "equipment": "None",
+      "character": "anatomy",
+      "items": [
+        "kegelLying",
+        "bridge",
+        "deadBug",
+        "clamshell",
+        "wallSit",
+        "breathing"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "Go slowly and skip any move that hurts; build up reps over a few weeks.",
+        "Three to four times a week is a good start; quality beats speed."
+      ]
+    },
+    {
+      "slug": "pelvic-floor-exercises-for-men-over-50",
+      "title": "Gentle Pelvic Floor Routine for Men Over 50",
+      "h1": "Gentle pelvic floor routine for men over 50",
+      "description": "A gentle pelvic floor routine for men over 50: belly breathing, lying and sitting Kegels, heel slides and pelvic tilts, with anatomy pictures.",
+      "lede": "Low-impact moves done lying down or sitting, with no jumping, deep squats or long holds.",
+      "level": "Easy",
+      "minutes": 8,
+      "equipment": "None",
+      "character": "anatomy",
+      "items": [
+        "breathing",
+        "kegelLying",
+        "heelSlides",
+        "supineMarch",
+        "pelvicTilt",
+        "kegelSitting"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "Take your time between moves. If something feels wrong, stop and talk to your doctor.",
+        "Three to four times a week is a good start; quality beats speed."
+      ]
+    },
+    {
+      "slug": "pelvic-floor-workout-for-lifters",
+      "title": "Pelvic Floor Workout for Lifters: Before Heavy Squats",
+      "h1": "Pelvic floor workout for lifters: before heavy squats",
+      "description": "Pelvic floor workout for lifters: breathing, bridge march, sumo squat, wall sit, lunge and dead bug, with anatomy pictures. A warm-up for leg day.",
+      "lede": "Lifters brace hard but rarely train the muscles at the bottom of the core. This routine warms up the breathing, hips and glutes before heavy squats or deadlifts.",
+      "level": "Intermediate",
+      "minutes": 9,
+      "equipment": "None",
+      "character": "anatomy",
+      "items": [
+        "breathing",
+        "bridgeMarch",
+        "sumoSquat",
+        "wallSit",
+        "lunge",
+        "deadBug"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "Use it as a warm-up before leg day. Start with the breathing to practise bracing and releasing.",
+        "Three to four times a week is a good start; quality beats speed."
+      ]
+    },
+    {
+      "slug": "pelvic-floor-exercises-for-runners-and-cyclists",
+      "title": "Pelvic Floor Exercises for Runners and Cyclists",
+      "h1": "Pelvic floor exercises for runners and cyclists",
+      "description": "Pelvic floor exercises for runners and cyclists: single-leg bridge, side leg raise, hip flexor stretch and lunges, with anatomy pictures.",
+      "lede": "Hours of running or riding load the hips and glutes. These moves train the muscles that stabilise the pelvis, then stretch the hips back out.",
+      "level": "Intermediate",
+      "minutes": 9,
+      "equipment": "None",
+      "character": "anatomy",
+      "items": [
+        "singleLegBridge",
+        "sideLegRaise",
+        "hipFlexor",
+        "lunge",
+        "happyBaby",
+        "kegelStanding"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "Do it on rest days or after an easy session, not right before a hard run.",
+        "Three to four times a week is a good start; quality beats speed."
+      ]
+    },
+    {
+      "slug": "pelvic-floor-stretches-for-men",
+      "title": "Pelvic Floor Stretches for Men: 6 Moves for Tight Hips",
+      "h1": "Pelvic floor stretches for men: 6 moves for tight hips",
+      "description": "Pelvic floor stretches for men: hip flexor, butterfly, frog, happy baby, child pose and cat-cow, with anatomy pictures. About 6 minutes.",
+      "lede": "Six slow stretches for tight hips and a tense pelvic floor. Breathe slowly and let the muscles soften.",
+      "level": "Easy",
+      "minutes": 6,
+      "equipment": "None",
+      "character": "anatomy",
+      "items": [
+        "hipFlexor",
+        "butterfly",
+        "frogStretch",
+        "happyBaby",
+        "childPose",
+        "catCow"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "Hold each stretch for 30-60 seconds and never push into pain.",
+        "Three to four times a week is a good start; quality beats speed."
+      ]
+    },
+    {
+      "slug": "core-and-pelvic-floor-workout-for-men",
+      "title": "Core and Pelvic Floor Workout for Men: No Equipment",
+      "h1": "Core and pelvic floor workout for men: no equipment",
+      "description": "Core and pelvic floor workout for men: plank, side plank, dead bug, bird dog, superman and bridge march, with anatomy pictures. No equipment.",
+      "lede": "A tougher floor routine that trains the whole trunk together: abs, back, glutes and the deep muscles underneath.",
+      "level": "Intermediate",
+      "minutes": 10,
+      "equipment": "None",
+      "character": "anatomy",
+      "items": [
+        "plank",
+        "sidePlank",
+        "deadBug",
+        "birdDog",
+        "superman",
+        "bridgeMarch"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "Start with one round and add a second when the first feels solid.",
+        "Three to four times a week is a good start; quality beats speed."
+      ]
+    },
+    {
+      "slug": "pelvic-floor-exercises-for-drivers",
+      "title": "Pelvic Floor Exercises for Long Drives: Routine for Drivers",
+      "h1": "Pelvic floor exercises for long drives: a routine for drivers",
+      "description": "Pelvic floor exercises for long drives: a seated Kegel for the car plus four hip and back stretches for your next rest stop, with anatomy pictures.",
+      "lede": "One move for the driver seat and four for your next rest stop, to loosen hips and lower back after hours of sitting.",
+      "level": "Beginner",
+      "minutes": 6,
+      "equipment": "None",
+      "character": "anatomy",
+      "items": [
+        "kegelSitting",
+        "hipFlexor",
+        "squat",
+        "catCow",
+        "childPose"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "Only do the seated Kegel while parked or as a passenger; do the rest at a stop.",
+        "Three to four times a week is a good start; quality beats speed."
+      ]
+    },
+    {
+      "slug": "kegel-exercises-for-women-beginner-routine",
+      "title": "Kegel Exercises for Women: 6-Move Beginner Routine",
+      "h1": "Kegel exercises for women: a 6-move beginner routine",
+      "description": "Kegel exercises for women: a 6-move beginner routine with lying and sitting Kegels, glute bridge, clamshell and cat-cow. About 8 minutes, no equipment.",
+      "lede": "The Kegel plus the hips and glutes that support it. Start lying down, where it is easiest to feel the muscle, then move on.",
+      "level": "Beginner",
+      "minutes": 8,
+      "equipment": "None",
+      "character": "woman",
+      "items": [
+        "kegelLying",
+        "bridge",
+        "clamshell",
+        "pelvicTilt",
+        "catCow",
+        "kegelSitting"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "Squeeze gently, as if stopping the flow of urine, and relax fully between reps.",
+        "Three to four times a week is a good start; quality beats speed."
+      ]
+    },
+    {
+      "slug": "pelvic-floor-exercises-for-women-5-minute-routine",
+      "title": "Pelvic Floor Exercises for Women: 5-Minute Daily Routine",
+      "h1": "Pelvic floor exercises for women: a 5-minute daily routine",
+      "description": "Pelvic floor exercises for women in 5 minutes a day: lying Kegel, bridge with ball squeeze, heel slides, seated Kegel and belly breathing.",
+      "lede": "A short routine you can fit around anything. A small ball or pillow adds an inner-thigh squeeze to the bridge.",
+      "level": "Beginner",
+      "minutes": 5,
+      "equipment": "A small ball or pillow",
+      "character": "woman",
+      "items": [
+        "kegelLying",
+        "bridgeBall",
+        "heelSlides",
+        "kegelSitting",
+        "breathing"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "Once a day is plenty. End with the breathing so the muscles release.",
+        "Three to four times a week is a good start; quality beats speed."
+      ]
+    },
+    {
+      "slug": "morning-pelvic-floor-routine-for-women",
+      "title": "Morning Pelvic Floor Routine for Women",
+      "h1": "Morning pelvic floor routine for women",
+      "description": "Morning pelvic floor routine for women: cat-cow, pelvic tilt, glute bridge, bird dog and a standing Kegel to start the day, with pictures.",
+      "lede": "A gentle wake-up that moves from the floor to standing, finishing with a Kegel on your feet.",
+      "level": "Beginner",
+      "minutes": 7,
+      "equipment": "None",
+      "character": "woman",
+      "items": [
+        "catCow",
+        "pelvicTilt",
+        "bridge",
+        "birdDog",
+        "kegelStanding"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "Do it before your first coffee; keep the pace slow and breathe.",
+        "Three to four times a week is a good start; quality beats speed."
+      ]
+    },
+    {
+      "slug": "evening-pelvic-floor-routine-for-women",
+      "title": "Evening Pelvic Floor Routine for Women: Calm Moves Before Bed",
+      "h1": "Evening pelvic floor routine for women: calm moves before bed",
+      "description": "Evening pelvic floor routine for women: belly breathing, lying Kegel, happy baby, butterfly and child pose to wind down before bed, with pictures.",
+      "lede": "Slow moves for the end of the day. The breathing and stretches help the pelvic floor release as much as the Kegel helps it engage.",
+      "level": "Easy",
+      "minutes": 7,
+      "equipment": "None",
+      "character": "woman",
+      "items": [
+        "breathing",
+        "kegelLying",
+        "happyBaby",
+        "butterfly",
+        "childPose"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "Dim the lights, move slowly and let each stretch go soft.",
+        "Three to four times a week is a good start; quality beats speed."
+      ]
+    },
+    {
+      "slug": "pelvic-floor-exercises-for-women-at-home",
+      "title": "Pelvic Floor Exercises for Women at Home: No Equipment",
+      "h1": "Pelvic floor exercises for women at home: no equipment",
+      "description": "Pelvic floor exercises for women at home: bridge, clamshell, side leg raise, dead bug, squat and Kegel, with pictures. About 9 minutes, no equipment.",
+      "lede": "A floor-and-standing routine that needs only a mat or a rug. It trains the pelvic floor together with the glutes and deep core.",
+      "level": "Beginner",
+      "minutes": 9,
+      "equipment": "None",
+      "character": "woman",
+      "items": [
+        "bridge",
+        "clamshell",
+        "sideLegRaise",
+        "deadBug",
+        "squat",
+        "kegelLying"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "Do one round three times a week and add reps slowly.",
+        "Three to four times a week is a good start; quality beats speed."
+      ]
+    },
+    {
+      "slug": "pelvic-floor-exercises-for-women-over-40",
+      "title": "Pelvic Floor Exercises for Women Over 40",
+      "h1": "Pelvic floor exercises for women over 40: a 6-move routine",
+      "description": "Pelvic floor exercises for women over 40: lying Kegel, bridge with ball squeeze, bird dog, wall sit and clamshell, with pictures. About 9 minutes.",
+      "lede": "A steady routine for the years when strength and flexibility need some attention: the Kegel plus glutes, hips and deep core.",
+      "level": "Beginner",
+      "minutes": 9,
+      "equipment": "A small ball or pillow",
+      "character": "woman",
+      "items": [
+        "kegelLying",
+        "bridgeBall",
+        "birdDog",
+        "wallSit",
+        "clamshell",
+        "breathing"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "Build up slowly and skip any move that hurts.",
+        "Three to four times a week is a good start; quality beats speed."
+      ]
+    },
+    {
+      "slug": "pelvic-floor-exercises-for-women-over-50",
+      "title": "Pelvic Floor Exercises for Women Over 50: Gentle Routine",
+      "h1": "Pelvic floor exercises for women over 50: a gentle routine",
+      "description": "Pelvic floor exercises for women over 50: a gentle routine of belly breathing, Kegels, heel slides and pelvic tilts, with pictures. No equipment.",
+      "lede": "Low-impact moves done lying down or sitting. No jumping, no deep squats.",
+      "level": "Easy",
+      "minutes": 8,
+      "equipment": "None",
+      "character": "woman",
+      "items": [
+        "breathing",
+        "kegelLying",
+        "heelSlides",
+        "pelvicTilt",
+        "kegelSitting",
+        "supineMarch"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "Take your time. If something feels wrong, stop and talk to your doctor.",
+        "Three to four times a week is a good start; quality beats speed."
+      ]
+    },
+    {
+      "slug": "postpartum-pelvic-floor-exercises",
+      "title": "Postpartum Pelvic Floor Exercises: Gentle First Routine",
+      "h1": "Postpartum pelvic floor exercises: a gentle first routine",
+      "description": "Postpartum pelvic floor exercises: a gentle first routine with belly breathing, lying Kegel, pelvic tilt, heel slides and knee fallouts, with pictures.",
+      "lede": "Five very gentle moves for the weeks after birth, once your doctor or midwife says it is fine to start.",
+      "level": "Easy",
+      "minutes": 6,
+      "equipment": "None",
+      "character": "woman",
+      "items": [
+        "breathing",
+        "kegelLying",
+        "pelvicTilt",
+        "heelSlides",
+        "kneeFallout"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "Go very gently, stop if anything hurts or bleeds, and ask your midwife or physio about the next step.",
+        "Three to four times a week is a good start; quality beats speed."
+      ],
+      "note": "Get your doctor's or midwife's OK first, especially after a C-section or a hard birth."
+    },
+    {
+      "slug": "bladder-control-routine-for-women",
+      "title": "Bladder Control Routine for Women: 6 Pelvic Floor Moves",
+      "h1": "Bladder control routine for women: 6 pelvic floor moves",
+      "description": "A bladder control routine for women: Kegels in three positions, bridge with ball squeeze, ball squeeze and belly breathing, with anatomy pictures.",
+      "lede": "Pelvic floor exercises are a common part of bladder-control programs. This routine covers the basics: finding the muscle, squeezing in different positions and relaxing it. It is not a treatment.",
+      "level": "Beginner",
+      "minutes": 8,
+      "equipment": "A small ball or pillow",
+      "character": "woman",
+      "items": [
+        "kegelLying",
+        "kegelSitting",
+        "kegelStanding",
+        "bridgeBall",
+        "ballSqueeze",
+        "breathing"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "If you leak urine or feel pain, see a doctor or a pelvic floor physiotherapist; exercises alone may not be enough.",
+        "Three to four times a week is a good start; quality beats speed."
+      ]
+    },
+    {
+      "slug": "pelvic-floor-stretches-for-women",
+      "title": "Pelvic Floor Stretches for Women: Relax and Release",
+      "h1": "Pelvic floor stretches for women: relax and release",
+      "description": "Pelvic floor stretches for women: happy baby, butterfly, child pose, frog stretch, cat-cow and belly breathing, with pictures. About 7 minutes.",
+      "lede": "Slow stretches for a tight pelvic floor and hips. Breathe out and let go.",
+      "level": "Easy",
+      "minutes": 7,
+      "equipment": "None",
+      "character": "woman",
+      "items": [
+        "happyBaby",
+        "butterfly",
+        "childPose",
+        "frogStretch",
+        "catCow",
+        "breathing"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "Hold each stretch for 30-60 seconds and never push into pain.",
+        "Three to four times a week is a good start; quality beats speed."
+      ]
+    },
+    {
+      "slug": "core-and-pelvic-floor-workout-for-women",
+      "title": "Core and Pelvic Floor Workout for Women",
+      "h1": "Core and pelvic floor workout for women",
+      "description": "Core and pelvic floor workout for women: dead bug, bird dog, plank, side plank, bridge march and Kegel, with anatomy pictures. No equipment.",
+      "lede": "A stronger floor routine that trains abs, back, glutes and the deep muscles together.",
+      "level": "Intermediate",
+      "minutes": 10,
+      "equipment": "None",
+      "character": "woman",
+      "items": [
+        "deadBug",
+        "birdDog",
+        "plank",
+        "sidePlank",
+        "bridgeMarch",
+        "kegelLying"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "Start with one round. Drop to your knees on the plank if you need to.",
+        "Three to four times a week is a good start; quality beats speed."
+      ]
+    },
+    {
+      "slug": "pelvic-floor-exercises-for-women-runners",
+      "title": "Pelvic Floor Exercises for Women Runners",
+      "h1": "Pelvic floor exercises for women runners",
+      "description": "Pelvic floor exercises for women runners: single-leg bridge, side leg raise, lunge, clamshell, hip flexor stretch and standing Kegel, with pictures.",
+      "lede": "Strong glutes and hips help keep the pelvis steady with every stride. This routine trains them and then stretches the hips.",
+      "level": "Intermediate",
+      "minutes": 9,
+      "equipment": "None",
+      "character": "woman",
+      "items": [
+        "singleLegBridge",
+        "sideLegRaise",
+        "lunge",
+        "clamshell",
+        "hipFlexor",
+        "kegelStanding"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "Do it on easy days or after a run, not right before a hard session.",
+        "Three to four times a week is a good start; quality beats speed."
+      ]
+    },
+    {
+      "slug": "desk-pelvic-floor-routine-for-women",
+      "title": "Desk Pelvic Floor Routine for Women Who Sit All Day",
+      "h1": "Desk pelvic floor routine for women who sit all day",
+      "description": "A desk pelvic floor routine for women: seated Kegel, ball squeeze, hip flexor stretch, squat and cat-cow for a long day at a desk, with pictures.",
+      "lede": "Five moves for the workday. Two you can do without leaving your chair, the others take a minute beside your desk.",
+      "level": "Beginner",
+      "minutes": 6,
+      "equipment": "None",
+      "character": "woman",
+      "items": [
+        "kegelSitting",
+        "ballSqueeze",
+        "hipFlexor",
+        "squat",
+        "catCow"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "Set an hourly reminder and do one or two moves instead of a full round.",
+        "Three to four times a week is a good start; quality beats speed."
+      ]
+    },
+    {
+      "slug": "yoga-style-pelvic-floor-routine-for-women",
+      "title": "Yoga-Style Pelvic Floor Routine for Women",
+      "h1": "Yoga-style pelvic floor routine for women",
+      "description": "A yoga-style pelvic floor routine for women: cat-cow, child pose, happy baby, butterfly, bridge and belly breathing, with anatomy pictures.",
+      "lede": "Flowing, breath-led moves that stretch and strengthen. Move with your breath and keep it calm.",
+      "level": "Easy",
+      "minutes": 8,
+      "equipment": "None",
+      "character": "woman",
+      "items": [
+        "catCow",
+        "childPose",
+        "happyBaby",
+        "butterfly",
+        "bridge",
+        "breathing"
+      ],
+      "howTo": [
+        "Do the moves in order, once through.",
+        "Rest about 30 seconds between moves.",
+        "Match every move to your breath: exhale for the effort, inhale to release.",
+        "Three to four times a week is a good start; quality beats speed."
+      ]
+    }
+  ]
+}

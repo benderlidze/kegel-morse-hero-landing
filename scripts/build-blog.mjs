@@ -132,7 +132,7 @@ const header = (current = 'articles', showDownload = true) => `
 <header class="site-header"><div class="header-inner">
   <a class="brand" href="/"><img src="/assets/logo-96.png" width="96" height="96" alt="Kegel Morse Hero logo"><span>Kegel Morse Hero</span></a>
   <nav class="site-nav" aria-label="Primary navigation">
-    <a href="/"${current === 'home' ? ' aria-current="page"' : ''}>Home</a><a href="/articles/"${current === 'articles' ? ' aria-current="page"' : ''}>Articles</a><a href="/features.html"${current === 'features' ? ' aria-current="page"' : ''}>Features</a><a href="/how-to-use.html"${current === 'how-to-use' ? ' aria-current="page"' : ''}>How to use</a><a href="/faq.html"${current === 'faq' ? ' aria-current="page"' : ''}>FAQ</a><a href="/privacy.html"${current === 'privacy' ? ' aria-current="page"' : ''}>Privacy</a>
+    <a href="/"${current === 'home' ? ' aria-current="page"' : ''}>Home</a><a href="/articles/"${current === 'articles' ? ' aria-current="page"' : ''}>Articles</a><a href="/workouts/"${current === 'workouts' ? ' aria-current="page"' : ''}>Workouts</a><a href="/features.html"${current === 'features' ? ' aria-current="page"' : ''}>Features</a><a href="/how-to-use.html"${current === 'how-to-use' ? ' aria-current="page"' : ''}>How to use</a><a href="/faq.html"${current === 'faq' ? ' aria-current="page"' : ''}>FAQ</a><a href="/privacy.html"${current === 'privacy' ? ' aria-current="page"' : ''}>Privacy</a>
     ${showDownload ? `<a class="download-link" href="${appStore}" target="_blank" rel="noopener">Download</a><a class="download-link download-link-android" href="${playStore}" target="_blank" rel="noopener">Google Play</a>` : ''}
     ${LANG_MENU}
   </nav>
@@ -141,7 +141,7 @@ const header = (current = 'articles', showDownload = true) => `
 const footer = () => `
 <footer class="site-footer"><div class="footer-inner">
   <div><a class="brand" href="/"><img src="/assets/logo-96.png" width="96" height="96" loading="lazy" alt="Kegel Morse Hero logo"><span>Kegel Morse Hero</span></a><p class="copyright">© 2026 Kegel Morse Hero</p><p class="lang-row" style="display:flex;flex-wrap:wrap;gap:.35rem .9rem;margin:.6rem 0 0;font-size:.85rem">${Object.entries(LANGS).map(([l, v]) => `<a href="/${l}/" hreflang="${l}" lang="${l}">${v.name}</a>`).join('')}<a href="/languages/">All languages</a></p></div>
-  <nav class="footer-links" aria-label="Footer navigation"><a href="/articles/">Articles</a><a href="/features.html">Features</a><a href="/how-to-use.html">How to use</a><a href="/faq.html">FAQ</a><a href="/privacy.html">Privacy</a><a href="/about/">About</a><a href="/editorial-policy/">Editorial policy</a><a href="/medical-disclaimer/">Medical disclaimer</a></nav>
+  <nav class="footer-links" aria-label="Footer navigation"><a href="/articles/">Articles</a><a href="/workouts/">Workouts</a><a href="/features.html">Features</a><a href="/how-to-use.html">How to use</a><a href="/faq.html">FAQ</a><a href="/privacy.html">Privacy</a><a href="/about/">About</a><a href="/editorial-policy/">Editorial policy</a><a href="/medical-disclaimer/">Medical disclaimer</a></nav>
 </div></footer>`;
 
 // Localized versions of English pages are described in scripts/i18n/routes.mjs; they get reciprocal hreflang here.
@@ -458,7 +458,10 @@ const staticUrls = [
 ];
 // Localized pages are built by scripts/build-ru.mjs and scripts/build-i18n.mjs (plus hand-written Russian article).
 const ruUrls = localizedPaths().map((p) => [p, /\/articles\/.+\//.test(p) ? '.8' : '.6', 'monthly', '2026-10-18']);
-const sitemapEntries = [...staticUrls, ...articles.map((article) => [`/articles/${article.slug}/`, '.8', 'monthly', article.last_reviewed]), ...ruUrls];
+// /workouts/ pages: scripts/build-workouts.mjs writes content/workouts/urls.json (empty unless "publish": true)
+let workoutUrls = [];
+try { workoutUrls = JSON.parse(await readFile(path.join(root, 'content', 'workouts', 'urls.json'), 'utf8')); } catch {}
+const sitemapEntries = [...staticUrls, ...workoutUrls, ...articles.map((article) => [`/articles/${article.slug}/`, '.8', 'monthly', article.last_reviewed]), ...ruUrls];
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemapEntries.map(([url, priority, frequency, modified]) => `  <url><loc>${site}${url}</loc><lastmod>${modified}</lastmod><changefreq>${frequency}</changefreq><priority>${priority}</priority></url>`).join('\n')}\n</urlset>\n`;
 
 // --- Keep llms.txt / llms-full.txt in sync with the current article set for AI crawlers ---
