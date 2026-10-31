@@ -99,8 +99,22 @@ img { max-width: 100%; }
 .article-body th { background: var(--surface-2); color: #fff; font-family: Sora,sans-serif; font-size: .76rem; }
 .article-body tr:last-child td { border-bottom: 0; }
 .article-body h2[id="sources"] + ul { padding: 1.25rem 1.25rem 1.25rem 2.7rem; border: 1px solid var(--line); border-radius: 1rem; background: var(--surface); font-size: .88rem; }
-.article-cta { margin: 2rem 0; padding: 1.35rem 1.5rem; border: 1px solid rgba(49,215,231,.35); border-radius: 1rem; background: linear-gradient(135deg,rgba(49,215,231,.13),rgba(49,215,231,.03)); }
-.article-cta a { font-weight: 800; }
+.article-cta { position: relative; isolation: isolate; display: grid; grid-template-columns: 76px minmax(0,1fr); gap: 1rem 1.25rem; overflow: hidden; margin: 2.3rem 0; padding: 1.35rem; border: 1px solid rgba(83,220,255,.62); border-radius: 1.25rem; background: radial-gradient(circle at 12% 0,rgba(255,255,255,.18),transparent 12rem),linear-gradient(135deg,#06384a 0%,#0e7490 48%,#31d7e7 100%); box-shadow: 0 18px 48px rgba(0,104,145,.28),inset 0 1px 0 rgba(255,255,255,.16); color: #fff; }
+.article-cta::after { content: "\00b7  \2014  \00b7 \00b7"; position: absolute; right: -1rem; bottom: -1.2rem; z-index: -1; color: rgba(255,255,255,.08); font: 800 4.8rem/1 Sora,sans-serif; letter-spacing: .06em; white-space: nowrap; transform: rotate(-4deg); }
+.article-cta-logo { align-self: center; width: 76px; height: 76px; border: 1px solid rgba(255,255,255,.28); border-radius: 1rem; box-shadow: 0 10px 24px rgba(0,20,36,.38); }
+.article-cta-copy { display: flex; min-width: 0; flex-direction: column; align-items: flex-start; }
+.article-cta-kicker { color: #d7fbff; font: 800 .68rem/1.2 Sora,sans-serif; letter-spacing: .15em; text-transform: uppercase; }
+.article-cta-title { display: block; margin-top: .35rem; color: #fff; font: 800 clamp(1.3rem,3vw,1.75rem)/1.16 Sora,sans-serif; letter-spacing: -.025em; }
+.article-cta-text { display: block; margin-top: .55rem; color: rgba(239,252,255,.86); font-size: .88rem; line-height: 1.5; }
+.article-cta-actions { grid-column: 2; display: flex; flex-wrap: wrap; gap: .65rem; }
+.article-cta-button { display: inline-flex; min-height: 42px; align-items: center; justify-content: center; padding: .68rem 1rem; border: 1px solid rgba(255,255,255,.28); border-radius: .72rem; font-size: .78rem; font-weight: 800; line-height: 1.2; text-align: center; text-decoration: none; transition: transform .16s ease,box-shadow .16s ease,background .16s ease; }
+.article-cta-button:hover { transform: translateY(-2px); color: inherit; }
+.article-cta-button-primary { border-color: #fff; background: #fff; color: #075b85; box-shadow: 0 8px 20px rgba(0,46,67,.24); }
+.article-cta-button-primary:hover { color: #044b70; box-shadow: 0 11px 24px rgba(0,46,67,.32); }
+.article-cta-button-secondary { background: rgba(0,24,42,.3); color: #fff; }
+.article-cta-button-secondary:hover { background: rgba(0,24,42,.46); color: #fff; }
+.article-end-cta-shell { max-width: 1050px; margin: -3.5rem auto 5rem; padding: 0 1.25rem; }
+.article-end-cta-shell .article-cta { max-width: var(--reading); }
 .toc { position: sticky; top: 6rem; padding-left: 1rem; border-left: 1px solid var(--line); }
 .toc p { margin: 0 0 .8rem; color: var(--text); font: 750 .72rem Sora,sans-serif; letter-spacing: .12em; text-transform: uppercase; }
 .toc ol { margin: 0; padding: 0; list-style: none; }
@@ -232,6 +246,12 @@ img { max-width: 100%; }
   .fact-grid { grid-template-columns: 1fr; }
   .home-hero-inner { padding-top: 2.5rem; }
   .step { gap: 1rem; }
+  .article-cta { grid-template-columns: 60px minmax(0,1fr); padding: 1.1rem; }
+  .article-cta-logo { width: 60px; height: 60px; border-radius: .8rem; }
+  .article-cta-title { font-size: 1.2rem; overflow-wrap: anywhere; }
+  .article-cta-text { font-size: .82rem; }
+  .article-cta-actions { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr; }
+  .article-cta-button { width: 100%; min-width: 0; }
 }
 
 .store-btns { display: inline-flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: .75rem 1rem; }

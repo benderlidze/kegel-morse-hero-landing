@@ -1,6 +1,15 @@
 // Minimal markdown renderer for the article bodies (same output shape as scripts/build-blog.mjs, but language-aware:
 // unicode-safe heading ids, configurable table label, and a hook to rewrite internal links to localized URLs).
-export function createRenderer({ site, appStore, tableLabel = 'Scrollable data table', mapHref = (href) => href }) {
+export function articleCtaMarkup({ cta, appStore, playStore }) {
+  const esc = (value = '') => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  return `<aside class="article-cta" aria-label="${esc(cta.aria)}">
+  <img class="article-cta-logo" src="/assets/logo-96.png" width="96" height="96" alt="" loading="lazy">
+  <span class="article-cta-copy"><span class="article-cta-kicker">Kegel Morse Hero</span><strong class="article-cta-title">${esc(cta.title)}</strong><span class="article-cta-text">${esc(cta.text)}</span></span>
+  <span class="article-cta-actions"><a class="article-cta-button article-cta-button-primary" href="${esc(appStore)}" target="_blank" rel="noopener">${esc(cta.apple)}</a><a class="article-cta-button article-cta-button-secondary" href="${esc(playStore)}" target="_blank" rel="noopener">${esc(cta.play)}</a></span>
+</aside>`;
+}
+
+export function createRenderer({ site, appStore, playStore, cta, tableLabel = 'Scrollable data table', mapHref = (href) => href }) {
   const esc = (value = '') => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   const plain = (value = '') => value.replace(/[*_`]/g, '').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
   const idFor = (value) => plain(value).toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-|-$/g, '');
@@ -37,7 +46,9 @@ export function createRenderer({ site, appStore, tableLabel = 'Scrollable data t
       if (!paragraph.length) return;
       const text = paragraph.join(' ');
       const isCta = /Kegel Morse Hero/.test(text) && /App Store|kegelmorsehero\.com/.test(text);
-      output.push(`<p${isCta ? ' class="article-cta"' : ''}>${inline(text)}</p>`);
+      output.push(isCta && cta
+        ? articleCtaMarkup({ cta, appStore, playStore })
+        : `<p>${inline(text)}</p>`);
       paragraph = [];
     };
     const flushList = () => {

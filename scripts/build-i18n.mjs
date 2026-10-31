@@ -6,7 +6,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { readFileSync } from 'node:fs';
 import { site, LANGS, ARTICLE_SLUGS, EN_ARTICLE, EN_ARTICLES, MD_TRANSLATIONS, HAND_BUILT_ARTICLE, alternatesFor, hreflangTags, langRow, LANG_MENU } from './i18n/routes.mjs';
-import { createRenderer, parseFrontMatter } from './lib/markdown.mjs';
+import { articleCtaMarkup, createRenderer, parseFrontMatter } from './lib/markdown.mjs';
 import uiExtra from './i18n/ui-extra.mjs';
 import { loadTr as loadWorkoutsTr, PUBLISH as WORKOUTS_PUBLISHED, hubPath as workoutsHub } from './lib/workouts-data.mjs';
 
@@ -31,12 +31,14 @@ async function write(pagePath, html) {
 async function buildLang(code, L) {
   const meta = LANGS[code];
   const u = L.ui;
+  const extra = uiExtra[code];
   const play = `${playBase}&hl=${code}`;
   const base = `/${code}`;
   const articlePath = `${base}/articles/${ARTICLE_SLUGS[code]}/`;
   const storeBtn = (href, glyph, eyebrow, name, variant) => `<a class="store-btn${variant ? ` ${variant}` : ''}" href="${href}" target="_blank" rel="noopener">${glyph}<span class="store-label"><span class="store-eyebrow">${eyebrow}</span><span class="store-name">${name}</span></span></a>`;
   const storeButtons = (variant = '') => `<span class="store-btns">${storeBtn(appStore, appleGlyph, u.storeApple, 'App Store', variant)}${storeBtn(play, playGlyph, u.storePlay, 'Google Play', variant)}</span>`;
   const store = `<div class="center-cta">${storeButtons()}</div>`;
+  const articlePromo = () => articleCtaMarkup({ cta: extra.articleCta, appStore, playStore: play });
 
   const head = ({ title, description, path: pagePath, enPath, type = 'website', image, extraMeta = '', jsonLd = '', modified = '' }) => {
     const canonical = `${site}${pagePath}`;
@@ -119,7 +121,7 @@ ${jsonLd}</head>`;
     { '@type': 'FAQPage', inLanguage: code, mainEntity: A.faqs.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) }
   ] });
   const faqHtml = A.faqs.map(([q, a], i) => `<h3 id="faq-${i + 1}">${esc(q)}</h3>\n<p>${esc(a)}</p>`).join('\n');
-  const body = A.body.replace('{{FAQ}}', faqHtml).split('{{APPSTORE}}').join(appStore);
+  const body = A.body.replace('{{FAQ}}', faqHtml).split('{{APPSTORE}}').join(appStore).replace(/<p class="article-cta">[\s\S]*?<\/p>/g, articlePromo());
   await write(`${code}/articles/${ARTICLE_SLUGS[code]}`, `${head({ title: A.title, description: A.description, path: articlePath, enPath: EN_ARTICLE, type: 'article', image: cover, modified: '2026-10-18', jsonLd: articleLd })}<body>${header('articles', EN_ARTICLE)}
 <main id="main"><nav class="breadcrumbs" aria-label="${esc(u.crumbAria)}"><ol><li><a href="${base}/">${esc(u.nav.home)}</a></li><li><a href="${base}/articles/">${esc(u.nav.articles)}</a></li><li aria-current="page">${esc(A.crumb)}</li></ol></nav>
 <header class="article-hero"><div class="article-hero-inner"><p class="eyebrow">${esc(A.category)}</p><h1>${esc(A.h1)}</h1><div class="article-meta"><span>${esc(A.reviewed)} <time datetime="2026-08-04">${esc(A.reviewedDate)}</time></span><span>${esc(A.by)} <a href="${base}/about/" rel="author">Kegel Morse Hero</a></span><span>${esc(A.evidence)}</span></div></div><img class="article-cover" src="/assets/articles/how-many-kegels-a-day-for-men.webp" width="400" height="220" alt="${esc(A.coverAlt)}" loading="eager"></header>
@@ -171,9 +173,8 @@ ${P.sections.map(([h, p]) => `<section><h2>${esc(h)}</h2><p>${esc(p)}</p></secti
   }
 
   // --- Translated markdown articles + article hub (all languages, including ru) ---
-  const extra = uiExtra[code];
   const renderer = createRenderer({
-    site, appStore, tableLabel: extra.tableLabel,
+    site, appStore, playStore: play, cta: extra.articleCta, tableLabel: extra.tableLabel,
     mapHref: (url) => alternatesFor(url)?.[code] || url
   });
   const fmtDate = (iso) => new Date(`${iso}T00:00:00Z`).toLocaleDateString(meta.locale, { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
@@ -192,6 +193,10 @@ ${P.sections.map(([h, p]) => `<section><h2>${esc(h)}</h2><p>${esc(p)}</p></secti
     const parsed = parseFrontMatter(readFileSync(translation.file, 'utf8'));
     const h1 = parsed.body.match(/^#\s+(.+)$/m)?.[1] || parsed.data.meta_title;
     const rendered = renderer.markdown(parsed.body);
+    const showAppPromo = en.slug !== 'do-kegels-help-premature-ejaculation';
+    const articleCta = showAppPromo && !rendered.html.includes('class="article-cta"')
+      ? `<div class="article-end-cta-shell">${articlePromo()}</div>`
+      : '';
     const slug = translation.slug;
     const pagePath = `${base}/articles/${slug}/`;
     const url = `${site}${pagePath}`;
@@ -207,6 +212,7 @@ ${P.sections.map(([h, p]) => `<section><h2>${esc(h)}</h2><p>${esc(p)}</p></secti
 <main id="main"><nav class="breadcrumbs" aria-label="${esc(u.crumbAria)}"><ol><li><a href="${base}/">${esc(u.nav.home)}</a></li><li><a href="${base}/articles/">${esc(u.nav.articles)}</a></li><li aria-current="page">${esc(h1)}</li></ol></nav>
 <header class="article-hero"><div class="article-hero-inner"><p class="eyebrow">${esc(categoryLabel)}</p><h1>${esc(h1)}</h1><div class="article-meta"><span>${esc(AR.reviewed)} <time datetime="${en.last_reviewed}">${esc(fmtDate(en.last_reviewed))}</time></span><span>${esc(AR.by)} <a href="${base}/about/" rel="author">Kegel Morse Hero</a></span><span>${esc(AR.evidence)}</span></div></div><img class="article-cover" src="${cover}" width="400" height="220" alt="" loading="eager"></header>
 <div class="article-layout"><article class="article-body">${rendered.html}</article><aside class="toc" aria-label="${esc(u.tocTitle)}"><p>${esc(u.tocTitle)}</p><ol>${toc}</ol></aside></div>
+${articleCta}
 
 <div class="disclaimer-shell"><p class="medical-disclaimer"><strong>${esc(AR.disclaimerLabel)}</strong> ${esc(AR.disclaimerText)} <a href="${base}/medical-disclaimer/">${esc(AR.disclaimerLink)}</a></p></div></main>${footer(enPath)}</body></html>`);
     cards.push({ href: pagePath, cover, category: categoryLabel, title: h1, description: parsed.data.meta_description, reviewed: reviewedText });

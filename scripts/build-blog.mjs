@@ -2,6 +2,7 @@ import { readFile, writeFile, mkdir, readdir, rm } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { hreflangTags, localizedPaths, LANGS, LANG_MENU } from './i18n/routes.mjs';
+import { articleCtaMarkup } from './lib/markdown.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const contentDir = path.join(root, 'content', 'articles');
@@ -13,6 +14,17 @@ const playGlyph = '<svg viewBox="0 0 24 24"><path d="M3.6 1.8c-.3.2-.5.6-.5 1.1v
 const appleGlyph = '<svg viewBox="0 0 24 24"><path d="M16.365 1.43c0 1.14-.493 2.27-1.177 3.08-.744.9-1.99 1.57-2.987 1.57-.12 0-.23-.02-.3-.03-.01-.06-.04-.22-.04-.39 0-1.15.572-2.27 1.206-2.98.804-.94 2.142-1.64 3.248-1.68.03.13.05.28.05.43zm4.565 15.71c-.03.09-.46 1.6-1.534 3.16-.918 1.35-1.866 2.7-3.36 2.72-1.466.03-1.937-.87-3.61-.87-1.673 0-2.197.84-3.583.9-1.444.05-2.55-1.46-3.475-2.81-1.89-2.74-3.34-7.74-1.4-11.12.964-1.66 2.687-2.71 4.555-2.74 1.435-.03 2.79.97 3.671.97.88 0 2.539-1.2 4.275-1.02.726.03 2.756.295 4.057 2.225-.105.066-2.422 1.418-2.395 4.236.03 3.378 2.965 4.5 3.001 4.51z"/></svg>';
 const storeButton = (variant = '') => `<a class="store-btn${variant ? ` ${variant}` : ''}" href="${appStore}" target="_blank" rel="noopener">${appleGlyph}<span class="store-label"><span class="store-eyebrow">Download on the</span><span class="store-name">App Store</span></span></a>`;
 const storeButtons = (variant = '') => `<span class="store-btns">${storeButton(variant)}<a class="store-btn${variant ? ` ${variant}` : ''}" href="${playStore}" target="_blank" rel="noopener">${playGlyph}<span class="store-label"><span class="store-eyebrow">Get it on</span><span class="store-name">Google Play</span></span></a></span>`;
+const articlePromo = () => articleCtaMarkup({
+  appStore,
+  playStore,
+  cta: {
+    aria: 'Download Kegel Morse Hero',
+    title: 'Download the Kegel trainer you will actually keep using',
+    text: 'Morse-code rhythms guide short squeezes and long holds, with haptics, reminders, and private progress in one app.',
+    apple: 'Download on the App Store',
+    play: 'Get it on Google Play'
+  }
+});
 
 const esc = (value = '') => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const plain = (value = '') => value.replace(/[*_`]/g, '').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
@@ -71,7 +83,7 @@ function markdown(body) {
     if (!paragraph.length) return;
     const text = paragraph.join(' ');
     const isCta = /Kegel Morse Hero/.test(text) && /App Store|kegelmorsehero\.com/.test(text);
-    output.push(`<p${isCta ? ' class="article-cta"' : ''}>${inline(text)}</p>`);
+    output.push(isCta ? articlePromo() : `<p>${inline(text)}</p>`);
     paragraph = [];
   };
   const flushList = () => {
@@ -232,7 +244,7 @@ for (let index = 0; index < articles.length; index += 1) {
   const jsonLd = `<script type="application/ld+json">${JSON.stringify(structured).replace(/</g, '\\u003c')}</script>`;
   const showAppPromo = !article.file.startsWith('10-');
   const articleCta = showAppPromo && !rendered.html.includes('class="article-cta"')
-    ? `<section class="cta-banner article-end-cta"><div class="cta-banner-inner"><h2>Train with Kegel Morse Hero</h2><p>Turn this into a guided session: short squeezes and long holds become Morse code dots and dashes, with built-in rest so you never lose count.</p><div class="cta-row">${storeButtons('on-cyan')}</div></div></section>`
+    ? `<div class="article-end-cta-shell">${articlePromo()}</div>`
     : '';
   const html = `${documentHead({ title: article.meta_title, description: article.meta_description, canonical: article.canonical, type: 'article', modified: article.last_reviewed, jsonLd, image: article.cover_image ? ogImage : undefined })}<body>${header('articles', showAppPromo)}
 <main id="main"><nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/articles/">Articles</a></li><li><a href="/articles/#${article.categoryId}">${esc(categoryLabel)}</a></li><li aria-current="page">${esc(article.h1)}</li></ol></nav>
