@@ -7,6 +7,8 @@ import { fileURLToPath } from 'node:url';
 import { readFileSync } from 'node:fs';
 import { site, LANGS, ARTICLE_SLUGS, EN_ARTICLE, EN_ARTICLES, MD_TRANSLATIONS, HAND_BUILT_ARTICLE, homeGuideLinks, ORG_ID, PERSON_ID, ORG_NODE, PERSON_NODE, AUTHOR_NAME, alternatesFor, hreflangTags, langRow, LANG_MENU } from './i18n/routes.mjs';
 import { articleCtaMarkup, createRenderer, parseFrontMatter } from './lib/markdown.mjs';
+import { seoTitle, seoDesc } from './lib/seo.mjs';
+const SMART_BANNER = '<meta name="apple-itunes-app" content="app-id=6761460873">';
 import uiExtra from './i18n/ui-extra.mjs';
 import { loadTr as loadWorkoutsTr, PUBLISH as WORKOUTS_PUBLISHED, hubPath as workoutsHub } from './lib/workouts-data.mjs';
 
@@ -41,13 +43,14 @@ async function buildLang(code, L) {
   const articlePromo = () => articleCtaMarkup({ cta: extra.articleCta, appStore, playStore: play });
 
   const head = ({ title, description, path: pagePath, enPath, type = 'website', image, extraMeta = '', jsonLd = '', modified = '' }) => {
+    title = seoTitle(title); description = seoDesc(description); // length rules: scripts/lib/seo.mjs
     const canonical = `${site}${pagePath}`;
     const ogImage = image || `${site}/assets/og-image.png`;
     return `<!doctype html><html lang="${code}"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)}</title><meta name="description" content="${esc(description)}">
 <meta name="author" content="Kegel Morse Hero"><meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
-<meta name="theme-color" content="#070a0b">${extraMeta}<link rel="canonical" href="${canonical}">
+<meta name="theme-color" content="#070a0b">${/apple-itunes-app/.test(extraMeta) ? extraMeta : SMART_BANNER + extraMeta}<link rel="canonical" href="${canonical}">
 ${hreflangTags(enPath)}
 <link rel="icon" href="/assets/favicon-48.png" type="image/png" sizes="48x48"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <meta property="og:type" content="${type}"><meta property="og:locale" content="${meta.og}"><meta property="og:site_name" content="Kegel Morse Hero"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${ogImage}"><meta property="og:image:alt" content="${esc(u.ogAlt)}">${modified ? `<meta property="article:modified_time" content="${modified}">` : ''}

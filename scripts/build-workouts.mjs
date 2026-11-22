@@ -9,6 +9,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { data, PUBLISH, loadTr, loadGuide, programPath, exercisePath, hubPath, prefix } from './lib/workouts-data.mjs';
 import { site, LANGS, hreflangTags, langRow, LANG_MENU } from './i18n/routes.mjs';
+import { seoTitle, seoDesc } from './lib/seo.mjs';
 import ru from './i18n/ru.mjs';
 import pl from './i18n/pl.mjs';
 import de from './i18n/de.mjs';
@@ -127,12 +128,13 @@ async function buildLang(lang) {
   const ftr = (enPath) => (lang === 'en' ? C.footer : C.footer(enPath));
 
   const head = ({ title, description, path: pagePath, enPath, jsonLd = '' }) => {
+    title = seoTitle(title); description = seoDesc(description); // length rules: scripts/lib/seo.mjs
     const canonical = `${site}${pagePath}`;
     return `<!doctype html><html lang="${lang}"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)}</title><meta name="description" content="${esc(description)}">
 <meta name="robots" content="${PUBLISH ? 'index,follow,max-image-preview:large' : 'noindex,follow'}">
-<meta name="theme-color" content="#070a0b"><link rel="canonical" href="${canonical}">${hreflangTags(enPath)}
+<meta name="theme-color" content="#070a0b"><meta name="apple-itunes-app" content="app-id=6761460873"><link rel="canonical" href="${canonical}">${hreflangTags(enPath)}
 <link rel="icon" href="/assets/favicon-48.png" type="image/png" sizes="48x48"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <meta property="og:type" content="article">${meta ? `<meta property="og:locale" content="${meta.og}">` : ''}<meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${canonical}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/blog/blog.css"><link rel="stylesheet" href="/assets/workouts/workouts.css">

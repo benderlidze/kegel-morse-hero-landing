@@ -71,7 +71,7 @@ Book an appointment if repeated night trips disrupt sleep, especially with new u
 
 If pelvic floor strengthening is part of your plan, Kegel Morse Hero can help you follow squeeze-and-rest timing. It does not determine why you wake at night.
 
-For help keeping an appropriate routine consistent, read [How to Remember to Do Kegels](/articles/how-to-remember-to-do-kegels/).
+For help keeping an appropriate routine consistent, read [How to Remember to Do Kegels](/articles/how-to-remember-to-do-kegels-every-day/).
 
 [Explore Kegel Morse Hero on the App Store](https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873)
 

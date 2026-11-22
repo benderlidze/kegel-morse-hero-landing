@@ -58,7 +58,7 @@ Pide cita si las idas repetidas al baño por la noche interrumpen tu sueño, sob
 
 Si fortalecer el suelo pélvico forma parte de tu plan, Kegel Morse Hero puede ayudarte a seguir los tiempos de contracción y descanso. No determina por qué te despiertas de noche.
 
-Para mantener una rutina adecuada con constancia, lee [Cómo acordarte de hacer ejercicios de Kegel](/articles/how-to-remember-to-do-kegels/).
+Para mantener una rutina adecuada con constancia, lee [Cómo acordarte de hacer ejercicios de Kegel](/articles/how-to-remember-to-do-kegels-every-day/).
 
 [Descubre Kegel Morse Hero en la App Store](https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873)
 

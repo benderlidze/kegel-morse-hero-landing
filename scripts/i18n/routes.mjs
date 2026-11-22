@@ -87,6 +87,19 @@ export function homeGuideLinks(code, handBuiltTitle) {
   }).filter(Boolean);
 }
 
+// Articles merged into a stronger page (2026-11-22): sources were removed; build-blog.mjs writes redirect pages
+// (meta refresh + canonical + noindex) from the old EN, /blog/ and localized URLs to the target article.
+export const MERGED_ARTICLES = {
+  'how-long-do-kegels-take-to-work-men': {
+    to: 'how-long-do-kegels-take-to-work-for-men',
+    old: { de: 'wann-wirken-kegel-uebungen-zeitplan-8-wochen', es: 'cuando-empiezan-a-funcionar-los-kegel-8-semanas', fr: 'quand-les-kegel-commencent-a-fonctionner-8-semaines', pl: 'kiedy-cwiczenia-kegla-zaczynaja-dzialac-8-tygodni', ru: 'kogda-nachinayut-rabotat-uprazhneniya-kegelya-8-nedel', uk: 'koly-pochynayut-pratsiuvaty-vpravy-kegelya-8-tyzhniv' }
+  },
+  'how-to-remember-to-do-kegels': {
+    to: 'how-to-remember-to-do-kegels-every-day',
+    old: { de: 'kegel-uebungen-nicht-vergessen-7-tricks', es: 'como-acordarte-de-hacer-kegel-7-trucos', fr: 'penser-a-ses-kegel-7-astuces', pl: 'jak-pamietac-o-cwiczeniach-kegla-7-trikow', ru: 'kak-ne-zabyvat-delat-uprazhneniya-kegelya-7-priemov', uk: 'yak-ne-zabuvaty-vpravy-kegelya-7-pryyomiv' }
+  }
+};
+
 export const localizedSlug = (enSlug, lang) => (enSlug === HAND_BUILT_ARTICLE ? ARTICLE_SLUGS[lang] : MD_TRANSLATIONS[enSlug]?.[lang]?.slug);
 
 // English path -> function(lang) returning the localized path (or undefined when that language has no version).

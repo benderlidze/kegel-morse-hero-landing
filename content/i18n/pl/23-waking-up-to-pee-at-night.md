@@ -58,7 +58,7 @@ Umów wizytę, jeśli częste nocne wyjścia zakłócają sen, zwłaszcza przy n
 
 Jeśli wzmacnianie dna miednicy jest częścią Twojego planu, Kegel Morse Hero pomoże Ci trzymać się czasu napinania i odpoczynku. Nie ustala, dlaczego budzisz się w nocy.
 
-Aby łatwiej utrzymać regularność, przeczytaj [„Jak pamiętać o ćwiczeniach Kegla”](/articles/how-to-remember-to-do-kegels/).
+Aby łatwiej utrzymać regularność, przeczytaj [„Jak pamiętać o ćwiczeniach Kegla”](/articles/how-to-remember-to-do-kegels-every-day/).
 
 [Poznaj Kegel Morse Hero w App Store](https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873)
 

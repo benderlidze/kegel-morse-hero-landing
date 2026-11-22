@@ -58,7 +58,7 @@ slug: nochnye-pohody-v-tualet-uprazhneniya-kegelya
 
 Если укрепление мышц тазового дна входит в ваш план, Kegel Morse Hero поможет следовать времени сжатия и отдыха. Оно не определяет, почему вы просыпаетесь ночью.
 
-Чтобы заниматься регулярно, прочитайте [«Как не забывать делать упражнения Кегеля»](/articles/how-to-remember-to-do-kegels/).
+Чтобы заниматься регулярно, прочитайте [«Как не забывать делать упражнения Кегеля»](/articles/how-to-remember-to-do-kegels-every-day/).
 
 [Познакомиться с Kegel Morse Hero в App Store](https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873)
 

@@ -5,6 +5,8 @@ import { writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { hreflangTags, langRow, LANG_MENU, homeGuideLinks } from './i18n/routes.mjs';
+import { seoTitle, seoDesc } from './lib/seo.mjs';
+const SMART_BANNER = '<meta name="apple-itunes-app" content="app-id=6761460873">';
 import { loadTr as loadWorkoutsTr, PUBLISH as WORKOUTS_PUBLISHED, hubPath as workoutsHub } from './lib/workouts-data.mjs';
 const wkLabel = WORKOUTS_PUBLISHED && loadWorkoutsTr('ru') ? loadWorkoutsTr('ru').ui.navWorkouts : null; // /ru/workouts/ section
 
@@ -21,13 +23,14 @@ const storeButtons = (variant = '') => `<span class="store-btns">${storeBtn(appS
 const esc = (value = '') => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 function head({ title, description, path: pagePath, enPath, type = 'website', image, extraMeta = '', jsonLd = '' }) {
+  title = seoTitle(title); description = seoDesc(description); // length rules: scripts/lib/seo.mjs
   const canonical = `${site}${pagePath}`;
   const ogImage = image || `${site}/assets/og-image.png`;
   return `<!doctype html><html lang="ru"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)}</title><meta name="description" content="${esc(description)}">
 <meta name="author" content="Kegel Morse Hero"><meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
-<meta name="theme-color" content="#070a0b">${extraMeta}<link rel="canonical" href="${canonical}">
+<meta name="theme-color" content="#070a0b">${/apple-itunes-app/.test(extraMeta) ? extraMeta : SMART_BANNER + extraMeta}<link rel="canonical" href="${canonical}">
 ${hreflangTags(enPath)}
 <link rel="icon" href="/assets/favicon-48.png" type="image/png" sizes="48x48"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <meta property="og:type" content="${type}"><meta property="og:locale" content="ru_RU"><meta property="og:site_name" content="Kegel Morse Hero"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${ogImage}"><meta property="og:image:alt" content="Приложение Kegel Morse Hero для тренировки мышц тазового дна">

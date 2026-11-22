@@ -1,8 +1,10 @@
 import { readFile, writeFile, mkdir, readdir, rm } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { hreflangTags, localizedPaths, LANGS, LANG_MENU, HOME_GUIDES, ORG_ID, PERSON_ID, ORG_NODE, PERSON_NODE } from './i18n/routes.mjs';
+import { hreflangTags, localizedPaths, LANGS, LANG_MENU, HOME_GUIDES, ORG_ID, PERSON_ID, ORG_NODE, PERSON_NODE, MERGED_ARTICLES, localizedSlug } from './i18n/routes.mjs';
 import { articleCtaMarkup } from './lib/markdown.mjs';
+import { seoTitle, seoDesc } from './lib/seo.mjs';
+const SMART_BANNER = '<meta name="apple-itunes-app" content="app-id=6761460873">';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const contentDir = path.join(root, 'content', 'articles');
@@ -160,12 +162,13 @@ const footer = () => `
 const hreflangLinks = (canonical) => hreflangTags(canonical.slice(site.length) || '/');
 
 function documentHead({ title, description, canonical, type = 'website', modified, jsonLd = '', image, extraMeta = '', noindex = false }) {
+  title = seoTitle(title); description = seoDesc(description); // length rules: scripts/lib/seo.mjs
   const ogImage = image || `${site}/assets/og-image.png`;
   return `<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)}</title><meta name="description" content="${esc(description)}">
 <meta name="author" content="Kegel Morse Hero"><meta name="robots" content="${noindex ? 'noindex,follow' : 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1'}">
-<meta name="theme-color" content="#070a0b">${extraMeta}<link rel="canonical" href="${esc(canonical)}">${hreflangLinks(canonical)}
+<meta name="theme-color" content="#070a0b">${/apple-itunes-app/.test(extraMeta) ? extraMeta : SMART_BANNER + extraMeta}<link rel="canonical" href="${esc(canonical)}">${hreflangLinks(canonical)}
 <link rel="icon" href="/assets/favicon-48.png" type="image/png" sizes="48x48"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <meta property="og:type" content="${type}"><meta property="og:site_name" content="Kegel Morse Hero"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${esc(canonical)}"><meta property="og:image" content="${ogImage}"><meta property="og:image:alt" content="Kegel Morse Hero pelvic floor training app">${modified ? `<meta property="article:modified_time" content="${modified}">` : ''}
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(title)}"><meta name="twitter:description" content="${esc(description)}"><meta name="twitter:image" content="${ogImage}">
@@ -286,6 +289,16 @@ for (const article of articles) {
   const outputDir = path.join(root, 'blog', article.slug);
   await mkdir(outputDir, { recursive: true });
   await writeFile(path.join(outputDir, 'index.html'), redirectPage(`/articles/${article.slug}/`), 'utf8');
+}
+// Merged duplicate articles: old EN, /blog/ and localized URLs point to the article they were merged into.
+for (const [oldSlug, { to, old }] of Object.entries(MERGED_ARTICLES)) {
+  const pages = [[`articles/${oldSlug}`, `/articles/${to}/`], [`blog/${oldSlug}`, `/articles/${to}/`],
+    ...Object.entries(old).map(([lang, slug]) => [`${lang}/articles/${slug}`, `/${lang}/articles/${localizedSlug(to, lang)}/`])];
+  for (const [dir, target] of pages) {
+    if (target.includes('/undefined/')) throw new Error(`merged article ${oldSlug}: no target for ${dir}`);
+    await mkdir(path.join(root, dir), { recursive: true });
+    await writeFile(path.join(root, dir, 'index.html'), redirectPage(target), 'utf8');
+  }
 }
 // Re-seed the content directory pointer so future builds keep reading blog/content as source.
 await mkdir(contentDir, { recursive: true });

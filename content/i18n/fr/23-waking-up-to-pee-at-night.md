@@ -58,7 +58,7 @@ Prenez rendez-vous si de nombreux passages aux toilettes la nuit perturbent votr
 
 Si le renforcement du périnée fait partie de votre plan, Kegel Morse Hero peut vous aider à suivre les temps de contraction et de repos. Elle ne détermine pas pourquoi vous vous réveillez la nuit.
 
-Pour garder une routine adaptée avec régularité, lisez [Comment penser à faire ses exercices de Kegel](/articles/how-to-remember-to-do-kegels/).
+Pour garder une routine adaptée avec régularité, lisez [Comment penser à faire ses exercices de Kegel](/articles/how-to-remember-to-do-kegels-every-day/).
 
 [Découvrir Kegel Morse Hero sur l'App Store](https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873)
 

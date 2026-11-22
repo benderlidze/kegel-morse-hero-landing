@@ -58,7 +58,7 @@ Vereinbare einen Termin, wenn wiederholte nächtliche Toilettengänge den Schlaf
 
 Wenn Beckenbodenkräftigung Teil deines Plans ist, kann Kegel Morse Hero dir helfen, den Rhythmus aus Anspannen und Pause einzuhalten. Es klärt nicht, warum du nachts aufwachst.
 
-Wie du eine passende Routine durchhältst, liest du in [„Wie du an Kegel-Übungen denkst“](/articles/how-to-remember-to-do-kegels/).
+Wie du eine passende Routine durchhältst, liest du in [„Wie du an Kegel-Übungen denkst“](/articles/how-to-remember-to-do-kegels-every-day/).
 
 [Kegel Morse Hero im App Store entdecken](https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873)
 
