@@ -10,7 +10,7 @@ secondary_keywords:
   - "penile numbness causes"
   - "pelvic floor and sensitivity"
   - "male sexual health"
-author: "Kegel Morse Hero"
+author: "Sergei Prostokishyn"
 last_reviewed: "2026-09-22"
 content_status: "editorially ready; medical review recommended"
 schema_type: "Article"

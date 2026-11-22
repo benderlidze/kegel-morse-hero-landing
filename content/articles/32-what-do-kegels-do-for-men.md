@@ -8,7 +8,7 @@ primary_keyword: "what do kegels do for men"
 secondary_keywords:
   - "kegel benefits for men"
   - "male pelvic floor exercises benefits"
-author: "Kegel Morse Hero"
+author: "Sergei Prostokishyn"
 last_reviewed: "2026-11-08"
 content_status: "editorially ready; medical review recommended"
 schema_type: "Article"

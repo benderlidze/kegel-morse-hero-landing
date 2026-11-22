@@ -10,7 +10,7 @@ secondary_keywords:
   - "pelvic floor exercises for women"
   - "female pelvic floor training"
   - "kegel mistakes to avoid"
-author: "Kegel Morse Hero"
+author: "Sergei Prostokishyn"
 last_reviewed: "2026-09-22"
 content_status: "editorially ready; medical review recommended"
 schema_type: "Article"

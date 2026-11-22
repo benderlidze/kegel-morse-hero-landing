@@ -23,7 +23,7 @@ export default {
       [`Einsteigerfreundlich`, `Wähle 1x, 2x oder 3x Geschwindigkeit, trainiere in deinem Tempo und steigere die Intensität schrittweise.`]
     ],
     factsTitle: `Auf einen Blick`,
-    facts: [[`Plattform:`, `iOS`], [`Preis:`, `kostenloser Download, optionales Abo`], [`Funktioniert offline:`, `ja, Einheiten brauchen kein Internet`], [`Konto erforderlich:`, `nein`], [`Daten:`, `bleiben auf dem Gerät, keine Werbung, kein Tracking`], [`Geeignet für:`, `privates Kegel-Training mit Timer`]],
+    facts: [[`Plattform:`, `iOS und Android`], [`Preis:`, `kostenloser Download, optionales Abo`], [`Funktioniert offline:`, `ja, Einheiten brauchen kein Internet`], [`Konto erforderlich:`, `nein`], [`Daten:`, `bleiben auf dem Gerät, keine Werbung, kein Tracking`], [`Geeignet für:`, `privates Kegel-Training mit Timer`]],
     actionTitle: `Kegel Morse Hero in Aktion`, videoTitle: `Kegel-Morse-Hero-App-Demo`,
     mainAlt: `Hauptbildschirm von Kegel Morse Hero mit Morsecode-Visualisierung`, detailAlt: `Trainingsansicht von Kegel Morse Hero mit Ringanimation`,
     usefulTitle: `Hilfreiche Artikel`, allArticles: `Alle Artikel auf Deutsch`,

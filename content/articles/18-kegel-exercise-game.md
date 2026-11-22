@@ -1,6 +1,6 @@
 ---
-title: "Kegel Exercise Games: Why Gamified Pelvic Floor Training Works Better"
-meta_title: "Kegel Exercise Games: Why They Work Better"
+title: "Kegel Exercise Games: Making Pelvic Floor Training Less Boring"
+meta_title: "Kegel Exercise Games: A More Engaging Way to Practice"
 meta_description: "Kegels are boring, so people quit. Here's why gamified Kegel training keeps you consistent—and how a Morse code Kegel game works."
 slug: "/articles/kegel-exercise-game/"
 canonical: "https://kegelmorsehero.com/articles/kegel-exercise-game/"
@@ -10,7 +10,7 @@ secondary_keywords:
   - "morse code kegel game"
   - "kegel app game"
   - "fun kegel exercises"
-author: "Kegel Morse Hero"
+author: "Sergei Prostokishyn"
 last_reviewed: "2026-09-22"
 content_status: "editorially ready; medical review recommended"
 schema_type: "Article"
@@ -19,7 +19,7 @@ category_label: "Technique"
 cover_image: "kegel-exercise-game.webp"
 ---
 
-# Kegel Exercise Games: Why Gamified Pelvic Floor Training Works Better
+# Kegel Exercise Games: Making Pelvic Floor Training Less Boring
 
 Ask anyone who has tried Kegels why they stopped. The answer is almost never "they didn't work." It's "I got bored" or "I forgot." A Kegel exercise game fixes exactly that problem.
 

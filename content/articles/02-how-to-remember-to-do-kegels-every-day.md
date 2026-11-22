@@ -10,7 +10,7 @@ secondary_keywords:
   - "daily kegel routine for men"
   - "kegel reminder"
   - "how to stay consistent with kegels"
-author: "Kegel Morse Hero"
+author: "Sergei Prostokishyn"
 last_reviewed: "2026-08-04"
 content_status: "editorially ready; medical review recommended"
 schema_type: "Article"

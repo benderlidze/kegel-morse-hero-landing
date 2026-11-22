@@ -58,6 +58,21 @@ for (const lang of Object.keys(LANGS)) {
     (MD_TRANSLATIONS[data.en] ||= {})[lang] = { slug: data.slug, file: path.join(dir, file) };
   }
 }
+// Brand entity for JSON-LD: one Organization (#org) and one Person author (#author), referenced by @id from every article.
+export const ORG_ID = `${site}/#org`;
+export const PERSON_ID = `${site}/#author`;
+export const AUTHOR_NAME = 'Sergei Prostokishyn';
+export const ORG_SAME_AS = [
+  'https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873',
+  'https://play.google.com/store/apps/details?id=com.serhii.KegelMorseHero',
+  'https://bsky.app/profile/kegelmorsehero.com',
+  'https://www.tiktok.com/@kegelmorsehero',
+  'https://www.threads.com/@kegel_morse_hero_app',
+  'https://kegelmorsehero.tumblr.com/'
+];
+export const ORG_NODE = { '@type': 'Organization', '@id': ORG_ID, name: 'Kegel Morse Hero', url: `${site}/`, logo: { '@type': 'ImageObject', url: `${site}/assets/logo.png` }, founder: { '@id': PERSON_ID }, sameAs: ORG_SAME_AS };
+export const PERSON_NODE = { '@type': 'Person', '@id': PERSON_ID, name: AUTHOR_NAME, url: `${site}/about/`, worksFor: { '@id': ORG_ID } };
+
 // Key guides linked from every home page (EN + translations). Home links are the strongest crawl signal we control.
 export const HOME_GUIDES = ['reverse-kegels-for-men', 'do-kegels-help-premature-ejaculation', 'kegels-erectile-dysfunction', 'kegels-after-prostate-surgery', 'dribbling-after-peeing-men', 'how-many-kegels-a-day-for-men', 'best-kegel-apps-for-men', 'am-i-doing-kegels-wrong'];
 

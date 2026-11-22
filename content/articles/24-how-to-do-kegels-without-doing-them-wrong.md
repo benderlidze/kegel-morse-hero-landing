@@ -9,7 +9,7 @@ secondary_keywords:
   - "how to do kegels correctly men"
   - "proper kegel technique"
   - "how to know if kegels are correct"
-author: "Kegel Morse Hero"
+author: "Sergei Prostokishyn"
 last_reviewed: "2026-09-28"
 content_status: "editorially ready; medical review recommended"
 schema_type: "Article"

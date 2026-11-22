@@ -8,7 +8,7 @@ primary_keyword: "kegels lying down sitting or standing"
 secondary_keywords:
   - "best position for kegels"
   - "kegels lying down"
-author: "Kegel Morse Hero"
+author: "Sergei Prostokishyn"
 last_reviewed: "2026-11-08"
 content_status: "editorially ready; medical review recommended"
 schema_type: "Article"

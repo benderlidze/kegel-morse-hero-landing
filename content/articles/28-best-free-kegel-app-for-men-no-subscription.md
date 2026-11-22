@@ -10,7 +10,7 @@ secondary_keywords:
   - "kegel app without subscription"
   - "male kegel app one time purchase"
   - "free pelvic floor app men"
-author: "Kegel Morse Hero"
+author: "Sergei Prostokishyn"
 last_reviewed: "2026-10-28"
 content_status: "editorially ready; medical review recommended"
 schema_type: "Article"

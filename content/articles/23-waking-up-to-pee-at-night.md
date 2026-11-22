@@ -9,7 +9,7 @@ secondary_keywords:
   - "nocturia men"
   - "kegels for nocturia"
   - "nighttime urination pelvic floor"
-author: "Kegel Morse Hero"
+author: "Sergei Prostokishyn"
 last_reviewed: "2026-09-28"
 content_status: "editorially ready; medical review recommended"
 schema_type: "Article"

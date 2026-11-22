@@ -8,7 +8,7 @@ primary_keyword: "how long should you hold a kegel"
 secondary_keywords:
   - "how many seconds hold kegel"
   - "10 second kegels"
-author: "Kegel Morse Hero"
+author: "Sergei Prostokishyn"
 last_reviewed: "2026-11-08"
 content_status: "editorially ready; medical review recommended"
 schema_type: "Article"

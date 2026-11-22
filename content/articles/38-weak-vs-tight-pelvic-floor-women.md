@@ -8,7 +8,7 @@ primary_keyword: "weak vs tight pelvic floor women"
 secondary_keywords:
   - "tight pelvic floor symptoms women"
   - "weak pelvic floor symptoms women"
-author: "Kegel Morse Hero"
+author: "Sergei Prostokishyn"
 last_reviewed: "2026-11-08"
 content_status: "editorially ready; medical review recommended"
 schema_type: "Article"

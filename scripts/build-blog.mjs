@@ -1,7 +1,7 @@
 import { readFile, writeFile, mkdir, readdir, rm } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { hreflangTags, localizedPaths, LANGS, LANG_MENU, HOME_GUIDES } from './i18n/routes.mjs';
+import { hreflangTags, localizedPaths, LANGS, LANG_MENU, HOME_GUIDES, ORG_ID, PERSON_ID, ORG_NODE, PERSON_NODE } from './i18n/routes.mjs';
 import { articleCtaMarkup } from './lib/markdown.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -228,13 +228,13 @@ const categoryIds = [...new Set(articles.map((a) => a.categoryId))];
 for (let index = 0; index < articles.length; index += 1) {
   const article = articles[index];
   const rendered = markdown(article.body);
-  const authorType = article.author === 'Sergei Prostokishyn' ? 'Person' : 'Organization';
   const cover = coverFor(article);
   const ogImage = article.cover_image ? `${site}${cover}` : `${site}/assets/og-image.png`;
   const categoryLabel = CATEGORIES[article.categoryId].label;
   const structured = {
     '@context': 'https://schema.org', '@graph': [
-      { '@type': 'Article', headline: article.h1, description: article.meta_description, mainEntityOfPage: article.canonical, url: article.canonical, dateModified: article.last_reviewed, author: { '@type': authorType, name: article.author, url: `${site}/about/` }, publisher: { '@type': 'Organization', name: 'Kegel Morse Hero', url: `${site}/`, logo: { '@type': 'ImageObject', url: `${site}/assets/logo.png` } }, image: ogImage, articleSection: categoryLabel, inLanguage: 'en' },
+      { '@type': 'Article', headline: article.h1, description: article.meta_description, mainEntityOfPage: article.canonical, url: article.canonical, dateModified: article.last_reviewed, author: { '@id': PERSON_ID }, publisher: { '@id': ORG_ID }, image: ogImage, articleSection: categoryLabel, inLanguage: 'en' },
+      ORG_NODE, PERSON_NODE,
       { '@type': 'BreadcrumbList', itemListElement: [ { '@type': 'ListItem', position: 1, name: 'Home', item: `${site}/` }, { '@type': 'ListItem', position: 2, name: 'Articles', item: `${site}/articles/` }, { '@type': 'ListItem', position: 3, name: categoryLabel, item: `${site}/articles/?category=${article.categoryId}` }, { '@type': 'ListItem', position: 4, name: article.h1, item: article.canonical } ] }
     ]
   };
@@ -292,8 +292,8 @@ await mkdir(contentDir, { recursive: true });
 
 // --- Home page ---
 const homeJsonLd = [
-  { '@context': 'https://schema.org', '@type': 'SoftwareApplication', name: 'Kegel Morse Hero', alternateName: 'Kegel Morse Hero: Pelvic Floor', operatingSystem: 'iOS 17.2 or later', applicationCategory: 'HealthApplication', applicationSubCategory: 'Fitness', datePublished: '2026-04-15', author: { '@type': 'Person', name: 'Sergei Prostokishyn' }, description: 'Kegel Morse Hero is an iOS pelvic floor training app that uses Morse code rhythms for squeeze and relax timing. Includes visual guidance, haptic feedback, custom tracks, and local-only data storage.', url: `${site}/`, downloadUrl: appStore, installUrl: appStore, sameAs: [appStore, playStore], isAccessibleForFree: true, featureList: ['Visual ring animation for squeeze and relax timing', 'Haptic feedback during exercises', 'Built-in and custom Morse code tracks', 'Zen mode for focused sessions', 'Session history and calendar progress view', 'Signal reminders', 'Google Drive backup and CSV export', '1x, 2x, 3x speed settings', 'Offline sessions with no internet required'], offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD', availability: 'https://schema.org/InStock' }, publisher: { '@type': 'Organization', name: 'Kegel Morse Hero', url: `${site}/` }, screenshot: [`${site}/assets/screenshot-hero.png`, `${site}/assets/screenshot-main.png`, `${site}/assets/screenshot-features.png`], image: `${site}/assets/logo.png`, inLanguage: 'en' },
-  { '@context': 'https://schema.org', '@type': 'Organization', name: 'Kegel Morse Hero', url: `${site}/`, logo: `${site}/assets/logo.png`, sameAs: [appStore, playStore] },
+  { '@context': 'https://schema.org', '@type': 'SoftwareApplication', name: 'Kegel Morse Hero', alternateName: 'Kegel Morse Hero: Pelvic Floor', operatingSystem: 'iOS 17.2 or later, Android', applicationCategory: 'HealthApplication', applicationSubCategory: 'Fitness', datePublished: '2026-04-15', author: { '@type': 'Person', name: 'Sergei Prostokishyn' }, description: 'Kegel Morse Hero is an iOS pelvic floor training app that uses Morse code rhythms for squeeze and relax timing. Includes visual guidance, haptic feedback, custom tracks, and local-only data storage.', url: `${site}/`, downloadUrl: appStore, installUrl: appStore, sameAs: [appStore, playStore], isAccessibleForFree: true, featureList: ['Visual ring animation for squeeze and relax timing', 'Haptic feedback during exercises', 'Built-in and custom Morse code tracks', 'Zen mode for focused sessions', 'Session history and calendar progress view', 'Signal reminders', 'Google Drive backup and CSV export', '1x, 2x, 3x speed settings', 'Offline sessions with no internet required'], offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD', availability: 'https://schema.org/InStock' }, publisher: { '@type': 'Organization', name: 'Kegel Morse Hero', url: `${site}/` }, screenshot: [`${site}/assets/screenshot-hero.png`, `${site}/assets/screenshot-main.png`, `${site}/assets/screenshot-features.png`], image: `${site}/assets/logo.png`, inLanguage: 'en' },
+  { '@context': 'https://schema.org', ...ORG_NODE },
   { '@context': 'https://schema.org', '@type': 'WebSite', name: 'Kegel Morse Hero', url: `${site}/` },
   { '@context': 'https://schema.org', '@type': 'VideoObject', name: 'Kegel Morse Hero app demo', description: 'Demo of the Kegel Morse Hero iOS app showing Morse code guided pelvic floor training with visual ring animation and haptic feedback.', thumbnailUrl: 'https://i.ytimg.com/vi/VtgtSG_DCYI/hqdefault.jpg', uploadDate: '2026-04-20T03:45:21-07:00', contentUrl: 'https://www.youtube.com/watch?v=VtgtSG_DCYI', embedUrl: 'https://www.youtube.com/embed/VtgtSG_DCYI', publisher: { '@type': 'Organization', name: 'Kegel Morse Hero', logo: { '@type': 'ImageObject', url: `${site}/assets/logo.png` } } }
 ].map((obj) => `<script type="application/ld+json">${JSON.stringify(obj).replace(/</g, '\\u003c')}</script>`).join('');
@@ -337,7 +337,7 @@ const homeHtml = `${documentHead({
 </div></section>
 <section class="blog-shell home-guides" aria-labelledby="popular-guides"><h2 class="section-heading" id="popular-guides">Popular guides</h2><div class="article-grid">${homeGuideCards}</div><p class="home-guides-all"><a href="/articles/">See all ${articles.length} guides</a></p></section>
 <section class="feature-section center-heading"><h2 class="section-heading">Quick facts for app comparison</h2>
-<div class="fact-grid"><p><strong>Platform:</strong> iOS</p><p><strong>Price:</strong> Free download, optional subscription</p><p><strong>Works offline:</strong> Yes, for exercise sessions</p><p><strong>Account required:</strong> No</p><p><strong>Data policy:</strong> Local-first, no ads, no tracking</p><p><strong>Best for:</strong> Guided timing and private Kegel training</p></div>
+<div class="fact-grid"><p><strong>Platform:</strong> iOS and Android</p><p><strong>Price:</strong> Free download, optional subscription</p><p><strong>Works offline:</strong> Yes, for exercise sessions</p><p><strong>Account required:</strong> No</p><p><strong>Data policy:</strong> Local-first, no ads, no tracking</p><p><strong>Best for:</strong> Guided timing and private Kegel training</p></div>
 </section>
 <section class="feature-section center-heading"><h2 class="section-heading">See Kegel Morse Hero in action</h2>
 <div class="home-media"><div class="video-frame"><iframe src="https://www.youtube.com/embed/VtgtSG_DCYI" title="Kegel Morse Hero app demo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
@@ -500,6 +500,11 @@ for (const file of ['llms.txt', 'llms-full.txt']) {
   text = text.replace(/^Last updated: .*/m, `Last updated: ${latestReviewDate > today ? latestReviewDate : today}`);
   if (text.includes('<!-- articles:start -->')) {
     text = text.replace(/<!-- articles:start -->[\s\S]*<!-- articles:end -->/, `<!-- articles:start -->\n${articleListByCategory}\n<!-- articles:end -->`);
+  }
+  // llms-full.txt: full Markdown text of every English guide, so AI assistants can quote them without crawling 41 pages.
+  if (text.includes('<!-- fulltext:start -->')) {
+    const fullText = articles.map((a) => `## ${a.h1}\nURL: ${a.canonical}\nLast reviewed: ${a.last_reviewed}\n\n${a.body.replace(/^#\s+.+\n+/m, '').trim()}`).join('\n\n---\n\n');
+    text = text.replace(/<!-- fulltext:start -->[\s\S]*<!-- fulltext:end -->/, () => `<!-- fulltext:start -->\n${fullText}\n<!-- fulltext:end -->`);
   }
   await writeFile(filePath, text, 'utf8');
 }

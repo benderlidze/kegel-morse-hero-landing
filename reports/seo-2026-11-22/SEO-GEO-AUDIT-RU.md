@@ -161,13 +161,13 @@ GSC → строка «Проверка URL» сверху → вставить 
 
 ## Чек-лист по порядку
 
-1. [ ] GSC: «Запросить индексирование» для 10 EN-статей сегодня + 4 завтра (P0-1)
-2. [ ] Блок «Popular guides» на главной (P0-2)
-3. [ ] noindex упражнениям DE/ES/FR/UK + 60 коротким переводам статей (P0-3)
-4. [ ] Баннер App Store в PE-статье (P0-4)
-5. [ ] Удалить 3 демо-страницы (P0-5)
-6. [ ] Title: dr-kegel-app-review, best-kegel-apps-for-men, sperm cramps, kegel-exercise-game
-7. [ ] llms.txt: Android; полный llms-full.txt; Organization @id + sameAs
+1. [~] GSC: 10 запросов отправлено 22.11 (reverse, PE, ED, prostate, dribbling, sensitivity, edging, am-i-wrong, lower-belly-pain, faq.html). Осталось: kegel-exercises-for-women, constipation, core-workouts-for-women, pain-after-ejaculation-sperm-cramps
+2. [x] Блок «Popular guides» на всех 7 главных (22.11, 0664b36)
+3. [ ] Тонкие страницы: решено ДОПИСАТЬ, а не закрывать — переводы статей Sonnet, 30 EN-упражнений Opus → перевод Sonnet
+4. [x] Баннер App Store в PE-статье на 7 языках; старое исключение PE убрано из билдов и валидатора
+5. [x] Удалены 3 демо-страницы
+6. [x] Title: dr-kegel-app-review, best-kegel-apps-for-men, sperm cramps (без `\"`), kegel-exercise-game
+7. [x] llms.txt/llms-full.txt: Android; llms-full.txt генерируется в build-blog.mjs с полным текстом 41 статьи (~238 КБ); Organization `#org` с 6 sameAs, автор статей — Person `#author` (Sergei Prostokishyn), operatingSystem + Android
 8. [ ] dev.to-пост, AlternativeTo, appshunter
 9. [ ] Единая ссылка на App Store + campaign links (видно, какие страницы дают установки)
 10. [ ] Через 2 недели: GSC → Индексирование → сколько осталось в «Обнаружена, не проиндексирована» (база: 176)

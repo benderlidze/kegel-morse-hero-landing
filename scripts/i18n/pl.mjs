@@ -23,7 +23,7 @@ export default {
       [`Dla początkujących`, `Wybierz prędkość 1x, 2x lub 3x, ćwicz we własnym tempie i stopniowo zwiększaj intensywność.`]
     ],
     factsTitle: `Najważniejsze informacje`,
-    facts: [[`Platforma:`, `iOS`], [`Cena:`, `bezpłatne pobranie, opcjonalna subskrypcja`], [`Działa offline:`, `tak, sesje nie wymagają internetu`], [`Konto:`, `niepotrzebne`], [`Dane:`, `zostają na urządzeniu, bez reklam i śledzenia`], [`Dla kogo:`, `prywatne ćwiczenia Kegla z timerem`]],
+    facts: [[`Platforma:`, `iOS i Android`], [`Cena:`, `bezpłatne pobranie, opcjonalna subskrypcja`], [`Działa offline:`, `tak, sesje nie wymagają internetu`], [`Konto:`, `niepotrzebne`], [`Dane:`, `zostają na urządzeniu, bez reklam i śledzenia`], [`Dla kogo:`, `prywatne ćwiczenia Kegla z timerem`]],
     actionTitle: `Kegel Morse Hero w akcji`, videoTitle: `Demo aplikacji Kegel Morse Hero`,
     mainAlt: `Główny ekran Kegel Morse Hero z wizualizacją alfabetu Morse'a`, detailAlt: `Ekran treningu Kegel Morse Hero z animacją pierścienia`,
     usefulTitle: `Przydatne artykuły`, allArticles: `Wszystkie artykuły po polsku`,

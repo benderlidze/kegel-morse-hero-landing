@@ -8,7 +8,7 @@ primary_keyword: "kegels after childbirth"
 secondary_keywords:
   - "postpartum kegel exercises"
   - "when to start kegels after birth"
-author: "Kegel Morse Hero"
+author: "Sergei Prostokishyn"
 last_reviewed: "2026-11-08"
 content_status: "editorially ready; medical review recommended"
 schema_type: "Article"

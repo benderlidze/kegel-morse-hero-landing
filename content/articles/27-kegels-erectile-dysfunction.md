@@ -9,7 +9,7 @@ secondary_keywords:
   - "pelvic floor exercises erectile dysfunction"
   - "can kegels improve erections"
   - "male pelvic floor erectile function"
-author: "Kegel Morse Hero"
+author: "Sergei Prostokishyn"
 last_reviewed: "2026-10-09"
 content_status: "editorially ready; medical review recommended"
 schema_type: "Article"

@@ -1,6 +1,6 @@
 ---
 title: "Dr. Kegel App Review: Is It Worth the Subscription in 2026?"
-meta_title: "Dr. Kegel App Review: Is the Subscription Worth It?"
+meta_title: "Dr. Kegel App Review 2026: Price, Pros and Cons"
 meta_description: "An independent look at Dr. Kegel's features, current subscription prices, privacy label, strengths, and drawbacks before you pay."
 slug: "/articles/dr-kegel-app-review/"
 canonical: "https://kegelmorsehero.com/articles/dr-kegel-app-review/"
@@ -10,7 +10,7 @@ secondary_keywords:
   - "dr kegel subscription price"
   - "dr kegel app cost"
   - "dr kegel review 2026"
-author: "Kegel Morse Hero"
+author: "Sergei Prostokishyn"
 last_reviewed: "2026-10-28"
 content_status: "editorially ready; medical review recommended"
 schema_type: "Article"

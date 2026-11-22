@@ -10,7 +10,7 @@ secondary_keywords:
   - "kegels daily or every other day"
   - "how many times a week should men do kegels"
   - "male kegel frequency"
-author: "Kegel Morse Hero"
+author: "Sergei Prostokishyn"
 last_reviewed: "2026-10-28"
 content_status: "editorially ready; medical review recommended"
 schema_type: "Article"

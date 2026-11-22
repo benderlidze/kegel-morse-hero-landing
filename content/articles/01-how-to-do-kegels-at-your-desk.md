@@ -10,7 +10,7 @@ secondary_keywords:
   - "kegels at work"
   - "seated kegel exercises for men"
   - "discreet pelvic floor exercises"
-author: "Kegel Morse Hero"
+author: "Sergei Prostokishyn"
 last_reviewed: "2026-08-04"
 content_status: "editorially ready; medical review recommended"
 schema_type: "Article"

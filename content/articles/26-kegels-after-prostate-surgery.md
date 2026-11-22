@@ -9,7 +9,7 @@ secondary_keywords:
   - "pelvic floor exercises after prostatectomy"
   - "urine leakage after prostate surgery"
   - "prostatectomy incontinence recovery"
-author: "Kegel Morse Hero"
+author: "Sergei Prostokishyn"
 last_reviewed: "2026-10-09"
 content_status: "editorially ready; medical review recommended"
 schema_type: "Article"

@@ -1,6 +1,6 @@
 ---
 title: "Best Kegel Apps for Men in 2026: An Honest Comparison"
-meta_title: "5 Best Kegel Apps for Men in 2026"
+meta_title: "5 Best Kegel Apps for Men in 2026 (Free & Paid)"
 meta_description: "Compare five Kegel apps for men by structure, discretion, reminders, pricing, and clinical usefulness. Includes an ownership disclosure."
 slug: "/articles/best-kegel-apps-for-men/"
 canonical: "https://kegelmorsehero.com/articles/best-kegel-apps-for-men/"
@@ -10,7 +10,7 @@ secondary_keywords:
   - "pelvic floor app for men"
   - "kegel trainer app men"
   - "kegel reminder app"
-author: "Kegel Morse Hero"
+author: "Sergei Prostokishyn"
 last_reviewed: "2026-08-04"
 content_status: "editorially ready; medical review recommended"
 schema_type: "Article"

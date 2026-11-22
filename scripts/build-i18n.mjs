@@ -5,7 +5,7 @@ import { writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { readFileSync } from 'node:fs';
-import { site, LANGS, ARTICLE_SLUGS, EN_ARTICLE, EN_ARTICLES, MD_TRANSLATIONS, HAND_BUILT_ARTICLE, homeGuideLinks, alternatesFor, hreflangTags, langRow, LANG_MENU } from './i18n/routes.mjs';
+import { site, LANGS, ARTICLE_SLUGS, EN_ARTICLE, EN_ARTICLES, MD_TRANSLATIONS, HAND_BUILT_ARTICLE, homeGuideLinks, ORG_ID, PERSON_ID, ORG_NODE, PERSON_NODE, AUTHOR_NAME, alternatesFor, hreflangTags, langRow, LANG_MENU } from './i18n/routes.mjs';
 import { articleCtaMarkup, createRenderer, parseFrontMatter } from './lib/markdown.mjs';
 import uiExtra from './i18n/ui-extra.mjs';
 import { loadTr as loadWorkoutsTr, PUBLISH as WORKOUTS_PUBLISHED, hubPath as workoutsHub } from './lib/workouts-data.mjs';
@@ -81,7 +81,7 @@ ${jsonLd}</head>`;
   if (!L.mdOnly) {
   // --- Home ---
   const H = L.home;
-  const homeLd = ld({ '@context': 'https://schema.org', '@type': 'SoftwareApplication', name: 'Kegel Morse Hero', alternateName: 'Kegel Morse Hero: Pelvic Floor', operatingSystem: 'iOS 17.2 or later', applicationCategory: 'HealthApplication', applicationSubCategory: 'Fitness', author: { '@type': 'Person', name: 'Sergei Prostokishyn' }, description: H.ldDesc, url: `${site}${base}/`, downloadUrl: appStore, installUrl: appStore, isAccessibleForFree: true, offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD', availability: 'https://schema.org/InStock' }, publisher: { '@type': 'Organization', name: 'Kegel Morse Hero', url: `${site}/` }, image: `${site}/assets/logo.png`, inLanguage: code });
+  const homeLd = ld({ '@context': 'https://schema.org', '@type': 'SoftwareApplication', name: 'Kegel Morse Hero', alternateName: 'Kegel Morse Hero: Pelvic Floor', operatingSystem: 'iOS 17.2 or later, Android', applicationCategory: 'HealthApplication', applicationSubCategory: 'Fitness', author: { '@type': 'Person', name: 'Sergei Prostokishyn' }, description: H.ldDesc, url: `${site}${base}/`, downloadUrl: appStore, installUrl: appStore, isAccessibleForFree: true, offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD', availability: 'https://schema.org/InStock' }, publisher: { '@type': 'Organization', name: 'Kegel Morse Hero', url: `${site}/` }, image: `${site}/assets/logo.png`, inLanguage: code });
   await write(code, `${head({ title: H.title, description: H.description, path: `${base}/`, enPath: '/', extraMeta: itunes, jsonLd: homeLd })}<body>${header('home', '/')}
 <main id="main">
 <section class="home-hero"><div class="home-hero-inner">
@@ -116,7 +116,7 @@ ${homeGuideLinks(code, L.article.h1).map((g) => `<p><a href="${g.href}">${esc(g.
   const articleUrl = `${site}${articlePath}`;
   const cover = `${site}/assets/articles/how-many-kegels-a-day-for-men.webp`;
   const articleLd = ld({ '@context': 'https://schema.org', '@graph': [
-    { '@type': 'Article', headline: A.h1, description: A.description, mainEntityOfPage: articleUrl, url: articleUrl, datePublished: '2026-10-18', dateModified: '2026-10-18', author: { '@type': 'Organization', name: 'Kegel Morse Hero', url: `${site}${base}/about/` }, publisher: { '@type': 'Organization', name: 'Kegel Morse Hero', url: `${site}/`, logo: { '@type': 'ImageObject', url: `${site}/assets/logo.png` } }, image: cover, articleSection: A.category, inLanguage: code },
+    { '@type': 'Article', headline: A.h1, description: A.description, mainEntityOfPage: articleUrl, url: articleUrl, datePublished: '2026-10-18', dateModified: '2026-10-18', author: { '@id': PERSON_ID }, publisher: { '@id': ORG_ID }, image: cover, articleSection: A.category, inLanguage: code }, ORG_NODE, PERSON_NODE,
     { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: u.nav.home, item: `${site}${base}/` }, { '@type': 'ListItem', position: 2, name: u.nav.articles, item: `${site}${base}/articles/` }, { '@type': 'ListItem', position: 3, name: A.h1, item: articleUrl }] },
     { '@type': 'FAQPage', inLanguage: code, mainEntity: A.faqs.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) }
   ] });
@@ -124,7 +124,7 @@ ${homeGuideLinks(code, L.article.h1).map((g) => `<p><a href="${g.href}">${esc(g.
   const body = A.body.replace('{{FAQ}}', faqHtml).split('{{APPSTORE}}').join(appStore).replace(/<p class="article-cta">[\s\S]*?<\/p>/g, articlePromo());
   await write(`${code}/articles/${ARTICLE_SLUGS[code]}`, `${head({ title: A.title, description: A.description, path: articlePath, enPath: EN_ARTICLE, type: 'article', image: cover, modified: '2026-10-18', jsonLd: articleLd })}<body>${header('articles', EN_ARTICLE)}
 <main id="main"><nav class="breadcrumbs" aria-label="${esc(u.crumbAria)}"><ol><li><a href="${base}/">${esc(u.nav.home)}</a></li><li><a href="${base}/articles/">${esc(u.nav.articles)}</a></li><li aria-current="page">${esc(A.crumb)}</li></ol></nav>
-<header class="article-hero"><div class="article-hero-inner"><p class="eyebrow">${esc(A.category)}</p><h1>${esc(A.h1)}</h1><div class="article-meta"><span>${esc(A.reviewed)} <time datetime="2026-08-04">${esc(A.reviewedDate)}</time></span><span>${esc(A.by)} <a href="${base}/about/" rel="author">Kegel Morse Hero</a></span><span>${esc(A.evidence)}</span></div></div><img class="article-cover" src="/assets/articles/how-many-kegels-a-day-for-men.webp" width="400" height="220" alt="${esc(A.coverAlt)}" loading="eager"></header>
+<header class="article-hero"><div class="article-hero-inner"><p class="eyebrow">${esc(A.category)}</p><h1>${esc(A.h1)}</h1><div class="article-meta"><span>${esc(A.reviewed)} <time datetime="2026-08-04">${esc(A.reviewedDate)}</time></span><span>${esc(A.by)} <a href="${base}/about/" rel="author">${AUTHOR_NAME}</a></span><span>${esc(A.evidence)}</span></div></div><img class="article-cover" src="/assets/articles/how-many-kegels-a-day-for-men.webp" width="400" height="220" alt="${esc(A.coverAlt)}" loading="eager"></header>
 <div class="article-layout"><article class="article-body"><blockquote><p><strong>${esc(A.quickLabel)}</strong> ${esc(A.quick)}</p></blockquote>
 ${body}</article><aside class="toc" aria-label="${esc(u.tocTitle)}"><p>${esc(u.tocTitle)}</p><ol>${A.toc.map(([id, label]) => `<li><a href="#${id}">${esc(label)}</a></li>`).join('')}</ol></aside></div>
 
@@ -205,12 +205,12 @@ ${P.sections.map(([h, p]) => `<section><h2>${esc(h)}</h2><p>${esc(p)}</p></secti
     const coverUrl = `${site}${cover}`;
     const toc = rendered.headings.slice(0, 9).map((h) => `<li><a href="#${h.id}">${esc(h.text)}</a></li>`).join('');
     const articleLd = ld({ '@context': 'https://schema.org', '@graph': [
-      { '@type': 'Article', headline: h1, description: parsed.data.meta_description, mainEntityOfPage: url, url, datePublished: '2026-10-18', dateModified: '2026-10-18', author: { '@type': 'Organization', name: 'Kegel Morse Hero', url: `${site}${base}/about/` }, publisher: { '@type': 'Organization', name: 'Kegel Morse Hero', url: `${site}/`, logo: { '@type': 'ImageObject', url: `${site}/assets/logo.png` } }, image: coverUrl, articleSection: categoryLabel, inLanguage: code },
+      { '@type': 'Article', headline: h1, description: parsed.data.meta_description, mainEntityOfPage: url, url, datePublished: '2026-10-18', dateModified: '2026-10-18', author: { '@id': PERSON_ID }, publisher: { '@id': ORG_ID }, image: coverUrl, articleSection: categoryLabel, inLanguage: code }, ORG_NODE, PERSON_NODE,
       { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: u.nav.home, item: `${site}${base}/` }, { '@type': 'ListItem', position: 2, name: u.nav.articles, item: `${site}${base}/articles/` }, { '@type': 'ListItem', position: 3, name: h1, item: url }] }
     ] });
     await write(`${code}/articles/${slug}`, `${head({ title: parsed.data.meta_title, description: parsed.data.meta_description, path: pagePath, enPath, type: 'article', image: coverUrl, modified: '2026-10-18', jsonLd: articleLd })}<body>${header('articles', enPath)}
 <main id="main"><nav class="breadcrumbs" aria-label="${esc(u.crumbAria)}"><ol><li><a href="${base}/">${esc(u.nav.home)}</a></li><li><a href="${base}/articles/">${esc(u.nav.articles)}</a></li><li aria-current="page">${esc(h1)}</li></ol></nav>
-<header class="article-hero"><div class="article-hero-inner"><p class="eyebrow">${esc(categoryLabel)}</p><h1>${esc(h1)}</h1><div class="article-meta"><span>${esc(AR.reviewed)} <time datetime="${en.last_reviewed}">${esc(fmtDate(en.last_reviewed))}</time></span><span>${esc(AR.by)} <a href="${base}/about/" rel="author">Kegel Morse Hero</a></span><span>${esc(AR.evidence)}</span></div></div><img class="article-cover" src="${cover}" width="400" height="220" alt="" loading="eager"></header>
+<header class="article-hero"><div class="article-hero-inner"><p class="eyebrow">${esc(categoryLabel)}</p><h1>${esc(h1)}</h1><div class="article-meta"><span>${esc(AR.reviewed)} <time datetime="${en.last_reviewed}">${esc(fmtDate(en.last_reviewed))}</time></span><span>${esc(AR.by)} <a href="${base}/about/" rel="author">${AUTHOR_NAME}</a></span><span>${esc(AR.evidence)}</span></div></div><img class="article-cover" src="${cover}" width="400" height="220" alt="" loading="eager"></header>
 <div class="article-layout"><article class="article-body">${rendered.html}</article><aside class="toc" aria-label="${esc(u.tocTitle)}"><p>${esc(u.tocTitle)}</p><ol>${toc}</ol></aside></div>
 ${articleCta}
 

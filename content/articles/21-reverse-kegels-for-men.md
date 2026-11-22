@@ -9,7 +9,7 @@ secondary_keywords:
   - "pelvic floor relaxation men"
   - "how to relax pelvic floor"
   - "reverse kegel breathing"
-author: "Kegel Morse Hero"
+author: "Sergei Prostokishyn"
 last_reviewed: "2026-09-28"
 content_status: "editorially ready; medical review recommended"
 schema_type: "Article"

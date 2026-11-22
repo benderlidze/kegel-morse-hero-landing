@@ -10,7 +10,7 @@ secondary_keywords:
   - "beginner core workout"
   - "pelvic floor and core training"
   - "core stability exercises"
-author: "Kegel Morse Hero"
+author: "Sergei Prostokishyn"
 last_reviewed: "2026-09-22"
 content_status: "editorially ready; medical review recommended"
 schema_type: "Article"
