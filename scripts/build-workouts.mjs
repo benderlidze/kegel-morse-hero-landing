@@ -7,7 +7,7 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { data, PUBLISH, loadTr, programPath, exercisePath, hubPath, prefix } from './lib/workouts-data.mjs';
+import { data, PUBLISH, loadTr, loadGuide, programPath, exercisePath, hubPath, prefix } from './lib/workouts-data.mjs';
 import { site, LANGS, hreflangTags, langRow, LANG_MENU } from './i18n/routes.mjs';
 import ru from './i18n/ru.mjs';
 import pl from './i18n/pl.mjs';
@@ -48,6 +48,11 @@ export const EN_UI = {
   altPair: 'start and finish position', altSingle: 'position', altAnatomy: '{name}: {pos}, {works} highlighted', altFlat: '{name}: {pos}',
   std: ['Do the moves in order, once through.', 'Rest about 30 seconds between moves.', 'Three to four times a week is a good start; quality beats speed.'],
   muscles: {},
+  // Labels for the long-form exercise guide (content/workouts/guides/<lang>/<id>.json). Translated files carry their own "guide" block under "ui".
+  guide: {
+    feel: 'How to know it is working', mistakes: 'Common mistakes', variations: 'Make it easier or harder',
+    easier: 'Easier:', harder: 'Harder:', who: 'Who it helps', skip: 'Skip it or get checked first if', faq: 'Questions',
+  },
 };
 
 // ---------- chrome ----------
@@ -55,12 +60,15 @@ const sample = await readFile(path.join(root, 'articles', 'best-kegel-apps-for-m
 const grab = (re) => { const m = sample.match(re); if (!m) throw new Error('not found in sample page: ' + re); return m[0]; };
 const EN_HEADER = grab(/<a class="skip-link"[\s\S]*?<\/header>/).replace(/ aria-current="page"/g, '');
 const EN_FOOTER = grab(/<footer class="site-footer">[\s\S]*?<\/footer>/);
-const EN_STORE = grab(/<span class="store-btns">[\s\S]*?<\/span><\/a><\/span>/);
 
 const appStore = 'https://apps.apple.com/app/id6761460873';
 const playBase = 'https://play.google.com/store/apps/details?id=com.serhii.KegelMorseHero';
 const playGlyph = '<svg viewBox="0 0 24 24"><path d="M3.6 1.8c-.3.2-.5.6-.5 1.1v18.2c0 .5.2.9.5 1.1l10-10.2zM14.7 11.9l2.8-2.8L5.1 2l9.6 9.9zm0 .2L5.1 22l12.4-7.1zM18.6 9.7l-3 3 3 3 3.4-2c.9-.5.9-1.6 0-2.1z"/></svg>';
 const appleGlyph = '<svg viewBox="0 0 24 24"><path d="M16.365 1.43c0 1.14-.493 2.27-1.177 3.08-.744.9-1.99 1.57-2.987 1.57-.12 0-.23-.02-.3-.03-.01-.06-.04-.22-.04-.39 0-1.15.572-2.27 1.206-2.98.804-.94 2.142-1.64 3.248-1.68.03.13.05.28.05.43zm4.565 15.71c-.03.09-.46 1.6-1.534 3.16-.918 1.35-1.866 2.7-3.36 2.72-1.466.03-1.937-.87-3.61-.87-1.673 0-2.197.84-3.583.9-1.444.05-2.55-1.46-3.475-2.81-1.89-2.74-3.34-7.74-1.4-11.12.964-1.66 2.687-2.71 4.555-2.74 1.435-.03 2.79.97 3.671.97.88 0 2.539-1.2 4.275-1.02.726.03 2.756.295 4.057 2.225-.105.066-2.422 1.418-2.395 4.236.03 3.378 2.965 4.5 3.001 4.51z"/></svg>';
+
+// English store buttons (articles no longer carry a .store-btns block to copy since the banner redesign).
+const storeBtn = (href, glyph, eyebrow, name) => `<a class="store-btn on-cyan" href="${href}" target="_blank" rel="noopener">${glyph}<span class="store-label"><span class="store-eyebrow">${eyebrow}</span><span class="store-name">${name}</span></span></a>`;
+const EN_STORE = `<span class="store-btns">${storeBtn(appStore, appleGlyph, 'Download on the', 'App Store')}${storeBtn(playBase, playGlyph, 'Get it on', 'Google Play')}</span>`;
 
 function chrome(lang, T) {
   if (lang === 'en') return { header: EN_HEADER, footer: EN_FOOTER, store: EN_STORE, home: 'Home' };
@@ -143,6 +151,20 @@ ${jsonLd}</head>`;
   const works = (e) => `<p class="wk-works"><span>${esc(T.works)}</span>${e.works.map((w) => `<em>${esc(w)}</em>`).join('')}</p>`;
   const mistake = (e) => (e.mistake ? `<p class="wk-mistake"><b>${esc(T.mistake)}</b> ${esc(e.mistake.wrong)}. <b>${esc(T.instead)}</b> ${esc(e.mistake.right)}.</p>` : '');
   const tip = (e) => (e.tip ? `<p class="wk-tip">${esc(e.tip)}</p>` : '');
+  // Long-form guide sections; rendered only when this language has a guide file for the exercise.
+  const GL = (lang === 'en' ? EN_UI.guide : T.guide) || EN_UI.guide;
+  const guideHtml = (g) => {
+    if (!g) return '';
+    const sec = (title, body) => `<section class="wk-how wk-guide"><h2>${esc(title)}</h2>${body}</section>`;
+    return [
+      g.feel && sec(GL.feel, `<p>${esc(g.feel)}</p>`),
+      g.mistakes?.length && sec(GL.mistakes, `<ul class="wk-guide-list">${g.mistakes.map((m) => `<li><b>${esc(m.wrong)}.</b> ${esc(m.right)}</li>`).join('')}</ul>`),
+      (g.easier || g.harder) && sec(GL.variations, `${g.easier ? `<p><b>${esc(GL.easier)}</b> ${esc(g.easier)}</p>` : ''}${g.harder ? `<p><b>${esc(GL.harder)}</b> ${esc(g.harder)}</p>` : ''}`),
+      g.who && sec(GL.who, `<p>${esc(g.who)}</p>`),
+      g.skip && sec(GL.skip, `<p>${esc(g.skip)}</p>`),
+      g.faq?.length && sec(GL.faq, `<div class="qa-list">${g.faq.map((f) => `<div class="qa-item"><h3>${esc(f.q)}</h3><p>${esc(f.a)}</p></div>`).join('')}</div>`),
+    ].filter(Boolean).join('\n');
+  };
 
   function programPage(p0) {
     const p = prog(p0), ch = p0.character, path_ = programPath(lang, p0.slug), enPath = programPath('en', p0.slug);
@@ -194,13 +216,15 @@ ${safety}
 
   function exercisePage(id) {
     const e = ex(id), path_ = exercisePath(lang, id), enPath = exercisePath('en', id);
+    const g = loadGuide(lang, id);
     const short = lang === 'en' ? `${e.short.charAt(0).toLowerCase()}${e.short.slice(1)}` : e.short;
     const title = fill(T.exerciseTitle, { name: e.name });
-    const description = fill(T.exerciseDesc, { name: e.name, short });
-    const jsonLd = `<script type="application/ld+json">${JSON.stringify({
+    const description = g?.description || fill(T.exerciseDesc, { name: e.name, short });
+    const ldJson = (obj) => `<script type="application/ld+json">${JSON.stringify(obj).replace(/</g, '\\u003c')}</script>`;
+    const jsonLd = ldJson({
       '@context': 'https://schema.org', '@type': 'HowTo', inLanguage: lang, name: fill(T.howToName, { name: e.name, nameLower: e.name.toLowerCase() }), description,
       image: `${site}${src(id, 'anatomy')}`, step: e.cues.map((c, i) => ({ '@type': 'HowToStep', position: i + 1, text: c })),
-    }).replace(/</g, '\\u003c')}</script>`;
+    }) + (g?.faq?.length ? ldJson({ '@context': 'https://schema.org', '@type': 'FAQPage', inLanguage: lang, mainEntity: g.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) }) : '');
     const list = GROUPS.map((g) => {
       const ps = programsOf(id).filter((p) => p.character === g.character);
       return ps.length ? `<h3>${esc(T[g.key])}</h3><ul>${ps.map((p) => `<li><a href="${programPath(lang, p.slug)}">${esc(prog(p).title)}</a></li>`).join('')}</ul>` : '';
@@ -211,9 +235,11 @@ ${crumbs(e.name)}
 <header class="wk-hero"><p class="eyebrow">${esc(fill(T.exerciseEyebrow, { reps: e.reps }))}</p><h1>${esc(fill(T.exerciseH1, { name: e.name }))}</h1><p class="lede">${esc(e.short)}.</p></header>
 <figure class="wk-figure big">${img(id, e, 'anatomy', false)}${e.single ? '' : `<figcaption><span>${esc(T.start)}</span><span>${esc(T.finish)}</span></figcaption>`}</figure>
 ${works(e)}
+${g?.intro ? `<p class="wk-guide-intro">${esc(g.intro)}</p>` : ''}
 <section class="wk-how"><h2>${esc(T.howToDo)}</h2><ol class="wk-cues">${e.cues.map((c) => `<li>${esc(c)}</li>`).join('')}</ol><p class="wk-slide-reps">${esc(e.reps)}</p>
-${mistake(e)}
+${g?.mistakes?.length ? '' : mistake(e)}
 ${tip(e)}</section>
+${guideHtml(g)}
 <section class="wk-how wk-in"><h2>${esc(T.inThese)}</h2>${list}</section>
 ${appBlock}
 ${safety}

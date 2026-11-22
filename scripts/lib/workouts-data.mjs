@@ -36,6 +36,12 @@ export function loadTr(lang) {
   return trCache[lang];
 }
 
+// Long-form exercise guide: content/workouts/guides/<lang>/<exerciseId>.json (optional, per language).
+export function loadGuide(lang, id) {
+  const file = path.join(root, 'content', 'workouts', 'guides', lang, `${id}.json`);
+  return existsSync(file) ? JSON.parse(readFileSync(file, 'utf8')) : null;
+}
+
 // Localized slugs: from the translated title (part before ":"), full title when two programs would collide.
 const slugCache = {};
 function slugsFor(lang) {

@@ -108,3 +108,13 @@
   .wk-tab { flex: 1 1 0; width: auto; min-width: 0; max-width: 3.6rem; }
   .wk-tab img { height: 1.8rem; }
 }
+
+/* Long-form exercise guide (content/workouts/guides) */
+.wk-guide-intro { margin: 1.4rem 0 0; color: var(--muted); font-size: 1.02rem; line-height: 1.7; }
+.wk-guide p { margin: .9rem 0 0; color: var(--muted); line-height: 1.7; }
+.wk-guide p b, .wk-guide-list b { color: var(--text); }
+.wk-guide .wk-guide-list { color: var(--muted); line-height: 1.7; }
+.wk-guide .wk-guide-list li + li { margin-top: .5rem; }
+.wk-guide .qa-item h3 { font: 700 1.05rem/1.35 Sora, sans-serif; }
+.wk-guide .qa-list { max-width: none; margin: 1rem 0 0; gap: 1.1rem; }
+.wk-guide .qa-item h3 { margin: 0 0 .35rem; }
