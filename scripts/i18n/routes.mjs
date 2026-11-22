@@ -58,6 +58,20 @@ for (const lang of Object.keys(LANGS)) {
     (MD_TRANSLATIONS[data.en] ||= {})[lang] = { slug: data.slug, file: path.join(dir, file) };
   }
 }
+// Key guides linked from every home page (EN + translations). Home links are the strongest crawl signal we control.
+export const HOME_GUIDES = ['reverse-kegels-for-men', 'do-kegels-help-premature-ejaculation', 'kegels-erectile-dysfunction', 'kegels-after-prostate-surgery', 'dribbling-after-peeing-men', 'how-many-kegels-a-day-for-men', 'best-kegel-apps-for-men', 'am-i-doing-kegels-wrong'];
+
+// Localized [{ href, title }] for HOME_GUIDES. The hand-built article has no Markdown file, so its title is passed in.
+export function homeGuideLinks(code, handBuiltTitle) {
+  return HOME_GUIDES.map((enSlug) => {
+    if (enSlug === HAND_BUILT_ARTICLE) return { href: `/${code}/articles/${ARTICLE_SLUGS[code]}/`, title: handBuiltTitle };
+    const t = MD_TRANSLATIONS[enSlug]?.[code];
+    if (!t) return null;
+    const title = readFileSync(t.file, 'utf8').match(/^#\s+(.+)$/m)?.[1]?.trim() || frontMatter(t.file).meta_title;
+    return { href: `/${code}/articles/${t.slug}/`, title };
+  }).filter(Boolean);
+}
+
 export const localizedSlug = (enSlug, lang) => (enSlug === HAND_BUILT_ARTICLE ? ARTICLE_SLUGS[lang] : MD_TRANSLATIONS[enSlug]?.[lang]?.slug);
 
 // English path -> function(lang) returning the localized path (or undefined when that language has no version).

@@ -76,7 +76,7 @@ try {
 } catch { errors.push('missing /blog/ redirect index'); }
 
 const pe = await readFile(path.join(root, 'articles', 'do-kegels-help-premature-ejaculation', 'index.html'), 'utf8');
-if (pe.includes('apps.apple.com') || pe.includes('article-cta')) errors.push('Premature-ejaculation article contains injected app promotion');
+if (!pe.includes('apps.apple.com') || !pe.includes('article-cta')) errors.push('Premature-ejaculation article is missing the app promotion block');
 
 if (files.length < 10) errors.push(`expected at least 10 Markdown files, found ${files.length}`);
 if (errors.length) {

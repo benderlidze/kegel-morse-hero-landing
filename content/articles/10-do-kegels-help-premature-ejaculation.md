@@ -172,6 +172,12 @@ For general training timelines, read [How Long Does It Take for Kegels to Work f
 
 For conservative exercise volume, read [How Many Kegels Should a Man Do Per Day?](https://kegelmorsehero.com/articles/how-many-kegels-a-day-for-men/).
 
+## Use Guided Timing for Quick Squeezes, Holds, and Relaxation
+
+Home pelvic floor training usually mixes quick squeezes, longer holds, and full relaxation between them. Kegel Morse Hero turns that mix into Morse-code rhythms: short signals for quick squeezes, long signals for holds, and pauses for recovery, with haptic cues so you can train discreetly. It does not diagnose or treat premature ejaculation, measure muscle activation, or guarantee results.
+
+[Explore Kegel Morse Hero on the App Store](https://apps.apple.com/us/app/kegel-morse-hero-pelvic-floor/id6761460873)
+
 ## Frequently Asked Questions
 
 ### How long do Kegels take to help premature ejaculation?

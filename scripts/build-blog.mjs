@@ -1,7 +1,7 @@
 import { readFile, writeFile, mkdir, readdir, rm } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { hreflangTags, localizedPaths, LANGS, LANG_MENU } from './i18n/routes.mjs';
+import { hreflangTags, localizedPaths, LANGS, LANG_MENU, HOME_GUIDES } from './i18n/routes.mjs';
 import { articleCtaMarkup } from './lib/markdown.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -242,7 +242,8 @@ for (let index = 0; index < articles.length; index += 1) {
   const next = articles[(index + 1) % articles.length];
   const toc = rendered.headings.slice(0, 9).map((heading) => `<li><a href="#${heading.id}">${esc(heading.text)}</a></li>`).join('');
   const jsonLd = `<script type="application/ld+json">${JSON.stringify(structured).replace(/</g, '\\u003c')}</script>`;
-  const showAppPromo = !article.file.startsWith('10-');
+  // PE article used to be excluded from app promotion; reverted 2026-11-22 (ED/PE angles are now in scope).
+  const showAppPromo = true;
   const articleCta = showAppPromo && !rendered.html.includes('class="article-cta"')
     ? `<div class="article-end-cta-shell">${articlePromo()}</div>`
     : '';
@@ -269,10 +270,10 @@ const cards = articles.map(cardHtml).join('\n');
 const chips = [`<button class="chip is-active" data-filter="all" type="button">All <span>${articles.length}</span></button>`,
   ...categoryIds.map((id) => `<button class="chip" data-filter="${id}" type="button" id="${id}">${esc(CATEGORIES[id].label)} <span>${articles.filter((a) => a.categoryId === id).length}</span></button>`)
 ].join('');
-const indexDescription = 'Evidence-aware guides to male Kegel exercises, pelvic floor technique, training schedules, apps, and habit building.';
+const indexDescription = 'Evidence-aware guides to pelvic floor training, bladder and sexual health, exercise technique, apps, and habit building.';
 const collectionLd = `<script type="application/ld+json">${JSON.stringify({ '@context':'https://schema.org','@type':'CollectionPage',name:'Pelvic Floor Training Guides',description:indexDescription,url:`${site}/articles/`,hasPart:articles.map((a)=>({'@type':'Article',headline:a.h1,url:a.canonical})) }).replace(/</g,'\\u003c')}</script>`;
 const filterScript = `<script>(function(){var chips=document.querySelectorAll('.chip'),cards=document.querySelectorAll('.article-card');function apply(f){chips.forEach(function(c){c.classList.toggle('is-active',c.dataset.filter===f)});cards.forEach(function(c){c.hidden=f!=='all'&&c.dataset.category!==f})}chips.forEach(function(c){c.addEventListener('click',function(){apply(c.dataset.filter);history.replaceState(null,'',c.dataset.filter==='all'?location.pathname:'#'+c.dataset.filter)})});var initial=(location.hash||'').replace('#','');apply(initial&&document.getElementById(initial)?initial:'all')})();</script>`;
-const indexHtml = `${documentHead({ title: 'Male Pelvic Floor Guides | Kegel Morse Hero', description: indexDescription, canonical: `${site}/articles/`, jsonLd: collectionLd })}<body>${header('articles')}<main id="main"><section class="blog-hero"><div class="hero-inner"><p class="eyebrow">The signal journal</p><h1>Clear guidance for a stronger routine.</h1><p class="lede">Practical, evidence-aware articles about male pelvic floor training—without inflated promises or awkward jargon.</p><div class="signal" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></div></section><section class="blog-shell" aria-labelledby="guides"><h2 class="section-heading" id="guides">All guides</h2><div class="chip-row" role="tablist" aria-label="Filter articles by category">${chips}</div><div class="article-grid">${cards}</div></section></main>${footer()}${filterScript}</body></html>`;
+const indexHtml = `${documentHead({ title: 'Pelvic Floor and Sexual Health Guides | Kegel Morse Hero', description: indexDescription, canonical: `${site}/articles/`, jsonLd: collectionLd })}<body>${header('articles')}<main id="main"><section class="blog-hero"><div class="hero-inner"><p class="eyebrow">The signal journal</p><h1>Clear guidance for a stronger routine.</h1><p class="lede">Practical, evidence-aware articles about pelvic floor, bladder, and sexual health—without inflated promises or awkward jargon.</p><div class="signal" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></div></section><section class="blog-shell" aria-labelledby="guides"><h2 class="section-heading" id="guides">All guides</h2><div class="chip-row" role="tablist" aria-label="Filter articles by category">${chips}</div><div class="article-grid">${cards}</div></section></main>${footer()}${filterScript}</body></html>`;
 await writeFile(path.join(articlesDir, 'index.html'), indexHtml, 'utf8');
 
 // Legacy /blog/* pages 301-redirect (via meta refresh + canonical, since this is a static host)
@@ -306,6 +307,13 @@ const homeFeatures = [
   ['Beginner Friendly', 'Choose 1x, 2x, or 3x speed and train at your own pace, then scale intensity gradually.']
 ];
 
+// Popular guides on the home page (list in i18n/routes.mjs): strongest internal-link signal for crawling the key articles.
+const homeGuideCards = HOME_GUIDES.map((slug, i) => {
+  const article = articles.find((a) => a.slug === slug);
+  if (!article) throw new Error(`HOME_GUIDES: unknown article slug ${slug}`);
+  return cardHtml(article, i).replace('<h2>', '<h3>').replace('</h2>', '</h3>');
+}).join('\n');
+
 const homeHtml = `${documentHead({
   title: 'Kegel App & Pelvic Floor Timer | Kegel Morse Hero',
   description: 'Build your Kegel routine with a private iPhone app: guided timing, haptic cues, reminders, and session history. Free download with in-app purchases.',
@@ -327,6 +335,7 @@ const homeHtml = `${documentHead({
 <section class="feature-section on-surface"><div class="feature-section-inner center-heading"><h2 class="section-heading">Why choose Kegel Morse Hero?</h2>
 <div class="feature-grid">${homeFeatures.map(([h, p]) => `<div class="feature-tile"><h3>${esc(h)}</h3><p>${esc(p)}</p></div>`).join('')}</div>
 </div></section>
+<section class="blog-shell home-guides" aria-labelledby="popular-guides"><h2 class="section-heading" id="popular-guides">Popular guides</h2><div class="article-grid">${homeGuideCards}</div><p class="home-guides-all"><a href="/articles/">See all ${articles.length} guides</a></p></section>
 <section class="feature-section center-heading"><h2 class="section-heading">Quick facts for app comparison</h2>
 <div class="fact-grid"><p><strong>Platform:</strong> iOS</p><p><strong>Price:</strong> Free download, optional subscription</p><p><strong>Works offline:</strong> Yes, for exercise sessions</p><p><strong>Account required:</strong> No</p><p><strong>Data policy:</strong> Local-first, no ads, no tracking</p><p><strong>Best for:</strong> Guided timing and private Kegel training</p></div>
 </section>

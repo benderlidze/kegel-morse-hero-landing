@@ -4,7 +4,7 @@
 import { writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { hreflangTags, langRow, LANG_MENU } from './i18n/routes.mjs';
+import { hreflangTags, langRow, LANG_MENU, homeGuideLinks } from './i18n/routes.mjs';
 import { loadTr as loadWorkoutsTr, PUBLISH as WORKOUTS_PUBLISHED, hubPath as workoutsHub } from './lib/workouts-data.mjs';
 const wkLabel = WORKOUTS_PUBLISHED && loadWorkoutsTr('ru') ? loadWorkoutsTr('ru').ui.navWorkouts : null; // /ru/workouts/ section
 
@@ -98,7 +98,7 @@ await write('ru', `${head({ title: 'Упражнения Кегеля для м�
 <img class="shot" src="/assets/screenshot-detail.png" alt="Экран тренировки Kegel Morse Hero с кольцом-анимацией" width="884" height="1920" loading="lazy" decoding="async"></div>
 </section>
 <section class="feature-section center-heading"><h2 class="section-heading">Полезные статьи</h2>
-<p><a href="/ru/articles/uprazhneniya-kegelya-muzhchinam-skolko-v-den/">Упражнения Кегеля для мужчин: сколько раз в день делать</a></p>
+${homeGuideLinks('ru', 'Упражнения Кегеля для мужчин: сколько раз в день делать').map((g) => `<p><a href="${g.href}">${esc(g.title)}</a></p>`).join('')}
 <p><a href="/ru/articles/">Все статьи на русском</a></p></section>
 <section class="cta-banner"><div class="cta-banner-inner"><h2>Начните тренироваться сегодня</h2><p>Kegel Morse Hero можно скачать бесплатно, а первое занятие начнётся за считаные секунды.</p><div class="cta-row">${storeButtons('on-cyan')}</div></div></section>
 </main>${footer}</body></html>`);

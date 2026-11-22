@@ -5,7 +5,7 @@ import { writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { readFileSync } from 'node:fs';
-import { site, LANGS, ARTICLE_SLUGS, EN_ARTICLE, EN_ARTICLES, MD_TRANSLATIONS, HAND_BUILT_ARTICLE, alternatesFor, hreflangTags, langRow, LANG_MENU } from './i18n/routes.mjs';
+import { site, LANGS, ARTICLE_SLUGS, EN_ARTICLE, EN_ARTICLES, MD_TRANSLATIONS, HAND_BUILT_ARTICLE, homeGuideLinks, alternatesFor, hreflangTags, langRow, LANG_MENU } from './i18n/routes.mjs';
 import { articleCtaMarkup, createRenderer, parseFrontMatter } from './lib/markdown.mjs';
 import uiExtra from './i18n/ui-extra.mjs';
 import { loadTr as loadWorkoutsTr, PUBLISH as WORKOUTS_PUBLISHED, hubPath as workoutsHub } from './lib/workouts-data.mjs';
@@ -106,7 +106,7 @@ ${jsonLd}</head>`;
 <img class="shot" src="/assets/screenshot-detail.png" alt="${esc(H.detailAlt)}" width="884" height="1920" loading="lazy" decoding="async"></div>
 </section>
 <section class="feature-section center-heading"><h2 class="section-heading">${esc(H.usefulTitle)}</h2>
-<p><a href="${articlePath}">${esc(L.article.h1)}</a></p>
+${homeGuideLinks(code, L.article.h1).map((g) => `<p><a href="${g.href}">${esc(g.title)}</a></p>`).join('')}
 <p><a href="${base}/articles/">${esc(H.allArticles)}</a></p></section>
 <section class="cta-banner"><div class="cta-banner-inner"><h2>${esc(H.ctaTitle)}</h2><p>${esc(H.ctaText)}</p><div class="cta-row">${storeButtons('on-cyan')}</div></div></section>
 </main>${footer('/')}</body></html>`);
@@ -193,7 +193,7 @@ ${P.sections.map(([h, p]) => `<section><h2>${esc(h)}</h2><p>${esc(p)}</p></secti
     const parsed = parseFrontMatter(readFileSync(translation.file, 'utf8'));
     const h1 = parsed.body.match(/^#\s+(.+)$/m)?.[1] || parsed.data.meta_title;
     const rendered = renderer.markdown(parsed.body);
-    const showAppPromo = en.slug !== 'do-kegels-help-premature-ejaculation';
+    const showAppPromo = true; // PE exclusion removed 2026-11-22
     const articleCta = showAppPromo && !rendered.html.includes('class="article-cta"')
       ? `<div class="article-end-cta-shell">${articlePromo()}</div>`
       : '';
