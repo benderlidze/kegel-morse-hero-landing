@@ -1,0 +1,33 @@
+{
+  "description": "Guide de la respiration abdominale : des respirations lentes qui détendent et soulèvent doucement le périnée. Sensation attendue, erreurs, variantes.",
+  "intro": "La respiration abdominale relie le diaphragme, votre principal muscle respiratoire, au périnée. À l’inspiration, le périnée s’assouplit et descend un peu ; à l’expiration, il remonte. Apprendre à le laisser se relâcher compte autant qu’apprendre à le contracter.",
+  "feel": "À l’inspiration, la main posée sur le ventre se soulève et la base du bassin donne l’impression de s’élargir et de s’assouplir. À l’expiration, le ventre s’abaisse et vous pouvez remarquer un léger soulèvement à l’intérieur. Les épaules, la nuque et la mâchoire restent détendues. Évitez de respirer seulement avec la poitrine, de forcer le ventre vers l’avant ou de pousser.",
+  "mistakes": [
+    {
+      "wrong": "Respirer seulement dans le haut de la poitrine",
+      "right": "Gardez une main sur le ventre et une sur la poitrine. La main du bas doit bouger davantage, avec les côtes qui s’élargissent sur les côtés."
+    },
+    {
+      "wrong": "Pousser fort le ventre vers l’avant",
+      "right": "Laissez l’air arriver tout seul. Forcer pousse le périnée vers le bas au lieu de le laisser s’assouplir."
+    },
+    {
+      "wrong": "Respirer trop vite ou trop profondément",
+      "right": "Gardez un rythme lent et confortable. Si vous avez la tête qui tourne, prenez des respirations plus petites et reposez-vous."
+    }
+  ],
+  "easier": "Allongez-vous sur le dos, genoux fléchis et un coussin sous la tête, et faites quelques respirations à la fois.",
+  "harder": "Ajoutez un Kegel doux à chaque expiration et un relâchement complet à chaque inspiration. Pratiquez aussi assis ou debout.",
+  "who": "Tout le monde, en particulier les personnes qui ont un périnée tendu, des douleurs pelviennes ou du stress, et celles qui ont accouché, une fois l’accord obtenu. Les adeptes de la musculation peuvent s’en servir pour apprendre à maîtriser leur souffle.",
+  "skip": "C’est un exercice doux qui convient à la plupart des gens. Si vous avez la tête qui tourne, le souffle court ou si vous vous sentez anxieux, revenez à une respiration normale, et parlez-en à un médecin si une maladie des poumons ou du cœur affecte votre respiration. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "Comment la respiration influence-t-elle le périnée ?",
+      "a": "Le diaphragme et le périnée bougent ensemble comme un piston. À l’inspiration, le périnée descend et se relâche ; à l’expiration, il remonte."
+    },
+    {
+      "q": "La respiration peut-elle aider un périnée tendu ?",
+      "a": "Une respiration abdominale lente peut aider les muscles à lâcher prise, ce qui est souvent la première étape quand le périnée est trop tendu. Détendez-vous d’abord au lieu de contracter davantage, et consultez un kinésithérapeute spécialisé en rééducation périnéale si les symptômes persistent."
+    }
+  ]
+}

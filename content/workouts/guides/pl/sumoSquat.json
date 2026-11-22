@@ -1,0 +1,33 @@
+{
+  "description": "Przysiad sumo na uda, pośladki i podparcie miednicy: jak go wykonać, oddychanie dla dna miednicy, błędy oraz łatwiejsza i trudniejsza wersja.",
+  "intro": "Przysiad sumo to przysiad w szerokim rozkroku ze stopami skierowanymi na zewnątrz. Pracują w nim wewnętrzne strony ud i pośladki, które przyczepiają się wokół miednicy i pomagają ją podtrzymywać. Nie trenuje samego dna miednicy, ale to dobre miejsce, by ćwiczyć wydech podczas wstawania.",
+  "feel": "Poczujesz pracę wewnętrznych stron ud i pośladków, najmocniej przy wstawaniu, z tułowiem w pionie i kolanami skierowanymi nad palce stóp. Nie powinno być czuć przeciążenia kolan, mocnego wygięcia dolnych pleców ani ucisku na dole. Samokontrola: jeśli czujesz tylko przód ud, rozstaw nogi odrobinę szerzej i siadaj prosto w dół.",
+  "mistakes": [
+    {
+      "wrong": "Kolana zapadające się do środka",
+      "right": "Przez cały czas wypychaj kolana na zewnątrz nad palce stóp. Jeśli się zapadają, zwęź rozkrok lub mniej wykręcaj stopy."
+    },
+    {
+      "wrong": "Parcie w dół w drodze w górę",
+      "right": "Wydychaj powietrze, wstając, i pozwól dnu miednicy delikatnie unosić się razem z wysiłkiem. Nigdy nie przyj w dół."
+    },
+    {
+      "wrong": "Zbyt szeroki rozkrok",
+      "right": "Wybierz taki rozkrok, w którym biodra czują się otwarte, a kolana pozostają komfortowo."
+    }
+  ],
+  "easier": "Użyj mniejszego zakresu, przytrzymaj się krzesła lub siadaj na wysokie siedzisko i skróć serię do 6–8 powtórzeń.",
+  "harder": "Trzymaj hantlę lub kettlebell między nogami, opuszczaj się przez trzy sekundy albo dodaj delikatne uniesienie dna miednicy przy wstawaniu i pełne rozluźnienie na górze.",
+  "who": "Przydatne dla osób podnoszących ciężary, które rozgrzewają się przed treningiem nóg, i każdego, kto chce silniejszych wewnętrznych stron ud i pośladków wokół miednicy.",
+  "skip": "Najpierw zgłoś się na kontrolę, jeśli masz ból pachwiny, biodra lub kolana, przepuklinę, niedawną operację miednicy lub brzucha, objawy wypadania narządów albo popuszczasz podczas podnoszenia, lub jesteś w ciąży albo po porodzie bez zgody lekarza. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Czy przysiad sumo jest lepszy dla dna miednicy niż zwykły przysiad?",
+      "a": "Żaden z nich nie trenuje go bezpośrednio. Przysiad sumo mocniej obciąża wewnętrzne strony ud i pośladki, a wiele osób uważa, że szeroki rozkrok łatwiej kontrolować. Oddychanie ma większe znaczenie niż rozkrok."
+    },
+    {
+      "q": "Czy w przysiadzie sumo usztywniać brzuch, czy wydychać powietrze?",
+      "a": "Przy ćwiczeniach z ciężarem własnym ciała wystarczy równy wydech podczas wstawania. Przy dużych ciężarach wielu ćwiczących usztywnia tułów, ale unikaj parcia w dół i wypuszczaj powietrze w kontrolowany sposób."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Étirement « Grenouille » pour l’intérieur des cuisses, les hanches et la détente du périnée : comment le faire sans risque, sensation, erreurs, variantes.",
+  "intro": "L’étirement « grenouille » est un étirement profond de l’intérieur des cuisses, à quatre pattes, les genoux écartés. Il ouvre les hanches et les muscles autour du périnée. C’est un mouvement de détente et de mobilité, pas de renforcement, qui convient mieux à la fin d’une séance.",
+  "feel": "Vous devez sentir un étirement fort mais supportable le long de l’intérieur des cuisses et des hanches quand vous reculez le bassin, avec le ventre et le périnée mous. Vous ne devez pas sentir de douleur vive à l’aine, de pression sur les genoux ni le bas du dos s’affaisser. Auto-contrôle : si vous ne pouvez pas respirer lentement et calmement, rapprochez un peu les genoux.",
+  "mistakes": [
+    {
+      "wrong": "Écarter les genoux au maximum tout de suite",
+      "right": "Commencez un peu plus large que les hanches et élargissez lentement au fil de plusieurs séances."
+    },
+    {
+      "wrong": "Laisser le bas du dos s’affaisser",
+      "right": "Gardez une courbure naturelle et appuyez-vous sur les avant-bras si cela aide. Les hanches et la colonne reculent ensemble."
+    },
+    {
+      "wrong": "Rebondir dans l’étirement",
+      "right": "Bougez lentement et faites une pause. De petites oscillations lentes conviennent, mais pas de rebonds."
+    }
+  ],
+  "easier": "Protégez vos genoux, gardez-les plus rapprochés et restez sur les mains. Vous pouvez aussi étirer un côté à la fois.",
+  "harder": "Descendez sur les avant-bras, écartez un peu plus les genoux et tenez jusqu’à environ une minute. Pas de contractions ; le but est le relâchement.",
+  "who": "Utile aux personnes qui ont l’intérieur des cuisses tendu à cause de la course, du vélo, de la musculation ou de la position assise prolongée.",
+  "skip": "Évitez ou gardez une petite amplitude si vous avez une douleur au genou ou à l’aine, une hernie, une opération récente de la hanche, de l’aine ou du ventre, ou si vous êtes enceinte ou en post-partum sans avoir encore obtenu l’accord. Un kinésithérapeute spécialisé en rééducation périnéale peut aider en cas de douleur pelvienne ou de périnée très tendu. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "L’étirement « grenouille » est-il bon pour le périnée ?",
+      "a": "Il peut aider la zone autour du périnée à se relâcher et à mieux bouger. Il ne renforce pas les muscles : utilisez-le avec des Kegel doux, pas à leur place."
+    },
+    {
+      "q": "Pourquoi mes genoux me font-ils mal dans l’étirement « grenouille » ?",
+      "a": "Un sol dur et une position trop large en sont des causes courantes. Protégez vos genoux, rapprochez-les et gardez les chevilles alignées avec les genoux."
+    }
+  ]
+}

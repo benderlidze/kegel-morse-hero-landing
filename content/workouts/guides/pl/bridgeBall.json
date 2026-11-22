@@ -1,0 +1,33 @@
+{
+  "description": "Mostek z piłką między kolanami: mostek pośladkowy z piłką dla pośladków, wewnętrznej strony ud i dna miednicy. Błędy i wersje ćwiczenia.",
+  "intro": "Ten mostek dodaje piłkę lub poduszkę między kolanami, więc pracują wewnętrzne strony ud, podczas gdy pośladki unoszą biodra. Mięśnie przywodziciele przyczepiają się blisko dna miednicy, a wiele kobiet łatwiej wyczuwa delikatne uniesienie dna miednicy, gdy uda się dociskają.",
+  "feel": "Poczujesz pracę pośladków, wewnętrzne strony ud dociskające piłkę i lekkie uniesienie w miednicy podczas unoszenia. Po dwusekundowym utrzymaniu opuść się i pozwól wszystkiemu się rozluźnić. Oddech płynie dalej, a dolny odcinek pleców jest w pozycji neutralnej. Parcie w dół, wstrzymywanie oddechu lub napięcie karku oznaczają, że trzeba ściskać słabiej.",
+  "mistakes": [
+    {
+      "wrong": "Miażdżenie piłki z całej siły",
+      "right": "Ściskaj równo i umiarkowanie. Maksymalny uścisk przenosi się na brzuch i sprawia, że wstrzymujesz oddech."
+    },
+    {
+      "wrong": "Wyślizgiwanie się piłki podczas unoszenia",
+      "right": "Utrzymuj równy nacisk od początku unoszenia do końca opuszczania."
+    },
+    {
+      "wrong": "Pozostawanie w napięciu na dole",
+      "right": "Całkowicie rozluźnij piłkę, pośladki i dno miednicy przed kolejnym powtórzeniem."
+    }
+  ],
+  "easier": "Ściskaj piłkę bez unoszenia bioder albo unieś się tylko na kilka centymetrów.",
+  "harder": "Utrzymaj górną pozycję dłużej, opuszczaj się wolniej albo dodaj delikatne napięcie Kegla przy unoszeniu i pełne rozluźnienie przy opuszczaniu.",
+  "who": "Kobietom, które chcą lepiej podtrzymać miednicę, w tym po 40. roku życia lub pracującym nad kontrolą pęcherza, oraz każdemu, komu trudno wyczuć dno miednicy w zwykłym mostku.",
+  "skip": "Pomiń lub zmodyfikuj przy bólu miednicy, pachwiny lub wewnętrznej strony ud albo gdy dno miednicy jest napięte, bo dodatkowe ściskanie może nie pomóc. Po niedawnej operacji, niedawnym porodzie lub w późnej ciąży najpierw skonsultuj się z lekarzem lub fizjoterapeutą dna miednicy. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Po co ściskać piłkę podczas mostka?",
+      "a": "Pracują wtedy wewnętrzne strony ud razem z pośladkami, a wiele osób łatwiej w ten sposób czuje dno miednicy. To dodaje wsparcia, ale nie zastępuje ćwiczeń Kegla."
+    },
+    {
+      "q": "Jakiej wielkości piłki użyć?",
+      "a": "Dobrze sprawdza się miękka piłka wielkości małej piłki do zabawy. Równie dobra będzie twarda poduszka lub zwinięty ręcznik."
+    }
+  ]
+}

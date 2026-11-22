@@ -1,0 +1,33 @@
+{
+  "description": "Guide de la bascule du bassin : aplatissez puis relâchez doucement le bas du dos pour échauffer le bas du ventre et réduire la raideur. Erreurs, variantes.",
+  "intro": "La bascule du bassin est un petit mouvement de bascule du bassin, allongé sur le dos. Elle réveille le bas du ventre et assouplit le bas du dos. Dans une routine pour le périnée, c’est un échauffement doux qui vous aide à sentir votre bassin avant d’ajouter des Kegel.",
+  "feel": "Vous devez sentir le bas du dos s’appuyer légèrement au sol, un effort modéré dans le bas du ventre, puis un relâchement doux. Vous ne devez pas sentir les fessiers faire tout le travail, la respiration s’arrêter ou une poussée vers le bas dans le bassin. Posez une main sur le bas du ventre : il doit se raffermir doucement quand vous basculez et s’assouplir quand vous relâchez.",
+  "mistakes": [
+    {
+      "wrong": "Soulever les hanches du sol comme dans un pont",
+      "right": "Gardez le coccyx au sol. Le bassin bascule, il ne monte pas."
+    },
+    {
+      "wrong": "Serrer fort les fessiers pour bouger",
+      "right": "Laissez le bas du ventre mener le mouvement et gardez les fesses détendues."
+    },
+    {
+      "wrong": "Enchaîner les répétitions trop vite",
+      "right": "Expirez en aplatissant le dos et inspirez en relâchant. Une respiration lente par répétition est un bon rythme."
+    }
+  ],
+  "easier": "Faites un mouvement plus petit, ou faites la bascule debout, le dos contre un mur.",
+  "harder": "Maintenez la position à plat trois à cinq secondes, ou ajoutez un Kegel doux en aplatissant le dos et relâchez complètement le périnée en relâchant.",
+  "who": "Convient aux personnes qui ont le bas du dos raide, à celles qui travaillent au bureau, aux personnes âgées et à toute personne qui reprend l’exercice après un accouchement, une fois l’accord d’un professionnel de santé obtenu.",
+  "skip": "Si vous êtes enceinte au-delà du premier trimestre, demandez à votre sage-femme ou à votre médecin ce qu’il en est de l’allongement sur le dos ; vous pouvez basculer à quatre pattes ou debout. Consultez d’abord un médecin ou un kinésithérapeute spécialisé en rééducation périnéale après une opération récente du bassin ou du ventre ou en cas de nouveau mal de dos. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "La bascule du bassin renforce-t-elle le périnée ?",
+      "a": "Pas beaucoup à elle seule. Elle travaille surtout le bas du ventre et améliore la conscience du bassin, ce qui peut aider à repérer et à contrôler les Kegel."
+    },
+    {
+      "q": "La bascule du bassin est-elle sûre après un accouchement ?",
+      "a": "C’est souvent l’un des premiers mouvements proposés après l’accouchement. Obtenez d’abord l’accord de votre médecin ou de votre sage-femme, surtout après une césarienne."
+    }
+  ]
+}

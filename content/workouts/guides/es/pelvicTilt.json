@@ -1,0 +1,33 @@
+{
+  "description": "Guía de la inclinación pélvica: aplana y suelta con suavidad la zona lumbar para activar el abdomen inferior y aliviar la rigidez. Errores y variantes.",
+  "intro": "La inclinación pélvica es un pequeño movimiento de balanceo de la pelvis que se hace tumbado boca arriba. Despierta los abdominales inferiores y suelta la zona lumbar. En una rutina de suelo pélvico es un calentamiento suave que te ayuda a encontrar la pelvis antes de añadir Kegel.",
+  "feel": "Debes notar que la zona lumbar se apoya ligeramente en el suelo, un esfuerzo suave en la parte baja del vientre y luego una relajación. No debes notar que los glúteos hacen todo el trabajo, que la respiración se detiene ni ningún empuje hacia abajo en la pelvis. Apoya una mano en la parte baja del vientre: debe endurecerse con suavidad al inclinar y ablandarse al soltar.",
+  "mistakes": [
+    {
+      "wrong": "Levantar las caderas del suelo como en un puente",
+      "right": "Mantén el coxis apoyado. La pelvis se balancea, no se eleva."
+    },
+    {
+      "wrong": "Apretar los glúteos con fuerza para moverte",
+      "right": "Deja que los abdominales inferiores lleven el movimiento y mantén relajadas las nalgas."
+    },
+    {
+      "wrong": "Hacer las repeticiones con prisa",
+      "right": "Espira al aplanar la espalda e inspira al soltar. Una respiración lenta por repetición es un buen ritmo."
+    }
+  ],
+  "easier": "Haz el movimiento más pequeño, o haz la inclinación de pie con la espalda contra una pared.",
+  "harder": "Mantén la posición aplanada de tres a cinco segundos, o añade un Kegel suave al aplanar y relaja por completo el suelo pélvico al soltar.",
+  "who": "Bueno para personas con la zona lumbar rígida, para quienes trabajan sentados, para personas mayores y para quien vuelve poco a poco al ejercicio tras un parto, una vez que un profesional de la salud le ha dado el alta.",
+  "skip": "Si estás embarazada y has pasado el primer trimestre, pregunta a tu matrona o médico sobre tumbarte boca arriba; puedes hacer la inclinación a cuatro apoyos o de pie. Consulta antes a un médico o fisioterapeuta de suelo pélvico tras una cirugía pélvica o abdominal reciente o ante un dolor de espalda nuevo. Para si te duele.",
+  "faq": [
+    {
+      "q": "¿Fortalecen las inclinaciones pélvicas el suelo pélvico?",
+      "a": "No mucho por sí solas. Trabajan sobre todo los abdominales inferiores y mejoran la conciencia de la pelvis, lo que puede hacer que los Kegel sean más fáciles de localizar y controlar."
+    },
+    {
+      "q": "¿Son seguras las inclinaciones pélvicas después de dar a luz?",
+      "a": "A menudo son uno de los primeros movimientos que se proponen tras el parto. Pide antes el visto bueno a tu médico o matrona, sobre todo tras una cesárea."
+    }
+  ]
+}

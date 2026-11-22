@@ -1,0 +1,33 @@
+{
+  "description": "Kniebeuge mit Körpergewicht mit Beckenbodenbewusstsein: Ausführung, beckenbodenschonende Atmung, häufige Fehler, leichtere und schwerere Varianten.",
+  "intro": "Die Kniebeuge mit Körpergewicht trainiert Gesäß und Oberschenkel, die großen Muskeln, die dein Becken stützen. Für sich genommen ist sie keine Beckenbodenübung, aber die Atmung zählt: Wenn du beim Aufstehen ausatmest, kann sich der Beckenboden mit der Anstrengung heben, statt nach unten gedrückt zu werden.",
+  "feel": "Du solltest Oberschenkel und Gesäß arbeiten spüren, besonders beim Aufstehen, mit Einatmen auf dem Weg nach unten und Ausatmen beim Aufstehen. Du solltest nicht spüren, dass der untere Rücken übernimmt, ein Schweregefühl im Unterleib oder den Drang, die Luft anzuhalten und zu pressen. Selbsttest: Wenn du Urin verlierst oder presst, mach die Kniebeuge kleiner und konzentriere dich auf das Ausatmen.",
+  "mistakes": [
+    {
+      "wrong": "Auf dem Weg nach oben die Luft anhalten",
+      "right": "Atme beim Aufstehen aus. Luftanhalten erhöht den Druck auf den Beckenboden."
+    },
+    {
+      "wrong": "Die Knie fallen nach innen",
+      "right": "Halte die Knie in einer Linie mit den Zehen. Stell dir vor, du schiebst mit den Füßen den Boden auseinander."
+    },
+    {
+      "wrong": "Tiefer gehen, als du kontrollieren kannst",
+      "right": "Geh nur so tief, wie du es mit aufrechter Brust und flachen Fersen schaffst. Die Tiefe kommt mit der Übung."
+    }
+  ],
+  "easier": "Setz dich auf einen Stuhl, berühre ihn leicht, bevor du aufstehst, oder halte dich an einer Arbeitsplatte fest. Du kannst auch 6 bis 8 Wiederholungen machen.",
+  "harder": "Senke dich über drei bis vier Sekunden ab, halte unten kurz an, oder füge beim Aufstehen ein sanftes Kegel-Anheben hinzu und löse es oben vollständig.",
+  "who": "Nützlich für Einsteiger, Menschen mit Schreibtischjob und Autofahrer, die kräftige Beine und Hüften brauchen, und alle, die wieder ins Training einsteigen.",
+  "skip": "Lass dich zuerst untersuchen, wenn du Knie- oder Hüftschmerzen, einen Leistenbruch, eine kürzliche Operation im Bauch- oder Beckenbereich, Anzeichen einer Senkung wie ein Schweregefühl hast oder schwanger bist oder gerade entbunden hast und noch nicht freigegeben bist. Urinverlust bei Kniebeugen solltest du mit einer Beckenboden-Physiotherapeutin oder einem -Physiotherapeuten besprechen. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Sind Kniebeugen gut für den Beckenboden?",
+      "a": "Sie kräftigen die Muskeln rund um das Becken, was den Beckenboden stützen kann. Sie ersetzen keine Kegel-Übungen, aber Ausatmen beim Aufstehen hilft dem Beckenboden, mit der Bewegung zu arbeiten."
+    },
+    {
+      "q": "Warum verliere ich bei Kniebeugen Urin?",
+      "a": "Möglicherweise überwiegt der Druck den Beckenboden, oft durch Luftanhalten oder zu schweres Training zu früh. Probier kleinere Kniebeugen mit gleichmäßigem Ausatmen, und lass dich untersuchen, wenn es anhält."
+    }
+  ]
+}

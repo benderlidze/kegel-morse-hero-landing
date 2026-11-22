@@ -1,0 +1,33 @@
+{
+  "description": "Guía del puente con marcha: mantén un puente de glúteos y levanta un pie cada vez para trabajar glúteos y control del core, con errores y variantes.",
+  "intro": "El puente con marcha empieza como un puente normal; después levantas un pie y luego el otro mientras las caderas se mantienen arriba. Cada elevación traslada la carga a un lado, de modo que los glúteos y el core profundo deben evitar que la pelvis caiga o gire. Crea la base estable que la pelvis necesita para caminar, levantar peso y entrenar.",
+  "feel": "Debes notar el trabajo de ambos glúteos, con un esfuerzo extra en la pierna de apoyo cada vez que se levanta un pie. El vientre se siente ligeramente firme y las caderas se mantienen altas y niveladas. Vigila si contienes el aire, arqueas la zona lumbar o empujas hacia abajo en la pelvis. Si las caderas se hunden o se balancean con cada paso, haz la marcha más pequeña.",
+  "mistakes": [
+    {
+      "wrong": "Subir demasiado la rodilla",
+      "right": "Levanta el pie solo uno o dos centímetros al principio. El objetivo es una pelvis estable, no un gran movimiento de pierna."
+    },
+    {
+      "wrong": "Contener la respiración durante toda la serie",
+      "right": "Espira al levantar cada pie e inspira al bajarlo. Mantén un ritmo lento."
+    },
+    {
+      "wrong": "Dejar que el puente se hunda",
+      "right": "Si las caderas caen, baja, descansa y empieza de nuevo con menos pasos."
+    }
+  ],
+  "easier": "Levanta solo el talón, manteniendo los dedos apoyados, o descansa después de cada dos pasos.",
+  "harder": "Haz una pausa de 2 a 3 segundos con un pie levantado, estira la pierna elevada o haz cada paso más lento.",
+  "who": "Personas que levantan pesas y cualquiera que trabaje el control del core y de la cadera, sobre todo cuando un puente simple ya resulta fácil.",
+  "skip": "Reduce la intensidad o evítalo si tienes dolor de espalda durante los puentes, dolor de cadera, una hernia o una cirugía abdominal reciente. Si notas un abultamiento a lo largo del centro del vientre, pesadez pélvica o pérdidas de orina durante el movimiento, consulta a un fisioterapeuta. Para si te duele.",
+  "faq": [
+    {
+      "q": "¿Qué trabaja el puente con marcha?",
+      "a": "Los glúteos y los isquiotibiales, además de los músculos profundos del core que mantienen la pelvis nivelada, de un lado cada vez."
+    },
+    {
+      "q": "¿Deben quedarse las caderas completamente quietas?",
+      "a": "Intenta moverlas lo mínimo posible. Un pequeño balanceo es normal al principio, pero una caída grande indica que por ahora es demasiado difícil."
+    }
+  ]
+}

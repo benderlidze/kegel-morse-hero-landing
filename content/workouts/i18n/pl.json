@@ -11,7 +11,11 @@
     "cardMeta": "{n} ćwiczeń · ~{m} min · {level}",
     "eyebrowMen": "Trening dla mężczyzn · {n} ćwiczeń · ~{m} min",
     "eyebrowWomen": "Trening dla kobiet · {n} ćwiczeń · ~{m} min",
-    "levels": { "Beginner": "Dla początkujących", "Easy": "Poziom łatwy", "Intermediate": "Poziom średni" },
+    "levels": {
+      "Beginner": "Dla początkujących",
+      "Easy": "Poziom łatwy",
+      "Intermediate": "Poziom średni"
+    },
     "equipmentNone": "Bez sprzętu",
     "equipmentBall": "Mała piłka lub poduszka",
     "atHome": "W domu",
@@ -48,45 +52,369 @@
     "altSingle": "pozycja",
     "altAnatomy": "{name}: {pos}, zaznaczone: {works}",
     "altFlat": "{name}: {pos}",
-    "std": ["Wykonuj ruchy po kolei, jedna runda.", "Odpoczywaj około 30 sekund między ruchami.", "Trzy–cztery razy w tygodniu to dobry początek; jakość jest ważniejsza niż tempo."],
+    "std": [
+      "Wykonuj ruchy po kolei, jedna runda.",
+      "Odpoczywaj około 30 sekund między ruchami.",
+      "Trzy–cztery razy w tygodniu to dobry początek; jakość jest ważniejsza niż tempo."
+    ],
     "muscles": {
-      "Pelvic floor": "Dno miednicy", "Diaphragm": "Przepona", "Glutes": "Mięśnie pośladkowe", "Hamstrings": "Tylna strona ud", "Inner thighs": "Wewnętrzna strona ud",
-      "Deep core": "Głębokie mięśnie core", "Lower abdominals": "Dolna część brzucha", "Hip flexors": "Zginacze bioder", "Deep abdominals": "Głębokie mięśnie brzucha", "Lower back": "Dolny odcinek pleców",
-      "Hips": "Okolice bioder", "Side glutes": "Boczne mięśnie pośladkowe", "Back muscles": "Mięśnie grzbietu", "Spine": "Kręgosłup", "Abdominals": "Mięśnie brzucha",
-      "Shoulders": "Barki", "Obliques": "Mięśnie skośne brzucha", "Thighs": "Mięśnie ud"
+      "Pelvic floor": "Dno miednicy",
+      "Diaphragm": "Przepona",
+      "Glutes": "Mięśnie pośladkowe",
+      "Hamstrings": "Tylna strona ud",
+      "Inner thighs": "Wewnętrzna strona ud",
+      "Deep core": "Głębokie mięśnie core",
+      "Lower abdominals": "Dolna część brzucha",
+      "Hip flexors": "Zginacze bioder",
+      "Deep abdominals": "Głębokie mięśnie brzucha",
+      "Lower back": "Dolny odcinek pleców",
+      "Hips": "Okolice bioder",
+      "Side glutes": "Boczne mięśnie pośladkowe",
+      "Back muscles": "Mięśnie grzbietu",
+      "Spine": "Kręgosłup",
+      "Abdominals": "Mięśnie brzucha",
+      "Shoulders": "Barki",
+      "Obliques": "Mięśnie skośne brzucha",
+      "Thighs": "Mięśnie ud"
+    },
+    "guide": {
+      "feel": "Po czym poznać, że działa",
+      "mistakes": "Częste błędy",
+      "variations": "Łatwiej lub trudniej",
+      "easier": "Łatwiej:",
+      "harder": "Trudniej:",
+      "who": "Komu pomaga",
+      "skip": "Kiedy pominąć lub najpierw skonsultować się z lekarzem",
+      "faq": "Pytania"
     }
   },
   "exercises": {
-    "kegelLying": { "name": "Ćwiczenie Kegla leżąc", "short": "Napnij, utrzymaj, rozluźnij", "cues": ["Połóż się na plecach, kolana zgięte, stopy płasko na podłodze", "Napnij mięśnie, jakbyś zatrzymywał(a) strumień moczu, i unieś je do góry i do środka", "Całkowicie się rozluźniaj między powtórzeniami"], "reps": "10 powtórzeń · utrzymanie 3 s", "tip": "Oddychaj normalnie. Jeśli napinają się brzuch, pośladki lub uda, napięcie jest za mocne: zrób lżejsze." },
-    "kegelSitting": { "name": "Ćwiczenie Kegla siedząc", "short": "To samo napięcie, siedząc prosto", "cues": ["Usiądź prosto, stopy płasko na podłodze", "Napnij i unieś do góry, pośladki rozluźnione", "Oddychaj spokojnie"], "reps": "10 powtórzeń · utrzymanie 5 s", "tip": "Możesz ćwiczyć na krześle, w aucie lub przy biurku: nikt tego nie zauważy. Ramiona rozluźnione." },
-    "kegelStanding": { "name": "Ćwiczenie Kegla stojąc", "short": "Najtrudniejsze: walczysz z grawitacją", "cues": ["Stań prosto, kolana lekko ugięte", "Napnij i unieś do góry i do środka", "Brzuch i pośladki rozluźnione"], "reps": "10 powtórzeń · utrzymanie 5 s", "tip": "To najtrudniejsza pozycja, bo przeszkadza grawitacja. Najpierw opanuj wersję leżącą." },
-    "breathing": { "name": "Oddychanie brzuchem", "short": "Powolne oddechy do brzucha", "cues": ["Jedna dłoń na brzuchu", "Wdech: brzuch się unosi, dno miednicy się rozluźnia", "Wydech: delikatne uniesienie do góry"], "reps": "1–2 min", "tip": "Na wdechu pozwól dnu miednicy zmięknąć. To tak samo ważne jak napięcie." },
-    "bridge": { "name": "Mostek pośladkowy", "short": "Unieś biodra, ściśnij pośladki na górze", "cues": ["Stopy płasko, na szerokość bioder", "Na wydechu ściśnij pośladki i unieś biodra", "Opuść się powoli"], "reps": "12 powtórzeń", "mistake": { "wrong": "Wygięcie w dolnej części pleców na górze", "right": "Żebra opuszczone, prosta linia od kolan do barków" } },
-    "bridgeBall": { "name": "Mostek z piłką między kolanami", "short": "Mostek z piłką ściśniętą kolanami", "cues": ["Piłka lub poduszka między kolanami", "Ściśnij piłkę i unieś biodra", "Zatrzymaj się na górze na 2 s"], "reps": "10 powtórzeń", "tip": "Nie masz piłki? Użyj poduszki lub zwiniętego ręcznika." },
-    "singleLegBridge": { "name": "Mostek na jednej nodze", "short": "Jedna stopa na podłodze, druga noga w górze", "cues": ["Jedna noga prosta w powietrzu", "Dociskaj piętę nogi podporowej", "Biodra pozostają równo"], "reps": "8 na stronę" },
-    "bridgeMarch": { "name": "Mostek z „marszem”", "short": "Utrzymaj mostek i unoś kolana", "cues": ["Unieś się do mostka", "Unieś jedną stopę, potem drugą", "Biodra nie opadają"], "reps": "10 „kroków”" },
-    "heelSlides": { "name": "Zsuwanie pięt", "short": "Wysuwaj piętę i wracaj", "cues": ["Połóż się na plecach, kolana zgięte", "Na wydechu wysuń jedną piętę", "Plecy pozostają nieruchomo"], "reps": "10 na stronę" },
-    "supineMarch": { "name": "Unoszenie kolan w leżeniu", "short": "Unoś zgięte kolana po kolei", "cues": ["Połóż się na plecach, kolana zgięte", "Unieś jedno kolano do 90°", "Opuść powoli i zmień nogę"], "reps": "10 na stronę" },
-    "deadBug": { "name": "„Martwy robak”", "short": "Opuszczaj przeciwną rękę i nogę", "cues": ["Ręce w górę, kolana nad biodrami", "Opuść przeciwną rękę i nogę", "Dolny odcinek pleców pozostaje przyciśnięty do podłogi"], "reps": "8 na stronę", "mistake": { "wrong": "Dolny odcinek pleców odrywa się od podłogi", "right": "Dociśnij plecy do podłogi i poruszaj się wolniej" } },
-    "pelvicTilt": { "name": "Przechylanie miednicy", "short": "Przechylaj miednicę w górę i w dół", "cues": ["Połóż się na plecach, kolana zgięte", "Dociśnij dolny odcinek pleców do podłogi", "Rozluźnij się i powtórz"], "reps": "12 powtórzeń" },
-    "kneeFallout": { "name": "Opuszczanie kolan na boki", "short": "Opuszczaj kolano na bok", "cues": ["Połóż się na plecach, kolana zgięte", "Powoli opuść jedno kolano na bok", "Miednica pozostaje nieruchomo"], "reps": "10 na stronę" },
-    "clamshell": { "name": "„Muszla”", "short": "Otwórz górne kolano, stopy razem", "cues": ["Połóż się na boku, kolana zgięte", "Stopy razem, unieś górne kolano", "Nie przechylaj miednicy do tyłu"], "reps": "12 na stronę" },
-    "sideLegRaise": { "name": "Unoszenie nogi w leżeniu bokiem", "short": "Unoś górną nogę prosto w górę", "cues": ["Połóż się na boku, nogi proste", "Powoli unieś górną nogę", "Palce stóp skierowane do przodu"], "reps": "12 na stronę" },
-    "birdDog": { "name": "„Ptak-pies”", "short": "Wyciągaj przeciwną rękę i nogę", "cues": ["Dłonie pod barkami, kolana pod biodrami", "Wyciągnij przeciwną rękę i nogę", "Plecy pozostają proste"], "reps": "8 na stronę" },
-    "catCow": { "name": "„Kot-krowa”", "short": "Zaokrąglij plecy, potem wygnij", "cues": ["Zacznij w podporze na rękach i kolanach", "Na wydechu zaokrąglij plecy do góry", "Na wdechu opuść brzuch i unieś wzrok"], "reps": "8 powolnych powtórzeń", "tip": "Poruszaj się powoli i dopasuj ruch do oddechu." },
-    "plank": { "name": "Deska", "short": "Prosta linia na przedramionach", "cues": ["Łokcie pod barkami", "Ściśnij pośladki, napnij brzuch", "Nie wstrzymuj oddechu"], "reps": "20–40 s", "mistake": { "wrong": "Biodra opadają", "right": "Prosta linia od głowy do pięt" }, "tip": "Jeśli pełna wersja jest za trudna, oprzyj się na kolanach. Czyste krótkie utrzymanie jest lepsze niż długie z opadającymi biodrami." },
-    "sidePlank": { "name": "Deska boczna", "short": "Biodra w górę na jednym przedramieniu", "cues": ["Łokieć pod barkiem", "Unieś biodra do prostej linii", "Kolana na podłodze = łatwiej"], "reps": "15–30 s na stronę" },
-    "superman": { "name": "„Superman”", "short": "Unoś ręce i nogi nad podłogę", "cues": ["Połóż się na brzuchu", "Unieś trochę ręce, klatkę piersiową i nogi", "Przytrzymaj 2 s i opuść powoli"], "reps": "10 powtórzeń" },
-    "childPose": { "name": "Poza dziecka", "short": "Usiądź do tyłu, ramiona wyciągnięte", "cues": ["Kolana szeroko, duże palce stóp razem", "Usiądź na piętach", "Oddychaj w dolny odcinek pleców"], "reps": "30–60 s", "tip": "Pozwól brzuchowi i dnu miednicy całkowicie się rozluźnić. Nie ciągnij na siłę przez ból." },
-    "happyBaby": { "name": "„Szczęśliwe dziecko”", "short": "Chwyć stopy, kolana szeroko", "cues": ["Połóż się na plecach", "Chwyć stopy, kolana w stronę pach", "Delikatnie kołysz się na boki"], "reps": "30–60 s" },
-    "butterfly": { "name": "Rozciąganie „Motyl”", "short": "Stopy razem, pochylenie do przodu", "cues": ["Usiądź prosto, podeszwy stóp razem", "Pozwól kolanom opaść na boki", "Pochyl się do przodu od bioder"], "reps": "30–60 s" },
-    "frogStretch": { "name": "Rozciąganie „Żaba”", "short": "Kolana szeroko, biodra do tyłu", "cues": ["W podporze rozszerz kolana", "Kostki na jednej linii z kolanami", "Powoli odsuń biodra do tyłu"], "reps": "30–60 s" },
-    "hipFlexor": { "name": "Rozciąganie zginaczy bioder", "short": "Uklęknij i przesuń biodra do przodu", "cues": ["Klęk na jednym kolanie, tylne kolano na podłodze", "Ściśnij pośladek tylnej nogi", "Delikatnie przesuń biodra do przodu"], "reps": "30 s na stronę" },
-    "squat": { "name": "Przysiad z ciężarem własnym", "short": "Opuść się i wstań", "cues": ["Stopy na szerokość barków", "Odsuń biodra do tyłu, klatka piersiowa w górę", "Wstawaj na wydechu"], "reps": "12 powtórzeń", "mistake": { "wrong": "Zaokrąglone plecy", "right": "Klatka piersiowa w górę, plecy długie" } },
-    "sumoSquat": { "name": "Przysiad sumo", "short": "Szeroka postawa, palce na zewnątrz", "cues": ["Szeroka postawa, palce stóp na zewnątrz", "Kolana nad palcami stóp", "Wstawaj, ściskając pośladki"], "reps": "12 powtórzeń" },
-    "wallSit": { "name": "„Krzesełko” przy ścianie", "short": "Plecy przy ścianie, utrzymaj", "cues": ["Plecy płasko przy ścianie", "Zsuń się w dół, kolana pod kątem 90°", "Dodaj napięcie Kegla podczas utrzymania"], "reps": "20–40 s", "tip": "Zakończ, zanim uda zaczną mocno drżeć. Oddychaj przez cały czas." },
-    "lunge": { "name": "Wykrok do tyłu", "short": "Krok w tył, w dół, w górę", "cues": ["Zrób krok jedną nogą do tyłu", "Opuść tylne kolano", "Odepchnij się przednią piętą"], "reps": "8 na stronę" },
-    "ballSqueeze": { "name": "Ściskanie piłki kolanami", "short": "Ściskaj piłkę między kolanami", "cues": ["Usiądź prosto, piłka między kolanami", "Ściśnij piłkę i dno miednicy", "Utrzymaj 5 s i rozluźnij"], "reps": "10 powtórzeń", "tip": "Nie masz piłki? Zwinięty ręcznik lub poduszka też się nadadzą." }
+    "kegelLying": {
+      "name": "Ćwiczenie Kegla leżąc",
+      "short": "Napnij, utrzymaj, rozluźnij",
+      "cues": [
+        "Połóż się na plecach, kolana zgięte, stopy płasko na podłodze",
+        "Napnij mięśnie, jakbyś zatrzymywał(a) strumień moczu, i unieś je do góry i do środka",
+        "Całkowicie się rozluźniaj między powtórzeniami"
+      ],
+      "reps": "10 powtórzeń · utrzymanie 3 s",
+      "tip": "Oddychaj normalnie. Jeśli napinają się brzuch, pośladki lub uda, napięcie jest za mocne: zrób lżejsze."
+    },
+    "kegelSitting": {
+      "name": "Ćwiczenie Kegla siedząc",
+      "short": "To samo napięcie, siedząc prosto",
+      "cues": [
+        "Usiądź prosto, stopy płasko na podłodze",
+        "Napnij i unieś do góry, pośladki rozluźnione",
+        "Oddychaj spokojnie"
+      ],
+      "reps": "10 powtórzeń · utrzymanie 5 s",
+      "tip": "Możesz ćwiczyć na krześle, w aucie lub przy biurku: nikt tego nie zauważy. Ramiona rozluźnione."
+    },
+    "kegelStanding": {
+      "name": "Ćwiczenie Kegla stojąc",
+      "short": "Najtrudniejsze: walczysz z grawitacją",
+      "cues": [
+        "Stań prosto, kolana lekko ugięte",
+        "Napnij i unieś do góry i do środka",
+        "Brzuch i pośladki rozluźnione"
+      ],
+      "reps": "10 powtórzeń · utrzymanie 5 s",
+      "tip": "To najtrudniejsza pozycja, bo przeszkadza grawitacja. Najpierw opanuj wersję leżącą."
+    },
+    "breathing": {
+      "name": "Oddychanie brzuchem",
+      "short": "Powolne oddechy do brzucha",
+      "cues": [
+        "Jedna dłoń na brzuchu",
+        "Wdech: brzuch się unosi, dno miednicy się rozluźnia",
+        "Wydech: delikatne uniesienie do góry"
+      ],
+      "reps": "1–2 min",
+      "tip": "Na wdechu pozwól dnu miednicy zmięknąć. To tak samo ważne jak napięcie."
+    },
+    "bridge": {
+      "name": "Mostek pośladkowy",
+      "short": "Unieś biodra, ściśnij pośladki na górze",
+      "cues": [
+        "Stopy płasko, na szerokość bioder",
+        "Na wydechu ściśnij pośladki i unieś biodra",
+        "Opuść się powoli"
+      ],
+      "reps": "12 powtórzeń",
+      "mistake": {
+        "wrong": "Wygięcie w dolnej części pleców na górze",
+        "right": "Żebra opuszczone, prosta linia od kolan do barków"
+      }
+    },
+    "bridgeBall": {
+      "name": "Mostek z piłką między kolanami",
+      "short": "Mostek z piłką ściśniętą kolanami",
+      "cues": [
+        "Piłka lub poduszka między kolanami",
+        "Ściśnij piłkę i unieś biodra",
+        "Zatrzymaj się na górze na 2 s"
+      ],
+      "reps": "10 powtórzeń",
+      "tip": "Nie masz piłki? Użyj poduszki lub zwiniętego ręcznika."
+    },
+    "singleLegBridge": {
+      "name": "Mostek na jednej nodze",
+      "short": "Jedna stopa na podłodze, druga noga w górze",
+      "cues": [
+        "Jedna noga prosta w powietrzu",
+        "Dociskaj piętę nogi podporowej",
+        "Biodra pozostają równo"
+      ],
+      "reps": "8 na stronę"
+    },
+    "bridgeMarch": {
+      "name": "Mostek z „marszem”",
+      "short": "Utrzymaj mostek i unoś kolana",
+      "cues": [
+        "Unieś się do mostka",
+        "Unieś jedną stopę, potem drugą",
+        "Biodra nie opadają"
+      ],
+      "reps": "10 „kroków”"
+    },
+    "heelSlides": {
+      "name": "Zsuwanie pięt",
+      "short": "Wysuwaj piętę i wracaj",
+      "cues": [
+        "Połóż się na plecach, kolana zgięte",
+        "Na wydechu wysuń jedną piętę",
+        "Plecy pozostają nieruchomo"
+      ],
+      "reps": "10 na stronę"
+    },
+    "supineMarch": {
+      "name": "Unoszenie kolan w leżeniu",
+      "short": "Unoś zgięte kolana po kolei",
+      "cues": [
+        "Połóż się na plecach, kolana zgięte",
+        "Unieś jedno kolano do 90°",
+        "Opuść powoli i zmień nogę"
+      ],
+      "reps": "10 na stronę"
+    },
+    "deadBug": {
+      "name": "„Martwy robak”",
+      "short": "Opuszczaj przeciwną rękę i nogę",
+      "cues": [
+        "Ręce w górę, kolana nad biodrami",
+        "Opuść przeciwną rękę i nogę",
+        "Dolny odcinek pleców pozostaje przyciśnięty do podłogi"
+      ],
+      "reps": "8 na stronę",
+      "mistake": {
+        "wrong": "Dolny odcinek pleców odrywa się od podłogi",
+        "right": "Dociśnij plecy do podłogi i poruszaj się wolniej"
+      }
+    },
+    "pelvicTilt": {
+      "name": "Przechylanie miednicy",
+      "short": "Przechylaj miednicę w górę i w dół",
+      "cues": [
+        "Połóż się na plecach, kolana zgięte",
+        "Dociśnij dolny odcinek pleców do podłogi",
+        "Rozluźnij się i powtórz"
+      ],
+      "reps": "12 powtórzeń"
+    },
+    "kneeFallout": {
+      "name": "Opuszczanie kolan na boki",
+      "short": "Opuszczaj kolano na bok",
+      "cues": [
+        "Połóż się na plecach, kolana zgięte",
+        "Powoli opuść jedno kolano na bok",
+        "Miednica pozostaje nieruchomo"
+      ],
+      "reps": "10 na stronę"
+    },
+    "clamshell": {
+      "name": "„Muszla”",
+      "short": "Otwórz górne kolano, stopy razem",
+      "cues": [
+        "Połóż się na boku, kolana zgięte",
+        "Stopy razem, unieś górne kolano",
+        "Nie przechylaj miednicy do tyłu"
+      ],
+      "reps": "12 na stronę"
+    },
+    "sideLegRaise": {
+      "name": "Unoszenie nogi w leżeniu bokiem",
+      "short": "Unoś górną nogę prosto w górę",
+      "cues": [
+        "Połóż się na boku, nogi proste",
+        "Powoli unieś górną nogę",
+        "Palce stóp skierowane do przodu"
+      ],
+      "reps": "12 na stronę"
+    },
+    "birdDog": {
+      "name": "„Ptak-pies”",
+      "short": "Wyciągaj przeciwną rękę i nogę",
+      "cues": [
+        "Dłonie pod barkami, kolana pod biodrami",
+        "Wyciągnij przeciwną rękę i nogę",
+        "Plecy pozostają proste"
+      ],
+      "reps": "8 na stronę"
+    },
+    "catCow": {
+      "name": "„Kot-krowa”",
+      "short": "Zaokrąglij plecy, potem wygnij",
+      "cues": [
+        "Zacznij w podporze na rękach i kolanach",
+        "Na wydechu zaokrąglij plecy do góry",
+        "Na wdechu opuść brzuch i unieś wzrok"
+      ],
+      "reps": "8 powolnych powtórzeń",
+      "tip": "Poruszaj się powoli i dopasuj ruch do oddechu."
+    },
+    "plank": {
+      "name": "Deska",
+      "short": "Prosta linia na przedramionach",
+      "cues": [
+        "Łokcie pod barkami",
+        "Ściśnij pośladki, napnij brzuch",
+        "Nie wstrzymuj oddechu"
+      ],
+      "reps": "20–40 s",
+      "mistake": {
+        "wrong": "Biodra opadają",
+        "right": "Prosta linia od głowy do pięt"
+      },
+      "tip": "Jeśli pełna wersja jest za trudna, oprzyj się na kolanach. Czyste krótkie utrzymanie jest lepsze niż długie z opadającymi biodrami."
+    },
+    "sidePlank": {
+      "name": "Deska boczna",
+      "short": "Biodra w górę na jednym przedramieniu",
+      "cues": [
+        "Łokieć pod barkiem",
+        "Unieś biodra do prostej linii",
+        "Kolana na podłodze = łatwiej"
+      ],
+      "reps": "15–30 s na stronę"
+    },
+    "superman": {
+      "name": "„Superman”",
+      "short": "Unoś ręce i nogi nad podłogę",
+      "cues": [
+        "Połóż się na brzuchu",
+        "Unieś trochę ręce, klatkę piersiową i nogi",
+        "Przytrzymaj 2 s i opuść powoli"
+      ],
+      "reps": "10 powtórzeń"
+    },
+    "childPose": {
+      "name": "Poza dziecka",
+      "short": "Usiądź do tyłu, ramiona wyciągnięte",
+      "cues": [
+        "Kolana szeroko, duże palce stóp razem",
+        "Usiądź na piętach",
+        "Oddychaj w dolny odcinek pleców"
+      ],
+      "reps": "30–60 s",
+      "tip": "Pozwól brzuchowi i dnu miednicy całkowicie się rozluźnić. Nie ciągnij na siłę przez ból."
+    },
+    "happyBaby": {
+      "name": "„Szczęśliwe dziecko”",
+      "short": "Chwyć stopy, kolana szeroko",
+      "cues": [
+        "Połóż się na plecach",
+        "Chwyć stopy, kolana w stronę pach",
+        "Delikatnie kołysz się na boki"
+      ],
+      "reps": "30–60 s"
+    },
+    "butterfly": {
+      "name": "Rozciąganie „Motyl”",
+      "short": "Stopy razem, pochylenie do przodu",
+      "cues": [
+        "Usiądź prosto, podeszwy stóp razem",
+        "Pozwól kolanom opaść na boki",
+        "Pochyl się do przodu od bioder"
+      ],
+      "reps": "30–60 s"
+    },
+    "frogStretch": {
+      "name": "Rozciąganie „Żaba”",
+      "short": "Kolana szeroko, biodra do tyłu",
+      "cues": [
+        "W podporze rozszerz kolana",
+        "Kostki na jednej linii z kolanami",
+        "Powoli odsuń biodra do tyłu"
+      ],
+      "reps": "30–60 s"
+    },
+    "hipFlexor": {
+      "name": "Rozciąganie zginaczy bioder",
+      "short": "Uklęknij i przesuń biodra do przodu",
+      "cues": [
+        "Klęk na jednym kolanie, tylne kolano na podłodze",
+        "Ściśnij pośladek tylnej nogi",
+        "Delikatnie przesuń biodra do przodu"
+      ],
+      "reps": "30 s na stronę"
+    },
+    "squat": {
+      "name": "Przysiad z ciężarem własnym",
+      "short": "Opuść się i wstań",
+      "cues": [
+        "Stopy na szerokość barków",
+        "Odsuń biodra do tyłu, klatka piersiowa w górę",
+        "Wstawaj na wydechu"
+      ],
+      "reps": "12 powtórzeń",
+      "mistake": {
+        "wrong": "Zaokrąglone plecy",
+        "right": "Klatka piersiowa w górę, plecy długie"
+      }
+    },
+    "sumoSquat": {
+      "name": "Przysiad sumo",
+      "short": "Szeroka postawa, palce na zewnątrz",
+      "cues": [
+        "Szeroka postawa, palce stóp na zewnątrz",
+        "Kolana nad palcami stóp",
+        "Wstawaj, ściskając pośladki"
+      ],
+      "reps": "12 powtórzeń"
+    },
+    "wallSit": {
+      "name": "„Krzesełko” przy ścianie",
+      "short": "Plecy przy ścianie, utrzymaj",
+      "cues": [
+        "Plecy płasko przy ścianie",
+        "Zsuń się w dół, kolana pod kątem 90°",
+        "Dodaj napięcie Kegla podczas utrzymania"
+      ],
+      "reps": "20–40 s",
+      "tip": "Zakończ, zanim uda zaczną mocno drżeć. Oddychaj przez cały czas."
+    },
+    "lunge": {
+      "name": "Wykrok do tyłu",
+      "short": "Krok w tył, w dół, w górę",
+      "cues": [
+        "Zrób krok jedną nogą do tyłu",
+        "Opuść tylne kolano",
+        "Odepchnij się przednią piętą"
+      ],
+      "reps": "8 na stronę"
+    },
+    "ballSqueeze": {
+      "name": "Ściskanie piłki kolanami",
+      "short": "Ściskaj piłkę między kolanami",
+      "cues": [
+        "Usiądź prosto, piłka między kolanami",
+        "Ściśnij piłkę i dno miednicy",
+        "Utrzymaj 5 s i rozluźnij"
+      ],
+      "reps": "10 powtórzeń",
+      "tip": "Nie masz piłki? Zwinięty ręcznik lub poduszka też się nadadzą."
+    }
   },
   "programs": {
     "pelvic-floor-exercises-for-men-beginner": {

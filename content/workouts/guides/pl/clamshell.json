@@ -1,0 +1,33 @@
+{
+  "description": "„Muszla”: otwieraj górne kolano przy złączonych stopach, by trenować boczne mięśnie pośladkowe stabilizujące miednicę. Błędy i wersje ćwiczenia.",
+  "intro": "„Muszla” to ćwiczenie w leżeniu na boku, w którym otwierasz górne kolano jak muszlę, a stopy zostają razem. Celuje w boczne mięśnie pośladkowe, które utrzymują miednicę poziomo podczas chodzenia, biegania i stania na jednej nodze. Nie trenuje bezpośrednio dna miednicy, ale silniejsze biodra lepiej podtrzymują miednicę.",
+  "feel": "Poczujesz ciepły wysiłek na zewnętrznej stronie górnego biodra, za kością biodrową. Nie powinno być czuć go głównie z przodu uda ani w dolnych plecach, a oddech powinien płynąć. Połóż dłoń na górnym pośladku: powinien twardnieć, gdy kolano się otwiera. Jeśli plecy przejmują pracę, biodra prawdopodobnie przetoczyły się do tyłu.",
+  "mistakes": [
+    {
+      "wrong": "Unoszenie kolana jak najwyżej",
+      "right": "Otwieraj tylko tak daleko, by biodra pozostały jedno nad drugim. Małe uniesienie z pracującym pośladkiem jest lepsze niż duże z przetaczającą się miednicą."
+    },
+    {
+      "wrong": "Pośpiech przy powtórzeniach",
+      "right": "Unoś przez jedną lub dwie sekundy, zatrzymaj się i opuszczaj powoli."
+    },
+    {
+      "wrong": "Rozsuwanie stóp",
+      "right": "Trzymaj pięty złączone, żeby ruch napędzało biodro, a nie podudzie."
+    }
+  ],
+  "easier": "Zrób mniejsze otwarcie, mniej powtórzeń albo oprzyj głowę na poduszce, żeby kark pozostał rozluźniony.",
+  "harder": "Załóż lekką gumę oporową nad kolanami, utrzymaj górną pozycję przez trzy sekundy albo lekko unieś obie stopy, otwierając kolano.",
+  "who": "Przydatne dla biegaczy, osób ze słabymi biodrami, kobiet po porodzie, gdy lekarz na to pozwoli, oraz każdego po 40. roku życia, kto chce lepszej równowagi i podparcia miednicy.",
+  "skip": "Najpierw skonsultuj się z lekarzem lub fizjoterapeutą, jeśli leżenie na boku boli biodro, po niedawnej operacji biodra lub miednicy albo przy bólu miednicy w ciąży. Pomóc może poduszka między kolanami. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Czy „muszla” pomaga dnu miednicy?",
+      "a": "Nie bezpośrednio. Wzmacnia boczne mięśnie pośladkowe, które stabilizują miednicę, co może wspierać osobno wykonywane ćwiczenia dna miednicy."
+    },
+    {
+      "q": "Dlaczego czuję „muszlę” w dolnych plecach?",
+      "a": "Zwykle górne biodro przetoczyło się do tyłu. Ułóż biodra jedno nad drugim, zrób mniejsze uniesienie i delikatnie napnij brzuch."
+    }
+  ]
+}

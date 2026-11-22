@@ -1,0 +1,33 @@
+{
+  "description": "„Superman” dla mężczyzn: lekko unoś ręce, klatkę piersiową i nogi, by trenować mięśnie grzbietu i pośladki. Błędy oraz wersje łatwiejsza i trudniejsza.",
+  "intro": "„Superman” wykonuje się w leżeniu na brzuchu: lekko unosisz ręce, klatkę piersiową i nogi, krótko utrzymujesz i opuszczasz. Wzmacnia mięśnie grzbietu i pośladki, które utrzymują tułów i miednicę w pionie. Nie trenuje bezpośrednio dna miednicy, ale równoważy w zestawie ćwiczenia core skupione na przodzie ciała.",
+  "feel": "Poczujesz równą pracę mięśni wzdłuż kręgosłupa i pośladków. Nie powinno być czuć ostrego ukłucia w dolnych plecach, wyginania karku do góry ani zatrzymania oddechu. Patrz w podłogę tuż przed sobą. Jeśli dolne plecy wydają się ściśnięte, unoś się mniej.",
+  "mistakes": [
+    {
+      "wrong": "Unoszenie się jak najwyżej",
+      "right": "Wystarczy kilka centymetrów. Pozwól pracować pośladkom i plecom, zamiast wyginać dolny odcinek kręgosłupa."
+    },
+    {
+      "wrong": "Odrzucanie głowy do tyłu",
+      "right": "Utrzymaj długą szyję i patrz w dół, żeby głowa poruszała się razem z klatką piersiową."
+    },
+    {
+      "wrong": "Wstrzymywanie oddechu na górze",
+      "right": "Wydychaj powietrze przy unoszeniu, oddychaj normalnie podczas utrzymania i opuszczaj się powoli."
+    }
+  ],
+  "easier": "Unoś tylko ręce i klatkę piersiową albo tylko nogi, albo jedną rękę i przeciwną nogę naraz.",
+  "harder": "Utrzymaj górną pozycję przez trzy do pięciu sekund, opuszczaj się przez trzy sekundy albo dodaj delikatne napięcie Kegla podczas utrzymania i pełne rozluźnienie przy schodzeniu.",
+  "who": "Przydatne dla mężczyzn, którzy dużo siedzą lub podnoszą ciężary, mężczyzn po 40. roku życia, którzy chcą mocniejszych pleców, oraz każdego, kogo zestaw to głównie ćwiczenia core na przodzie ciała.",
+  "skip": "Pomiń lub użyj łatwiejszej wersji, jeśli wyginanie boli dolne plecy, po niedawnej operacji pleców, brzucha lub miednicy albo przy przepuklinie. Zgłoś się do lekarza lub fizjoterapeuty, jeśli ból pleców utrzymuje się po ćwiczeniu. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Jakie mięśnie pracują w ćwiczeniu „superman”?",
+      "a": "Mięśnie wzdłuż kręgosłupa, pośladki i tylne części barków. To ruch wzmacniający plecy, a nie dno miednicy."
+    },
+    {
+      "q": "Czy „superman” szkodzi dolnym plecom?",
+      "a": "Nie, gdy uniesienie jest małe i kontrolowane. Duże, szybkie wygięcia mogą podrażniać dolne plecy, więc unoś się nisko i powoli."
+    }
+  ]
+}

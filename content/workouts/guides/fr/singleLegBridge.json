@@ -1,0 +1,33 @@
+{
+  "description": "Guide du pont sur une jambe : une montée de hanches sur une jambe pour les fessiers, les ischio-jambiers et le core profond. Sensation, erreurs, variantes.",
+  "intro": "Dans le pont sur une jambe, un pied reste au sol pendant que l’autre jambe se lève. Chaque côté porte toute la charge et doit garder le bassin à niveau, ce qui développe la force et le contrôle des hanches utilisés en course et à vélo. Il soutient le bassin sans entraîner directement le périnée.",
+  "feel": "Vous devez sentir travailler le fessier et l’ischio-jambier de la jambe d’appui, et votre core profond empêcher les hanches de basculer. Imaginez votre bassin comme un plateau que vous ne voulez pas renverser. Évitez de retenir votre souffle, de cambrer le bas du dos ou d’avoir des crampes aux ischio-jambiers. Auto-contrôle : avec les mains sur les os des hanches, les deux doivent rester à la même hauteur.",
+  "mistakes": [
+    {
+      "wrong": "Le côté de la jambe levée qui s’affaisse",
+      "right": "Montez seulement aussi haut que vous pouvez garder les deux hanches à niveau. Un pont plus bas et droit vaut mieux qu’un pont haut et penché."
+    },
+    {
+      "wrong": "Pousser avec la pointe du pied d’appui",
+      "right": "Poussez dans le talon et gardez ce genou aligné avec la hanche et le pied."
+    },
+    {
+      "wrong": "Se précipiter dans les répétitions",
+      "right": "Montez et descendez à un rythme lent et régulier, et reposez-vous brièvement entre les deux côtés."
+    }
+  ],
+  "easier": "Gardez la jambe levée fléchie, ou faites un pont classique en reportant votre poids vers un pied.",
+  "harder": "Marquez une pause de 3 secondes en haut, descendez lentement, ou posez le pied d’appui sur une marche basse. Un Kegel doux en haut ajoute une difficulté de plus.",
+  "who": "Les coureurs, les cyclistes et toute personne qui maîtrise le pont sur deux jambes et veut plus de force dans les hanches et d’équilibre entre les côtés.",
+  "skip": "Évitez si un pont classique cause encore du mal de dos, ou en cas de douleur à la hanche, au genou ou à l’ischio-jambier du côté qui travaille. Après une opération récente, un accouchement récent ou avec une hernie, demandez d’abord l’avis de votre médecin ou de votre kinésithérapeute. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "Le pont sur une jambe est-il bon pour les coureurs ?",
+      "a": "La course se fait sur une jambe à la fois, et ce mouvement entraîne chaque hanche séparément de la même façon. C’est un choix courant pour la force des fessiers et le contrôle du bassin."
+    },
+    {
+      "q": "Pourquoi un côté semble-t-il plus faible ?",
+      "a": "La plupart des gens ont un côté plus fort. Faites le même nombre de répétitions des deux côtés, en commençant par le plus faible pour ne pas le négliger."
+    }
+  ]
+}

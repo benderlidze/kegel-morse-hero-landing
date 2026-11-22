@@ -1,0 +1,33 @@
+{
+  "description": "Kindhaltung zur Entspannung des Beckenbodens: Ausführung, wo du sie spüren solltest, häufige Fehler sowie leichtere und schwerere Varianten.",
+  "intro": "Die Kindhaltung ist eine kniende Ruheposition, die unteren Rücken und Hüften sanft dehnt. Sie baut keine Kraft auf; ihr Wert liegt in der Entspannung: Sie gibt dem Beckenboden die Chance loszulassen, was hilft, wenn sich deiner verspannt anfühlt oder du unbemerkt anspannst.",
+  "feel": "Du solltest eine leichte Dehnung über unterem Rücken und Hüften spüren, mit weichem Bauch und langsamer Atmung. Du solltest kein Einklemmen in den Knien, keine Nackenanspannung und keinen Drang zum Luftanhalten spüren. Selbsttest: Beim Einatmen bemerkst du ein leichtes Weiten zwischen den Sitzbeinhöckern; beim Ausatmen lass es sich setzen, ohne anzuspannen.",
+  "mistakes": [
+    {
+      "wrong": "Die Hüfte gewaltsam zu den Fersen drücken",
+      "right": "Hör auf, wo es sich angenehm anfühlt. Ein Kissen zwischen Hüfte und Fersen bringt dieselbe Entspannung ohne Belastung."
+    },
+    {
+      "wrong": "Bauch oder Beckenboden anspannen",
+      "right": "Lass den Boden dein Gewicht tragen. Hier muss nichts arbeiten, also entspanne Kiefer, Bauch und Beckenboden."
+    },
+    {
+      "wrong": "Flach in die Brust atmen",
+      "right": "Atme langsam in den unteren Rücken. Ein etwas längeres Ausatmen hilft dem Beckenboden loszulassen."
+    }
+  ],
+  "easier": "Leg ein Kissen unter Hüfte oder Brust, oder ruhe die Stirn auf übereinandergelegten Fäusten. Wenn das Knien den Knien zusetzt, polstere sie.",
+  "harder": "Lauf mit den Händen erst zur einen, dann zur anderen Seite für eine Seitdehnung. Halte länger bei langsamerer Atmung; kein Anspannen.",
+  "who": "Nützlich für Menschen, die stundenlang sitzen oder fahren, und alle, deren Beckenboden sich verspannt anfühlt oder nach dem Training schwer entspannt.",
+  "skip": "Passe sie an, wenn du Knieschmerzen hast oder kürzlich am Knie oder an der Hüfte operiert wurdest; in der Schwangerschaft öffne die Knie weiter und stütze die Brust. Bei Beckenschmerzen oder Schmerzen beim Sex kann dich eine Beckenboden-Physiotherapeutin oder ein -Physiotherapeut anleiten. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Ist die Kindhaltung gut für den Beckenboden?",
+      "a": "Sie hilft bei der Entspannung, nicht bei der Kraft. Die Position und die langsame Atmung erleichtern es dem Beckenboden, loszulassen."
+    },
+    {
+      "q": "Soll ich in der Kindhaltung Kegel-Übungen machen?",
+      "a": "Sie funktioniert besser als Entspannungsteil deiner Routine. Wenn dein Beckenboden zu Verspannung neigt, ist noch mehr Anspannen nicht die Lösung; das vollständige Loslassen ist es."
+    }
+  ]
+}

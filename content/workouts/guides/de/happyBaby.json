@@ -1,0 +1,33 @@
+{
+  "description": "„Glückliches Baby“ zur Entspannung des Beckenbodens: Ausführung, Gefühl, häufige Fehler sowie leichtere und schwerere Varianten bei steifen Hüften.",
+  "intro": "Das „Glückliche Baby“ ist eine Dehnung im Liegen, bei der du deine Füße greifst und die Knie Richtung Achseln sinken lässt. Es öffnet Oberschenkelinnenseiten und Hüften und lässt den Beckenboden länger werden. Es baut keine Kraft auf; es hilft verspannten Muskeln loszulassen.",
+  "feel": "Du solltest eine sanfte Dehnung in den Oberschenkelinnenseiten und Hüften spüren, während unterer Rücken und Kopf auf dem Boden ruhen. Du solltest keine Nackenanspannung, keine Schmerzen in der Leiste und kein Luftanhalten spüren. Selbsttest: Bei jedem Einatmen bemerkst du ein leichtes Weiten an der Beckenbasis; beim Ausatmen lass es weich werden, statt anzuspannen.",
+  "mistakes": [
+    {
+      "wrong": "Kräftig an den Füßen ziehen",
+      "right": "Halte locker und lass das Gewicht deiner Beine die Hüften öffnen."
+    },
+    {
+      "wrong": "Den Kopf vom Boden heben",
+      "right": "Lass den Kopf unten. Wenn du die Füße nicht erreichst, halte die Knöchel, Schienbeine oder die Oberschenkelrückseiten."
+    },
+    {
+      "wrong": "Schnell oder zu weit schaukeln",
+      "right": "Schaukle langsam und nur ein wenig, oder bleib ruhig liegen."
+    }
+  ],
+  "easier": "Halte die Oberschenkelrückseiten, oder mach es mit einem Bein nach dem anderen, während der andere Fuß am Boden bleibt. Ein kleines Kissen unter dem Kopf hilft bei verspanntem Nacken.",
+  "harder": "Halte die volle Minute mit langsameren, längeren Ausatmungen. Du kannst auch nacheinander sanft ein Bein strecken, während der Beckenboden entspannt bleibt.",
+  "who": "Gut für Läufer und Radfahrer mit steifen Hüften, für Menschen, die viel sitzen, und für alle, deren Beckenboden sich verspannt anfühlt oder schwer zu entspannen ist.",
+  "skip": "Lass es aus oder passe es an, wenn du Hüft- oder Leistenschmerzen, einen Leistenbruch oder eine kürzliche Operation im Bauch- oder Beckenbereich hast. In der späteren Schwangerschaft frag zuerst deine Hebamme oder deinen Arzt; nach der Geburt warte, bis du freigegeben bist. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Ist das „Glückliche Baby“ gut für den Beckenboden?",
+      "a": "Es kann dem Beckenboden helfen, sich zu entspannen und zu verlängern, was nützlich ist, wenn er verspannt ist. Es baut keine Kraft auf."
+    },
+    {
+      "q": "Sollen Männer das „Glückliche Baby“ machen?",
+      "a": "Ja. Auch Männer tragen Beckenbodenspannung in sich, oft vom Sitzen, von Stress oder schwerem Heben. Es ist eine einfache Art, diesen Muskeln nach dem Training eine Pause zu gönnen."
+    }
+  ]
+}

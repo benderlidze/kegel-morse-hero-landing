@@ -1,0 +1,33 @@
+{
+  "description": "„Dead Bug“: Senke gegenüberliegenden Arm und Bein bei flachem Rücken ab, um die tiefen Bauchmuskeln zu trainieren. Gefühl, Fehler, Varianten.",
+  "intro": "Der „Dead Bug“ ist eine langsame Rumpfübung auf dem Rücken: Du senkst einen Arm und das gegenüberliegende Bein ab, während der Rumpf ruhig bleibt. Er trainiert den Beckenboden nicht direkt, bringt aber deinen tiefen Bauchmuskeln bei, mit dem Atem zusammenzuarbeiten, was das Becken von oben stützt.",
+  "feel": "Du solltest eine gleichmäßige, geringe Anstrengung tief im Bauch spüren. Du solltest nicht spüren, dass sich der untere Rücken wölbt, der Nacken sich anstrengt oder der Atem stockt. Schieb eine Hand unter den unteren Rücken: Wenn die Lücke beim Absenken des Beins größer wird, ist der Bewegungsradius zu groß. Der Beckenboden bleibt entspannt, nicht verkrampft.",
+  "mistakes": [
+    {
+      "wrong": "Bei jedem Strecken die Luft anhalten",
+      "right": "Atme aus, während Arm und Bein sich senken, und ein, während sie zurückkommen."
+    },
+    {
+      "wrong": "Zu schnell werden und die Gliedmaßen schwingen lassen",
+      "right": "Nimm dir etwa drei Sekunden zum Absenken und drei zum Zurückkehren, damit die Bauchmuskeln die Arbeit machen statt des Schwungs."
+    },
+    {
+      "wrong": "Den Bauch herausdrücken oder nach unten pressen",
+      "right": "Zieh den Unterbauch sanft nach innen und oben, nie nach unten ins Becken. Wenn du unten Druck spürst, verkleinere den Bewegungsradius."
+    }
+  ],
+  "easier": "Lass die Arme auf dem Boden und senke jeweils ein Bein ab, indem du mit der Ferse bei angewinkeltem Knie tippst.",
+  "harder": "Strecke das Bein beim Absenken ganz durch, oder füge bei jedem Ausatmen eine sanfte Kegel-Anspannung hinzu und entspanne beim Einatmen vollständig.",
+  "who": "Nützlich für Menschen mit Schreibtischjob, Kraftsportler, die einen stabilen Rumpf wollen, und alle, die wieder ins Training einsteigen und einen Start mit geringer Belastung brauchen.",
+  "skip": "Sprich zuerst mit einer Ärztin, einem Arzt oder einer Beckenboden-Physiotherapeutin nach einer kürzlichen Operation im Bauch- oder Beckenbereich, wenn du entlang der Bauchmitte eine Vorwölbung bemerkst oder wenn du schwanger bist oder gerade entbunden hast. Wenn Rückenschmerzen stechender werden, verkleinere den Bewegungsradius. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Ist der „Dead Bug“ gut für den Beckenboden?",
+      "a": "Indirekt. Er trainiert die tiefen Bauchmuskeln und die Atmung, die mit dem Beckenboden zusammenarbeiten, kombiniere ihn also mit eigenen Kegel-Übungen."
+    },
+    {
+      "q": "Warum hebt sich mein unterer Rücken vom Boden ab?",
+      "a": "Deine Bauchmuskeln können diesen Bewegungsradius noch nicht kontrollieren. Senke das Bein weniger weit, winkle das Knie stärker an und bewege dich langsamer, bis der Rücken unten bleibt."
+    }
+  ]
+}

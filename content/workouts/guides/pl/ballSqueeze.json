@@ -1,0 +1,33 @@
+{
+  "description": "Ściskanie piłki kolanami z napięciem Kegla: jak je wykonać, po czym poznać, że działa, częste błędy oraz łatwiejsza i trudniejsza wersja w siadzie.",
+  "intro": "Ściskanie piłki kolanami to ćwiczenie w siadzie: dociskasz piłkę między kolanami i jednocześnie napinasz dno miednicy. Wewnętrzne strony ud pracują razem z dnem miednicy, więc wiele osób łatwiej wyczuwa napięcie Kegla. W przeciwieństwie do większości ćwiczeń bioder i nóg trenuje ono bezpośrednio dno miednicy.",
+  "feel": "Wewnętrzne strony ud dociskają, a w środku czujesz delikatne uniesienie i ściśnięcie, jakby zatrzymywać strumień moczu i wstrzymywać gazy. Po utrzymaniu wszystko całkowicie puszcza. Nie powinno być czuć, że całą pracę wykonują pośladki, parcia w dół ani wstrzymywania oddechu. Samokontrola: spróbuj jednego powtórzenia bez piłki; jeśli nic nie czujesz w środku, wszystko zrobiły uda.",
+  "mistakes": [
+    {
+      "wrong": "Ściskanie piłki z całej siły",
+      "right": "Użyj umiarkowanego nacisku i skup się na uniesieniu w środku."
+    },
+    {
+      "wrong": "Pomijanie fazy rozluźnienia",
+      "right": "Całkowicie puść piłkę i dno miednicy, a odpoczywaj tak długo, jak trwało napięcie."
+    },
+    {
+      "wrong": "Garbienie się na krześle",
+      "right": "Usiądź prosto na guzach kulszowych ze stopami płasko. Przy zgarbieniu trudniej włączyć dno miednicy."
+    }
+  ],
+  "easier": "Utrzymuj 2–3 sekundy zamiast pięciu i rób mniej powtórzeń. Albo na początku ściskaj samą piłkę i dodaj napięcie Kegla, gdy już je wyczujesz.",
+  "harder": "Dąż do 10-sekundowego utrzymania przy normalnym oddychaniu albo dodaj kilka szybkich skurczów po każdym utrzymaniu.",
+  "who": "Przydatne dla osób pracujących przy biurku, kobiet pracujących nad kontrolą pęcherza, mężczyzn z popuszczaniem po oddaniu moczu oraz każdego, komu trudno znaleźć dno miednicy.",
+  "skip": "Jeśli masz ból miednicy, ból podczas seksu lub dno miednicy jest napięte, najpierw zgłoś się do fizjoterapeuty dna miednicy, bo dalsze napinanie może nie pomóc. Zgłoś się też na kontrolę po niedawnej operacji miednicy lub porodzie. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Czy ściskanie piłki pomaga w kontroli pęcherza?",
+      "a": "Może pomóc, ponieważ trenuje mięśnie dna miednicy podtrzymujące pęcherz. Wymaga regularnych ćwiczeń przez tygodnie, a utrzymujące się popuszczanie warto skonsultować."
+    },
+    {
+      "q": "Czy mężczyźni mogą ściskać piłkę?",
+      "a": "Tak. Dno miednicy działa zasadniczo tak samo u mężczyzn, a piłka może ułatwić wyczucie mięśni. Łatwo wpisać to ćwiczenie w przerwę przy biurku."
+    }
+  ]
+}

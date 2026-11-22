@@ -1,0 +1,33 @@
+{
+  "description": "Schmetterling-Dehnung für Hüften und Beckenbodenentspannung: Ausführung, wo du sie spürst, häufige Fehler sowie leichtere und schwerere Varianten.",
+  "intro": "Die Schmetterling-Dehnung ist eine Dehnung im Sitzen, bei der die Fußsohlen aneinanderliegen und die Knie nach außen sinken. Sie dehnt Oberschenkelinnenseiten und Hüften, direkt neben dem Beckenboden. Ihr Wert liegt in Entspannung und Beweglichkeit, nicht in Kraft.",
+  "feel": "Du solltest einen sanften Zug entlang der Oberschenkelinnenseiten spüren, vielleicht auch in Hüften und unterem Rücken, wenn du dich nach vorn lehnst. Du solltest keinen stark gerundeten Rücken, keine Knieschmerzen und kein Luftanhalten spüren. Selbsttest: Atme langsam aus und achte darauf, ob deine Knie von selbst ein Stück sinken; wenn du gegen die Dehnung ankämpfst, geh etwas zurück.",
+  "mistakes": [
+    {
+      "wrong": "Die Knie mit den Händen nach unten drücken",
+      "right": "Lass die Schwerkraft arbeiten. Muskeln spannen sich gegen Kraft an."
+    },
+    {
+      "wrong": "Den Rücken runden, um den Kopf nach unten zu bekommen",
+      "right": "Lehn dich mit langer Wirbelsäule aus der Hüfte nach vorn. Ein kleines Vorlehnen mit geradem Rücken dehnt mehr als ein Einsinken."
+    },
+    {
+      "wrong": "Ins Steißbein zurücksinken",
+      "right": "Setz dich auf die Kante eines Kissens oder eines gefalteten Handtuchs, damit das Becken nach vorn kippt und aufrechtes Sitzen mühelos wird."
+    }
+  ],
+  "easier": "Stell die Füße weiter vom Körper weg und setz dich auf ein Kissen. Du kannst auch das Vorlehnen weglassen und einfach aufrecht sitzen und atmen.",
+  "harder": "Zieh die Fersen näher heran und lehn dich mit langem Rücken weiter nach vorn, mit langsamen Ausatmungen zum Loslassen.",
+  "who": "Hilfreich für Menschen, die stundenlang sitzen, für Männer und Frauen mit steifen Hüften und für alle, die nach Kegel-Übungen eine leichte Abenddehnung wollen.",
+  "skip": "Lass sie aus oder passe sie an, wenn du Leisten- oder Knieschmerzen, einen Leistenbruch oder eine kürzliche Operation an Leiste, Hüfte oder Bauch hast. Wenn sich dein Beckenboden verspannt oder wund anfühlt, kann dir eine Beckenboden-Physiotherapeutin oder ein -Physiotherapeut zeigen, wie du Dehnungen mit Atmung verbindest. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Ist die Schmetterling-Dehnung gut für den Beckenboden?",
+      "a": "Sie kann Entspannung und Hüftbeweglichkeit fördern. Die Muskeln der Oberschenkelinnenseite setzen nahe am Beckenboden an, daher kann ihr Lockern dem Beckenboden beim Loslassen helfen. Kräftigen wird sie ihn nicht."
+    },
+    {
+      "q": "Warum sind meine Knie beim Schmetterling so hoch?",
+      "a": "Meist sind die Oberschenkelinnenseiten oder Hüften verspannt. Setz dich auf ein Kissen, stell die Füße weiter weg und gib dir Zeit."
+    }
+  ]
+}

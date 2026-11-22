@@ -1,0 +1,33 @@
+{
+  "description": "Rozciąganie zginaczy bioder dla osób pracujących przy biurku, kierowców i biegaczy: jak je wykonać, jak wspiera miednicę, błędy oraz wersje ćwiczenia.",
+  "intro": "Rozciąganie zginaczy bioder celuje w mięśnie z przodu biodra, które skracają się i sztywnieją przy długim siedzeniu i mogą ciągnąć za miednicę. Nie trenuje dna miednicy. Pomaga biodrom i miednicy poruszać się swobodnie, dzięki czemu dno miednicy łatwiej pracuje i się rozluźnia.",
+  "feel": "Poczujesz rozciągnięcie z przodu biodra i górnej części uda po stronie tylnego kolana, z lekko ściśniętym pośladkiem tylnej nogi i wyprostowanym tułowiem. Jeśli czujesz je głównie w dolnych plecach, wyginasz się. Samokontrola: jeśli rozciągnięcie znika, gdy przestajesz się wyginać, zachowaj napięcie pośladka i przesuwaj się mniej do przodu.",
+  "mistakes": [
+    {
+      "wrong": "Wyginanie dolnych pleców, by sięgnąć dalej",
+      "right": "Lekko podwiń kość ogonową i trzymaj żebra nad biodrami. Mały ruch przy poziomej miednicy wystarczy."
+    },
+    {
+      "wrong": "Wykrok daleko do przodu",
+      "right": "Przesuń się tylko o centymetr lub dwa. Gdy poczujesz przód biodra, zatrzymaj się i oddychaj."
+    },
+    {
+      "wrong": "Zaciskanie dna miednicy razem z pośladkiem",
+      "right": "Ściśnij pośladek, ale brzuch i dno miednicy zostaw rozluźnione."
+    }
+  ],
+  "easier": "Podłóż coś miękkiego pod tylne kolano, przytrzymaj się krzesła dla równowagi albo wykonaj ćwiczenie na stojąco, z jedną stopą z tyłu. Krótsze utrzymania po 15–20 sekund są w porządku.",
+  "harder": "Unieś rękę po stronie tylnego kolana nad głowę i pochyl się lekko w przeciwną stronę. Utrzymaj pełne 30 sekund po każdej stronie przy powolnym oddychaniu.",
+  "who": "Dobre dla osób pracujących przy biurku, kierowców, biegaczy i rowerzystów oraz każdego, kto po siedzeniu czuje sztywność bioder lub dolnych pleców.",
+  "skip": "Zmodyfikuj ćwiczenie, jeśli klęczenie boli kolana albo masz ból pachwiny, przepuklinę lub niedawną operację biodra lub brzucha. W ciąży trzymaj się czegoś i zachowaj mały zakres. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Czy napięte zginacze bioder wpływają na dno miednicy?",
+      "a": "Mogą wpływać na ustawienie miednicy i na to, ile napięcia nosisz wokół niej. Ich rozciąganie nie jest leczeniem dna miednicy, ale może uczynić siedzenie i stanie wygodniejszymi."
+    },
+    {
+      "q": "Czy mogę robić to rozciąganie przy biurku?",
+      "a": "Tak. Stań, cofnij jedną stopę, ściśnij pośladek tej nogi i przesuń się lekko do przodu, trzymając się biurka. To dobra przerwa po długim siedzeniu."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Guía del Kegel de pie: la contracción más exigente y funcional del suelo pélvico, cómo debe sentirse en vertical, errores comunes y variantes.",
+  "intro": "El Kegel de pie entrena el suelo pélvico allí donde tiene que funcionar en la vida real. En vertical, los músculos se elevan contra la gravedad y el peso de los órganos que tienen encima, por lo que es la versión más difícil. Es el puente entre la práctica tumbado y momentos como toser, levantar peso o ponerse de pie.",
+  "feel": "Debes notar una elevación hacia arriba y hacia dentro desde la base de la pelvis y luego una relajación completa, mientras las piernas, los glúteos y el vientre permanecen tranquilos. Las rodillas quedan sueltas y el peso se reparte por igual entre los dos pies. Vigila si empujas hacia abajo, contienes el aire o bloqueas las rodillas. Si las caderas se meten hacia dentro o los talones se levantan, otros músculos han tomado el control.",
+  "mistakes": [
+    {
+      "wrong": "Rodillas bloqueadas y pelvis metida",
+      "right": "Desbloquea las rodillas y mantén la columna neutra, con el peso sobre el centro de los pies."
+    },
+    {
+      "wrong": "Pasar a estar de pie demasiado pronto",
+      "right": "Si las contracciones se debilitan o aprietas los glúteos, vuelve a tumbado o sentado y desarrolla ahí la fuerza."
+    },
+    {
+      "wrong": "Apretar con fuerza y olvidarte de soltar",
+      "right": "Usa un esfuerzo moderado que puedas mantener durante toda la contracción y relaja por completo antes de la siguiente repetición."
+    }
+  ],
+  "easier": "Agárrate al respaldo de una silla o apóyate en una pared, y empieza con contracciones de 2 o 3 segundos.",
+  "harder": "Aprieta justo antes de toser, estornudar o levantar una bolsa, o añádelo a un levantamiento lento desde sentado.",
+  "who": "Corredores, ciclistas, personas que levantan pesas y cualquiera que pierda un poco de orina al toser o saltar. A los hombres con goteo tras orinar puede ayudarles una contracción después de orinar.",
+  "skip": "Si notas pesadez o un abultamiento en la vagina o en la pelvis, consulta a un médico o a un fisioterapeuta de suelo pélvico antes de añadir carga. Lo mismo si tienes dolor pélvico, una cirugía reciente, un parto reciente o un suelo pélvico hiperactivo, en cuyo caso primero va la relajación. Para si te duele.",
+  "faq": [
+    {
+      "q": "¿Por qué son más difíciles los Kegel de pie?",
+      "a": "De pie, todo el peso del cuerpo queda por encima del suelo pélvico, así que se eleva contra más carga mientras las piernas y el tronco te mantienen en equilibrio."
+    },
+    {
+      "q": "¿Debo apretar antes de toser o levantar peso?",
+      "a": "Una contracción rápida y suave justo antes de toser, estornudar o levantar peso es una técnica habitual que puede ayudar a reducir las pequeñas pérdidas. Practícala primero tumbado y sentado."
+    }
+  ]
+}

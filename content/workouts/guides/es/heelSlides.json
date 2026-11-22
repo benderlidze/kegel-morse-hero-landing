@@ -1,0 +1,33 @@
+{
+  "description": "Deslizamiento de talones: movimiento suave tumbado para el abdomen inferior y los flexores de la cadera, con la espalda quieta. Errores y variantes.",
+  "intro": "El deslizamiento de talones es un movimiento suave tumbado: deslizas un talón por el suelo alejándolo y lo devuelves. Enseña a los abdominales profundos inferiores a mantener estables la pelvis y la espalda mientras una pierna se mueve. La carga es baja y fácil de controlar, por lo que se usa a menudo al principio, por ejemplo tras un parto, una vez recibido el alta.",
+  "feel": "Debes notar un trabajo ligero en la parte baja del vientre y en la parte delantera de la cadera que se mueve, mientras la zona lumbar y la pelvis permanecen quietas. Espira al deslizar el talón hacia fuera e inspira al volver. Evita contener el aire, abultar el vientre o empujar hacia abajo en la pelvis. Autocomprobación: una mano bajo la zona lumbar debe notar que la presión se mantiene más o menos igual.",
+  "mistakes": [
+    {
+      "wrong": "Arquear la espalda al estirar la pierna",
+      "right": "Desliza solo hasta donde la espalda permanezca quieta, y detente antes de que se levante."
+    },
+    {
+      "wrong": "Tensar el vientre con fuerza",
+      "right": "Mete con suavidad la parte baja del vientre, sin hacer un abdominal. Debes poder seguir hablando."
+    },
+    {
+      "wrong": "Balancear la pelvis de un lado a otro",
+      "right": "Mantén niveladas las dos crestas de la cadera y muévete lo bastante despacio como para notar cualquier inclinación."
+    }
+  ],
+  "easier": "Desliza solo hasta la mitad, o pon una toalla bajo el talón para que se deslice con más facilidad.",
+  "harder": "Desliza hacia fuera más despacio, mantén el talón flotando justo sobre el suelo o añade un Kegel suave al espirar.",
+  "who": "Personas tras un parto, una vez recibido el alta, personas de más de 50 años y cualquiera que esté recuperando el control del core después de una pausa.",
+  "skip": "Tras una cesárea, una cirugía abdominal o con separación de los músculos abdominales, pregunta a tu médico o fisioterapeuta cuándo empezar. Si ves un abultamiento a lo largo del centro del vientre, haz el movimiento más pequeño o suspéndelo. Para si te duele.",
+  "faq": [
+    {
+      "q": "¿Son buenos los deslizamientos de talones después de tener un bebé?",
+      "a": "Son un movimiento inicial habitual porque son suaves y se hacen tumbado. Empieza cuando tu médico o fisioterapeuta te dé el alta, y para si notas dolor o un abultamiento."
+    },
+    {
+      "q": "¿Por qué lo notan los flexores de la cadera?",
+      "a": "La parte delantera de la cadera mueve la pierna, así que es normal cierto esfuerzo ahí. Si se siente como una sobrecarga, haz el deslizamiento más lento y más corto."
+    }
+  ]
+}

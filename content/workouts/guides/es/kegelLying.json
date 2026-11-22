@@ -1,0 +1,33 @@
+{
+  "description": "Guía del Kegel boca arriba: la forma más fácil de localizar y entrenar el suelo pélvico tumbado, cómo debe sentirse, errores comunes y variantes.",
+  "intro": "El Kegel boca arriba es el punto de partida del entrenamiento del suelo pélvico. Tumbado, la gravedad no presiona sobre el suelo pélvico, así que los músculos tienen la menor carga que levantar y puedes concentrarte en encontrarlos.",
+  "feel": "Debes notar una pequeña elevación dentro de la pelvis y, después, una relajación clara. El vientre, los glúteos y los muslos se mantienen blandos y la respiración sigue fluyendo. Empujar hacia abajo, contener el aire o apretar la mandíbula indican que debes bajar la intensidad. Autocomprobación: con una mano en la parte baja del vientre puedes notar una ligera tensión, pero no un endurecimiento ni un abultamiento.",
+  "mistakes": [
+    {
+      "wrong": "Apretar en su lugar los glúteos o los muslos",
+      "right": "Mantén las nalgas apoyadas en el suelo y las rodillas quietas. Si se levantan las caderas o las rodillas se juntan, otros músculos han tomado el relevo."
+    },
+    {
+      "wrong": "Saltarte la relajación entre repeticiones",
+      "right": "Descansa al menos tanto como mantuviste la contracción. La relajación completa forma parte del ejercicio."
+    },
+    {
+      "wrong": "Añadir series extra porque resulta fácil",
+      "right": "Más no es mejor. Aumenta el tiempo solo cuando cada contracción se mantenga controlada hasta el último segundo."
+    }
+  ],
+  "easier": "Mantén la contracción 1 o 2 segundos y haz menos repeticiones. Una almohada bajo las rodillas ayuda a relajar el vientre y la espalda.",
+  "harder": "Ve aumentando poco a poco las contracciones, con un descanso igual de largo, o añade unas cuantas contracciones rápidas después de las lentas.",
+  "who": "Cualquiera que empiece con los Kegel, quienes no están seguros de estar apretando bien y quienes retoman el ejercicio tras una pausa o un parto, una vez recibido el alta.",
+  "skip": "Si tienes dolor pélvico, dolor en las relaciones sexuales o notas el suelo pélvico tenso, apretar más puede no ayudar: empieza por la respiración y consulta a un fisioterapeuta de suelo pélvico. Tras una cirugía pélvica o abdominal, o un parto reciente, pregunta a tu médico cuándo empezar. Para si te duele.",
+  "faq": [
+    {
+      "q": "¿Por qué empezar los Kegel tumbado?",
+      "a": "Tumbado, el peso de los órganos deja de apoyarse en el suelo pélvico, por lo que se eleva con más facilidad. También es más fácil darte cuenta de cuándo se suman otros músculos."
+    },
+    {
+      "q": "¿Cómo sé que estoy haciendo bien un Kegel?",
+      "a": "Notas una elevación y una contracción por dentro, y luego una relajación, sin contener la respiración. Los hombres pueden notar que el pene y los testículos suben ligeramente; las mujeres, que la entrada de la vagina se cierra con suavidad."
+    }
+  ]
+}

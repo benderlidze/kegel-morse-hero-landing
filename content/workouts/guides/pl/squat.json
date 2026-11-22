@@ -1,0 +1,33 @@
+{
+  "description": "Przysiad bez obciążenia z uważnością na dno miednicy: jak go wykonać, oddychanie chroniące dno miednicy, błędy oraz łatwiejsza i trudniejsza wersja.",
+  "intro": "Przysiad z ciężarem własnym ciała trenuje pośladki i uda, duże mięśnie podtrzymujące miednicę. Samo w sobie nie jest ćwiczeniem dna miednicy, ale oddychanie ma znaczenie: wydech podczas wstawania pomaga dnu miednicy unosić się razem z wysiłkiem, zamiast być spychanym w dół.",
+  "feel": "Poczujesz pracę ud i pośladków, szczególnie podczas wstawania, z wdechem w drodze w dół i wydechem przy wstawaniu. Nie powinno być czuć, że dolne plecy przejmują ruch, ciężaru na dole ani chęci wstrzymania oddechu i parcia. Samokontrola: jeśli popuszczasz lub się napinasz, zrób mniejszy przysiad i skup się na wydechu.",
+  "mistakes": [
+    {
+      "wrong": "Wstrzymywanie oddechu w drodze w górę",
+      "right": "Wydychaj powietrze, wstając. Wstrzymywanie oddechu zwiększa nacisk na dno miednicy."
+    },
+    {
+      "wrong": "Kolana zapadające się do środka",
+      "right": "Trzymaj kolana w jednej linii z palcami stóp. Wyobraź sobie, że stopami rozsuwasz podłogę na boki."
+    },
+    {
+      "wrong": "Schodzenie głębiej, niż potrafisz kontrolować",
+      "right": "Przysiadaj tylko tak nisko, by klatka piersiowa była w górze, a pięty na podłodze. Głębokość przychodzi z praktyką."
+    }
+  ],
+  "easier": "Siadaj na krzesło i lekko go dotknij przed wstaniem albo przytrzymaj się blatu. Możesz też zrobić 6–8 powtórzeń.",
+  "harder": "Opuszczaj się przez trzy lub cztery sekundy, zatrzymaj się na dole albo dodaj delikatne uniesienie dna miednicy przy wstawaniu i pełne rozluźnienie na górze.",
+  "who": "Przydatne dla początkujących, osób pracujących przy biurku i kierowców, którzy potrzebują mocnych nóg i bioder, oraz każdego wracającego do ćwiczeń.",
+  "skip": "Najpierw zgłoś się na kontrolę, jeśli masz ból kolan lub bioder, przepuklinę, niedawną operację brzucha lub miednicy, objawy wypadania narządów, jak uczucie ciężaru, albo jesteś w ciąży lub po porodzie bez zgody lekarza. Popuszczanie podczas przysiadów warto omówić z fizjoterapeutą dna miednicy. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Czy przysiady są dobre dla dna miednicy?",
+      "a": "Wzmacniają mięśnie wokół miednicy, co może wspierać dno miednicy. Nie zastępują ćwiczeń Kegla, ale wydech przy wstawaniu pomaga dnu miednicy pracować razem z ruchem."
+    },
+    {
+      "q": "Dlaczego popuszczam podczas przysiadów?",
+      "a": "Nacisk może przewyższać siłę dna miednicy, często przez wstrzymywanie oddechu lub zbyt duży ciężar zbyt wcześnie. Spróbuj mniejszych przysiadów z równym wydechem, a jeśli problem się utrzymuje, zgłoś się na kontrolę."
+    }
+  ]
+}

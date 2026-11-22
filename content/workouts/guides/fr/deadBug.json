@@ -1,0 +1,33 @@
+{
+  "description": "Guide du « Dead bug » : abaissez le bras et la jambe opposés, dos à plat, pour travailler les abdominaux profonds. Sensation, erreurs, variantes.",
+  "intro": "Le « dead bug » est un exercice lent de gainage sur le dos : vous abaissez un bras et la jambe opposée pendant que le tronc reste immobile. Il n’entraîne pas directement le périnée, mais il apprend aux abdominaux profonds à travailler avec la respiration, ce qui soutient le bassin par le haut.",
+  "feel": "Vous devez sentir un effort régulier et faible au fond du ventre. Vous ne devez pas sentir le bas du dos se cambrer, la nuque forcer ou la respiration s’arrêter. Glissez une main sous le bas du dos : si l’espace grandit quand la jambe descend, l’amplitude est trop grande. Gardez le périnée détendu, pas contracté.",
+  "mistakes": [
+    {
+      "wrong": "Retenir son souffle à chaque extension",
+      "right": "Expirez quand le bras et la jambe descendent et inspirez quand ils reviennent."
+    },
+    {
+      "wrong": "Bouger vite en balançant les membres",
+      "right": "Prenez environ trois secondes pour descendre et trois pour revenir, afin que ce soient les abdominaux qui travaillent et non l’élan."
+    },
+    {
+      "wrong": "Pousser le ventre vers l’avant ou pousser vers le bas",
+      "right": "Rentrez doucement le bas du ventre vers l’intérieur et le haut, jamais vers le bas dans le bassin. Si vous sentez une pression en bas, réduisez l’amplitude."
+    }
+  ],
+  "easier": "Gardez les bras au sol et abaissez une jambe à la fois, en touchant le sol du talon, genou fléchi.",
+  "harder": "Tendez complètement la jambe en la descendant, ou ajoutez un Kegel doux à chaque expiration et relâchez complètement à l’inspiration.",
+  "who": "Utile aux personnes qui travaillent au bureau, aux adeptes de la musculation qui veulent un tronc stable et à toute personne qui reprend l’exercice et a besoin d’un départ à faible charge.",
+  "skip": "Demandez d’abord l’avis d’un médecin ou d’un kinésithérapeute spécialisé en rééducation périnéale après une opération récente du ventre ou du bassin, si vous remarquez un bombement le long du milieu du ventre, ou si vous êtes enceinte ou avez accouché récemment. Si le mal de dos s’aggrave, réduisez l’amplitude. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "Le « dead bug » est-il bon pour le périnée ?",
+      "a": "De façon indirecte. Il entraîne les abdominaux profonds et la respiration qui travaillent avec le périnée : associez-le donc à des Kegel à part."
+    },
+    {
+      "q": "Pourquoi mon bas du dos se décolle-t-il du sol ?",
+      "a": "Vos abdominaux ne contrôlent pas encore cette amplitude. Abaissez moins la jambe, fléchissez davantage le genou et allez plus lentement jusqu’à ce que le dos reste plaqué."
+    }
+  ]
+}

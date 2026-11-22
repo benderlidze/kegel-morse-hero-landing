@@ -1,0 +1,33 @@
+{
+  "description": "Guide du pont avec marche : gardez le pont et levez un pied à la fois pour renforcer les fessiers et le contrôle du core profond. Erreurs et variantes.",
+  "intro": "Le pont avec marche commence comme un pont classique, puis vous levez un pied, puis l’autre, en gardant les hanches en haut. Chaque levée reporte la charge sur un côté : les fessiers et le core profond doivent empêcher le bassin de s’affaisser ou de pivoter. Cela construit la base stable dont le bassin a besoin pour marcher, soulever et s’entraîner.",
+  "feel": "Vous devez sentir travailler les deux fessiers, avec un effort supplémentaire dans la jambe d’appui chaque fois qu’un pied se lève. Le ventre est légèrement gainé et les hanches restent hautes et à niveau. Surveillez la respiration retenue, le bas du dos cambré ou la poussée vers le bas dans le bassin. Si les hanches s’affaissent ou se balancent à chaque pas, faites une marche plus petite.",
+  "mistakes": [
+    {
+      "wrong": "Lever le genou trop haut",
+      "right": "Soulevez le pied de deux ou trois centimètres au début. Le but est un bassin stable, pas un grand mouvement de jambe."
+    },
+    {
+      "wrong": "Retenir son souffle pendant toute la série",
+      "right": "Expirez quand un pied se lève et inspirez quand il redescend. Gardez un rythme lent."
+    },
+    {
+      "wrong": "Laisser le pont s’affaisser",
+      "right": "Si les hanches descendent, redescendez, reposez-vous et recommencez avec moins de pas."
+    }
+  ],
+  "easier": "Ne soulevez que le talon, les orteils restant au sol, ou reposez-vous après chaque série de deux pas.",
+  "harder": "Marquez une pause avec un pied levé 2 à 3 secondes, tendez la jambe levée, ou ralentissez chaque pas.",
+  "who": "Les adeptes de la musculation et toute personne qui travaille le contrôle du core et des hanches, surtout quand un pont simple devient facile.",
+  "skip": "Réduisez ou évitez en cas de mal de dos pendant les ponts, de douleur à la hanche, de hernie ou d’opération récente du ventre. Si vous remarquez un bombement le long du milieu du ventre, une pesanteur pelvienne ou des fuites pendant le mouvement, faites-vous examiner par un kinésithérapeute. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "Que travaille le pont avec marche ?",
+      "a": "Les fessiers et les ischio-jambiers, ainsi que les muscles profonds du core qui gardent le bassin à niveau, un côté à la fois."
+    },
+    {
+      "q": "Mes hanches doivent-elles rester parfaitement immobiles ?",
+      "a": "Visez le moins de mouvement possible. Un petit balancement est normal au début, mais un grand affaissement signifie que c’est trop difficile pour l’instant."
+    }
+  ]
+}

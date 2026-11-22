@@ -1,0 +1,33 @@
+{
+  "description": "Guide des montées de genoux sur le dos : levez les genoux fléchis un par un pour le bas du ventre, les fléchisseurs de la hanche et le contrôle du bassin.",
+  "intro": "Les montées de genoux sur le dos sont un mouvement allongé où vous levez un genou fléchi, le redescendez, puis changez. Elles entraînent le bas du ventre à garder le bassin stable pendant que chaque jambe bouge, une capacité utilisée pour marcher et monter les escaliers. C’est une étape douce au-dessus du glissement des talons.",
+  "feel": "Vous devez sentir le bas du ventre travailler discrètement et l’avant de la hanche soulever la jambe. Le bas du dos, le bassin et le pied d’appui restent immobiles. Expirez en levant et inspirez en redescendant. Surveillez la respiration retenue, le ventre qui gonfle ou la poussée vers le bas dans le bassin. Auto-contrôle : les mains posées sur les os des hanches ne doivent pas basculer quand le genou monte.",
+  "mistakes": [
+    {
+      "wrong": "Laisser tomber la jambe rapidement",
+      "right": "Redescendez lentement et reposez le pied doucement. C’est dans la descente que se trouve le contrôle."
+    },
+    {
+      "wrong": "Cambrer le bas du dos quand le genou monte",
+      "right": "Gardez les côtes basses et rentrez légèrement le bas du ventre. Montez moins haut si le dos se cambre encore."
+    },
+    {
+      "wrong": "Appuyer fort dans le sol avec l’autre pied",
+      "right": "Gardez ce pied détendu. Appuyer fort signifie que les fessiers et le dos prennent le relais."
+    }
+  ],
+  "easier": "Ne soulevez le pied que de deux ou trois centimètres, ou pratiquez le glissement des talons jusqu’à ce que le mouvement soit stable.",
+  "harder": "Marquez une pause avec le genou à 90 degrés pendant 2 à 3 secondes, ralentissez la descente, ou ajoutez un Kegel doux à la montée.",
+  "who": "Les personnes de plus de 50 ans, les débutants et toute personne qui veut un mouvement de core doux pour le matin.",
+  "skip": "Après une opération du ventre, avec une hernie ou avec un écartement des muscles abdominaux, demandez d’abord l’avis de votre médecin ou de votre kinésithérapeute. Si vous remarquez un bombement du ventre, une pesanteur pelvienne ou un mal de dos, faites un mouvement plus petit ou reposez-vous. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "Quelle différence entre les montées de genoux sur le dos et le glissement des talons ?",
+      "a": "Dans le glissement des talons, le pied reste au sol. Dans les montées de genoux, il se soulève : le bas du ventre porte donc davantage le poids de la jambe."
+    },
+    {
+      "q": "Les montées de genoux sur le dos sont-elles un exercice du périnée ?",
+      "a": "Elles entraînent surtout le bas du ventre et les fléchisseurs de la hanche, qui travaillent avec le périnée pour stabiliser le bassin. Vous pouvez ajouter un Kegel doux à chaque montée, mais continuez aussi à faire des Kegel à part."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Einbeinige Brücke: Hüftheben auf einem Bein für Gesäß, Beinrückseite und tiefe Rumpfstabilität. Gefühl, Fehler, leichtere und schwerere Varianten.",
+  "intro": "Bei der einbeinigen Brücke bleibt ein Fuß am Boden, während das andere Bein angehoben wird. Jede Seite trägt die volle Last und muss das Becken gerade halten, das baut die Hüftkraft und Kontrolle auf, die beim Laufen und Radfahren gebraucht werden. Sie stützt das Becken, trainiert den Beckenboden aber nicht direkt.",
+  "feel": "Du solltest Gesäß und Beinrückseite des Standbeins arbeiten spüren und deine tiefen Rumpfmuskeln, die verhindern, dass die Hüfte kippt. Stell dir dein Becken als Tablett vor, von dem nichts überschwappen soll. Vermeide Luftanhalten, ein Hohlkreuz oder Krämpfe in der Beinrückseite. Selbsttest: Mit den Händen auf den Hüftknochen sollten beide auf gleicher Höhe bleiben.",
+  "mistakes": [
+    {
+      "wrong": "Die angehobene Seite sackt ab",
+      "right": "Heb nur so hoch, wie du beide Hüften auf gleicher Höhe halten kannst. Eine niedrigere, gerade Brücke ist besser als eine hohe, schiefe."
+    },
+    {
+      "wrong": "Über die Zehen des Standfußes drücken",
+      "right": "Drücke dich über die Ferse hoch und halte das Knie in einer Linie mit Hüfte und Fuß."
+    },
+    {
+      "wrong": "Die Wiederholungen überstürzen",
+      "right": "Heb und senk dich in einem langsamen, gleichmäßigen Tempo und mach zwischen den Seiten eine kurze Pause."
+    }
+  ],
+  "easier": "Lass das angehobene Bein angewinkelt, oder mach eine normale Brücke mit dem Gewicht mehr auf einem Fuß.",
+  "harder": "Halte oben 3 Sekunden, senke langsam ab, oder stell den Standfuß auf eine niedrige Stufe. Eine sanfte Kegel-Anspannung oben fügt eine weitere Ebene hinzu.",
+  "who": "Läufer, Radfahrer und alle, die die Brücke mit zwei Beinen beherrschen und mehr Hüftkraft und seitliches Gleichgewicht wollen.",
+  "skip": "Lass sie aus, wenn schon eine normale Brücke Rückenschmerzen verursacht oder wenn du Schmerzen in Hüfte, Knie oder Beinrückseite auf der arbeitenden Seite hast. Nach einer kürzlichen Operation, einer kürzlichen Geburt oder bei einem Leistenbruch frag zuerst deine Ärztin, deinen Arzt oder deine Physiotherapeutin. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Ist die einbeinige Brücke gut für Läufer?",
+      "a": "Beim Laufen landest du immer auf einem Bein, und diese Übung trainiert jede Hüfte auf die gleiche Weise einzeln. Sie ist eine gängige Wahl für Gesäßkraft und Beckenkontrolle."
+    },
+    {
+      "q": "Warum fühlt sich eine Seite schwächer an?",
+      "a": "Die meisten Menschen haben eine stärkere Seite. Mach auf beiden Seiten gleich viele Wiederholungen und beginne mit der schwächeren, damit sie nicht zu kurz kommt."
+    }
+  ]
+}

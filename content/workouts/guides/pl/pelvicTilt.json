@@ -1,0 +1,33 @@
+{
+  "description": "Przechylanie miednicy: delikatne dociskanie i rozluźnianie dolnych pleców, by rozgrzać dolny brzuch i zmniejszyć sztywność. Błędy i wersje ćwiczenia.",
+  "intro": "Przechylanie miednicy to niewielki ruch kołyszący miednicą w leżeniu na plecach. Budzi dolne mięśnie brzucha i rozluźnia dolny odcinek pleców. W zestawie na dno miednicy to łagodna rozgrzewka, która pomaga wyczuć miednicę, zanim dodasz ćwiczenia Kegla.",
+  "feel": "Poczujesz, jak dolny odcinek pleców lekko dociska się do podłogi, niewielki wysiłek w dolnej części brzucha, a potem miękkie rozluźnienie. Nie powinno być czuć, że wszystko robią pośladki, że oddech się zatrzymuje ani żadnego parcia w dół w miednicy. Połóż dłoń na dolnej części brzucha: powinna delikatnie twardnieć przy przechyleniu i mięknąć przy rozluźnieniu.",
+  "mistakes": [
+    {
+      "wrong": "Odrywanie bioder od podłogi jak w mostku",
+      "right": "Trzymaj kość ogonową na podłodze. Miednica się kołysze, nie unosi."
+    },
+    {
+      "wrong": "Mocne zaciskanie pośladków, żeby się poruszyć",
+      "right": "Pozwól prowadzić dolnym mięśniom brzucha i trzymaj pośladki rozluźnione."
+    },
+    {
+      "wrong": "Pośpiech przy powtórzeniach",
+      "right": "Wydychaj powietrze, gdy dociskasz plecy, a wdychaj, gdy rozluźniasz. Jeden powolny oddech na powtórzenie to dobre tempo."
+    }
+  ],
+  "easier": "Zrób mniejszy ruch albo wykonuj przechylanie na stojąco, z plecami przy ścianie.",
+  "harder": "Utrzymaj dociśnięte plecy przez trzy do pięciu sekund albo dodaj delikatne napięcie Kegla przy dociskaniu i pełne rozluźnienie dna miednicy przy rozluźnianiu.",
+  "who": "Dobre dla osób ze sztywnym dolnym odcinkiem pleców, osób pracujących przy biurku, osób starszych oraz każdego, kto wraca do ćwiczeń po porodzie, gdy specjalista na to pozwoli.",
+  "skip": "Jeśli jesteś po pierwszym trymestrze ciąży, zapytaj położną lub lekarza o leżenie na plecach; zamiast tego możesz przechylać miednicę w podporze na rękach i kolanach lub na stojąco. Najpierw skonsultuj się z lekarzem lub fizjoterapeutą dna miednicy po niedawnej operacji miednicy lub brzucha albo przy nowym bólu pleców. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Czy przechylanie miednicy wzmacnia dno miednicy?",
+      "a": "Samo w sobie niewiele. Pracuje głównie na dolnych mięśniach brzucha i poprawia świadomość miednicy, co może ułatwić znalezienie i kontrolowanie ćwiczeń Kegla."
+    },
+    {
+      "q": "Czy przechylanie miednicy jest bezpieczne po porodzie?",
+      "a": "To często jeden z pierwszych ruchów proponowanych po porodzie. Najpierw uzyskaj zgodę lekarza lub położnej, zwłaszcza po cesarskim cięciu."
+    }
+  ]
+}

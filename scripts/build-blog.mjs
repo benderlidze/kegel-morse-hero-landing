@@ -159,12 +159,12 @@ const footer = () => `
 // Localized versions of English pages are described in scripts/i18n/routes.mjs; they get reciprocal hreflang here.
 const hreflangLinks = (canonical) => hreflangTags(canonical.slice(site.length) || '/');
 
-function documentHead({ title, description, canonical, type = 'website', modified, jsonLd = '', image, extraMeta = '' }) {
+function documentHead({ title, description, canonical, type = 'website', modified, jsonLd = '', image, extraMeta = '', noindex = false }) {
   const ogImage = image || `${site}/assets/og-image.png`;
   return `<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)}</title><meta name="description" content="${esc(description)}">
-<meta name="author" content="Kegel Morse Hero"><meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<meta name="author" content="Kegel Morse Hero"><meta name="robots" content="${noindex ? 'noindex,follow' : 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1'}">
 <meta name="theme-color" content="#070a0b">${extraMeta}<link rel="canonical" href="${esc(canonical)}">${hreflangLinks(canonical)}
 <link rel="icon" href="/assets/favicon-48.png" type="image/png" sizes="48x48"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <meta property="og:type" content="${type}"><meta property="og:site_name" content="Kegel Morse Hero"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${esc(canonical)}"><meta property="og:image" content="${ogImage}"><meta property="og:image:alt" content="Kegel Morse Hero pelvic floor training app">${modified ? `<meta property="article:modified_time" content="${modified}">` : ''}
@@ -350,13 +350,19 @@ await writeFile(path.join(root, 'index.html'), homeHtml, 'utf8');
 
 // --- Features page ---
 const featureFaqs = [
-  ['How does Kegel Morse Hero guide exercises?', 'A visual ring animation marks squeeze and relax phases. Each session follows a Morse code pattern: dots for short squeezes and dashes for long holds. Haptic feedback keeps timing clear without watching the screen.'],
-  ['What Morse code tracks are included?', 'Built-in tracks include SOS (16s), HELLO (26s), HELP ME (28s), HERO (20s), KEGEL (22s), MORSE (23s), BRAVO (28s), READY (24s), and FOCUS (29s). You can also create unlimited custom tracks.'],
-  ['How does progress tracking work?', 'Every completed session is saved in a calendar view and history log. You can track consistency, duration, selected track, and speed multiplier.'],
-  ['What is Zen Mode?', 'Zen Mode removes non-essential interface elements, keeping only core timing guidance for focused sessions.'],
-  ['Can I adjust exercise speed?', 'Choose 1x, 2x, or 3x speed. Beginners can start at 1x and increase pace gradually over time.'],
-  ['Can the app help with consistency?', 'Yes. Signal reminders can be configured for daily or custom schedules, helping maintain a routine.'],
-  ['How is user data handled?', 'All exercise data is stored on-device. No account required, no tracking, and no ads. Optional Google Drive backup and CSV export are available for user-initiated backup.']
+  ['How does Kegel Morse Hero guide exercises?', 'A visual ring animation marks every squeeze and every relaxation. Each session follows a Morse code pattern: a dot is a short, quick squeeze, a dash is a longer hold, and the gaps between signals are your rest. Haptic feedback pulses in time with the pattern, so the timing stays clear even when you are not looking at the screen.'],
+  ['Why Morse code?', 'Pelvic floor training usually mixes quick squeezes, longer holds and full relaxation. Morse code already contains exactly that mix: short dots, long dashes and pauses. Turning a word into a rhythm gives each session a recognizable shape, which is easier to follow and less monotonous than silently counting seconds.'],
+  ['What Morse code tracks are included?', 'Built-in tracks include SOS (16 s), HELLO (26 s), HELP ME (28 s), HERO (20 s), KEGEL (22 s), MORSE (23 s), BRAVO (28 s), READY (24 s) and FOCUS (29 s). Short tracks such as SOS and HERO are a good place to start; longer ones add more holds and more repetitions.'],
+  ['Can I create my own tracks?', 'Yes. Type any word or short phrase and the app converts each letter into dots and dashes. Longer words make longer sessions, so start with a short word and build up. Custom tracks are a simple way to keep training fresh once the built-in ones feel familiar.'],
+  ['Can I train discreetly?', 'Yes. Haptic cues mean you do not need sound or a visible screen: you can keep the phone on a desk or in your hand and follow the vibration. A Kegel is invisible from the outside, so you can practice at a desk, while waiting in a queue or before sleep.'],
+  ['Can I adjust exercise speed?', 'Choose 1x, 2x or 3x speed. 1x gives the longest holds and rests and is the most forgiving place to start. Faster speeds shorten every signal and every pause, which demands quicker contractions and quicker relaxation, so move up only when the slower pace feels controlled.'],
+  ['What is Zen Mode?', 'Zen Mode removes non-essential interface elements and keeps only the timing guidance, so nothing distracts you during a session. It works well together with haptics for eyes-free training.'],
+  ['Can the app help with consistency?', 'Yes. Signal reminders can be set for daily or custom schedules. Consistency matters more than intensity for pelvic floor training, and a reminder at the same time every day is one of the easiest ways to keep the habit.'],
+  ['How does progress tracking work?', 'Every completed session is saved automatically in a calendar view and a history log, with the date, the track, the duration and the speed. The calendar makes gaps easy to spot, and the history shows how your sessions change over weeks.'],
+  ['How is user data handled?', 'All exercise data is stored on your device. There is no account, no advertising and no tracking. Optional Google Drive backup and CSV export are available when you choose to use them; a backup goes to your own Google account.'],
+  ['Does it work offline?', 'Yes. Exercise sessions, tracks, reminders and history all work without an internet connection.'],
+  ['Which devices and languages are supported?', 'Kegel Morse Hero is available for iPhone (iOS 17.2 or later) on the App Store and for Android on Google Play. The app is available in English, French, German, Japanese, Korean, Polish, Russian, Spanish and Ukrainian.'],
+  ['What the app does not do', 'The app guides timing; it does not measure muscle activity, because a phone has no sensor for that. If you are unsure whether you are contracting the right muscles, a pelvic floor physiotherapist can check. Kegel Morse Hero is not a medical device and does not diagnose or treat any condition.']
 ];
 const featuresHtml = `${documentHead({
   title: 'Features - Kegel Morse Hero Pelvic Floor Trainer',
@@ -373,12 +379,14 @@ await writeFile(path.join(root, 'features.html'), featuresHtml, 'utf8');
 
 // --- How to use page ---
 const steps = [
-  ['Download and open the app', 'Kegel Morse Hero is available on the App Store. No account creation is required to begin.'],
-  ['Select a Morse code track', 'Tap the track name (for example, SOS) to choose a built-in track or create your own pattern.'],
-  ['Choose your speed', 'Select 1x, 2x, or 3x speed. Start with 1x if you are new to Kegel exercise sessions.'],
-  ['Press play and follow the ring', 'The ring animation shows when to squeeze and when to relax. Haptic feedback vibrates in sync with the pattern.'],
-  ['Complete the session', 'When the track finishes, the app logs the session automatically. Repeat or choose another track.'],
-  ['Review your progress', 'Use the calendar and history views to see consistency and session details over time.']
+  ['Find the right muscles first', 'Gently lift and squeeze as if you were stopping the flow of urine or holding in gas, then let go completely. Your belly, buttocks and thighs should stay relaxed and your breathing normal. Use this only to learn the feeling: do not practice by stopping your urine flow regularly.'],
+  ['Download and open the app', 'Kegel Morse Hero is available on the App Store for iPhone and on Google Play for Android. No account is needed: open the app and you can start your first session straight away.'],
+  ['Select a Morse code track', 'Tap the track name (for example, SOS) to choose a built-in track or create your own from any word. Short tracks such as SOS (16 s) or HERO (20 s) are the easiest way to begin.'],
+  ['Choose your speed', 'Select 1x, 2x or 3x. Start with 1x if you are new: holds and rests are longest, which gives you time to squeeze with control and relax fully.'],
+  ['Get into position', 'Lying on your back with your knees bent is the easiest position to start, because the pelvic floor does not have to work against gravity. As control improves, train sitting and then standing.'],
+  ['Press play and follow the ring', 'The ring animation shows when to squeeze and when to relax, and haptic feedback vibrates in sync. A dot is a quick squeeze and release, a dash is a longer hold, and every gap is a full relaxation. Keep breathing throughout.'],
+  ['Complete the session', 'When the track finishes, the session is logged automatically. One to three short tracks is plenty for one session; repeat the track or choose another.'],
+  ['Set a reminder and review your progress', 'Turn on reminders for a time that fits your day, and use the calendar and history to see how consistent you have been over the past weeks.']
 ];
 const howToHtml = `${documentHead({
   title: 'How To Use - Kegel Morse Hero Pelvic Floor Trainer',
@@ -388,17 +396,25 @@ const howToHtml = `${documentHead({
 })}<body>${header('how-to-use')}
 <main id="main"><section class="feature-section no-border"><p class="eyebrow">Kegel Morse Hero</p><h1 style="font:800 clamp(2.1rem,6vw,3.4rem)/1.1 Sora,sans-serif;letter-spacing:-.03em;margin:0">How To Use Kegel Morse Hero</h1><p class="lede" style="max-width:620px">A step-by-step guide to start pelvic floor training with clear timing.</p>
 <div class="steps">${steps.map(([h, p], i) => `<div class="step"><span class="step-number">${i + 1}</span><div><h2>${esc(h)}</h2><p>${esc(p)}</p></div></div>`).join('')}</div>
-<div class="tips-box"><h2>Tips for effective training</h2><ul><li>Train consistently. Many users aim for 2 to 3 short sessions per day.</li><li>Use haptic feedback for discreet, eyes-free guidance.</li><li>Start with slower tracks at 1x speed and increase gradually.</li><li>Consult a healthcare professional if you are unsure where to start.</li></ul></div>
+<div class="tips-box"><h2>Tips for effective training</h2><ul><li>Train consistently. Many people aim for 2 to 3 short sessions per day; regular practice matters more than long sessions.</li><li>Quality beats force: a gentle lift you can control is better than a maximum squeeze.</li><li>Relaxing fully between signals is part of the exercise, not a break from it.</li><li>Breathe normally. Never hold your breath or push down.</li><li>Use haptic feedback and Zen Mode for discreet, eyes-free guidance.</li><li>Start with short tracks at 1x speed and move to longer tracks, faster speeds and standing positions gradually.</li><li>Stop and get checked by a doctor or pelvic floor physiotherapist if you feel pain, find it harder to pass urine, or symptoms get worse.</li></ul></div>
 <div class="center-cta">${storeButtons()}</div>
 </section></main>${footer()}</body></html>`;
 await writeFile(path.join(root, 'how-to-use.html'), howToHtml, 'utf8');
 
 // --- FAQ page ---
 const faqs = [
-  ['What is Kegel Morse Hero?', 'Kegel Morse Hero is an iOS app that combines pelvic floor exercises with Morse code rhythmic patterns, visual timing guidance, and haptic cues.'],
-  ['Who are pelvic floor exercises for?', 'Pelvic floor exercises are commonly used by adults for bladder control, core stability, and intimate wellness. Consult a healthcare professional before starting any exercise program.'],
-  ['Is Kegel Morse Hero free?', 'Yes, the app is free to download. Optional subscriptions are available for additional features.'],
-  ['How do subscriptions work?', 'Subscriptions auto-renew unless canceled at least 24 hours before the end of the current period. Manage plans in Apple account settings.'],
+  ['What is Kegel Morse Hero?', 'Kegel Morse Hero is an app for iPhone and Android that combines pelvic floor (Kegel) exercises with Morse code rhythms, visual timing guidance and haptic cues. Dots are quick squeezes, dashes are longer holds and the gaps are rest.'],
+  ['How is it different from a regular Kegel timer?', 'A plain timer counts the same squeeze over and over. Kegel Morse Hero mixes quick squeezes and longer holds in recognizable rhythms, lets you make your own tracks from any word, vibrates in time with every signal and keeps a private history of your sessions.'],
+  ['Who are pelvic floor exercises for?', 'Pelvic floor exercises are commonly used by adults for bladder control, core stability and intimate wellness: for example men with dribbling after urination or leakage after prostate surgery, and women after childbirth or around menopause. Consult a healthcare professional before starting if you have symptoms, pain or recent surgery.'],
+  ['Is the app for men or women?', 'Both. Everyone has a pelvic floor, and the timing guidance works the same way for everyone. The website has guides and free workouts with pictures for men and for women.'],
+  ['How often should I train?', 'Many people do short sessions on most days of the week, often two or three a day. Start with one or two short tracks, build up gradually and keep at least one easy or rest day if your muscles feel tired or tense.'],
+  ['How long until I notice a difference?', 'It varies. Pelvic floor training usually takes several weeks of consistent practice before changes are noticeable, and many structured programs run for about three months. Regular short sessions matter more than long ones.'],
+  ['Can I do too many Kegels?', 'Yes. More is not better: constant squeezing can leave the pelvic floor tense and tired, and an overactive pelvic floor needs relaxation rather than more strengthening. If you notice pain, urgency or difficulty passing urine, stop and get checked.'],
+  ['Does the app check whether I am doing it correctly?', 'No. A phone has no sensor that can measure pelvic floor muscles, so the app guides timing only. If you are unsure whether you are using the right muscles, a pelvic floor physiotherapist can assess you.'],
+  ['Is Kegel Morse Hero free?', 'Yes, the app is free to download. Optional weekly and annual subscriptions and a one-time lifetime purchase unlock additional features.'],
+  ['How do subscriptions work?', 'Subscriptions auto-renew unless canceled at least 24 hours before the end of the current period. On iPhone, manage or cancel them in your Apple account settings; on Android, in Google Play subscriptions.'],
+  ['Can I use it discreetly?', 'Yes. Haptic cues let you train without sound or watching the screen, and Zen Mode hides everything except the timing. Nobody around you can see a Kegel.'],
+  ['Which devices and languages are supported?', 'iPhone with iOS 17.2 or later, and Android phones via Google Play. The app is available in English, French, German, Japanese, Korean, Polish, Russian, Spanish and Ukrainian.'],
   ['Does Kegel Morse Hero collect my data?', 'No. Data stays on your device by default. The app includes no ads and no tracking. Optional backup/export features are user-initiated.'],
   ['Do I need an account to use Kegel Morse Hero?', 'No account is required.'],
   ['What are Morse code tracks?', 'Tracks convert dots and dashes into short and long squeeze timings. Built-in tracks are included, and custom tracks can be created.'],
@@ -441,9 +457,10 @@ await writeFile(path.join(root, 'privacy.html'), privacyHtml, 'utf8');
 const trustPages = [
   {
     slug: 'about',
+    updated: ['2026-11-22', 'November 22, 2026'],
     title: 'About Kegel Morse Hero',
     description: 'Learn who publishes Kegel Morse Hero and how the app and its pelvic floor education are presented.',
-    content: `<p>Kegel Morse Hero is an independent iOS app and educational website created by Sergei Prostokishyn. The app uses Morse-code rhythms, visual timing, and haptic cues to make standard pelvic floor exercise patterns easier to follow.</p><h2>About the articles</h2><p>Most guides are published under the Kegel Morse Hero name. First-person product articles are attributed to Sergei Prostokishyn. Author attribution does not represent a medical credential, and the site does not claim that its content has been medically reviewed.</p><h2>What this site is for</h2><p>The articles explain exercise technique, consistency, common questions, and the limits of the available evidence. They are educational resources—not diagnosis, treatment, or a substitute for care from a qualified healthcare professional.</p><p>Read our <a href="/editorial-policy/">editorial policy</a> and <a href="/medical-disclaimer/">medical disclaimer</a> for more detail.</p>`
+    content: `<p>Kegel Morse Hero is an independent app for iPhone and Android and an educational website created by Sergei Prostokishyn, an independent app developer. The app uses Morse-code rhythms, visual timing and haptic cues to make standard pelvic floor exercise patterns easier to follow.</p><h2>Why the app exists</h2><p>Pelvic floor exercises are simple, but most people stop doing them within weeks: counting seconds in silence is boring, and it is easy to lose track of when to squeeze and when to relax. Morse code already contains the mix that pelvic floor training needs, short dots, long dashes and pauses, so a word can become a rhythm to follow. The goal is a routine that is clear, private and less monotonous, not a promise of a medical result.</p><h2>What the app does and does not do</h2><p>The app guides timing with a ring animation and vibration, offers built-in and custom tracks, three speeds, reminders and a session history. It does not measure muscle activity, diagnose or treat any condition, and it is not a medical device. It requires no account, shows no ads, contains no tracking, and keeps exercise data on your device.</p><h2>About the articles</h2><p>The guides on this site are written and edited by Sergei Prostokishyn. Each health article links its sources, such as NHS, NIDDK, Mayo Clinic and peer-reviewed studies on PubMed, and shows the date it was last reviewed. Author attribution does not represent a medical credential, and the site does not claim that its content has been reviewed by a clinician. When our own app appears in a comparison, that relationship is stated on the page.</p><h2>What this site is for</h2><p>The articles and workouts explain exercise technique, consistency, common questions and the limits of the available evidence. They are educational resources, not diagnosis, treatment or a substitute for care from a qualified healthcare professional.</p><h2>Contact</h2><p>For questions about the app or this website, use the support contact in the app listing on the App Store or Google Play.</p><p>Read our <a href="/editorial-policy/">editorial policy</a> and <a href="/medical-disclaimer/">medical disclaimer</a> for more detail.</p>`
   },
   {
     slug: 'editorial-policy',
@@ -460,7 +477,7 @@ const trustPages = [
 ];
 for (const page of trustPages) {
   const canonical = `${site}/${page.slug}/`;
-  const html = `${documentHead({ title: `${page.title} | Kegel Morse Hero`, description: page.description, canonical })}<body>${header('other')}<main id="main" class="trust-page"><p class="eyebrow">Kegel Morse Hero</p><h1>${page.title}</h1>${page.content}<p class="article-meta">Last updated <time datetime="2026-08-04">August 4, 2026</time></p></main>${footer()}</body></html>`;
+  const html = `${documentHead({ title: `${page.title} | Kegel Morse Hero`, description: page.description, canonical })}<body>${header('other')}<main id="main" class="trust-page"><p class="eyebrow">Kegel Morse Hero</p><h1>${page.title}</h1>${page.content}<p class="article-meta">Last updated <time datetime="${(page.updated || ['2026-08-04'])[0]}">${(page.updated || [0, 'August 4, 2026'])[1]}</time></p></main>${footer()}</body></html>`;
   const outputDir = path.join(root, page.slug);
   await mkdir(outputDir, { recursive: true });
   await writeFile(path.join(outputDir, 'index.html'), html, 'utf8');
@@ -468,12 +485,11 @@ for (const page of trustPages) {
 
 // --- Languages hub (crawlable list of every language version) ---
 const langItems = Object.entries(LANGS).map(([l, v]) => `<li><a href="/${l}/" hreflang="${l}" lang="${l}"><strong>${v.name}</strong></a> — <a href="/${l}/articles/" hreflang="${l}" lang="${l}">/${l}/articles/</a></li>`).join('');
-const languagesHtml = `${documentHead({ title: 'Languages | Kegel Morse Hero', description: 'Kegel Morse Hero in your language: Russian, Polish, German, Spanish, French and Ukrainian versions of the site and articles.', canonical: `${site}/languages/` })}<body>${header('other')}<main id="main" class="trust-page"><p class="eyebrow">Kegel Morse Hero</p><h1>Languages</h1><p>The site and the main guides are available in several languages. English is the original version.</p><ul>${langItems}</ul><p><a href="/">English</a> · <a href="/articles/">English articles</a></p></main>${footer()}</body></html>`;
+const languagesHtml = `${documentHead({ title: 'Languages | Kegel Morse Hero', description: 'Kegel Morse Hero in your language: Russian, Polish, German, Spanish, French and Ukrainian versions of the site and articles.', canonical: `${site}/languages/`, noindex: true })}<body>${header('other')}<main id="main" class="trust-page"><p class="eyebrow">Kegel Morse Hero</p><h1>Languages</h1><p>The site and the main guides are available in several languages. English is the original version.</p><ul>${langItems}</ul><p><a href="/">English</a> · <a href="/articles/">English articles</a></p></main>${footer()}</body></html>`;
 await mkdir(path.join(root, 'languages'), { recursive: true });
 await writeFile(path.join(root, 'languages', 'index.html'), languagesHtml, 'utf8');
 
 const staticUrls = [
-  ['/languages/', '.5', 'monthly', '2026-10-18'],
   ['/', '1.0', 'weekly', '2026-09-29'], ['/features.html', '.8', 'monthly', '2026-07-09'], ['/how-to-use.html', '.8', 'monthly', '2026-07-09'], ['/faq.html', '.7', 'monthly', '2026-07-09'], ['/privacy.html', '.4', 'yearly', '2026-07-09'],
   ['/articles/', '.9', 'weekly', '2026-08-04'], ['/about/', '.5', 'yearly', '2026-08-04'], ['/editorial-policy/', '.5', 'yearly', '2026-08-04'], ['/medical-disclaimer/', '.5', 'yearly', '2026-08-04'], ['/llms.txt', '.6', 'monthly', '2026-08-04'], ['/llms-full.txt', '.5', 'monthly', '2026-08-04']
 ];

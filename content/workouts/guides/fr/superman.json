@@ -1,0 +1,33 @@
+{
+  "description": "Guide de l’exercice « Superman » : soulevez un peu bras, poitrine et jambes pour travailler les muscles du dos et les fessiers. Erreurs, variantes.",
+  "intro": "Le « superman » se fait allongé sur le ventre : vous soulevez un peu les bras, la poitrine et les jambes, maintenez brièvement et redescendez. Il renforce les muscles du dos et les fessiers qui maintiennent le tronc et le bassin droits. Il n’entraîne pas directement le périnée, mais il équilibre le travail du core centré sur l’avant dans une routine.",
+  "feel": "Vous devez sentir travailler les muscles le long de la colonne et les fessiers, de façon régulière. Vous ne devez pas sentir de pincement vif dans le bas du dos, la nuque se tordre vers le haut ou la respiration s’arrêter. Gardez les yeux sur le sol, juste devant vous. Si le bas du dos se sent comprimé, montez moins haut.",
+  "mistakes": [
+    {
+      "wrong": "Monter le plus haut possible",
+      "right": "Quelques centimètres suffisent. Laissez les fessiers et le dos faire le travail au lieu de forcer sur le bas de la colonne."
+    },
+    {
+      "wrong": "Rejeter la tête en arrière",
+      "right": "Gardez la nuque allongée et le regard vers le bas pour que la tête bouge avec la poitrine."
+    },
+    {
+      "wrong": "Retenir son souffle en haut",
+      "right": "Expirez en montant, respirez normalement pendant le maintien et redescendez lentement."
+    }
+  ],
+  "easier": "Ne levez que les bras et la poitrine, ou que les jambes, ou un bras et la jambe opposée à la fois.",
+  "harder": "Maintenez le haut de trois à cinq secondes, descendez en trois secondes, ou ajoutez un Kegel doux pendant le maintien et relâchez complètement en redescendant.",
+  "who": "Utile aux hommes qui sont beaucoup assis ou qui font de la musculation, aux hommes de plus de 40 ans qui veulent un dos plus fort et à toute personne dont la routine est surtout du travail du core à l’avant.",
+  "skip": "Évitez ou utilisez la version plus facile si la cambrure fait mal au bas du dos, après une opération récente du dos, du ventre ou du bassin, ou avec une hernie. Consultez un médecin ou un kinésithérapeute si le mal de dos persiste après l’exercice. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "Que travaille l’exercice « superman » ?",
+      "a": "Les muscles le long de la colonne, les fessiers et l’arrière des épaules. C’est un mouvement de force du dos, pas du périnée."
+    },
+    {
+      "q": "Le « superman » est-il mauvais pour le bas du dos ?",
+      "a": "Pas quand la levée est petite et contrôlée. Les grandes cambrures rapides peuvent irriter le bas du dos : restez donc bas et lent."
+    }
+  ]
+}

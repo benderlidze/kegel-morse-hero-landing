@@ -1,0 +1,33 @@
+{
+  "description": "Rozciąganie „Żaba” na uda, biodra i rozluźnienie dna miednicy: jak je wykonać bezpiecznie, co czuć, błędy oraz łatwiejsza i trudniejsza wersja.",
+  "intro": "Rozciąganie „Żaba” to głębokie rozciąganie wewnętrznych stron ud w podporze na czworakach, z szeroko rozstawionymi kolanami. Otwiera biodra i mięśnie wokół dna miednicy. To ćwiczenie rozluźniające i na ruchomość, a nie wzmacniające, i najlepiej pasuje na koniec treningu.",
+  "feel": "Poczujesz mocne, ale znośne rozciągnięcie wzdłuż wewnętrznych stron ud i bioder, gdy przesuwasz biodra do tyłu, przy miękkim brzuchu i dnie miednicy. Nie powinno być czuć ostrego bólu w pachwinie, ucisku w kolanach ani zapadania się dolnych pleców. Samokontrola: jeśli nie możesz oddychać powoli i spokojnie, zbliż trochę kolana.",
+  "mistakes": [
+    {
+      "wrong": "Rozsuwanie kolan od razu jak najszerzej",
+      "right": "Zacznij trochę szerzej niż biodra i poszerzaj powoli przez kilka treningów."
+    },
+    {
+      "wrong": "Pozwalanie, by dolne plecy się zapadały",
+      "right": "Utrzymaj naturalne wygięcie i oprzyj się na przedramionach, jeśli to pomaga. Biodra i kręgosłup przesuwają się do tyłu razem."
+    },
+    {
+      "wrong": "Podskakiwanie w rozciąganiu",
+      "right": "Poruszaj się powoli i zatrzymuj się. Małe, powolne kołysanie jest w porządku, ale bez podskoków."
+    }
+  ],
+  "easier": "Podłóż coś miękkiego pod kolana, trzymaj je bliżej siebie i zostań w podporze na dłoniach. Możesz też rozciągać jedną stronę naraz.",
+  "harder": "Opuść się na przedramiona, rozsuń kolana trochę szerzej i utrzymaj pozycję bliżej minuty. Bez napinania; chodzi o puszczenie.",
+  "who": "Przydatne dla osób ze spiętymi wewnętrznymi stronami ud od biegania, jazdy na rowerze, podnoszenia ciężarów lub długiego siedzenia.",
+  "skip": "Pomiń lub zachowaj mały zakres przy bólu kolan lub pachwiny, przepuklinie, niedawnej operacji biodra, pachwiny lub brzucha albo w ciąży lub po porodzie bez zgody lekarza. Fizjoterapeuta dna miednicy może pomóc przy bólu miednicy lub bardzo napiętym dnie miednicy. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Czy rozciąganie „Żaba” jest dobre dla dna miednicy?",
+      "a": "Może pomóc okolicy wokół dna miednicy się rozluźnić i lepiej poruszać. Nie wzmacnia mięśni, więc używaj go razem z delikatnymi ćwiczeniami Kegla, a nie zamiast nich."
+    },
+    {
+      "q": "Dlaczego bolą mnie kolana w rozciąganiu „Żaba”?",
+      "a": "Częstymi przyczynami są twarda podłoga i zbyt szeroka pozycja. Podłóż coś pod kolana, zbliż je do siebie i trzymaj kostki w jednej linii z kolanami."
+    }
+  ]
+}

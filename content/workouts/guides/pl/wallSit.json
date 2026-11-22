@@ -1,0 +1,33 @@
+{
+  "description": "„Krzesełko” przy ścianie z napięciem Kegla: jak je wykonać, gdzie czuć, jak oddychać, częste błędy oraz łatwiejsza i trudniejsza wersja na każdy poziom.",
+  "intro": "„Krzesełko” przy ścianie to statyczne utrzymanie pozycji z plecami przy ścianie i zgiętymi kolanami. Buduje wytrzymałość ud i pośladków, które podtrzymują miednicę. Delikatne napięcie Kegla podczas utrzymania uczy dno miednicy pracować, gdy nogi są zajęte, tak jak musi to robić na co dzień.",
+  "feel": "Uda pracują równomiernie, z pomocą pośladków. Napięcie Kegla czuć jak lekkie uniesienie i ściśnięcie w środku, jakby zatrzymywać strumień moczu, a potem pełne rozluźnienie. Nie powinno być czuć bólu kolan, wstrzymywania oddechu, zaciskania pośladków, które wykonują całą pracę, ani parcia w dół. Samokontrola: możesz głośno liczyć podczas utrzymania.",
+  "mistakes": [
+    {
+      "wrong": "Zsuwanie się zbyt nisko",
+      "right": "Celem jest kąt dziewięćdziesięciu stopni, ale wyżej też jest w porządku, gdy dopiero budujesz siłę."
+    },
+    {
+      "wrong": "Utrzymywanie napięcia Kegla przez całe „krzesełko”",
+      "right": "Napnij na kilka sekund, a potem całkowicie puść przed kolejnym napięciem. Rozluźnienie jest tak samo ważne jak napięcie."
+    },
+    {
+      "wrong": "Wstrzymywanie oddechu, by wytrzymać",
+      "right": "Oddychaj równo przez cały czas. Jeśli nie możesz, skróć utrzymanie."
+    }
+  ],
+  "easier": "Zsuń się tylko częściowo, utrzymaj 10–15 sekund albo pomiń napięcie Kegla, dopóki utrzymanie nie stanie się łatwe.",
+  "harder": "Utrzymuj pozycję do 40 sekund i zrób kilka krótkich napięć Kegla podczas utrzymania, rozluźniając się całkowicie między nimi. Możesz też trzymać ciężar na udach.",
+  "who": "Dobre dla dorosłych po 40. roku życia, którzy chcą wzmocnić nogi i podtrzymanie miednicy bez uderzeń, osób podnoszących ciężary na rozgrzewce oraz każdego, komu ruchome przysiady obciążają kolana.",
+  "skip": "Zmodyfikuj lub pomiń przy bólu kolan, przepuklinie, niedawnej operacji miednicy lub brzucha albo wysokim ciśnieniu krwi, na którego ćwiczenia lekarz nie wyraził zgody. Jeśli dno miednicy jest napięte lub boli, pomiń napięcie Kegla i po prostu oddychaj. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Czy podczas „krzesełka” przy ścianie robić ćwiczenia Kegla?",
+      "a": "Tak, delikatnie. Napnij i unieś na kilka sekund, całkowicie rozluźnij i oddychaj dalej. Jeśli twoje dno miednicy ma tendencję do napięcia, pomiń napinanie i po prostu utrzymuj pozycję."
+    },
+    {
+      "q": "Jak długo początkujący powinien utrzymywać „krzesełko” przy ścianie?",
+      "a": "Zacznij od 15–20 sekund i dąż do 40. Przerwij, zanim uda zaczną mocno drżeć."
+    }
+  ]
+}

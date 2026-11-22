@@ -1,0 +1,33 @@
+{
+  "description": "Ćwiczenie Kegla leżąc: najłatwiejszy sposób, by znaleźć i trenować dno miednicy na plecach. Jak to czuć, częste błędy, wersje łatwiejsza i trudniejsza.",
+  "intro": "Ćwiczenie Kegla leżąc to punkt wyjścia w treningu dna miednicy. Gdy leżysz na plecach, grawitacja nie naciska na dno miednicy, więc mięśnie mają do podniesienia najmniejszy ciężar i możesz skupić się na tym, żeby je znaleźć.",
+  "feel": "Poczujesz niewielkie uniesienie w głębi miednicy, a potem wyraźne rozluźnienie. Brzuch, pośladki i uda pozostają miękkie, a oddech płynie swobodnie. Parcie w dół, wstrzymany oddech albo zaciśnięta szczęka oznaczają, że trzeba napiąć lżej. Samokontrola: dłoń na dolnej części brzucha może wyczuć lekkie napięcie, ale bez twardego usztywnienia i wypychania brzucha.",
+  "mistakes": [
+    {
+      "wrong": "Zamiast tego napinanie pośladków lub ud",
+      "right": "Trzymaj pośladki na podłodze, a kolana nieruchomo. Jeśli biodra się unoszą albo kolana dociskają do siebie, przejęły to inne mięśnie."
+    },
+    {
+      "wrong": "Pomijanie rozluźnienia między powtórzeniami",
+      "right": "Odpoczywaj co najmniej tak długo, jak trwało napięcie. Pełne rozluźnienie jest częścią ćwiczenia."
+    },
+    {
+      "wrong": "Dodawanie kolejnych serii, bo jest łatwo",
+      "right": "Więcej nie znaczy lepiej. Wydłużaj czas dopiero wtedy, gdy każde napięcie pozostaje kontrolowane do ostatniej sekundy."
+    }
+  ],
+  "easier": "Utrzymuj napięcie 1–2 sekundy i rób mniej powtórzeń. Poduszka pod kolanami pomaga rozluźnić brzuch i plecy.",
+  "harder": "Stopniowo wydłużaj napięcie, odpoczywając tyle samo, albo dodaj kilka szybkich skurczów po tych powolnych.",
+  "who": "Każdemu, kto zaczyna ćwiczenia Kegla, osobom niepewnym, czy napinają właściwe mięśnie, oraz osobom wracającym po przerwie lub po porodzie, gdy lekarz na to pozwoli.",
+  "skip": "Przy bólu miednicy, bólu podczas seksu lub gdy dno miednicy jest napięte, dalsze zaciskanie może nie pomóc. Zacznij od oddychania i zgłoś się do fizjoterapeuty dna miednicy. Po operacji w obrębie miednicy lub brzucha albo niedawnym porodzie zapytaj lekarza, kiedy zacząć. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Dlaczego warto zaczynać ćwiczenia Kegla w pozycji leżącej?",
+      "a": "Leżąc, zdejmujesz ciężar narządów z dna miednicy, więc łatwiej je unieść. Łatwiej też zauważyć, kiedy włączają się inne mięśnie."
+    },
+    {
+      "q": "Skąd wiem, że robię ćwiczenie Kegla poprawnie?",
+      "a": "Czujesz uniesienie i ściśnięcie w środku, a potem rozluźnienie, bez wstrzymywania oddechu. Mężczyźni mogą zauważyć lekkie uniesienie prącia i jąder, a kobiety delikatne zaciśnięcie wejścia do pochwy."
+    }
+  ]
+}

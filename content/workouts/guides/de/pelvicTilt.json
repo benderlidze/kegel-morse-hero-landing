@@ -1,0 +1,33 @@
+{
+  "description": "Beckenkippen: den unteren Rücken sanft aufdrücken und lösen, um den Unterbauch aufzuwecken und Steifheit zu lösen. Fehler und Varianten.",
+  "intro": "Das Beckenkippen ist eine kleine Kippbewegung des Beckens im Liegen auf dem Rücken. Es weckt die unteren Bauchmuskeln und lockert den unteren Rücken. In einer Beckenbodenroutine ist es ein sanftes Aufwärmen, das dir hilft, dein Becken zu spüren, bevor du Kegel-Übungen hinzufügst.",
+  "feel": "Du solltest spüren, wie sich der untere Rücken leicht in den Boden drückt, eine mäßige Anstrengung im Unterbauch, dann ein weiches Loslassen. Du solltest nicht spüren, dass das Gesäß die ganze Arbeit macht, dein Atem stockt oder etwas ins Becken nach unten drückt. Leg eine Hand auf den Unterbauch: Er sollte beim Kippen sanft fester werden und beim Lösen weich.",
+  "mistakes": [
+    {
+      "wrong": "Die Hüfte wie bei einer Brücke vom Boden heben",
+      "right": "Lass das Steißbein unten. Das Becken kippt, es hebt sich nicht."
+    },
+    {
+      "wrong": "Das Gesäß fest anspannen, um sich zu bewegen",
+      "right": "Lass die unteren Bauchmuskeln führen und das Gesäß locker."
+    },
+    {
+      "wrong": "Durch die Wiederholungen hetzen",
+      "right": "Atme aus, während du den Rücken flach drückst, und ein, während du löst. Ein langsamer Atemzug pro Wiederholung ist ein gutes Tempo."
+    }
+  ],
+  "easier": "Mach die Bewegung kleiner, oder kipp das Becken im Stehen mit dem Rücken an einer Wand.",
+  "harder": "Halte die flache Position drei bis fünf Sekunden, oder füge beim Flachdrücken eine sanfte Kegel-Anspannung hinzu und entspanne den Beckenboden beim Lösen vollständig.",
+  "who": "Gut für Menschen mit steifem unterem Rücken, mit Schreibtischjob, ältere Menschen und alle, die nach einer Geburt wieder ins Training einsteigen, sobald eine Fachperson es freigegeben hat.",
+  "skip": "Wenn du über das erste Schwangerschaftsdrittel hinaus schwanger bist, frag deine Hebamme oder deinen Arzt wegen des Liegens auf dem Rücken; du kannst das Kippen stattdessen im Vierfüßlerstand oder im Stehen machen. Nach einer kürzlichen Operation im Becken- oder Bauchbereich oder bei neuen Rückenschmerzen geh zuerst zu einer Ärztin, einem Arzt oder einer Beckenboden-Physiotherapeutin. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Stärkt das Beckenkippen den Beckenboden?",
+      "a": "Für sich allein nicht viel. Es trainiert vor allem die unteren Bauchmuskeln und verbessert das Beckengefühl, wodurch sich Kegel-Übungen leichter finden und steuern lassen."
+    },
+    {
+      "q": "Ist das Beckenkippen nach einer Geburt sicher?",
+      "a": "Es gehört oft zu den ersten Übungen nach der Geburt. Hol dir vorher die Freigabe deiner Ärztin, deines Arztes oder deiner Hebamme, besonders nach einem Kaiserschnitt."
+    }
+  ]
+}

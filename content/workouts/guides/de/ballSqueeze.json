@@ -1,0 +1,33 @@
+{
+  "description": "Ball mit den Knien zusammendrücken mit Kegel: Ausführung, woran du die Wirkung erkennst, häufige Fehler sowie leichtere und schwerere Varianten im Sitzen.",
+  "intro": "Das Zusammendrücken des Balls ist eine Übung im Sitzen: Du drückst einen Ball zwischen den Knien zusammen und spannst gleichzeitig den Beckenboden an. Die Oberschenkelinnenseiten arbeiten zusammen mit dem Beckenboden, deshalb finden viele Menschen die Kegel-Anspannung so leichter. Anders als die meisten Hüft- und Beinübungen trainiert sie den Beckenboden direkt.",
+  "feel": "Deine Oberschenkelinnenseiten drücken, und innen spürst du ein sanftes Anheben und Zusammenziehen, als würdest du den Urinstrahl stoppen und Luft zurückhalten. Nach dem Halten lässt alles vollständig los. Du solltest nicht spüren, dass das Gesäß die ganze Arbeit macht, du nach unten presst oder die Luft anhältst. Selbsttest: Probiere eine Wiederholung ohne Ball; wenn du innen nichts spürst, haben die Oberschenkel alles gemacht.",
+  "mistakes": [
+    {
+      "wrong": "Den Ball mit aller Kraft zusammendrücken",
+      "right": "Nimm mäßigen Druck und konzentriere dich auf das Anheben innen."
+    },
+    {
+      "wrong": "Die Entspannungsphase überspringen",
+      "right": "Lass Ball und Beckenboden vollständig los und ruhe so lange, wie du angespannt hast."
+    },
+    {
+      "wrong": "Auf dem Stuhl zusammensinken",
+      "right": "Sitz aufrecht auf den Sitzbeinhöckern, die Füße flach am Boden. Im Zusammensinken ist der Beckenboden schwerer zu aktivieren."
+    }
+  ],
+  "easier": "Halte 2 bis 3 Sekunden statt fünf und mach weniger Wiederholungen. Oder drücke zunächst nur den Ball und füge die Kegel-Anspannung hinzu, sobald du sie spüren kannst.",
+  "harder": "Steigere dich auf ein Halten von 10 Sekunden bei normaler Atmung, oder füge nach jedem Halten ein paar schnelle Anspannungen hinzu.",
+  "who": "Nützlich für Menschen mit Schreibtischjob, Frauen, die an der Blasenkontrolle arbeiten, Männer mit Nachtröpfeln nach dem Wasserlassen und alle, die ihren Beckenboden schwer finden.",
+  "skip": "Wenn du Beckenschmerzen, Schmerzen beim Sex oder einen Beckenboden hast, der sich verspannt anfühlt, geh zuerst zu einer Beckenboden-Physiotherapeutin oder einem -Physiotherapeuten, denn mehr Anspannen hilft womöglich nicht. Lass dich auch nach einer kürzlichen Operation im Becken oder nach einer Geburt untersuchen. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Hilft das Zusammendrücken des Balls bei der Blasenkontrolle?",
+      "a": "Es kann helfen, weil es die Beckenbodenmuskeln trainiert, die die Blase stützen. Es braucht regelmäßiges Üben über Wochen, und bei anhaltendem Urinverlust lohnt sich eine Untersuchung."
+    },
+    {
+      "q": "Können Männer den Ball zusammendrücken?",
+      "a": "Ja. Der Beckenboden arbeitet bei Männern grundsätzlich auf dieselbe Weise, und der Ball kann die Muskeln leichter auffindbar machen. Die Übung passt leicht in eine Pause am Schreibtisch."
+    }
+  ]
+}

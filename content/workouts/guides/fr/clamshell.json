@@ -1,0 +1,33 @@
+{
+  "description": "Guide du « coquillage » : ouvrez le genou du dessus, pieds joints, pour travailler les fessiers latéraux qui stabilisent le bassin. Erreurs et variantes.",
+  "intro": "Le « coquillage » est un mouvement sur le côté où vous ouvrez le genou du dessus comme une coquille pendant que les pieds restent joints. Il cible les fessiers latéraux, qui gardent le bassin à niveau quand vous marchez, courez ou vous tenez sur une jambe. Il n’entraîne pas directement le périnée, mais des hanches plus fortes soutiennent mieux le bassin.",
+  "feel": "Vous devez sentir un effort chaud à l’extérieur de la hanche du dessus, derrière l’os de la hanche. Vous ne devez pas le sentir surtout à l’avant de la cuisse ou dans le bas du dos, et vous devez continuer à respirer. Posez une main sur le fessier du dessus : il doit se raffermir quand le genou s’ouvre. Si le dos prend le relais, vos hanches ont probablement roulé vers l’arrière.",
+  "mistakes": [
+    {
+      "wrong": "Lever le genou le plus haut possible",
+      "right": "N’ouvrez que jusqu’où les hanches restent empilées. Une petite levée avec le fessier qui travaille vaut mieux qu’une grande avec le bassin qui roule."
+    },
+    {
+      "wrong": "Précipiter les répétitions",
+      "right": "Montez en une ou deux secondes, faites une pause et redescendez lentement."
+    },
+    {
+      "wrong": "Laisser les pieds s’écarter",
+      "right": "Gardez les talons en contact pour que ce soit la hanche, et non le bas de la jambe, qui conduise le mouvement."
+    }
+  ],
+  "easier": "Réduisez l’ouverture, faites moins de répétitions, ou posez la tête sur un coussin pour que la nuque reste détendue.",
+  "harder": "Ajoutez un élastique léger au-dessus des genoux, maintenez le haut trois secondes, ou soulevez légèrement les deux pieds pendant que vous ouvrez le genou.",
+  "who": "Utile aux coureurs, aux personnes qui ont les hanches faibles, aux femmes après un accouchement une fois l’accord obtenu, et à toute personne de plus de 40 ans qui veut un meilleur équilibre et un meilleur soutien du bassin.",
+  "skip": "Demandez d’abord l’avis d’un médecin ou d’un kinésithérapeute si être couché sur le côté fait mal à la hanche, après une opération récente de la hanche ou du bassin, ou en cas de douleur pelvienne pendant la grossesse. Un coussin entre les genoux peut aider. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "Les « coquillages » aident-ils le périnée ?",
+      "a": "Pas directement. Ils renforcent les fessiers latéraux qui stabilisent le bassin, ce qui peut soutenir le travail du périnée fait à part."
+    },
+    {
+      "q": "Pourquoi je sens les « coquillages » dans le bas du dos ?",
+      "a": "En général, la hanche du dessus a roulé vers l’arrière. Empilez vos hanches, faites une levée plus petite et gardez le ventre doucement engagé."
+    }
+  ]
+}

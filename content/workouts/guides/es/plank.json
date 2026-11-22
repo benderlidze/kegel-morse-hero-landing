@@ -1,0 +1,33 @@
+{
+  "description": "Guía de la plancha: mantén una línea recta sobre los antebrazos para trabajar abdominales, glúteos y hombros sin esfuerzo excesivo. Errores y variantes.",
+  "intro": "La plancha sobre antebrazos es una posición mantenida con el cuerpo en línea recta de la cabeza a los talones. Entrena los abdominales, los glúteos y los hombros para que trabajen juntos. Aumenta la presión dentro del abdomen, por lo que en una rutina de suelo pélvico la clave es mantenerla respirando y sin empujar hacia abajo.",
+  "feel": "Debes notar el trabajo del vientre y los glúteos y los hombros estables sobre los codos. No debes notar dolor en la zona lumbar, que la respiración se detiene, ni pesadez, presión o pérdidas en la pelvis. Si puedes decir una frase corta mientras mantienes la posición, tu respiración es adecuada. Una presión hacia abajo en la pelvis significa que la plancha completa es demasiado difícil por ahora.",
+  "mistakes": [
+    {
+      "wrong": "Contener la respiración para aguantar más",
+      "right": "Respira despacio todo el tiempo. Si no puedes, termina antes la plancha."
+    },
+    {
+      "wrong": "Caderas elevadas en el aire",
+      "right": "Baja las caderas hasta que hombros, caderas y talones queden alineados. Un vídeo con el móvil te ayuda a comprobarlo."
+    },
+    {
+      "wrong": "Empujar hacia abajo para mantener el vientre firme",
+      "right": "Activa el abdomen metiendo con suavidad la parte baja del vientre hacia dentro y hacia arriba. Nunca hagas esfuerzo ni empujes hacia la pelvis."
+    }
+  ],
+  "easier": "Haz la plancha apoyando las rodillas o con los antebrazos sobre un banco. Varias contracciones de 10 segundos están bien.",
+  "harder": "Añade tiempo en pequeños pasos, levanta un pie durante unos segundos o añade un Kegel suave mientras respiras, y luego relaja por completo.",
+  "who": "Bueno para personas sin síntomas pélvicos que quieren un tronco más fuerte, incluidos quienes levantan pesas, corredores y cualquiera que cargue cosas en su vida diaria.",
+  "skip": "Adapta o evita la plancha completa si tienes síntomas de prolapso, pérdidas de orina con el esfuerzo, una hernia, un abultamiento a lo largo del centro del vientre o una cirugía abdominal o pélvica reciente. Si estás embarazada o has dado a luz hace poco, consulta antes a un médico o fisioterapeuta de suelo pélvico. Para si te duele.",
+  "faq": [
+    {
+      "q": "¿Es mala la plancha para el suelo pélvico?",
+      "a": "No para la mayoría de las personas, pero aumenta la presión abdominal. Si notas pesadez o pierdes orina, cambia a una plancha con rodillas o inclinada y hazte una revisión."
+    },
+    {
+      "q": "¿Debo apretar el suelo pélvico durante una plancha?",
+      "a": "Una elevación suave está bien si puedes seguir respirando. No aprietes con fuerza todo el tiempo y relaja por completo después."
+    }
+  ]
+}

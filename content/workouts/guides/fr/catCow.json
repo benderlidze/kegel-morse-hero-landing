@@ -1,0 +1,33 @@
+{
+  "description": "Guide du « Chat-vache » : arrondissez et creusez le dos au rythme du souffle pour l’assouplir et détendre le périnée. Erreurs et variantes.",
+  "intro": "Le « chat-vache » est un mouvement lent de la colonne à quatre pattes, rythmé par la respiration. Dans une routine pour le périnée, son rôle principal est la détente et la mobilité, pas la force. Il vous aide à sentir le périnée se soulever et lâcher avec le souffle, ce qui compte si vos muscles ont tendance à rester tendus.",
+  "feel": "Vous devez sentir la colonne bouger vertèbre par vertèbre, avec un étirement léger dans le dos quand vous arrondissez et sur l’avant quand vous creusez. Vous ne devez pas sentir de pincement dans le bas du dos, de tension dans la nuque ni de respiration précipitée. À l’inspiration, quand le ventre descend, remarquez le périnée s’assouplir et s’élargir. Si le mouvement est saccadé, faites-le plus petit et plus lent.",
+  "mistakes": [
+    {
+      "wrong": "Ne bouger que le cou et la tête",
+      "right": "Partez du coccyx et laissez le mouvement remonter le long de la colonne. La tête suit en dernier."
+    },
+    {
+      "wrong": "Forcer une cambrure profonde dans le bas du dos",
+      "right": "Gardez une cambrure confortable. Le but est un mouvement facile, pas l’amplitude maximale."
+    },
+    {
+      "wrong": "Respirer en décalage avec le mouvement",
+      "right": "Expirez en arrondissant le dos, inspirez quand le ventre descend, et laissez le souffle donner le rythme."
+    }
+  ],
+  "easier": "Faites-le assis sur une chaise, les mains sur les genoux, ou protégez vos genoux avec un coussin si être à genoux est inconfortable.",
+  "harder": "Ralentissez chaque arrondi à cinq ou six secondes, ou ajoutez un soulèvement doux du périnée à l’expiration et un relâchement complet à l’inspiration.",
+  "who": "Idéal pour les personnes qui travaillent au bureau et les conducteurs qui restent assis des heures, pour toute personne raide le matin et pour celles dont le périnée paraît tendu ou hyperactif.",
+  "skip": "Si vos poignets font mal, appuyez-vous sur les poings ou les avant-bras, ou essayez la version assise. Demandez d’abord l’avis d’un médecin ou d’un kinésithérapeute si vous avez un mal de dos aigu ou une opération récente de la colonne, du ventre ou du bassin. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "Le « chat-vache » aide-t-il à détendre le périnée ?",
+      "a": "Il le peut. Associer la cambrure à une inspiration lente aide beaucoup de gens à sentir le périnée lâcher, ce qui est utile s’il a tendance à rester crispé."
+    },
+    {
+      "q": "Le « chat-vache » est-il sûr pendant la grossesse ?",
+      "a": "Il est couramment utilisé pendant la grossesse, car il peut soulager la pression sur le dos. Demandez l’avis de votre sage-femme ou de votre médecin si vous avez des complications."
+    }
+  ]
+}

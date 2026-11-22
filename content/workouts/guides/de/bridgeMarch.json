@@ -1,0 +1,33 @@
+{
+  "description": "Brücke mit Marschieren: Halte die Gesäßbrücke und hebe abwechselnd einen Fuß, für Gesäß und Kontrolle der tiefen Rumpfmuskeln. Fehler und Varianten.",
+  "intro": "Das Marschieren in der Brücke beginnt wie eine normale Brücke, dann hebst du abwechselnd einen Fuß und den anderen, während die Hüfte oben bleibt. Jedes Heben verlagert die Last auf eine Seite, sodass Gesäß und tiefe Rumpfmuskeln verhindern müssen, dass das Becken absinkt oder sich verdreht. Es baut die stabile Basis auf, die das Becken beim Gehen, Heben und Training braucht.",
+  "feel": "Du solltest beide Gesäßhälften arbeiten spüren, mit zusätzlicher Anstrengung im Standbein, wenn ein Fuß abhebt. Dein Bauch fühlt sich leicht gefestigt an, und die Hüfte bleibt hoch und gerade. Achte auf Luftanhalten, ein Hohlkreuz oder Nach-unten-Drücken ins Becken. Wenn die Hüfte bei jedem Schritt absinkt oder schaukelt, mach das Marschieren kleiner.",
+  "mistakes": [
+    {
+      "wrong": "Das Knie zu hoch heben",
+      "right": "Heb den Fuß zu Beginn nur ein bis zwei Zentimeter an. Ziel ist ein ruhiges Becken, keine große Beinbewegung."
+    },
+    {
+      "wrong": "Den ganzen Satz über die Luft anhalten",
+      "right": "Atme aus, während ein Fuß abhebt, und ein, während er wieder aufsetzt. Halte den Rhythmus langsam."
+    },
+    {
+      "wrong": "Die Brücke durchhängen lassen",
+      "right": "Wenn die Hüfte absinkt, senk dich ab, ruhe dich aus und starte mit weniger Schritten neu."
+    }
+  ],
+  "easier": "Heb nur die Ferse an und lass die Zehen unten, oder ruhe dich nach je zwei Schritten aus.",
+  "harder": "Halte mit einem angehobenen Fuß 2 bis 3 Sekunden an, strecke das angehobene Bein, oder mach jeden Schritt langsamer.",
+  "who": "Kraftsportler und alle, die an Rumpf- und Hüftkontrolle arbeiten, besonders wenn sich eine einfache Brücke leicht anfühlt.",
+  "skip": "Reduziere oder lass die Übung aus bei Rückenschmerzen während der Brücke, Hüftschmerzen, einem Leistenbruch oder einer kürzlichen Bauchoperation. Wenn du während der Bewegung eine Vorwölbung entlang der Bauchmitte, ein Schweregefühl im Becken oder Urinverlust bemerkst, lass dich von einer Physiotherapeutin oder einem Physiotherapeuten untersuchen. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Was trainiert das Marschieren in der Brücke?",
+      "a": "Gesäß und Beinrückseite, dazu die tiefen Rumpfmuskeln, die das Becken gerade halten, jeweils auf einer Seite."
+    },
+    {
+      "q": "Soll die Hüfte völlig ruhig bleiben?",
+      "a": "Strebe so wenig Bewegung an, wie du schaffst. Ein kleines Wackeln ist am Anfang normal, aber ein großes Absacken bedeutet, dass es im Moment zu schwer ist."
+    }
+  ]
+}

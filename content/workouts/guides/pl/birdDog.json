@@ -1,0 +1,33 @@
+{
+  "description": "„Ptak-pies”: wyciągaj przeciwną rękę i nogę z płaskimi plecami, by trenować mięśnie grzbietu, pośladki i głębokie core. Błędy i wersje ćwiczenia.",
+  "intro": "„Ptak-pies” wykonuje się w podporze na rękach i kolanach: wyciągasz jedną rękę do przodu i przeciwną nogę do tyłu, utrzymując tułów w bezruchu. Trenuje mięśnie grzbietu, pośladki i głębokie core, by stabilizowały kręgosłup i miednicę. Wspiera dno miednicy, a nie trenuje go bezpośrednio.",
+  "feel": "Poczujesz pracę mięśni grzbietu i pośladka uniesionej nogi, z równym, niewielkim wysiłkiem w brzuchu. Nie powinno być czuć zapadania się dolnych pleców, skręcania bioder ani napięcia karku. Wyobraź sobie kubek wody na dolnych plecach: jeśli rozlałby się przy wyciąganiu, ręka lub noga idą za wysoko.",
+  "mistakes": [
+    {
+      "wrong": "Unoszenie nogi zbyt wysoko i wyginanie pleców",
+      "right": "Wyciągaj nogę do tyłu, a nie do góry, i zatrzymaj się na wysokości bioder, żeby dolne plecy pozostały płaskie."
+    },
+    {
+      "wrong": "Przesuwanie bioder w stronę nogi podporowej",
+      "right": "Rozłóż ciężar równo, a biodra trzymaj równolegle do podłogi. Skróć wyciągnięcie, jeśli się przechylają."
+    },
+    {
+      "wrong": "Wstrzymywanie oddechu podczas wyciągania",
+      "right": "Wydychaj powietrze przy wyciąganiu, a wdychaj przy powrocie."
+    }
+  ],
+  "easier": "Poruszaj tylko nogą albo tylko ręką, zostawiając pozostałe trzy punkty podparcia na podłodze, albo wysuwaj nogę do tyłu po podłodze.",
+  "harder": "Utrzymaj wyciągnięcie przez pięć sekund, poruszaj się wolniej albo dodaj delikatne napięcie Kegla na wydechu, a potem pełne rozluźnienie.",
+  "who": "Przydatne dla osób pracujących przy biurku ze sztywnymi plecami, osób po 40. roku życia, osób podnoszących ciężary, które chcą stabilnego tułowia, oraz każdego, kto potrzebuje ćwiczeń core bez obciążenia stawów.",
+  "skip": "Jeśli bolą cię nadgarstki, oprzyj się na pięściach lub przedramionach. Najpierw skonsultuj się z lekarzem lub fizjoterapeutą przy ostrym bólu pleców, niedawnej operacji brzucha lub miednicy albo gdy kolana bolą przy klęczeniu. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Czy „ptak-pies” jest dobry na ból dolnych pleców?",
+      "a": "Często stosuje się go w rehabilitacji pleców, bo trenuje stabilność przy niewielkim obciążeniu kręgosłupa. Jeśli czujesz ból, zapytaj fizjoterapeutę, czy to ćwiczenie jest dla ciebie odpowiednie."
+    },
+    {
+      "q": "Jak długo utrzymywać każde wyciągnięcie w „ptaku-psie”?",
+      "a": "Zacznij od zatrzymania na jedną lub dwie sekundy i przejdź do pięciu sekund, gdy plecy pozostają płaskie."
+    }
+  ]
+}

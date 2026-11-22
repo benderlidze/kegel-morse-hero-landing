@@ -1,0 +1,33 @@
+{
+  "description": "Guía del puente de glúteos: eleva las caderas para fortalecer glúteos e isquiotibiales, que sostienen la pelvis. Sensaciones, errores y variantes.",
+  "intro": "El puente de glúteos fortalece los glúteos y los isquiotibiales que rodean la parte posterior de la pelvis. No entrena directamente el suelo pélvico, pero unas caderas fuertes sostienen la pelvis, y un Kegel suave al subir une ambas cosas.",
+  "feel": "Debes notar el trabajo de las nalgas y de la parte posterior de los muslos, con una línea recta de las rodillas a los hombros en la parte alta. La zona lumbar se siente neutra, sin pinzamiento. Vigila si contienes el aire, presionas la cabeza contra el suelo o te dan calambres en los isquiotibiales. Si lo notas sobre todo en la zona lumbar, sube un poco menos y aprieta más los glúteos.",
+  "mistakes": [
+    {
+      "wrong": "Empujar con la punta de los pies",
+      "right": "Empuja con los talones. Si te dan calambres en los isquiotibiales, acerca un poco los pies a las caderas."
+    },
+    {
+      "wrong": "Rodillas que se van hacia dentro o hacia fuera",
+      "right": "Mantén las rodillas alineadas con las caderas y los pies al subir y al bajar."
+    },
+    {
+      "wrong": "Bajar de golpe",
+      "right": "Baja despacio, vértebra a vértebra, y relájate por completo abajo."
+    }
+  ],
+  "easier": "Sube solo hasta la mitad, o haz menos repeticiones con un breve descanso entre cada una.",
+  "harder": "Mantén la posición alta de 3 a 5 segundos, baja más despacio o pasa al puente con marcha o al puente a una pierna.",
+  "who": "Personas que trabajan sentadas y tienen las caderas débiles o rígidas, principiantes y personas de más de 40 años que quieren fuerza de cadera para el movimiento diario.",
+  "skip": "Adáptalo o evítalo tras una cirugía reciente de espalda, cadera o abdomen, si tienes una hernia o si el dolor de espalda empeora al subir. En el embarazo avanzado, tumbarse boca arriba puede resultar incómodo, así que consulta a tu médico o fisioterapeuta. Para si te duele.",
+  "faq": [
+    {
+      "q": "¿Los puentes de glúteos fortalecen el suelo pélvico?",
+      "a": "Los puentes trabajan sobre todo los glúteos y los isquiotibiales. El suelo pélvico participa un poco, y puedes añadir un Kegel suave arriba, pero sigue haciendo también Kegel."
+    },
+    {
+      "q": "¿Por qué noto el puente en la zona lumbar?",
+      "a": "Normalmente la espalda se arquea arriba o los glúteos no trabajan lo suficiente. Mantén las costillas hacia abajo, sube un poco menos y aprieta las nalgas."
+    }
+  ]
+}

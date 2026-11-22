@@ -11,7 +11,11 @@
     "cardMeta": "{n} ejercicios · ~{m} min · {level}",
     "eyebrowMen": "Entrenamiento para hombres · {n} ejercicios · ~{m} min",
     "eyebrowWomen": "Entrenamiento para mujeres · {n} ejercicios · ~{m} min",
-    "levels": { "Beginner": "Para principiantes", "Easy": "Nivel fácil", "Intermediate": "Nivel intermedio" },
+    "levels": {
+      "Beginner": "Para principiantes",
+      "Easy": "Nivel fácil",
+      "Intermediate": "Nivel intermedio"
+    },
     "equipmentNone": "Sin material",
     "equipmentBall": "Una pelota pequeña o un cojín",
     "atHome": "En casa",
@@ -48,45 +52,369 @@
     "altSingle": "posición",
     "altAnatomy": "{name}: {pos}, resaltado: {works}",
     "altFlat": "{name}: {pos}",
-    "std": ["Haz los movimientos en orden, una sola vuelta.", "Descansa unos 30 segundos entre movimientos.", "Tres o cuatro veces por semana es un buen comienzo; la calidad importa más que la velocidad."],
+    "std": [
+      "Haz los movimientos en orden, una sola vuelta.",
+      "Descansa unos 30 segundos entre movimientos.",
+      "Tres o cuatro veces por semana es un buen comienzo; la calidad importa más que la velocidad."
+    ],
     "muscles": {
-      "Pelvic floor": "Suelo pélvico", "Diaphragm": "Diafragma", "Glutes": "Glúteos", "Hamstrings": "Parte posterior del muslo", "Inner thighs": "Cara interna de los muslos",
-      "Deep core": "Core profundo", "Lower abdominals": "Abdomen inferior", "Hip flexors": "Flexores de la cadera", "Deep abdominals": "Abdominales profundos", "Lower back": "Zona lumbar",
-      "Hips": "Zona de la cadera", "Side glutes": "Glúteos laterales", "Back muscles": "Músculos de la espalda", "Spine": "Columna", "Abdominals": "Abdominales",
-      "Shoulders": "Hombros", "Obliques": "Oblicuos", "Thighs": "Muslos"
+      "Pelvic floor": "Suelo pélvico",
+      "Diaphragm": "Diafragma",
+      "Glutes": "Glúteos",
+      "Hamstrings": "Parte posterior del muslo",
+      "Inner thighs": "Cara interna de los muslos",
+      "Deep core": "Core profundo",
+      "Lower abdominals": "Abdomen inferior",
+      "Hip flexors": "Flexores de la cadera",
+      "Deep abdominals": "Abdominales profundos",
+      "Lower back": "Zona lumbar",
+      "Hips": "Zona de la cadera",
+      "Side glutes": "Glúteos laterales",
+      "Back muscles": "Músculos de la espalda",
+      "Spine": "Columna",
+      "Abdominals": "Abdominales",
+      "Shoulders": "Hombros",
+      "Obliques": "Oblicuos",
+      "Thighs": "Muslos"
+    },
+    "guide": {
+      "feel": "Cómo saber que funciona",
+      "mistakes": "Errores comunes",
+      "variations": "Hazlo más fácil o más difícil",
+      "easier": "Más fácil:",
+      "harder": "Más difícil:",
+      "who": "A quién le ayuda",
+      "skip": "Cuándo evitarlo o hacerte antes una revisión",
+      "faq": "Preguntas"
     }
   },
   "exercises": {
-    "kegelLying": { "name": "Kegel boca arriba", "short": "Aprieta, mantén, relaja", "cues": ["Échate boca arriba, rodillas dobladas y pies apoyados", "Aprieta como si cortaras el chorro de orina y sube hacia arriba y hacia dentro", "Relaja por completo entre repeticiones"], "reps": "10 repeticiones · mantén 3 s", "tip": "Respira con normalidad. Si se tensan el abdomen, los glúteos o los muslos, la contracción es demasiado fuerte: hazla más suave." },
-    "kegelSitting": { "name": "Kegel sentado", "short": "La misma contracción, sentado y erguido", "cues": ["Siéntate erguido, pies apoyados en el suelo", "Aprieta y sube, con los glúteos relajados", "Respira con normalidad"], "reps": "10 repeticiones · mantén 5 s", "tip": "Puedes hacerlo en una silla, en el coche o en el escritorio: nadie lo nota. Hombros sueltos." },
-    "kegelStanding": { "name": "Kegel de pie", "short": "El más difícil: luchas contra la gravedad", "cues": ["Ponte de pie, rodillas ligeramente flexionadas", "Aprieta y sube hacia arriba y hacia dentro", "Abdomen y glúteos relajados"], "reps": "10 repeticiones · mantén 5 s", "tip": "Es la posición más difícil porque la gravedad va en contra. Domina primero la versión boca arriba." },
-    "breathing": { "name": "Respiración abdominal", "short": "Respiraciones lentas hacia el abdomen", "cues": ["Una mano sobre el abdomen", "Inspira: el abdomen sube y el suelo pélvico se relaja", "Espira: elevación suave hacia arriba"], "reps": "1–2 min", "tip": "Deja que el suelo pélvico se suavice al inspirar. Es tan importante como la contracción." },
-    "bridge": { "name": "Puente de glúteos", "short": "Sube la cadera y aprieta arriba", "cues": ["Pies apoyados, a la anchura de las caderas", "Espira, aprieta los glúteos y sube la cadera", "Baja despacio"], "reps": "12 repeticiones", "mistake": { "wrong": "Arquear la zona lumbar arriba", "right": "Costillas abajo, línea recta de las rodillas a los hombros" } },
-    "bridgeBall": { "name": "Puente con pelota entre las rodillas", "short": "Puente apretando una pelota con las rodillas", "cues": ["Pelota o cojín entre las rodillas", "Aprieta la pelota y sube la cadera", "Mantén 2 s arriba"], "reps": "10 repeticiones", "tip": "¿Sin pelota? Usa un cojín o una toalla enrollada." },
-    "singleLegBridge": { "name": "Puente a una pierna", "short": "Un pie en el suelo, una pierna arriba", "cues": ["Una pierna estirada en el aire", "Empuja con el talón del pie de apoyo", "Mantén la cadera nivelada"], "reps": "8 por lado" },
-    "bridgeMarch": { "name": "Puente con marcha", "short": "Mantén el puente y marcha", "cues": ["Sube a un puente", "Levanta un pie y luego el otro", "La cadera no cae"], "reps": "10 pasos" },
-    "heelSlides": { "name": "Deslizamiento de talones", "short": "Desliza un talón hacia fuera y de vuelta", "cues": ["Échate boca arriba, rodillas dobladas", "Espirando, desliza un talón hacia fuera", "La espalda se queda quieta"], "reps": "10 por lado" },
-    "supineMarch": { "name": "Elevación de rodillas boca arriba", "short": "Sube las rodillas dobladas, una a una", "cues": ["Échate boca arriba, rodillas dobladas", "Sube una rodilla a 90°", "Baja despacio y cambia"], "reps": "10 por lado" },
-    "deadBug": { "name": "«Bicho muerto»", "short": "Baja el brazo y la pierna opuestos", "cues": ["Brazos arriba, rodillas sobre las caderas", "Baja el brazo y la pierna opuestos", "La zona lumbar se queda pegada al suelo"], "reps": "8 por lado", "mistake": { "wrong": "La zona lumbar se despega del suelo", "right": "Presiona la espalda contra el suelo y ve más despacio" } },
-    "pelvicTilt": { "name": "Inclinación pélvica", "short": "Inclina la pelvis hacia arriba y abajo", "cues": ["Échate boca arriba, rodillas dobladas", "Aplana la zona lumbar contra el suelo", "Suelta y repite"], "reps": "12 repeticiones" },
-    "kneeFallout": { "name": "Rodillas hacia los lados", "short": "Deja caer una rodilla hacia un lado", "cues": ["Échate boca arriba, rodillas dobladas", "Baja despacio una rodilla hacia fuera", "La pelvis se queda quieta"], "reps": "10 por lado" },
-    "clamshell": { "name": "«Almeja»", "short": "Abre la rodilla de arriba, pies juntos", "cues": ["Échate de lado, rodillas dobladas", "Pies juntos, levanta la rodilla de arriba", "No gires la cadera hacia atrás"], "reps": "12 por lado" },
-    "sideLegRaise": { "name": "Elevación lateral de pierna", "short": "Levanta la pierna de arriba en línea recta", "cues": ["Échate de lado, piernas estiradas", "Levanta despacio la pierna de arriba", "Los dedos de los pies apuntan hacia delante"], "reps": "12 por lado" },
-    "birdDog": { "name": "«Pájaro-perro»", "short": "Estira el brazo y la pierna opuestos", "cues": ["Manos bajo los hombros, rodillas bajo las caderas", "Estira el brazo y la pierna opuestos", "Mantén la espalda plana"], "reps": "8 por lado" },
-    "catCow": { "name": "«Gato-vaca»", "short": "Redondea la espalda y luego arquéala", "cues": ["Empieza a cuatro apoyos", "Espira: redondea la espalda hacia arriba", "Inspira: baja el abdomen y mira hacia arriba"], "reps": "8 rondas lentas", "tip": "Muévete despacio y acompasa el movimiento con la respiración." },
-    "plank": { "name": "Plancha", "short": "Línea recta sobre los antebrazos", "cues": ["Codos bajo los hombros", "Aprieta los glúteos y activa el abdomen", "Sigue respirando"], "reps": "20–40 s", "mistake": { "wrong": "La cadera se hunde", "right": "Línea recta de la cabeza a los talones" }, "tip": "Si la versión completa es muy difícil, apoya las rodillas. Un mantenimiento corto y limpio vale más que uno largo con la cadera hundida." },
-    "sidePlank": { "name": "Plancha lateral", "short": "Cadera arriba sobre un antebrazo", "cues": ["Codo bajo el hombro", "Sube la cadera hasta formar una línea recta", "Rodillas apoyadas = más fácil"], "reps": "15–30 s por lado" },
-    "superman": { "name": "«Superman»", "short": "Levanta brazos y piernas del suelo", "cues": ["Échate boca abajo", "Levanta un poco brazos, pecho y piernas", "Mantén 2 s y baja despacio"], "reps": "10 repeticiones" },
-    "childPose": { "name": "Postura del niño", "short": "Siéntate hacia atrás, brazos largos", "cues": ["Rodillas separadas, dedos gordos de los pies juntos", "Siéntate sobre los talones", "Respira hacia la zona lumbar"], "reps": "30–60 s", "tip": "Deja que el abdomen y el suelo pélvico se relajen por completo. No fuerces si hay dolor." },
-    "happyBaby": { "name": "«Bebé feliz»", "short": "Agarra los pies, rodillas abiertas", "cues": ["Échate boca arriba", "Agarra los pies, rodillas hacia las axilas", "Balancéate suavemente de lado a lado"], "reps": "30–60 s" },
-    "butterfly": { "name": "Estiramiento «Mariposa»", "short": "Plantas de los pies juntas, inclínate hacia delante", "cues": ["Siéntate erguido, plantas de los pies juntas", "Deja caer las rodillas hacia los lados", "Inclínate hacia delante desde las caderas"], "reps": "30–60 s" },
-    "frogStretch": { "name": "Estiramiento «Rana»", "short": "Rodillas abiertas, cadera hacia atrás", "cues": ["A cuatro apoyos, abre las rodillas", "Tobillos alineados con las rodillas", "Lleva despacio la cadera hacia atrás"], "reps": "30–60 s" },
-    "hipFlexor": { "name": "Estiramiento de flexores de la cadera", "short": "Arrodíllate y desplaza la cadera hacia delante", "cues": ["Media rodilla en el suelo, rodilla trasera apoyada", "Aprieta el glúteo de la pierna de atrás", "Desplaza la cadera suavemente hacia delante"], "reps": "30 s por lado" },
-    "squat": { "name": "Sentadilla con peso corporal", "short": "Baja y vuelve a subir", "cues": ["Pies a la anchura de los hombros", "Lleva la cadera atrás, pecho arriba", "Espira al subir"], "reps": "12 repeticiones", "mistake": { "wrong": "Redondear la espalda", "right": "Pecho arriba, espalda larga" } },
-    "sumoSquat": { "name": "Sentadilla sumo", "short": "Postura ancha, puntas hacia fuera", "cues": ["Postura ancha, puntas de los pies hacia fuera", "Las rodillas siguen la dirección de los pies", "Sube apretando los glúteos"], "reps": "12 repeticiones" },
-    "wallSit": { "name": "«Silla» en la pared", "short": "Espalda en la pared, mantén", "cues": ["Espalda plana contra la pared", "Desliza hacia abajo, rodillas a 90°", "Añade una contracción de Kegel mientras mantienes"], "reps": "20–40 s", "tip": "Para antes de que los muslos tiemblen mucho. Respira todo el tiempo." },
-    "lunge": { "name": "Zancada hacia atrás", "short": "Paso atrás, abajo, arriba", "cues": ["Da un paso atrás con un pie", "Baja la rodilla de atrás", "Empuja con el talón delantero"], "reps": "8 por lado" },
-    "ballSqueeze": { "name": "Apretar la pelota con las rodillas", "short": "Aprieta una pelota entre las rodillas", "cues": ["Siéntate erguido, pelota entre las rodillas", "Aprieta la pelota y el suelo pélvico", "Mantén 5 s y relaja"], "reps": "10 repeticiones", "tip": "¿Sin pelota? Sirve una toalla enrollada o un cojín." }
+    "kegelLying": {
+      "name": "Kegel boca arriba",
+      "short": "Aprieta, mantén, relaja",
+      "cues": [
+        "Échate boca arriba, rodillas dobladas y pies apoyados",
+        "Aprieta como si cortaras el chorro de orina y sube hacia arriba y hacia dentro",
+        "Relaja por completo entre repeticiones"
+      ],
+      "reps": "10 repeticiones · mantén 3 s",
+      "tip": "Respira con normalidad. Si se tensan el abdomen, los glúteos o los muslos, la contracción es demasiado fuerte: hazla más suave."
+    },
+    "kegelSitting": {
+      "name": "Kegel sentado",
+      "short": "La misma contracción, sentado y erguido",
+      "cues": [
+        "Siéntate erguido, pies apoyados en el suelo",
+        "Aprieta y sube, con los glúteos relajados",
+        "Respira con normalidad"
+      ],
+      "reps": "10 repeticiones · mantén 5 s",
+      "tip": "Puedes hacerlo en una silla, en el coche o en el escritorio: nadie lo nota. Hombros sueltos."
+    },
+    "kegelStanding": {
+      "name": "Kegel de pie",
+      "short": "El más difícil: luchas contra la gravedad",
+      "cues": [
+        "Ponte de pie, rodillas ligeramente flexionadas",
+        "Aprieta y sube hacia arriba y hacia dentro",
+        "Abdomen y glúteos relajados"
+      ],
+      "reps": "10 repeticiones · mantén 5 s",
+      "tip": "Es la posición más difícil porque la gravedad va en contra. Domina primero la versión boca arriba."
+    },
+    "breathing": {
+      "name": "Respiración abdominal",
+      "short": "Respiraciones lentas hacia el abdomen",
+      "cues": [
+        "Una mano sobre el abdomen",
+        "Inspira: el abdomen sube y el suelo pélvico se relaja",
+        "Espira: elevación suave hacia arriba"
+      ],
+      "reps": "1–2 min",
+      "tip": "Deja que el suelo pélvico se suavice al inspirar. Es tan importante como la contracción."
+    },
+    "bridge": {
+      "name": "Puente de glúteos",
+      "short": "Sube la cadera y aprieta arriba",
+      "cues": [
+        "Pies apoyados, a la anchura de las caderas",
+        "Espira, aprieta los glúteos y sube la cadera",
+        "Baja despacio"
+      ],
+      "reps": "12 repeticiones",
+      "mistake": {
+        "wrong": "Arquear la zona lumbar arriba",
+        "right": "Costillas abajo, línea recta de las rodillas a los hombros"
+      }
+    },
+    "bridgeBall": {
+      "name": "Puente con pelota entre las rodillas",
+      "short": "Puente apretando una pelota con las rodillas",
+      "cues": [
+        "Pelota o cojín entre las rodillas",
+        "Aprieta la pelota y sube la cadera",
+        "Mantén 2 s arriba"
+      ],
+      "reps": "10 repeticiones",
+      "tip": "¿Sin pelota? Usa un cojín o una toalla enrollada."
+    },
+    "singleLegBridge": {
+      "name": "Puente a una pierna",
+      "short": "Un pie en el suelo, una pierna arriba",
+      "cues": [
+        "Una pierna estirada en el aire",
+        "Empuja con el talón del pie de apoyo",
+        "Mantén la cadera nivelada"
+      ],
+      "reps": "8 por lado"
+    },
+    "bridgeMarch": {
+      "name": "Puente con marcha",
+      "short": "Mantén el puente y marcha",
+      "cues": [
+        "Sube a un puente",
+        "Levanta un pie y luego el otro",
+        "La cadera no cae"
+      ],
+      "reps": "10 pasos"
+    },
+    "heelSlides": {
+      "name": "Deslizamiento de talones",
+      "short": "Desliza un talón hacia fuera y de vuelta",
+      "cues": [
+        "Échate boca arriba, rodillas dobladas",
+        "Espirando, desliza un talón hacia fuera",
+        "La espalda se queda quieta"
+      ],
+      "reps": "10 por lado"
+    },
+    "supineMarch": {
+      "name": "Elevación de rodillas boca arriba",
+      "short": "Sube las rodillas dobladas, una a una",
+      "cues": [
+        "Échate boca arriba, rodillas dobladas",
+        "Sube una rodilla a 90°",
+        "Baja despacio y cambia"
+      ],
+      "reps": "10 por lado"
+    },
+    "deadBug": {
+      "name": "«Bicho muerto»",
+      "short": "Baja el brazo y la pierna opuestos",
+      "cues": [
+        "Brazos arriba, rodillas sobre las caderas",
+        "Baja el brazo y la pierna opuestos",
+        "La zona lumbar se queda pegada al suelo"
+      ],
+      "reps": "8 por lado",
+      "mistake": {
+        "wrong": "La zona lumbar se despega del suelo",
+        "right": "Presiona la espalda contra el suelo y ve más despacio"
+      }
+    },
+    "pelvicTilt": {
+      "name": "Inclinación pélvica",
+      "short": "Inclina la pelvis hacia arriba y abajo",
+      "cues": [
+        "Échate boca arriba, rodillas dobladas",
+        "Aplana la zona lumbar contra el suelo",
+        "Suelta y repite"
+      ],
+      "reps": "12 repeticiones"
+    },
+    "kneeFallout": {
+      "name": "Rodillas hacia los lados",
+      "short": "Deja caer una rodilla hacia un lado",
+      "cues": [
+        "Échate boca arriba, rodillas dobladas",
+        "Baja despacio una rodilla hacia fuera",
+        "La pelvis se queda quieta"
+      ],
+      "reps": "10 por lado"
+    },
+    "clamshell": {
+      "name": "«Almeja»",
+      "short": "Abre la rodilla de arriba, pies juntos",
+      "cues": [
+        "Échate de lado, rodillas dobladas",
+        "Pies juntos, levanta la rodilla de arriba",
+        "No gires la cadera hacia atrás"
+      ],
+      "reps": "12 por lado"
+    },
+    "sideLegRaise": {
+      "name": "Elevación lateral de pierna",
+      "short": "Levanta la pierna de arriba en línea recta",
+      "cues": [
+        "Échate de lado, piernas estiradas",
+        "Levanta despacio la pierna de arriba",
+        "Los dedos de los pies apuntan hacia delante"
+      ],
+      "reps": "12 por lado"
+    },
+    "birdDog": {
+      "name": "«Pájaro-perro»",
+      "short": "Estira el brazo y la pierna opuestos",
+      "cues": [
+        "Manos bajo los hombros, rodillas bajo las caderas",
+        "Estira el brazo y la pierna opuestos",
+        "Mantén la espalda plana"
+      ],
+      "reps": "8 por lado"
+    },
+    "catCow": {
+      "name": "«Gato-vaca»",
+      "short": "Redondea la espalda y luego arquéala",
+      "cues": [
+        "Empieza a cuatro apoyos",
+        "Espira: redondea la espalda hacia arriba",
+        "Inspira: baja el abdomen y mira hacia arriba"
+      ],
+      "reps": "8 rondas lentas",
+      "tip": "Muévete despacio y acompasa el movimiento con la respiración."
+    },
+    "plank": {
+      "name": "Plancha",
+      "short": "Línea recta sobre los antebrazos",
+      "cues": [
+        "Codos bajo los hombros",
+        "Aprieta los glúteos y activa el abdomen",
+        "Sigue respirando"
+      ],
+      "reps": "20–40 s",
+      "mistake": {
+        "wrong": "La cadera se hunde",
+        "right": "Línea recta de la cabeza a los talones"
+      },
+      "tip": "Si la versión completa es muy difícil, apoya las rodillas. Un mantenimiento corto y limpio vale más que uno largo con la cadera hundida."
+    },
+    "sidePlank": {
+      "name": "Plancha lateral",
+      "short": "Cadera arriba sobre un antebrazo",
+      "cues": [
+        "Codo bajo el hombro",
+        "Sube la cadera hasta formar una línea recta",
+        "Rodillas apoyadas = más fácil"
+      ],
+      "reps": "15–30 s por lado"
+    },
+    "superman": {
+      "name": "«Superman»",
+      "short": "Levanta brazos y piernas del suelo",
+      "cues": [
+        "Échate boca abajo",
+        "Levanta un poco brazos, pecho y piernas",
+        "Mantén 2 s y baja despacio"
+      ],
+      "reps": "10 repeticiones"
+    },
+    "childPose": {
+      "name": "Postura del niño",
+      "short": "Siéntate hacia atrás, brazos largos",
+      "cues": [
+        "Rodillas separadas, dedos gordos de los pies juntos",
+        "Siéntate sobre los talones",
+        "Respira hacia la zona lumbar"
+      ],
+      "reps": "30–60 s",
+      "tip": "Deja que el abdomen y el suelo pélvico se relajen por completo. No fuerces si hay dolor."
+    },
+    "happyBaby": {
+      "name": "«Bebé feliz»",
+      "short": "Agarra los pies, rodillas abiertas",
+      "cues": [
+        "Échate boca arriba",
+        "Agarra los pies, rodillas hacia las axilas",
+        "Balancéate suavemente de lado a lado"
+      ],
+      "reps": "30–60 s"
+    },
+    "butterfly": {
+      "name": "Estiramiento «Mariposa»",
+      "short": "Plantas de los pies juntas, inclínate hacia delante",
+      "cues": [
+        "Siéntate erguido, plantas de los pies juntas",
+        "Deja caer las rodillas hacia los lados",
+        "Inclínate hacia delante desde las caderas"
+      ],
+      "reps": "30–60 s"
+    },
+    "frogStretch": {
+      "name": "Estiramiento «Rana»",
+      "short": "Rodillas abiertas, cadera hacia atrás",
+      "cues": [
+        "A cuatro apoyos, abre las rodillas",
+        "Tobillos alineados con las rodillas",
+        "Lleva despacio la cadera hacia atrás"
+      ],
+      "reps": "30–60 s"
+    },
+    "hipFlexor": {
+      "name": "Estiramiento de flexores de la cadera",
+      "short": "Arrodíllate y desplaza la cadera hacia delante",
+      "cues": [
+        "Media rodilla en el suelo, rodilla trasera apoyada",
+        "Aprieta el glúteo de la pierna de atrás",
+        "Desplaza la cadera suavemente hacia delante"
+      ],
+      "reps": "30 s por lado"
+    },
+    "squat": {
+      "name": "Sentadilla con peso corporal",
+      "short": "Baja y vuelve a subir",
+      "cues": [
+        "Pies a la anchura de los hombros",
+        "Lleva la cadera atrás, pecho arriba",
+        "Espira al subir"
+      ],
+      "reps": "12 repeticiones",
+      "mistake": {
+        "wrong": "Redondear la espalda",
+        "right": "Pecho arriba, espalda larga"
+      }
+    },
+    "sumoSquat": {
+      "name": "Sentadilla sumo",
+      "short": "Postura ancha, puntas hacia fuera",
+      "cues": [
+        "Postura ancha, puntas de los pies hacia fuera",
+        "Las rodillas siguen la dirección de los pies",
+        "Sube apretando los glúteos"
+      ],
+      "reps": "12 repeticiones"
+    },
+    "wallSit": {
+      "name": "«Silla» en la pared",
+      "short": "Espalda en la pared, mantén",
+      "cues": [
+        "Espalda plana contra la pared",
+        "Desliza hacia abajo, rodillas a 90°",
+        "Añade una contracción de Kegel mientras mantienes"
+      ],
+      "reps": "20–40 s",
+      "tip": "Para antes de que los muslos tiemblen mucho. Respira todo el tiempo."
+    },
+    "lunge": {
+      "name": "Zancada hacia atrás",
+      "short": "Paso atrás, abajo, arriba",
+      "cues": [
+        "Da un paso atrás con un pie",
+        "Baja la rodilla de atrás",
+        "Empuja con el talón delantero"
+      ],
+      "reps": "8 por lado"
+    },
+    "ballSqueeze": {
+      "name": "Apretar la pelota con las rodillas",
+      "short": "Aprieta una pelota entre las rodillas",
+      "cues": [
+        "Siéntate erguido, pelota entre las rodillas",
+        "Aprieta la pelota y el suelo pélvico",
+        "Mantén 5 s y relaja"
+      ],
+      "reps": "10 repeticiones",
+      "tip": "¿Sin pelota? Sirve una toalla enrollada o un cojín."
+    }
   },
   "programs": {
     "pelvic-floor-exercises-for-men-beginner": {

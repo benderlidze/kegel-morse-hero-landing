@@ -1,0 +1,33 @@
+{
+  "description": "Guía del pájaro-perro: extiende el brazo y la pierna contrarios con la espalda recta para trabajar espalda, glúteos y core profundo. Errores y variantes.",
+  "intro": "El pájaro-perro se hace a cuatro apoyos: extiendes un brazo hacia delante y la pierna contraria hacia atrás mientras el tronco permanece quieto. Entrena los músculos de la espalda, los glúteos y el core profundo para mantener estables la columna y la pelvis. Apoya el suelo pélvico en lugar de entrenarlo directamente.",
+  "feel": "Debes notar el trabajo de los músculos de la espalda y del glúteo de la pierna elevada, con un esfuerzo bajo y constante en el vientre. No debes notar que la zona lumbar se hunde, que las caderas giran ni tensión en el cuello. Imagina un vaso de agua sobre la zona lumbar: si se derramaría al extender, el brazo o la pierna suben demasiado.",
+  "mistakes": [
+    {
+      "wrong": "Subir demasiado la pierna y arquear la espalda",
+      "right": "Extiende la pierna hacia atrás, no hacia arriba, y detente a la altura de la cadera para que la zona lumbar se mantenga plana."
+    },
+    {
+      "wrong": "Desplazar las caderas hacia la pierna de apoyo",
+      "right": "Mantén el peso repartido y las caderas paralelas al suelo. Acorta la extensión si se inclinan."
+    },
+    {
+      "wrong": "Contener la respiración al extender",
+      "right": "Espira al extender e inspira al volver."
+    }
+  ],
+  "easier": "Mueve solo la pierna o solo el brazo, manteniendo apoyados los otros tres puntos, o desliza la pierna hacia atrás por el suelo.",
+  "harder": "Mantén la extensión cinco segundos, muévete más despacio o añade un Kegel suave al espirar seguido de una relajación completa.",
+  "who": "Útil para quienes trabajan sentados y tienen la espalda rígida, personas de más de 40 años, quienes levantan pesas y quieren un tronco estable, y cualquiera que necesite trabajo de core de bajo impacto.",
+  "skip": "Si te duelen las muñecas, apoya los puños o los antebrazos. Consulta antes a un médico o fisioterapeuta si tienes dolor agudo de espalda, una cirugía abdominal o pélvica reciente o dolor en las rodillas al arrodillarte. Para si te duele.",
+  "faq": [
+    {
+      "q": "¿Es bueno el pájaro-perro para el dolor lumbar?",
+      "a": "Se usa a menudo en la rehabilitación de espalda porque entrena la estabilidad con poca carga sobre la columna. Si tienes dolor, pregunta a un fisioterapeuta si te conviene."
+    },
+    {
+      "q": "¿Cuánto tiempo debo mantener cada pájaro-perro?",
+      "a": "Empieza con una pausa de uno o dos segundos y ve subiendo a cinco segundos cuando la espalda se mantenga plana."
+    }
+  ]
+}

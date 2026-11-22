@@ -1,0 +1,33 @@
+{
+  "description": "Zancada hacia atrás para glúteos, muslos y estabilidad pélvica: cómo hacerla, respiración para el suelo pélvico, errores y variantes.",
+  "intro": "La zancada hacia atrás es un movimiento a una pierna: das un paso atrás, bajas la rodilla de atrás y subes empujando con el talón delantero. Desarrolla la fuerza de glúteos y muslos y el equilibrio sobre una pierna, lo que mantiene estable la pelvis al correr o subir escaleras. Apoya la zona que rodea el suelo pélvico en lugar de entrenarlo directamente.",
+  "feel": "El glúteo y el muslo de la pierna delantera hacen la mayor parte del trabajo, con un ligero estiramiento en la parte delantera de la cadera de atrás. El torso se mantiene erguido y la pelvis nivelada. No debes notar dolor de rodilla, que la zona lumbar se arquea ni que contienes el aire al subir. Autocomprobación: puedes hacer una pausa de un segundo abajo sin tambalearte.",
+  "mistakes": [
+    {
+      "wrong": "Impulsarte con el pie de atrás",
+      "right": "Empuja con el talón delantero para levantarte. El pie de atrás está sobre todo para el equilibrio."
+    },
+    {
+      "wrong": "Hundir hacia dentro la rodilla delantera",
+      "right": "Mantén la rodilla delantera sobre el centro del pie. Ve más despacio si se tambalea."
+    },
+    {
+      "wrong": "Contener la respiración al subir",
+      "right": "Inspira al bajar y espira al subir, para que el suelo pélvico pueda elevarse con el esfuerzo."
+    }
+  ],
+  "easier": "Agárrate a una pared o a una silla, da un paso más corto y baja solo parcialmente. También puedes hacer de 4 a 5 repeticiones por lado.",
+  "harder": "Baja durante tres segundos, haz una pausa justo encima del suelo o sujeta pesas a los lados. También puedes añadir una elevación suave de Kegel al subir y soltarla por completo abajo.",
+  "who": "Útil para corredores, ciclistas y personas que levantan pesas, y para cualquiera que quiera mejor equilibrio y control de la cadera sobre una pierna.",
+  "skip": "Evítala o adáptala si tienes dolor de rodilla, de cadera o de ingle, problemas de equilibrio, una hernia, una cirugía pélvica o abdominal reciente, o si estás embarazada o en el posparto y aún no te han dado el alta. Si pierdes orina o notas pesadez al hacer la zancada, consulta a un fisioterapeuta de suelo pélvico. Para si te duele.",
+  "faq": [
+    {
+      "q": "¿Por qué zancadas hacia atrás y no hacia delante?",
+      "a": "Dar el paso hacia atrás suele ser más suave para las rodillas y más fácil de controlar, porque el peso permanece sobre el pie delantero. Eso la convierte en un buen punto de partida."
+    },
+    {
+      "q": "¿Son buenas las zancadas para el suelo pélvico?",
+      "a": "Fortalecen los músculos que estabilizan la pelvis, lo que puede apoyar al suelo pélvico. No sustituyen a los Kegel."
+    }
+  ]
+}

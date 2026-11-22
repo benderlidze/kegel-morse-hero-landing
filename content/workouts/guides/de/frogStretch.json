@@ -1,0 +1,33 @@
+{
+  "description": "Frosch-Dehnung für Oberschenkelinnenseiten, Hüften und Beckenbodenentspannung: sicher ausführen, Gefühl, häufige Fehler, leichtere und schwerere Varianten.",
+  "intro": "Die Frosch-Dehnung ist eine tiefe Dehnung der Oberschenkelinnenseiten im Vierfüßlerstand mit weit geöffneten Knien. Sie öffnet die Hüften und die Muskeln rund um den Beckenboden. Sie dient der Entspannung und Beweglichkeit, nicht der Kräftigung, und passt am besten ans Ende einer Einheit.",
+  "feel": "Du solltest eine starke, aber erträgliche Dehnung entlang der Oberschenkelinnenseiten und Hüften spüren, wenn du die Hüfte nach hinten schiebst, mit weichem Bauch und weichem Beckenboden. Du solltest keinen stechenden Leistenschmerz, keinen Druck auf den Knien und keinen durchhängenden unteren Rücken spüren. Selbsttest: Wenn du nicht mehr langsam und ruhig atmen kannst, nimm die Knie ein Stück näher zusammen.",
+  "mistakes": [
+    {
+      "wrong": "Die Knie sofort so weit wie möglich spreizen",
+      "right": "Beginne etwas weiter als hüftbreit und werde über mehrere Einheiten langsam weiter."
+    },
+    {
+      "wrong": "Den unteren Rücken durchhängen lassen",
+      "right": "Halte eine natürliche Kurve und stütze dich auf die Unterarme, wenn das hilft. Hüfte und Wirbelsäule bewegen sich gemeinsam nach hinten."
+    },
+    {
+      "wrong": "In die Dehnung hinein- und herauswippen",
+      "right": "Bewege dich langsam und halte inne. Kleines, langsames Schaukeln ist in Ordnung, aber kein Wippen."
+    }
+  ],
+  "easier": "Polstere die Knie, halte sie näher zusammen und bleib auf den Händen. Du kannst auch eine Seite nach der anderen dehnen.",
+  "harder": "Senke dich auf die Unterarme, öffne die Knie etwas weiter und halte bis zu einer Minute. Kein Anspannen; es geht ums Loslassen.",
+  "who": "Nützlich für Menschen mit verspannten Oberschenkelinnenseiten durch Laufen, Radfahren, Krafttraining oder langes Sitzen.",
+  "skip": "Lass sie aus oder halte den Bewegungsradius klein, wenn du Knie- oder Leistenschmerzen, einen Leistenbruch, eine kürzliche Operation an Hüfte, Leiste oder Bauch hast oder schwanger bist oder gerade entbunden hast und noch nicht freigegeben bist. Bei Beckenschmerzen oder einem sehr verspannten Beckenboden kann dir eine Beckenboden-Physiotherapeutin oder ein -Physiotherapeut helfen. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Ist die Frosch-Dehnung gut für den Beckenboden?",
+      "a": "Sie kann helfen, dass sich der Bereich rund um den Beckenboden entspannt und besser beweglich wird. Sie kräftigt die Muskeln nicht, nutze sie also zusätzlich zu sanften Kegel-Übungen, nicht statt ihnen."
+    },
+    {
+      "q": "Warum tun mir bei der Frosch-Dehnung die Knie weh?",
+      "a": "Harte Böden und eine zu weite Position sind häufige Ursachen. Polstere die Knie, rück sie näher zusammen und halte die Knöchel in einer Linie mit den Knien."
+    }
+  ]
+}

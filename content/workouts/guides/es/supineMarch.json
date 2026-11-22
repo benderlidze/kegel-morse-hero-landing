@@ -1,0 +1,33 @@
+{
+  "description": "Guía de la marcha boca arriba: eleva las rodillas dobladas de una en una tumbado para trabajar abdomen inferior, flexores de cadera y control pélvico.",
+  "intro": "La marcha boca arriba es un movimiento tumbado en el que levantas una rodilla doblada y la bajas, y luego cambias. Entrena los abdominales inferiores para mantener estable la pelvis mientras se mueve cada pierna, una habilidad que se usa al caminar y al subir escaleras. Es un paso suave más allá de los deslizamientos de talones.",
+  "feel": "Debes notar que la parte baja del vientre trabaja con tranquilidad y que la parte delantera de la cadera levanta la pierna. La zona lumbar, la pelvis y el pie apoyado permanecen quietos. Espira al subir e inspira al bajar. Vigila si contienes el aire, abultas el vientre o empujas hacia abajo en la pelvis. Autocomprobación: las manos sobre los huesos de la cadera no deben inclinarse al subir la rodilla.",
+  "mistakes": [
+    {
+      "wrong": "Dejar caer la pierna rápidamente",
+      "right": "Baja despacio y apoya con suavidad. En la bajada es donde se consigue el control."
+    },
+    {
+      "wrong": "Arquear la zona lumbar al subir la rodilla",
+      "right": "Mantén las costillas hacia abajo y mete ligeramente la parte baja del vientre. Sube menos si la espalda aún se arquea."
+    },
+    {
+      "wrong": "Presionar con fuerza el suelo con el otro pie",
+      "right": "Mantén ese pie relajado. Si empujas con fuerza, los glúteos y la espalda están tomando el relevo."
+    }
+  ],
+  "easier": "Levanta el pie solo unos centímetros, o practica deslizamientos de talones hasta que el movimiento se sienta estable.",
+  "harder": "Haz una pausa de 2 a 3 segundos con la rodilla a 90 grados, baja más despacio o añade un Kegel suave al subir.",
+  "who": "Personas de más de 50 años, principiantes y cualquiera que quiera un movimiento de core de bajo impacto por la mañana.",
+  "skip": "Tras una cirugía abdominal, con una hernia o con separación de los músculos abdominales, consulta antes a tu médico o fisioterapeuta. Si notas un abultamiento en el vientre, pesadez pélvica o dolor de espalda, haz el movimiento más pequeño o descansa. Para si te duele.",
+  "faq": [
+    {
+      "q": "¿Cuál es la diferencia entre la marcha boca arriba y los deslizamientos de talones?",
+      "a": "En los deslizamientos de talones el pie permanece en el suelo. En la marcha boca arriba se levanta, así que los abdominales inferiores soportan más peso de la pierna."
+    },
+    {
+      "q": "¿Es la marcha boca arriba un ejercicio de suelo pélvico?",
+      "a": "Entrena sobre todo los abdominales inferiores y los flexores de la cadera, que trabajan con el suelo pélvico para estabilizar la pelvis. Puedes añadir un Kegel suave en cada elevación, pero sigue haciendo también Kegel por separado."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Mostek pośladkowy: unoś biodra, by wzmocnić pośladki i tył ud, które podtrzymują miednicę. Jak to czuć, błędy, wersje łatwiejsza i trudniejsza.",
+  "intro": "Mostek pośladkowy wzmacnia pośladki i tył ud wokół tylnej części miednicy. Nie trenuje bezpośrednio dna miednicy, ale silne biodra podtrzymują miednicę, a delikatne napięcie Kegla podczas unoszenia łączy jedno z drugim.",
+  "feel": "Poczujesz pracę pośladków i tyłu ud, a na górze prostą linię od kolan do barków. Dolny odcinek pleców jest w pozycji neutralnej, nie ściśnięty. Uważaj na wstrzymywanie oddechu, dociskanie głowy do podłogi i skurcze tylnej strony ud. Jeśli czujesz ruch głównie w dolnych plecach, unieś biodra trochę niżej i mocniej ściśnij pośladki.",
+  "mistakes": [
+    {
+      "wrong": "Odpychanie się palcami stóp",
+      "right": "Dociskaj pięty. Jeśli łapią cię skurcze tylnej strony ud, przysuń stopy trochę bliżej bioder."
+    },
+    {
+      "wrong": "Kolana opadające do środka lub na zewnątrz",
+      "right": "Utrzymuj kolana w jednej linii z biodrami i stopami w drodze w górę i w dół."
+    },
+    {
+      "wrong": "Szybkie opadanie",
+      "right": "Opuszczaj się powoli, kręg po kręgu, i całkowicie rozluźnij się na dole."
+    }
+  ],
+  "easier": "Unoś się tylko do połowy albo rób mniej powtórzeń z krótkim odpoczynkiem między nimi.",
+  "harder": "Utrzymaj górną pozycję 3–5 sekund, spowolnij opuszczanie albo przejdź do mostka z „marszem” lub mostka na jednej nodze.",
+  "who": "Osobom pracującym przy biurku ze słabymi lub sztywnymi biodrami, początkującym oraz osobom po 40. roku życia, które chcą mieć siłę bioder na co dzień.",
+  "skip": "Zmodyfikuj lub pomiń po niedawnej operacji pleców, bioder lub brzucha, przy przepuklinie albo gdy ból pleców nasila się przy unoszeniu. W późnej ciąży leżenie płasko może być niewygodne, więc zapytaj lekarza lub fizjoterapeutę. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Czy mostek pośladkowy wzmacnia dno miednicy?",
+      "a": "Mostek pracuje głównie na pośladkach i tyle ud. Dno miednicy włącza się trochę, a na górze możesz dodać delikatne napięcie Kegla, ale ćwicz też same ćwiczenia Kegla."
+    },
+    {
+      "q": "Dlaczego czuję mostek w dolnych plecach?",
+      "a": "Zwykle plecy wyginają się na górze albo pośladki pracują za mało. Trzymaj żebra opuszczone, unieś biodra trochę niżej i ściśnij pośladki."
+    }
+  ]
+}

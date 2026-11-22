@@ -1,0 +1,33 @@
+{
+  "description": "Brücke mit Ball: eine Gesäßbrücke mit Ball zwischen den Knien für Gesäß, Oberschenkelinnenseite und Beckenboden, plus Fehler und Varianten.",
+  "intro": "Bei dieser Brücke liegt ein Ball oder Kissen zwischen deinen Knien, sodass die Oberschenkelinnenseite mitarbeitet, während das Gesäß die Hüfte hebt. Die Muskeln der Oberschenkelinnenseite setzen nahe am Beckenboden an, und viele Frauen spüren ein sanftes Anheben des Beckenbodens leichter, wenn die Oberschenkel zusammendrücken.",
+  "feel": "Du solltest dein Gesäß arbeiten spüren, die Oberschenkelinnenseiten, die den Ball drücken, und beim Heben ein leichtes Anheben im Becken. Nach den zwei Sekunden Halten senk dich ab und lass alles locker. Dein Atem fließt weiter, und der untere Rücken bleibt neutral. Pressen, Luftanhalten oder Nackenanspannung bedeuten, dass du weniger drücken solltest.",
+  "mistakes": [
+    {
+      "wrong": "Den Ball mit aller Kraft zerquetschen",
+      "right": "Drücke gleichmäßig und mäßig. Ein maximaler Griff breitet sich auf den Bauch aus und lässt dich die Luft anhalten."
+    },
+    {
+      "wrong": "Den Ball beim Heben verrutschen lassen",
+      "right": "Halte den Druck vom Beginn des Hebens bis zum Ende des Senkens gleichmäßig."
+    },
+    {
+      "wrong": "Unten angespannt bleiben",
+      "right": "Lass vor der nächsten Wiederholung Ball, Gesäß und Beckenboden vollständig los."
+    }
+  ],
+  "easier": "Drücke den Ball, ohne die Hüfte zu heben, oder heb sie nur ein paar Zentimeter.",
+  "harder": "Halte oben länger, senke langsamer ab, oder füge beim Heben eine sanfte Kegel-Anspannung hinzu und beim Absenken ein vollständiges Entspannen.",
+  "who": "Frauen, die mehr Halt rund um das Becken wollen, auch über 40 oder bei der Arbeit an der Blasenkontrolle, und alle, die den Beckenboden in einer einfachen Brücke schwer spüren.",
+  "skip": "Lass die Übung aus oder passe sie an bei Beckenschmerzen, Schmerzen in der Leiste oder der Oberschenkelinnenseite oder einem Beckenboden, der sich verspannt anfühlt, da zusätzliches Anspannen dann womöglich nicht hilft. Nach einer kürzlichen Operation, einer kürzlichen Geburt oder in der späteren Schwangerschaft frag zuerst deine Ärztin, deinen Arzt oder eine Beckenboden-Physiotherapeutin. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Warum einen Ball bei der Brücke drücken?",
+      "a": "So arbeitet die Oberschenkelinnenseite zusammen mit dem Gesäß, und viele Menschen spüren den Beckenboden dadurch leichter. Es bringt zusätzlichen Halt, ersetzt aber keine Kegel-Übungen."
+    },
+    {
+      "q": "Welche Ballgröße soll ich nehmen?",
+      "a": "Ein weicher Ball etwa in der Größe eines kleinen Spielplatzballs funktioniert gut. Ein festes Kissen oder ein gerolltes Handtuch tut es genauso."
+    }
+  ]
+}

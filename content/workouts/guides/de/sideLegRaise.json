@@ -1,0 +1,33 @@
+{
+  "description": "Beinheben in Seitenlage: Hebe das gestreckte obere Bein, um die seitlichen Gesäßmuskeln zu trainieren. Fehler sowie leichtere und schwerere Varianten.",
+  "intro": "Das Beinheben in Seitenlage ist ein einfaches Anheben eines gestreckten Beins in Seitenlage. Es stärkt die seitlichen Gesäß- und Hüftmuskeln, die bei jedem Schritt dein Becken gerade halten. Für Läufer und Radfahrer stützt es das Becken von außen; eine direkte Beckenbodenübung ist es nicht.",
+  "feel": "Du solltest Anstrengung an der Außenseite der oberen Hüfte und seitlich am Gesäß spüren. Du solltest sie nicht hauptsächlich an der Oberschenkelvorderseite, im unteren Rücken oder in der Taille spüren. Leg eine Hand seitlich auf die Hüfte: Sie sollte fest werden, wenn sich das Bein hebt. Wenn die Zehen zur Decke drehen, hat die Oberschenkelvorderseite übernommen.",
+  "mistakes": [
+    {
+      "wrong": "Das Bein zu hoch heben",
+      "right": "Heb es nur ein kurzes Stück an. Darüber hinaus übernehmen Taille und Rücken."
+    },
+    {
+      "wrong": "Die obere Hüfte nach hinten rollen",
+      "right": "Halte die Hüften übereinander und das Bein in einer Linie mit dem Körper oder leicht dahinter, nie davor."
+    },
+    {
+      "wrong": "Das Bein hochschwingen und fallen lassen",
+      "right": "Heb in zwei Sekunden an, senke in zwei bis drei ab und leg das Bein zwischen den Wiederholungen nicht ab."
+    }
+  ],
+  "easier": "Winkle das untere Knie für eine stabilere Basis an, heb weniger an, oder mach das Heben im Stehen und halt dich an einem Stuhl fest.",
+  "harder": "Halte oben drei Sekunden, nimm ein leichtes Knöchelgewicht oder ein Band um die Knöchel, oder bewege dich langsamer.",
+  "who": "Gut für Läufer, Radfahrer, Menschen mit schwachen Hüften und Frauen, die mehr Halt rund um das Becken wollen.",
+  "skip": "Sprich zuerst mit einer Ärztin, einem Arzt oder einer Physiotherapeutin, wenn das Liegen auf der Seite Hüfte oder Rücken wehtut, nach einer kürzlichen Operation an Hüfte oder Becken oder bei Beckengürtelschmerzen in der Schwangerschaft. Ein Kissen unter dem Kopf und zwischen den Knien kann helfen. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Welche Muskeln trainiert das Beinheben in Seitenlage?",
+      "a": "Vor allem den mittleren und kleinen Gesäßmuskel an der Hüftseite, dazu tiefe Hüftmuskeln, die das Becken gerade halten."
+    },
+    {
+      "q": "Ist das Beinheben in Seitenlage gut für Läufer?",
+      "a": "Ja. Es ist ein verbreiteter Teil des Hüftkrafttrainings für Läufer, weil diese Muskeln bei jedem Schritt das Becken kontrollieren."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Guía del bicho muerto: baja el brazo y la pierna contrarios con la espalda plana para trabajar los abdominales profundos. Sensaciones, errores y variantes.",
+  "intro": "El bicho muerto es un ejercicio lento de core que se hace boca arriba: bajas un brazo y la pierna contraria mientras el tronco permanece quieto. No entrena directamente el suelo pélvico, pero enseña a los abdominales profundos a trabajar con la respiración, lo que sostiene la pelvis desde arriba.",
+  "feel": "Debes notar un esfuerzo constante y suave en lo profundo del vientre. No debes notar que la zona lumbar se arquea, tensión en el cuello ni que la respiración se detiene. Desliza una mano bajo la zona lumbar: si el hueco aumenta al bajar la pierna, el recorrido es demasiado grande. Mantén el suelo pélvico relajado, no apretado.",
+  "mistakes": [
+    {
+      "wrong": "Contener la respiración en cada extensión",
+      "right": "Espira al bajar el brazo y la pierna e inspira al devolverlos."
+    },
+    {
+      "wrong": "Moverte rápido y balancear las extremidades",
+      "right": "Tarda unos tres segundos en bajar y tres en volver, para que trabajen los abdominales y no el impulso."
+    },
+    {
+      "wrong": "Empujar el vientre hacia fuera o hacer fuerza hacia abajo",
+      "right": "Mete con suavidad la parte baja del vientre hacia dentro y hacia arriba, nunca hacia abajo, hacia la pelvis. Si notas presión abajo, reduce el recorrido."
+    }
+  ],
+  "easier": "Mantén los brazos en el suelo y baja una pierna cada vez, tocando el suelo con el talón y la rodilla doblada.",
+  "harder": "Estira del todo la pierna al bajarla, o añade un Kegel suave en cada espiración y relaja por completo al inspirar.",
+  "who": "Útil para quienes trabajan sentados, para quienes levantan pesas y quieren un tronco estable y para quienes vuelven al ejercicio y necesitan empezar con poca carga.",
+  "skip": "Consulta antes a un médico o fisioterapeuta de suelo pélvico tras una cirugía abdominal o pélvica reciente, si notas un abultamiento a lo largo del centro del vientre o si estás embarazada o has dado a luz hace poco. Si el dolor de espalda se agudiza, reduce el recorrido. Para si te duele.",
+  "faq": [
+    {
+      "q": "¿Es bueno el bicho muerto para el suelo pélvico?",
+      "a": "De forma indirecta. Entrena los abdominales profundos y la respiración, que trabajan junto con el suelo pélvico, así que combínalo con Kegel por separado."
+    },
+    {
+      "q": "¿Por qué se me levanta la zona lumbar del suelo?",
+      "a": "Tus abdominales todavía no controlan ese recorrido. Baja menos la pierna, dobla más la rodilla y ve más despacio hasta que la espalda se mantenga apoyada."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Squat sumo pour l’intérieur des cuisses, les fessiers et le soutien du bassin : comment le faire, respiration pour le périnée, erreurs, variantes.",
+  "intro": "Le squat sumo est un squat avec les pieds écartés et les orteils tournés vers l’extérieur. Il fait travailler l’intérieur des cuisses et les fessiers, qui s’attachent autour du bassin et aident à le soutenir. Il n’entraîne pas le périnée lui-même, mais c’est un bon moment pour s’exercer à expirer en se relevant.",
+  "feel": "Vous devez sentir travailler l’intérieur des cuisses et les fessiers, surtout à la montée, avec le buste droit et les genoux dirigés au-dessus des orteils. Vous ne devez pas sentir de tension dans les genoux, de forte cambrure dans le bas du dos ni de pression en bas. Auto-contrôle : si vous ne sentez que l’avant des cuisses, élargissez légèrement l’écart et descendez bien droit.",
+  "mistakes": [
+    {
+      "wrong": "Les genoux qui s’effondrent vers l’intérieur",
+      "right": "Poussez les genoux vers l’extérieur, au-dessus des orteils, tout au long du mouvement. S’ils rentrent, resserrez l’écart ou tournez moins les orteils."
+    },
+    {
+      "wrong": "Pousser vers le bas à la montée",
+      "right": "Expirez en vous relevant et laissez le périnée se soulever doucement avec l’effort. Ne poussez jamais vers le bas."
+    },
+    {
+      "wrong": "Écarter trop les pieds",
+      "right": "Choisissez un écart où les hanches se sentent ouvertes et où les genoux restent confortables."
+    }
+  ],
+  "easier": "Réduisez l’amplitude, tenez-vous à une chaise ou descendez jusqu’à une assise haute, et limitez la série à 6 à 8 répétitions.",
+  "harder": "Tenez un haltère ou un kettlebell entre les jambes, descendez en trois secondes, ou ajoutez un Kegel doux en vous relevant et relâchez complètement en haut.",
+  "who": "Utile aux adeptes de la musculation qui s’échauffent avant une séance de jambes et à toute personne qui veut des cuisses internes et des fessiers plus forts autour du bassin.",
+  "skip": "Faites-vous examiner d’abord si vous avez une douleur à l’aine, à la hanche ou au genou, une hernie, une opération récente du bassin ou du ventre, des symptômes de prolapsus ou des fuites quand vous soulevez une charge, ou si vous êtes enceinte ou en post-partum sans avoir encore obtenu l’accord. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "Le squat sumo est-il meilleur pour le périnée qu’un squat classique ?",
+      "a": "Aucun des deux ne l’entraîne directement. Le squat sumo sollicite davantage l’intérieur des cuisses et les fessiers, et beaucoup de gens trouvent l’écart large plus facile à contrôler. La respiration compte plus que l’écart."
+    },
+    {
+      "q": "Dois-je gainer ou expirer pendant les squats sumo ?",
+      "a": "Pour les répétitions au poids du corps, une expiration régulière en se relevant suffit. Avec des charges lourdes, beaucoup d’athlètes gainent, mais évitez de pousser vers le bas et expirez de façon contrôlée."
+    }
+  ]
+}

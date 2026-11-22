@@ -1,0 +1,33 @@
+{
+  "description": "Kegel im Liegen: So findest und trainierst du den Beckenboden auf dem Rücken am leichtesten. Gefühl, häufige Fehler, leichtere und schwerere Varianten.",
+  "intro": "Die Kegel-Übung im Liegen ist der Ausgangspunkt für das Beckenbodentraining. Auf dem Rücken drückt die Schwerkraft nicht auf den Beckenboden, die Muskeln haben also am wenigsten zu heben und du kannst dich ganz darauf konzentrieren, sie zu finden.",
+  "feel": "Du solltest ein kleines Anheben im Becken spüren, danach ein deutliches Loslassen. Bauch, Gesäß und Oberschenkel bleiben weich, und dein Atem fließt weiter. Wenn du nach unten drückst, die Luft anhältst oder den Kiefer verspannst, nimm etwas Kraft heraus. Selbsttest: Eine Hand auf dem Unterbauch spürt vielleicht ein leichtes Anspannen, aber kein hartes Festmachen und kein Vorwölben.",
+  "mistakes": [
+    {
+      "wrong": "Stattdessen Gesäß oder Oberschenkel anspannen",
+      "right": "Das Gesäß bleibt auf dem Boden, die Knie bleiben ruhig. Wenn sich die Hüfte hebt oder die Knie zusammenpressen, haben andere Muskeln übernommen."
+    },
+    {
+      "wrong": "Die Entspannung zwischen den Wiederholungen überspringen",
+      "right": "Ruhe mindestens so lange, wie du gehalten hast. Das vollständige Loslassen gehört zur Übung."
+    },
+    {
+      "wrong": "Zusätzliche Sätze machen, weil es sich leicht anfühlt",
+      "right": "Mehr ist nicht besser. Verlängere die Haltezeit erst, wenn jedes Halten bis zur letzten Sekunde kontrolliert bleibt."
+    }
+  ],
+  "easier": "Halte 1 bis 2 Sekunden und mach weniger Wiederholungen. Ein Kissen unter den Knien hilft Bauch und Rücken, sich zu entspannen.",
+  "harder": "Steigere dich auf längere Haltezeiten mit gleich langer Pause, oder hänge nach den langsamen ein paar schnelle Anspannungen an.",
+  "who": "Alle, die neu bei Kegel-Übungen sind, Menschen, die unsicher sind, ob sie richtig anspannen, und Menschen, die nach einer Pause oder nach einer Geburt wieder einsteigen, sobald es freigegeben ist.",
+  "skip": "Bei Beckenschmerzen, Schmerzen beim Sex oder einem Beckenboden, der sich verspannt anfühlt, hilft mehr Anspannen womöglich nicht; beginne mit der Atmung und lass dich von einer Beckenboden-Physiotherapeutin oder einem -Physiotherapeuten beraten. Nach einer Operation im Becken- oder Bauchbereich oder kurz nach einer Geburt frag deine Ärztin oder deinen Arzt, wann du anfangen darfst. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Warum fängt man mit Kegel-Übungen im Liegen an?",
+      "a": "Im Liegen entfällt das Gewicht der Organe auf dem Beckenboden, er kann sich leichter anheben. Außerdem merkst du eher, wenn andere Muskeln mitarbeiten."
+    },
+    {
+      "q": "Woran merke ich, dass ich die Kegel-Übung richtig mache?",
+      "a": "Du spürst innen ein Anheben und Zusammenziehen, danach ein Loslassen, ohne die Luft anzuhalten. Männer bemerken vielleicht ein leichtes Anheben von Penis und Hoden; Frauen spüren, wie sich die Scheidenöffnung sanft zusammenzieht."
+    }
+  ]
+}

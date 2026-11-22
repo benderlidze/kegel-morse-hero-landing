@@ -1,0 +1,33 @@
+{
+  "description": "Unoszenie nogi w leżeniu bokiem: unoś prostą górną nogę, by trenować boczne mięśnie pośladkowe utrzymujące miednicę poziomo. Błędy i wersje ćwiczenia.",
+  "intro": "Unoszenie nogi w leżeniu bokiem to proste uniesienie wyprostowanej nogi w leżeniu na boku. Wzmacnia boczne mięśnie pośladkowe i mięśnie bioder, które utrzymują miednicę poziomo przy każdym kroku. Dla biegaczy i rowerzystów podtrzymuje miednicę z zewnątrz; nie jest to bezpośrednie ćwiczenie dna miednicy.",
+  "feel": "Poczujesz wysiłek na zewnętrznej stronie górnego biodra i z boku pośladka. Nie powinno być czuć go głównie z przodu uda, w dolnych plecach ani w talii. Połóż dłoń z boku biodra: powinno twardnieć, gdy noga się unosi. Jeśli palce stóp skręcają się ku sufitowi, przejął to przód uda.",
+  "mistakes": [
+    {
+      "wrong": "Unoszenie nogi zbyt wysoko",
+      "right": "Unoś ją tylko na krótką odległość. Wyżej przejmują ją talia i plecy."
+    },
+    {
+      "wrong": "Przetaczanie górnego biodra do tyłu",
+      "right": "Trzymaj biodra jedno nad drugim, a nogę w linii z ciałem lub lekko za nim, nigdy przed nim."
+    },
+    {
+      "wrong": "Wyrzucanie nogi w górę i puszczanie jej",
+      "right": "Unoś przez dwie sekundy, opuszczaj przez dwie do trzech i nie odpoczywaj z nogą między powtórzeniami."
+    }
+  ],
+  "easier": "Zegnij dolne kolano dla stabilniejszej podstawy, unoś nogę mniej albo rób unoszenie na stojąco, trzymając się krzesła.",
+  "harder": "Utrzymaj górną pozycję przez trzy sekundy, dodaj lekki obciążnik na kostkę lub gumę wokół kostek albo poruszaj się wolniej.",
+  "who": "Dobre dla biegaczy, rowerzystów, osób ze słabymi biodrami oraz kobiet, które chcą silniejszego podparcia wokół miednicy.",
+  "skip": "Najpierw skonsultuj się z lekarzem lub fizjoterapeutą, jeśli leżenie na boku boli biodro lub plecy, po niedawnej operacji biodra lub miednicy albo przy bólu obręczy miedniczej w ciąży. Pomóc mogą poduszka pod głową i między kolanami. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Jakie mięśnie pracują przy unoszeniu nogi w leżeniu bokiem?",
+      "a": "Głównie mięsień pośladkowy średni i mały z boku biodra oraz głębokie mięśnie bioder, które pomagają utrzymać miednicę poziomo."
+    },
+    {
+      "q": "Czy unoszenie nogi w leżeniu bokiem jest dobre dla biegaczy?",
+      "a": "Tak. To częsta część treningu siły bioder u biegaczy, bo te mięśnie kontrolują miednicę przy każdym kroku."
+    }
+  ]
+}

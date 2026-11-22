@@ -1,0 +1,33 @@
+{
+  "description": "Elevación lateral de pierna: levanta la pierna de arriba estirada para trabajar los glúteos laterales que nivelan la pelvis. Errores y variantes.",
+  "intro": "La elevación lateral de pierna es un sencillo movimiento tumbado de lado en el que se levanta una pierna estirada. Fortalece los glúteos laterales y los músculos de la cadera que mantienen nivelada la pelvis en cada paso. Para corredores y ciclistas, sostiene la pelvis desde fuera; no es un ejercicio directo de suelo pélvico.",
+  "feel": "Debes notar esfuerzo en la parte exterior de la cadera de arriba y en el lateral de la nalga. No debes notarlo sobre todo en la parte delantera del muslo, en la zona lumbar ni en la cintura. Pon una mano en el lateral de la cadera: debe endurecerse al subir la pierna. Si los dedos de los pies miran hacia el techo, ha tomado el control la parte delantera del muslo.",
+  "mistakes": [
+    {
+      "wrong": "Subir demasiado la pierna",
+      "right": "Elévala solo un trecho corto. Más allá, toman el relevo la cintura y la espalda."
+    },
+    {
+      "wrong": "Hacer rodar la cadera de arriba hacia atrás",
+      "right": "Mantén las caderas apiladas y la pierna alineada con el cuerpo o ligeramente por detrás, nunca por delante."
+    },
+    {
+      "wrong": "Lanzar la pierna hacia arriba y dejarla caer",
+      "right": "Sube durante dos segundos, baja durante dos o tres y no apoyes la pierna entre repeticiones."
+    }
+  ],
+  "easier": "Dobla la rodilla de abajo para tener una base más estable, sube menos o haz la elevación de pie agarrado a una silla.",
+  "harder": "Mantén la posición alta tres segundos, añade una tobillera con poco peso o una banda elástica alrededor de los tobillos, o ve más despacio.",
+  "who": "Bueno para corredores, ciclistas, personas con caderas débiles y mujeres que quieren más sostén alrededor de la pelvis.",
+  "skip": "Consulta antes a un médico o fisioterapeuta si tumbarte de lado te duele en la cadera o en la espalda, tras una cirugía reciente de cadera o pelvis, o con dolor de la cintura pélvica en el embarazo. Una almohada bajo la cabeza y entre las rodillas puede ayudar. Para si te duele.",
+  "faq": [
+    {
+      "q": "¿Qué músculos trabaja la elevación lateral de pierna?",
+      "a": "Principalmente el glúteo medio y el glúteo menor, en el lateral de la cadera, además de músculos profundos de la cadera que ayudan a mantener nivelada la pelvis."
+    },
+    {
+      "q": "¿Son buenas las elevaciones laterales de pierna para corredores?",
+      "a": "Sí. Son una parte habitual del trabajo de fuerza de cadera para corredores, porque estos músculos controlan la pelvis en cada zancada."
+    }
+  ]
+}

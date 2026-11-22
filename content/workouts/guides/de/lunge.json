@@ -1,0 +1,33 @@
+{
+  "description": "Ausfallschritt rückwärts für Gesäß, Oberschenkel und Beckenstabilität: Ausführung, Atmung für den Beckenboden, Fehler, leichtere und schwerere Varianten.",
+  "intro": "Der Ausfallschritt rückwärts ist eine Einbeinübung: Du machst einen Schritt zurück, senkst das hintere Knie ab und drückst dich über die vordere Ferse hoch. Er baut Kraft in Gesäß und Oberschenkeln und das Gleichgewicht auf einem Bein auf, das beim Laufen oder Treppensteigen das Becken stabil hält. Er stützt den Bereich rund um den Beckenboden, statt ihn direkt zu trainieren.",
+  "feel": "Das vordere Gesäß und der vordere Oberschenkel leisten den Großteil der Arbeit, dazu eine leichte Dehnung an der Vorderseite der hinteren Hüfte. Dein Oberkörper bleibt aufrecht und das Becken waagerecht. Du solltest keine Knieschmerzen, kein Hohlkreuz und kein Luftanhalten beim Hochdrücken spüren. Selbsttest: Du kannst unten eine Sekunde pausieren, ohne zu wackeln.",
+  "mistakes": [
+    {
+      "wrong": "Sich vom hinteren Fuß abdrücken",
+      "right": "Drücke dich über die vordere Ferse hoch. Der hintere Fuß ist hauptsächlich fürs Gleichgewicht da."
+    },
+    {
+      "wrong": "Das vordere Knie fällt nach innen",
+      "right": "Halte das vordere Knie über der Fußmitte. Werde langsamer, wenn es wackelt."
+    },
+    {
+      "wrong": "Beim Aufstehen die Luft anhalten",
+      "right": "Atme ein, während du dich senkst, und aus, während du dich hochdrückst, damit sich der Beckenboden mit der Anstrengung heben kann."
+    }
+  ],
+  "easier": "Halte dich an einer Wand oder einem Stuhl fest, mach einen kürzeren Schritt und geh nur ein Stück nach unten. Du kannst auch 4 bis 5 Wiederholungen pro Seite machen.",
+  "harder": "Senke dich über drei Sekunden ab, halte knapp über dem Boden an, oder nimm Gewichte in die Hände. Du kannst auch beim Hochkommen ein sanftes Kegel-Anheben hinzufügen und unten vollständig loslassen.",
+  "who": "Nützlich für Läufer, Radfahrer und Kraftsportler und alle, die besseres Gleichgewicht und bessere Hüftkontrolle auf einem Bein wollen.",
+  "skip": "Lass ihn aus oder passe ihn an bei Knie-, Hüft- oder Leistenschmerzen, Gleichgewichtsproblemen, einem Leistenbruch, einer kürzlichen Operation im Becken- oder Bauchbereich, oder wenn du schwanger bist oder gerade entbunden hast und noch nicht freigegeben bist. Urinverlust oder ein Schweregefühl beim Ausfallschritt ist ein Grund, eine Beckenboden-Physiotherapeutin oder einen -Physiotherapeuten aufzusuchen. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Warum Ausfallschritte rückwärts statt vorwärts?",
+      "a": "Der Schritt nach hinten ist meist schonender für die Knie und leichter zu kontrollieren, weil das Gewicht über dem vorderen Fuß bleibt. Das macht ihn zu einem guten Einstieg."
+    },
+    {
+      "q": "Sind Ausfallschritte gut für den Beckenboden?",
+      "a": "Sie kräftigen die Muskeln, die das Becken stabilisieren, was den Beckenboden stützen kann. Sie ersetzen keine Kegel-Übungen."
+    }
+  ]
+}

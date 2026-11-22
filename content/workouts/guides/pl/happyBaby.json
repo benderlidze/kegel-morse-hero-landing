@@ -1,0 +1,33 @@
+{
+  "description": "„Szczęśliwe dziecko” na rozluźnienie dna miednicy: jak je wykonać, jak to czuć, częste błędy oraz łatwiejsza i trudniejsza wersja przy spiętych biodrach.",
+  "intro": "„Szczęśliwe dziecko” to rozciąganie w leżeniu, w którym chwytasz stopy i pozwalasz kolanom otworzyć się w stronę pach. Otwiera wewnętrzne strony ud i biodra oraz pozwala dnu miednicy się wydłużyć. Nie buduje siły; pomaga napiętym mięśniom puścić.",
+  "feel": "Poczujesz delikatne rozciągnięcie wewnętrznych stron ud i bioder, a dolne plecy i głowa spoczywają na podłodze. Nie powinno być czuć napięcia karku, bólu w pachwinie ani wstrzymywania oddechu. Samokontrola: na każdym wdechu zauważ lekkie rozszerzenie u podstawy miednicy, a na wydechu pozwól, by zmiękła, zamiast się napinać.",
+  "mistakes": [
+    {
+      "wrong": "Mocne ciągnięcie za stopy",
+      "right": "Trzymaj lekko i pozwól, by ciężar nóg otwierał biodra."
+    },
+    {
+      "wrong": "Odrywanie głowy od podłogi",
+      "right": "Trzymaj głowę na podłodze. Jeśli nie możesz dosięgnąć stóp, chwyć kostki, golenie lub tył ud."
+    },
+    {
+      "wrong": "Szybkie lub zbyt duże kołysanie",
+      "right": "Kołysz się powoli i tylko trochę albo zostań w bezruchu."
+    }
+  ],
+  "easier": "Chwyć tył ud albo rób ćwiczenie jedną nogą naraz, z drugą stopą na podłodze. Mała poduszka pod głową pomaga napiętemu karkowi.",
+  "harder": "Utrzymaj pozycję przez całą minutę, wykonując wolniejsze, dłuższe wydechy. Możesz też delikatnie prostować jedną nogę naraz, podczas gdy dno miednicy pozostaje rozluźnione.",
+  "who": "Dobre dla biegaczy i rowerzystów ze spiętymi biodrami, osób, które dużo siedzą, oraz każdego, kogo dno miednicy jest napięte lub trudno się rozluźnia.",
+  "skip": "Pomiń lub zmodyfikuj przy bólu biodra lub pachwiny, przepuklinie albo niedawnej operacji brzucha lub miednicy. W późnej ciąży najpierw zapytaj położną lub lekarza; po porodzie poczekaj na zgodę. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Czy „szczęśliwe dziecko” jest dobre dla dna miednicy?",
+      "a": "Może pomóc dnu miednicy się rozluźnić i wydłużyć, co jest przydatne, jeśli jest napięte. Nie buduje siły."
+    },
+    {
+      "q": "Czy mężczyźni powinni robić „szczęśliwe dziecko”?",
+      "a": "Tak. Mężczyźni też noszą napięcie w dnie miednicy, często od siedzenia, stresu lub dźwigania. To prosty sposób, by po treningu dać tym mięśniom odpocząć."
+    }
+  ]
+}

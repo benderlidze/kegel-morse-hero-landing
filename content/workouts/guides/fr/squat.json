@@ -1,0 +1,33 @@
+{
+  "description": "Squat au poids du corps avec attention au périnée : comment le faire, respiration qui protège le périnée, erreurs fréquentes, variantes.",
+  "intro": "Le squat au poids du corps entraîne les fessiers et les cuisses, les gros muscles qui soutiennent le bassin. Ce n’est pas un exercice du périnée en soi, mais la respiration compte : expirer en se relevant aide le périnée à se soulever avec l’effort au lieu d’être poussé vers le bas.",
+  "feel": "Vous devez sentir travailler les cuisses et les fessiers, surtout quand vous remontez, en inspirant à la descente et en expirant en vous relevant. Vous ne devez pas sentir le bas du dos prendre le relais, une pesanteur en bas ni l’envie de retenir votre souffle et de pousser. Auto-contrôle : si vous avez des fuites ou si vous forcez, faites un squat plus petit et concentrez-vous sur l’expiration.",
+  "mistakes": [
+    {
+      "wrong": "Retenir son souffle à la montée",
+      "right": "Expirez en vous relevant. Retenir son souffle augmente la pression sur le périnée."
+    },
+    {
+      "wrong": "Les genoux qui rentrent vers l’intérieur",
+      "right": "Gardez les genoux alignés avec les orteils. Imaginez que vos pieds écartent le sol."
+    },
+    {
+      "wrong": "Descendre plus bas que ce que vous contrôlez",
+      "right": "Ne descendez que jusqu’où vous gardez la poitrine haute et les talons au sol. La profondeur vient avec la pratique."
+    }
+  ],
+  "easier": "Descendez jusqu’à une chaise et effleurez-la avant de vous relever, ou tenez-vous à un plan de travail. Vous pouvez aussi faire 6 à 8 répétitions.",
+  "harder": "Descendez en trois ou quatre secondes, marquez une pause en bas, ou ajoutez un Kegel doux en vous relevant et relâchez-le complètement en haut.",
+  "who": "Utile aux débutants, aux personnes qui travaillent au bureau et aux conducteurs qui ont besoin de jambes et de hanches fortes, et à toute personne qui reprend l’exercice.",
+  "skip": "Faites-vous examiner d’abord si vous avez une douleur au genou ou à la hanche, une hernie, une opération récente du ventre ou du bassin, des symptômes de prolapsus comme une pesanteur, ou si vous êtes enceinte ou en post-partum sans avoir encore obtenu l’accord. Des fuites pendant les squats méritent d’être évoquées avec un kinésithérapeute spécialisé en rééducation périnéale. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "Les squats sont-ils bons pour le périnée ?",
+      "a": "Ils renforcent les muscles autour du bassin, ce qui peut soutenir le périnée. Ils ne remplacent pas les Kegel, mais expirer en se relevant aide le périnée à travailler avec le mouvement."
+    },
+    {
+      "q": "Pourquoi ai-je des fuites quand je fais des squats ?",
+      "a": "La pression peut l’emporter sur le périnée, souvent à cause d’un souffle retenu ou d’une charge trop lourde trop tôt. Essayez des squats plus petits avec une expiration régulière, et faites-vous examiner si cela continue."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Rozciąganie „Motyl” na biodra i rozluźnienie dna miednicy: jak je wykonać, gdzie czuć rozciągnięcie, częste błędy oraz łatwiejsza i trudniejsza wersja.",
+  "intro": "Rozciąganie „Motyl” to rozciąganie w siadzie, ze stopami złączonymi podeszwami i kolanami opadającymi na boki. Rozciąga wewnętrzne strony ud i biodra, tuż obok dna miednicy. Jego wartość to rozluźnienie i ruchomość, a nie siła.",
+  "feel": "Poczujesz delikatne ciągnięcie wzdłuż wewnętrznych stron ud, a przy pochyleniu do przodu może też w biodrach i dolnych plecach. Nie powinno być czuć mocnego zaokrąglania pleców, bólu kolan ani wstrzymywania oddechu. Samokontrola: wydychaj powietrze powoli i zauważ, czy kolana same trochę opadają; jeśli walczysz z rozciąganiem, odpuść.",
+  "mistakes": [
+    {
+      "wrong": "Dociskanie kolan rękami w dół",
+      "right": "Pozwól działać grawitacji. Mięśnie napinają się pod wpływem siły."
+    },
+    {
+      "wrong": "Zaokrąglanie pleców, żeby opuścić głowę",
+      "right": "Pochyl się do przodu od bioder z długim kręgosłupem. Mały skłon z prostymi plecami rozciąga bardziej niż garbienie się."
+    },
+    {
+      "wrong": "Siedzenie z opadnięciem na kość ogonową",
+      "right": "Usiądź na brzegu poduszki lub złożonego ręcznika, by miednica przechyliła się do przodu, a siedzenie prosto nie wymagało wysiłku."
+    }
+  ],
+  "easier": "Odsuń stopy dalej od ciała i usiądź na poduszce. Możesz też pominąć skłon i po prostu siedzieć prosto i oddychać.",
+  "harder": "Przysuń pięty bliżej i pochyl się dalej do przodu z długimi plecami, wykorzystując powolne wydechy do rozluźnienia.",
+  "who": "Pomocne dla osób, które godzinami siedzą, mężczyzn i kobiet ze spiętymi biodrami oraz każdego, kto chce łatwego wieczornego rozciągania po ćwiczeniach Kegla.",
+  "skip": "Pomiń lub zmodyfikuj przy bólu pachwiny lub kolan, przepuklinie albo niedawnej operacji pachwiny, biodra lub brzucha. Jeśli dno miednicy jest napięte lub obolałe, fizjoterapeuta dna miednicy może pomóc połączyć rozciąganie z oddychaniem. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Czy rozciąganie „Motyl” jest dobre dla dna miednicy?",
+      "a": "Może wspierać rozluźnienie i ruchomość bioder. Mięśnie przywodziciele przyczepiają się blisko dna miednicy, więc ich rozluźnienie może pomóc dnu miednicy puścić. Nie wzmocni go jednak."
+    },
+    {
+      "q": "Dlaczego moje kolana są tak wysoko w „Motylu”?",
+      "a": "Zwykle przez napięte wewnętrzne strony ud lub biodra. Usiądź na poduszce, odsuń stopy i daj sobie czas."
+    }
+  ]
+}

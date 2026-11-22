@@ -1,0 +1,33 @@
+{
+  "description": "Unoszenie kolan w leżeniu: unoś zgięte kolana po kolei, by trenować dolny brzuch, zginacze bioder i kontrolę miednicy. Błędy i wersje ćwiczenia.",
+  "intro": "Unoszenie kolan w leżeniu to ćwiczenie, w którym unosisz jedno zgięte kolano i opuszczasz je, a potem zmieniasz nogę. Trenuje dolne mięśnie brzucha, by utrzymywały miednicę w bezruchu, gdy każda noga się porusza, a ta umiejętność przydaje się przy chodzeniu i wchodzeniu po schodach. To łagodny krok dalej po zsuwaniu pięt.",
+  "feel": "Poczujesz spokojną pracę dolnej części brzucha i przodu biodra unoszącego nogę. Dolny odcinek pleców, miednica i stopa na podłodze pozostają nieruchome. Wydychaj powietrze przy unoszeniu, a wdychaj przy opuszczaniu. Uważaj na wstrzymywanie oddechu, wypychanie brzucha i parcie w dół w miednicy. Samokontrola: dłonie na kościach biodrowych nie powinny się przechylać, gdy kolano się unosi.",
+  "mistakes": [
+    {
+      "wrong": "Szybkie opuszczanie nogi",
+      "right": "Opuszczaj powoli i dotykaj podłogi miękko. To właśnie w opuszczaniu buduje się kontrola."
+    },
+    {
+      "wrong": "Wyginanie dolnych pleców, gdy kolano się unosi",
+      "right": "Trzymaj żebra opuszczone i lekko wciągnij dolną część brzucha. Unoś mniej, jeśli plecy nadal się wyginają."
+    },
+    {
+      "wrong": "Mocne dociskanie drugiej stopy do podłogi",
+      "right": "Zostaw tę stopę rozluźnioną. Mocny nacisk oznacza, że przejęły to pośladki i plecy."
+    }
+  ],
+  "easier": "Unoś stopę tylko o centymetr albo poćwicz zsuwanie pięt, aż ruch stanie się stabilny.",
+  "harder": "Zatrzymaj kolano pod kątem 90 stopni na 2–3 sekundy, spowolnij opuszczanie albo dodaj delikatne napięcie Kegla przy unoszeniu.",
+  "who": "Osobom po 50. roku życia, początkującym i każdemu, kto chce porannego ćwiczenia core bez obciążenia stawów.",
+  "skip": "Po operacji brzucha, przy przepuklinie lub rozejściu mięśni brzucha najpierw skonsultuj się z lekarzem lub fizjoterapeutą. Jeśli zauważysz wybrzuszenie brzucha, ciężar w miednicy lub ból pleców, zrób ruch mniejszy albo odpocznij. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Czym różni się unoszenie kolan w leżeniu od zsuwania pięt?",
+      "a": "Przy zsuwaniu pięt stopa zostaje na podłodze. W unoszeniu kolan odrywa się od niej, więc dolne mięśnie brzucha niosą większą część ciężaru nogi."
+    },
+    {
+      "q": "Czy unoszenie kolan w leżeniu to ćwiczenie dna miednicy?",
+      "a": "Trenuje głównie dolne mięśnie brzucha i zginacze bioder, które współpracują z dnem miednicy w stabilizowaniu miednicy. Przy każdym uniesieniu możesz dodać delikatne napięcie Kegla, ale ćwicz też same ćwiczenia Kegla."
+    }
+  ]
+}

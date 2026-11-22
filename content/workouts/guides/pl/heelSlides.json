@@ -1,0 +1,33 @@
+{
+  "description": "Zsuwanie pięt: łagodne ćwiczenie w leżeniu dla dolnej części brzucha i zginaczy bioder, bez ruchu pleców. Błędy oraz wersje łatwiejsza i trudniejsza.",
+  "intro": "Zsuwanie pięt to łagodne ćwiczenie w leżeniu: wysuwasz jedną piętę po podłodze i wracasz. Uczy głębokie dolne mięśnie brzucha utrzymywać miednicę i plecy w bezruchu, gdy noga się porusza. Obciążenie jest małe i łatwe do kontrolowania, więc ćwiczenie często stosuje się na wczesnym etapie, na przykład po porodzie, gdy lekarz na to pozwoli.",
+  "feel": "Poczujesz lekką pracę w dolnej części brzucha i z przodu biodra poruszającej się nogi, podczas gdy dolny odcinek pleców i miednica pozostają spokojne. Wydychaj powietrze, gdy pięta się wysuwa, a wdychaj, gdy wraca. Unikaj wstrzymywania oddechu, wypychania brzucha i parcia w dół w miednicy. Samokontrola: dłoń pod dolnym odcinkiem pleców powinna czuć mniej więcej stały nacisk.",
+  "mistakes": [
+    {
+      "wrong": "Wyginanie pleców, gdy noga się prostuje",
+      "right": "Wysuwaj piętę tylko tak daleko, by plecy pozostały nieruchome, i zatrzymaj się, zanim się uniosą."
+    },
+    {
+      "wrong": "Mocne usztywnianie brzucha",
+      "right": "Delikatnie wciągnij dolną część brzucha, bez „spinania” jak przy brzuszkach. Nadal powinno dać się rozmawiać."
+    },
+    {
+      "wrong": "Kołysanie miednicą na boki",
+      "right": "Utrzymaj obie kości biodrowe na jednym poziomie i poruszaj się na tyle wolno, by zauważyć każde przechylenie."
+    }
+  ],
+  "easier": "Wysuwaj piętę tylko do połowy albo podłóż ręcznik pod piętę, żeby łatwiej się ślizgała.",
+  "harder": "Wysuwaj piętę wolniej, zatrzymaj ją tuż nad podłogą albo dodaj delikatne napięcie Kegla na wydechu.",
+  "who": "Osobom po porodzie, gdy lekarz na to pozwoli, osobom po 50. roku życia oraz każdemu, kto odbudowuje kontrolę core po przerwie.",
+  "skip": "Po cesarskim cięciu, operacji brzucha lub przy rozejściu mięśni brzucha zapytaj lekarza lub fizjoterapeutę, kiedy zacząć. Jeśli widzisz wybrzuszenie wzdłuż środka brzucha, zrób ruch mniejszy lub zrób przerwę. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Czy zsuwanie pięt jest dobre po porodzie?",
+      "a": "To częste wczesne ćwiczenie, bo jest łagodne i wykonuje się je w leżeniu. Zacznij, gdy lekarz lub fizjoterapeuta na to pozwoli, i przerwij, jeśli poczujesz ból lub wybrzuszenie brzucha."
+    },
+    {
+      "q": "Dlaczego czuję to w zginaczach bioder?",
+      "a": "Przód biodra porusza nogą, więc pewien wysiłek tam jest normalny. Jeśli czujesz przeciążenie, wysuwaj piętę wolniej i na krótszą odległość."
+    }
+  ]
+}

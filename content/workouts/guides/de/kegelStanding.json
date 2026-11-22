@@ -1,0 +1,33 @@
+{
+  "description": "Kegel im Stehen: die schwerste, alltagsnaheste Beckenboden-Übung. Wie es sich im Stehen anfühlt, häufige Fehler, leichtere und schwerere Varianten.",
+  "intro": "Die Kegel-Übung im Stehen trainiert den Beckenboden dort, wo er im echten Leben arbeiten muss. Aufrecht heben sich die Muskeln gegen die Schwerkraft und das Gewicht der Organe darüber, deshalb ist das die schwerste Variante. Sie schlägt die Brücke zwischen dem Üben im Liegen und Momenten wie Husten, Heben oder Aufstehen.",
+  "feel": "Du solltest ein Anheben nach oben und innen von der Beckenbasis spüren, danach ein vollständiges Loslassen, während Beine, Gesäß und Bauch ruhig bleiben. Die Knie bleiben weich, das Gewicht verteilt sich gleichmäßig auf beide Füße. Achte auf Nach-unten-Drücken, Luftanhalten oder durchgedrückte Knie. Wenn sich das Becken nach vorn einrollt oder die Fersen abheben, haben andere Muskeln übernommen.",
+  "mistakes": [
+    {
+      "wrong": "Durchgedrückte Knie und eingerolltes Becken",
+      "right": "Löse die Knie und halte die Wirbelsäule neutral, das Gewicht liegt über der Fußmitte."
+    },
+    {
+      "wrong": "Zu früh zum Stehen übergehen",
+      "right": "Wenn das Halten nachlässt oder sich das Gesäß verkrampft, geh zurück zu Liegen oder Sitzen und bau dort zuerst auf."
+    },
+    {
+      "wrong": "Fest zupacken und das Loslassen vergessen",
+      "right": "Nimm eine mäßige Anstrengung, die du das ganze Halten über durchhältst, und entspanne vor der nächsten Wiederholung vollständig."
+    }
+  ],
+  "easier": "Halt dich an einer Stuhllehne fest oder lehn dich an eine Wand, und beginne mit 2 bis 3 Sekunden Halten.",
+  "harder": "Spanne kurz vor einem Husten, Niesen oder Heben einer Tasche an, oder verbinde es mit einem langsamen Aufstehen vom Sitzen.",
+  "who": "Läufer, Radfahrer, Kraftsportler und alle, die beim Husten oder Springen etwas Urin verlieren. Männern mit Nachtröpfeln nach dem Wasserlassen kann ein Anspannen nach dem Pinkeln helfen.",
+  "skip": "Wenn du ein Schweregefühl oder eine Vorwölbung in der Scheide oder im Becken spürst, geh zu einer Ärztin, einem Arzt oder einer Beckenboden-Physiotherapeutin, bevor du die Belastung steigerst. Dasselbe gilt bei Beckenschmerzen, einer kürzlichen Operation, einer kürzlichen Geburt oder einem überaktiven Beckenboden, bei dem das Entspannen Vorrang hat. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Warum sind Kegel-Übungen im Stehen schwerer?",
+      "a": "Im Stehen liegt dein ganzes Körpergewicht über dem Beckenboden, er hebt also gegen mehr Last, während Beine und Rumpf dich im Gleichgewicht halten."
+    },
+    {
+      "q": "Soll ich vor dem Husten oder Heben anspannen?",
+      "a": "Ein kurzes, sanftes Anspannen unmittelbar vor einem Husten, Niesen oder Heben ist eine verbreitete Technik, die helfen kann, kleine Verluste zu verringern. Übe sie zuerst im Liegen und Sitzen."
+    }
+  ]
+}

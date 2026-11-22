@@ -1,0 +1,33 @@
+{
+  "description": "Sumo-Kniebeuge für Oberschenkelinnenseiten, Gesäß und Beckenhalt: Ausführung, Atmung für den Beckenboden, Fehler, leichtere und schwerere Varianten.",
+  "intro": "Die Sumo-Kniebeuge ist eine Kniebeuge im breiten Stand mit nach außen gedrehten Zehen. Sie trainiert Oberschenkelinnenseiten und Gesäß, die rund um das Becken ansetzen und es stützen. Sie trainiert den Beckenboden selbst nicht, ist aber ein guter Ort, um das Ausatmen beim Aufstehen zu üben.",
+  "feel": "Du solltest Oberschenkelinnenseiten und Gesäß arbeiten spüren, am meisten beim Aufstehen, mit aufrechtem Oberkörper und Knien, die über die Zehen zeigen. Du solltest keine Kniebelastung, kein starkes Hohlkreuz und keinen Druck im Unterleib spüren. Selbsttest: Wenn du nur die Oberschenkelvorderseiten spürst, stell dich etwas breiter und geh gerade nach unten.",
+  "mistakes": [
+    {
+      "wrong": "Die Knie fallen nach innen",
+      "right": "Drücke die Knie die ganze Zeit über die Zehen nach außen. Wenn sie einknicken, stell dich schmaler oder dreh die Zehen weniger nach außen."
+    },
+    {
+      "wrong": "Auf dem Weg nach oben pressen",
+      "right": "Atme beim Aufstehen aus und lass den Beckenboden sich mit der Anstrengung sanft heben. Drücke nie nach unten."
+    },
+    {
+      "wrong": "Zu breit stehen",
+      "right": "Wähle einen Stand, bei dem sich die Hüften offen anfühlen und die Knie angenehm bleiben."
+    }
+  ],
+  "easier": "Nutze einen kleineren Bewegungsradius, halte dich an einem Stuhl fest oder geh auf eine hohe Sitzfläche, und kürze den Satz auf 6 bis 8 Wiederholungen.",
+  "harder": "Halte eine Kurzhantel oder Kettlebell zwischen den Beinen, senke dich über drei Sekunden ab, oder füge beim Aufstehen ein sanftes Kegel-Anheben hinzu und löse es oben vollständig.",
+  "who": "Nützlich für Kraftsportler, die sich für den Beintag aufwärmen, und für alle, die kräftigere Oberschenkelinnenseiten und stärkeres Gesäß rund um das Becken wollen.",
+  "skip": "Lass dich zuerst untersuchen, wenn du Leisten-, Hüft- oder Knieschmerzen, einen Leistenbruch, eine kürzliche Operation im Becken- oder Bauchbereich, Anzeichen einer Senkung oder Urinverlust beim Heben hast oder schwanger bist oder gerade entbunden hast und noch nicht freigegeben bist. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Ist die Sumo-Kniebeuge besser für den Beckenboden als eine normale Kniebeuge?",
+      "a": "Keine von beiden trainiert ihn direkt. Die Sumo-Kniebeuge belastet Oberschenkelinnenseiten und Gesäß stärker, und viele Menschen finden den breiten Stand leichter zu kontrollieren. Die Atmung ist wichtiger als der Stand."
+    },
+    {
+      "q": "Soll ich bei Sumo-Kniebeugen anspannen oder ausatmen?",
+      "a": "Bei Wiederholungen mit Körpergewicht reicht ein gleichmäßiges Ausatmen beim Aufstehen. Bei schweren Lasten spannen viele Kraftsportler an, aber vermeide Pressen und lass die Luft kontrolliert entweichen."
+    }
+  ]
+}

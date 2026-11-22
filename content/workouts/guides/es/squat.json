@@ -1,0 +1,33 @@
+{
+  "description": "Sentadilla con peso corporal y conciencia del suelo pélvico: cómo hacerla, respiración que protege el suelo pélvico, errores y variantes.",
+  "intro": "La sentadilla con peso corporal entrena los glúteos y los muslos, los grandes músculos que sostienen la pelvis. No es por sí sola un ejercicio de suelo pélvico, pero la respiración importa: espirar al levantarte ayuda a que el suelo pélvico se eleve con el esfuerzo en lugar de ser empujado hacia abajo.",
+  "feel": "Debes notar el trabajo de los muslos y los glúteos, sobre todo al subir, inspirando al bajar y espirando al levantarte. No debes notar que la zona lumbar toma el control, pesadez en la zona de abajo ni ganas de contener el aire y empujar. Autocomprobación: si pierdes orina o haces esfuerzo, haz la sentadilla más pequeña y céntrate en la espiración.",
+  "mistakes": [
+    {
+      "wrong": "Contener la respiración al subir",
+      "right": "Espira al levantarte. Contener el aire aumenta la presión sobre el suelo pélvico."
+    },
+    {
+      "wrong": "Rodillas que se hunden hacia dentro",
+      "right": "Mantén las rodillas alineadas con la punta de los pies. Imagina que separas el suelo con los pies."
+    },
+    {
+      "wrong": "Bajar más de lo que puedes controlar",
+      "right": "Baja solo hasta donde puedas con el pecho alto y los talones apoyados. La profundidad llega con la práctica."
+    }
+  ],
+  "easier": "Haz la sentadilla hasta una silla y tócala con suavidad antes de levantarte, o agárrate a una encimera. También puedes hacer de 6 a 8 repeticiones.",
+  "harder": "Baja durante tres o cuatro segundos, haz una pausa abajo o añade una elevación suave de Kegel al levantarte y suéltala por completo arriba.",
+  "who": "Útil para principiantes, para quienes trabajan sentados o conducen y necesitan piernas y caderas fuertes, y para cualquiera que vuelva poco a poco al ejercicio.",
+  "skip": "Hazte antes una revisión si tienes dolor de rodilla o de cadera, una hernia, una cirugía abdominal o pélvica reciente, síntomas de prolapso como pesadez, o si estás embarazada o en el posparto y aún no te han dado el alta. Si pierdes orina al hacer sentadillas, conviene comentarlo con un fisioterapeuta de suelo pélvico. Para si te duele.",
+  "faq": [
+    {
+      "q": "¿Son buenas las sentadillas para el suelo pélvico?",
+      "a": "Fortalecen los músculos que rodean la pelvis, lo que puede apoyar al suelo pélvico. No sustituyen a los Kegel, pero espirar al levantarte ayuda a que el suelo pélvico trabaje con el movimiento."
+    },
+    {
+      "q": "¿Por qué pierdo orina al hacer sentadillas?",
+      "a": "Puede que la presión esté superando al suelo pélvico, a menudo por contener el aire o por cargar demasiado pronto. Prueba con sentadillas más pequeñas y una espiración constante, y hazte una revisión si continúa."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Mostek z „marszem”: w mostku unoś po kolei stopy, by wzmocnić pośladki i kontrolę głębokiego core. Błędy oraz wersje łatwiejsza i trudniejsza.",
+  "intro": "Mostek z „marszem” zaczyna się jak zwykły mostek, a potem unosisz jedną stopę, potem drugą, podczas gdy biodra zostają w górze. Każde uniesienie przenosi obciążenie na jedną stronę, więc pośladki i głębokie core muszą powstrzymać miednicę przed opadaniem lub skręcaniem. Buduje stabilną podstawę, której miednica potrzebuje przy chodzeniu, podnoszeniu i treningu.",
+  "feel": "Poczujesz pracę obu pośladków, z dodatkowym wysiłkiem w nodze podporowej za każdym razem, gdy stopa się unosi. Brzuch jest lekko napięty, a biodra pozostają wysoko i poziomo. Uważaj na wstrzymywanie oddechu, wygięcie dolnych pleców i parcie w dół w miednicy. Jeśli biodra opadają lub kołyszą się z każdym krokiem, zrób marsz mniejszy.",
+  "mistakes": [
+    {
+      "wrong": "Unoszenie kolana zbyt wysoko",
+      "right": "Na początku unoś stopę o centymetr lub dwa. Celem jest stabilna miednica, a nie duży ruch nogi."
+    },
+    {
+      "wrong": "Wstrzymywanie oddechu przez całą serię",
+      "right": "Wydychaj powietrze, gdy stopa się unosi, a wdychaj, gdy wraca w dół. Utrzymaj wolny rytm."
+    },
+    {
+      "wrong": "Pozwalanie, by mostek się zapadał",
+      "right": "Jeśli biodra opadają, opuść się, odpocznij i zacznij od nowa z mniejszą liczbą kroków."
+    }
+  ],
+  "easier": "Unoś tylko piętę, zostawiając palce na podłodze, albo odpoczywaj po każdych dwóch krokach.",
+  "harder": "Zatrzymaj się z jedną stopą w górze na 2–3 sekundy, wyprostuj uniesioną nogę albo spowalniaj każdy krok.",
+  "who": "Osobom podnoszącym ciężary i każdemu, kto pracuje nad kontrolą core i bioder, zwłaszcza gdy zwykły mostek stał się łatwy.",
+  "skip": "Zmniejsz zakres lub pomiń przy bólu pleców podczas mostków, bólu biodra, przepuklinie lub niedawnej operacji brzucha. Jeśli zauważysz wybrzuszenie wzdłuż środka brzucha, ciężar w miednicy lub popuszczanie podczas ćwiczenia, zgłoś się na kontrolę do fizjoterapeuty. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Co pracuje w mostku z „marszem”?",
+      "a": "Pośladki i tył ud oraz głębokie mięśnie core, które utrzymują miednicę poziomo, jedna strona po drugiej."
+    },
+    {
+      "q": "Czy biodra powinny pozostać idealnie nieruchome?",
+      "a": "Staraj się ruszać nimi jak najmniej. Niewielkie kołysanie jest na początku normalne, ale duże opadanie oznacza, że na razie jest za trudno."
+    }
+  ]
+}

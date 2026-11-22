@@ -1,0 +1,33 @@
+{
+  "description": "Fersengleiten: sanfte Übung im Liegen für untere Bauchmuskeln und Hüftbeuger bei ruhigem Rücken. Fehler sowie leichtere und schwerere Varianten.",
+  "intro": "Fersengleiten ist eine sanfte Übung im Liegen: Du schiebst eine Ferse über den Boden weg und wieder zurück. Sie bringt den tiefen unteren Bauchmuskeln bei, Becken und Rücken stabil zu halten, während sich ein Bein bewegt. Die Belastung ist gering und leicht zu steuern, deshalb wird sie oft früh eingesetzt, zum Beispiel nach einer Geburt, sobald es freigegeben ist.",
+  "feel": "Du solltest leichte Arbeit tief im Bauch und an der Vorderseite der bewegten Hüfte spüren, während unterer Rücken und Becken ruhig bleiben. Atme aus, während die Ferse wegrutscht, und ein, wenn sie zurückkommt. Vermeide Luftanhalten, einen vorgewölbten Bauch oder Nach-unten-Drücken ins Becken. Selbsttest: Eine Hand unter dem unteren Rücken sollte spüren, dass der Druck etwa gleich bleibt.",
+  "mistakes": [
+    {
+      "wrong": "Beim Strecken des Beins ins Hohlkreuz gehen",
+      "right": "Gleite nur so weit, wie dein Rücken ruhig bleibt, und stopp, bevor er sich hebt."
+    },
+    {
+      "wrong": "Den Bauch stark festmachen",
+      "right": "Zieh den Unterbauch leicht ein, ohne wie bei einem Crunch zu spannen. Du solltest dabei noch sprechen können."
+    },
+    {
+      "wrong": "Das Becken von Seite zu Seite schaukeln",
+      "right": "Halte beide Hüftknochen auf gleicher Höhe und bewege dich langsam genug, um jedes Kippen zu bemerken."
+    }
+  ],
+  "easier": "Gleite nur halb, oder leg ein Handtuch unter die Ferse, damit sie leichter rutscht.",
+  "harder": "Gleite langsamer nach außen, lass die Ferse knapp über dem Boden schweben, oder füge beim Ausatmen eine sanfte Kegel-Anspannung hinzu.",
+  "who": "Menschen nach einer Geburt, sobald es freigegeben ist, Menschen über 50 und alle, die nach einer Pause die Rumpfkontrolle wieder aufbauen.",
+  "skip": "Nach einem Kaiserschnitt, einer Bauchoperation oder bei auseinandergewichenen Bauchmuskeln frag deine Ärztin, deinen Arzt oder deine Physiotherapeutin, wann du beginnen darfst. Wenn du entlang der Bauchmitte eine Vorwölbung siehst, mach die Bewegung kleiner oder pausiere sie. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Ist Fersengleiten nach der Geburt eines Babys gut?",
+      "a": "Es ist eine verbreitete frühe Übung, weil sie sanft ist und im Liegen gemacht wird. Fang an, sobald deine Ärztin, dein Arzt oder deine Physiotherapeutin es freigibt, und hör auf, wenn du Schmerzen oder eine Vorwölbung bemerkst."
+    },
+    {
+      "q": "Warum spüre ich es in den Hüftbeugern?",
+      "a": "Die Vorderseite der Hüfte bewegt das Bein, etwas Anstrengung dort ist also normal. Wenn es sich wie Überlastung anfühlt, gleite langsamer und weniger weit."
+    }
+  ]
+}

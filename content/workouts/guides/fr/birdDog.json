@@ -1,0 +1,33 @@
+{
+  "description": "Guide du « Bird dog » : tendez le bras et la jambe opposés, dos plat, pour travailler le dos, les fessiers et le core profond. Erreurs, variantes.",
+  "intro": "Le « bird dog » se fait à quatre pattes : vous tendez un bras vers l’avant et la jambe opposée vers l’arrière en gardant le tronc immobile. Il entraîne les muscles du dos, les fessiers et le core profond à stabiliser la colonne et le bassin. Il soutient le périnée plutôt que de l’entraîner directement.",
+  "feel": "Vous devez sentir travailler les muscles du dos et le fessier de la jambe levée, avec un effort régulier et faible dans le ventre. Vous ne devez pas sentir le bas du dos s’affaisser, les hanches pivoter ou la nuque forcer. Imaginez un verre d’eau posé sur le bas du dos : s’il se renversait quand vous tendez, le bras ou la jambe monte trop haut.",
+  "mistakes": [
+    {
+      "wrong": "Lever la jambe trop haut et cambrer le dos",
+      "right": "Tendez la jambe vers l’arrière, pas vers le haut, et arrêtez-vous à la hauteur de la hanche pour que le bas du dos reste plat."
+    },
+    {
+      "wrong": "Déplacer les hanches vers la jambe d’appui",
+      "right": "Gardez le poids réparti également et les hanches parallèles au sol. Raccourcissez l’extension si elles penchent."
+    },
+    {
+      "wrong": "Retenir son souffle en tendant",
+      "right": "Expirez en tendant et inspirez en revenant."
+    }
+  ],
+  "easier": "Ne bougez que la jambe ou que le bras, les trois autres points restant au sol, ou faites glisser la jambe vers l’arrière sur le sol.",
+  "harder": "Maintenez l’extension cinq secondes, allez plus lentement, ou ajoutez un Kegel doux à l’expiration suivi d’un relâchement complet.",
+  "who": "Utile aux personnes qui travaillent au bureau et ont le dos raide, à celles de plus de 40 ans, aux adeptes de la musculation qui veulent un tronc stable et à toute personne qui a besoin d’un travail du core sans impact.",
+  "skip": "Si vos poignets font mal, appuyez-vous sur les poings ou les avant-bras. Demandez d’abord l’avis d’un médecin ou d’un kinésithérapeute si vous avez un mal de dos aigu, une opération récente du ventre ou du bassin, ou des genoux qui font mal à genoux. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "Le « bird dog » est-il bon pour le mal de bas du dos ?",
+      "a": "Il est souvent utilisé en rééducation du dos, car il entraîne la stabilité avec peu de charge sur la colonne. Si vous avez mal, demandez à un kinésithérapeute s’il vous convient."
+    },
+    {
+      "q": "Combien de temps tenir chaque « bird dog » ?",
+      "a": "Commencez par une pause d’une ou deux secondes et montez jusqu’à cinq secondes quand votre dos reste plat."
+    }
+  ]
+}

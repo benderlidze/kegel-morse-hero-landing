@@ -1,0 +1,33 @@
+{
+  "description": "Guide du pont fessier : soulevez les hanches pour renforcer les fessiers et les ischio-jambiers qui soutiennent le bassin. Sensation, erreurs, variantes.",
+  "intro": "Le pont fessier renforce les fessiers et les ischio-jambiers à l’arrière du bassin. Il n’entraîne pas directement le périnée, mais des hanches fortes soutiennent le bassin, et un Kegel doux pendant la montée relie les deux.",
+  "feel": "Vous devez sentir travailler les fesses et l’arrière des cuisses, avec une ligne des genoux aux épaules en haut. Le bas du dos reste neutre, sans pincement. Surveillez la respiration retenue, la tête qui s’enfonce dans le sol ou les crampes aux ischio-jambiers. Si vous le sentez surtout dans le bas du dos, montez un peu moins haut et serrez davantage les fessiers.",
+  "mistakes": [
+    {
+      "wrong": "Pousser avec la pointe des pieds",
+      "right": "Appuyez avec les talons. Si les ischio-jambiers crampent, rapprochez un peu les pieds des hanches."
+    },
+    {
+      "wrong": "Les genoux qui partent vers l’intérieur ou l’extérieur",
+      "right": "Gardez les genoux alignés avec les hanches et les pieds à la montée comme à la descente."
+    },
+    {
+      "wrong": "Redescendre vite",
+      "right": "Redescendez lentement, une vertèbre à la fois, et relâchez complètement en bas."
+    }
+  ],
+  "easier": "Ne montez qu’à moitié, ou faites moins de répétitions avec un court repos entre chacune.",
+  "harder": "Maintenez le haut 3 à 5 secondes, ralentissez la descente, ou passez au pont avec marche ou au pont sur une jambe.",
+  "who": "Les personnes qui travaillent au bureau et ont des hanches faibles ou raides, les débutants, et celles de plus de 40 ans qui veulent de la force dans les hanches pour les mouvements du quotidien.",
+  "skip": "Adaptez ou évitez après une opération récente du dos, de la hanche ou du ventre, en cas de hernie, ou si le mal de dos augmente en montant. En fin de grossesse, être allongée à plat peut être inconfortable : demandez à votre médecin ou à votre kinésithérapeute. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "Les ponts fessiers renforcent-ils le périnée ?",
+      "a": "Les ponts sollicitent surtout les fessiers et les ischio-jambiers. Le périnée participe un peu, et vous pouvez ajouter un Kegel doux en haut, mais continuez aussi à faire des Kegel à part."
+    },
+    {
+      "q": "Pourquoi je sens les ponts dans le bas du dos ?",
+      "a": "En général, le dos se cambre en haut ou les fessiers ne travaillent pas assez. Gardez les côtes basses, montez un peu moins haut et serrez les fesses."
+    }
+  ]
+}

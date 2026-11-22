@@ -1,0 +1,33 @@
+{
+  "description": "Guía de gato-vaca: redondea y arquea la columna con la respiración para soltar la espalda y relajar el suelo pélvico. Errores y variantes.",
+  "intro": "Gato-vaca es un movimiento lento de la columna a cuatro apoyos, sincronizado con la respiración. En una rutina de suelo pélvico su función principal es la relajación y la movilidad, no la fuerza. Te ayuda a notar cómo el suelo pélvico se eleva y se suelta con la respiración, algo importante si tus músculos tienden a permanecer tensos.",
+  "feel": "Debes notar que la columna se mueve vértebra a vértebra, con un estiramiento suave de la espalda al redondearla y por delante al arquearla. No debes notar pinzamiento en la zona lumbar, tensión en el cuello ni una respiración acelerada. Al inspirar y soltar el vientre, fíjate en cómo el suelo pélvico se ablanda y se ensancha. Si el movimiento te resulta brusco, hazlo más pequeño y más lento.",
+  "mistakes": [
+    {
+      "wrong": "Mover solo el cuello y la cabeza",
+      "right": "Empieza desde el coxis y deja que el movimiento suba por la columna. La cabeza va al final."
+    },
+    {
+      "wrong": "Forzar un arco profundo en la zona lumbar",
+      "right": "Mantén el arco cómodo. El objetivo es un movimiento fácil, no llegar al límite."
+    },
+    {
+      "wrong": "Respirar sin coordinarte con el movimiento",
+      "right": "Espira al redondear, inspira al soltar el vientre y deja que la respiración marque el ritmo."
+    }
+  ],
+  "easier": "Hazlo sentado en una silla con las manos sobre las rodillas, o acolcha las rodillas si arrodillarte resulta incómodo.",
+  "harder": "Alarga cada ciclo a cinco o seis segundos, o añade una elevación suave del suelo pélvico al espirar y una relajación completa al inspirar.",
+  "who": "Ideal para quienes pasan horas sentados en la oficina o al volante, para quienes se levantan rígidos por la mañana y para personas con el suelo pélvico tenso o hiperactivo.",
+  "skip": "Si te duelen las muñecas, apoya los puños o los antebrazos, o prueba la versión sentada. Consulta antes a un médico o fisioterapeuta si tienes dolor agudo de espalda o una cirugía reciente de columna, abdomen o pelvis. Para si te duele.",
+  "faq": [
+    {
+      "q": "¿Ayuda gato-vaca a relajar el suelo pélvico?",
+      "a": "Puede ayudar. Combinar el arco con una inspiración lenta ayuda a muchas personas a notar cómo se suelta el suelo pélvico, lo cual es útil si tiende a permanecer apretado."
+    },
+    {
+      "q": "¿Es seguro gato-vaca durante el embarazo?",
+      "a": "Se usa habitualmente en el embarazo porque puede aliviar la presión en la espalda. Pregunta a tu matrona o médico si tienes alguna complicación."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Posture du « bébé heureux » pour détendre le périnée : comment la faire, la sensation attendue, les erreurs fréquentes, les variantes pour hanches tendues.",
+  "intro": "Le « bébé heureux » est un étirement allongé sur le dos où vous tenez vos pieds et laissez les genoux s’ouvrir vers les aisselles. Il ouvre l’intérieur des cuisses et les hanches et laisse le périnée s’allonger. Il ne développe pas la force ; il aide les muscles tendus à lâcher prise.",
+  "feel": "Vous devez sentir un étirement doux dans l’intérieur des cuisses et les hanches, avec le bas du dos et la tête posés au sol. Vous ne devez pas sentir de tension dans la nuque, de douleur à l’aine ni de respiration retenue. Auto-contrôle : à chaque inspiration, remarquez un léger élargissement à la base du bassin ; à l’expiration, laissez-le s’assouplir au lieu de se contracter.",
+  "mistakes": [
+    {
+      "wrong": "Tirer fort sur les pieds",
+      "right": "Tenez légèrement et laissez le poids de vos jambes ouvrir les hanches."
+    },
+    {
+      "wrong": "Soulever la tête du sol",
+      "right": "Gardez la tête au sol. Si vous n’atteignez pas vos pieds, tenez vos chevilles, vos tibias ou l’arrière de vos cuisses."
+    },
+    {
+      "wrong": "Se balancer vite ou trop loin",
+      "right": "Balancez-vous lentement et seulement un peu, ou restez immobile."
+    }
+  ],
+  "easier": "Tenez l’arrière des cuisses, ou faites une jambe à la fois, l’autre pied au sol. Un petit coussin sous la tête aide une nuque tendue.",
+  "harder": "Tenez la minute entière avec des expirations plus lentes et plus longues. Vous pouvez aussi tendre doucement une jambe à la fois pendant que le périnée reste détendu.",
+  "who": "Convient aux coureurs et aux cyclistes qui ont les hanches tendues, aux personnes qui sont beaucoup assises et à toute personne dont le périnée paraît tendu ou difficile à relâcher.",
+  "skip": "Évitez ou adaptez si vous avez une douleur à la hanche ou à l’aine, une hernie ou une opération récente du ventre ou du bassin. En fin de grossesse, demandez d’abord l’avis de votre sage-femme ou de votre médecin ; après l’accouchement, attendez d’avoir obtenu l’accord. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "Le « bébé heureux » est-il bon pour le périnée ?",
+      "a": "Il peut aider le périnée à se relâcher et à s’allonger, ce qui est utile s’il est tendu. Il ne développe pas la force."
+    },
+    {
+      "q": "Les hommes doivent-ils faire le « bébé heureux » ?",
+      "a": "Oui. Les hommes aussi gardent des tensions du périnée, souvent à cause de la position assise, du stress ou des charges lourdes. C’est un moyen simple de laisser ces muscles se reposer après une séance."
+    }
+  ]
+}

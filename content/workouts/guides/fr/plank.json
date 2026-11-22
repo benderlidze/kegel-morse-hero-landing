@@ -1,0 +1,33 @@
+{
+  "description": "Guide de la planche : tenez une ligne droite sur les avant-bras pour travailler abdominaux, fessiers et épaules sans forcer. Erreurs et variantes.",
+  "intro": "La planche sur les avant-bras est une position tenue, le corps en ligne droite de la tête aux talons. Elle fait travailler ensemble les abdominaux, les fessiers et les épaules. Elle augmente la pression à l’intérieur de l’abdomen : dans une routine pour le périnée, la clé est donc de la tenir en respirant et sans pousser vers le bas.",
+  "feel": "Vous devez sentir travailler le ventre et les fessiers, et les épaules stables au-dessus des coudes. Vous ne devez pas sentir de douleur dans le bas du dos, la respiration s’arrêter, ni de pesanteur, de pression ou de fuites dans le bassin. Si vous pouvez dire une courte phrase pendant le maintien, votre respiration va bien. Une pression vers le bas dans le bassin signifie que la planche complète est trop difficile pour l’instant.",
+  "mistakes": [
+    {
+      "wrong": "Retenir son souffle pour tenir plus longtemps",
+      "right": "Respirez lentement tout le temps. Si vous n’y arrivez pas, terminez le maintien plus tôt."
+    },
+    {
+      "wrong": "Les hanches pointées haut en l’air",
+      "right": "Abaissez les hanches jusqu’à aligner épaules, hanches et talons. Une vidéo avec votre téléphone aide à vérifier."
+    },
+    {
+      "wrong": "Pousser vers le bas pour garder le ventre serré",
+      "right": "Gainez en rentrant doucement le bas du ventre vers l’intérieur et le haut. Ne forcez jamais et ne poussez pas dans le bassin."
+    }
+  ],
+  "easier": "Faites la planche sur les genoux ou avec les avant-bras sur un banc. Plusieurs maintiens de 10 secondes conviennent.",
+  "harder": "Ajoutez du temps par petits paliers, levez un pied quelques secondes, ou ajoutez un Kegel doux en respirant, puis relâchez complètement.",
+  "who": "Convient aux personnes sans symptômes pelviens qui veulent un tronc plus fort, notamment les adeptes de la musculation, les coureurs et toute personne qui soulève des objets dans la vie quotidienne.",
+  "skip": "Adaptez ou évitez la planche complète si vous avez des symptômes de prolapsus, des fuites à l’effort, une hernie, un bombement le long du milieu du ventre ou une opération récente du ventre ou du bassin. Si vous êtes enceinte ou avez accouché récemment, demandez d’abord l’avis d’un médecin ou d’un kinésithérapeute spécialisé en rééducation périnéale. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "La planche est-elle mauvaise pour le périnée ?",
+      "a": "Pas pour la plupart des gens, mais elle augmente la pression abdominale. Si vous sentez une pesanteur ou des fuites, passez à une planche sur les genoux ou inclinée et faites-vous examiner."
+    },
+    {
+      "q": "Dois-je contracter mon périnée pendant une planche ?",
+      "a": "Un soulèvement doux convient si vous pouvez continuer à respirer. Ne serrez pas fort tout le temps, et relâchez complètement ensuite."
+    }
+  ]
+}

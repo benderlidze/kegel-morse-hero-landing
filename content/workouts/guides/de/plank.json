@@ -1,0 +1,33 @@
+{
+  "description": "Unterarmstütz (Plank): Halte eine gerade Linie auf den Unterarmen für Bauch, Gesäß und Schultern, ohne zu pressen. Fehler und Varianten.",
+  "intro": "Der Unterarmstütz ist eine gehaltene Position, bei der dein Körper von Kopf bis Fersen eine gerade Linie bildet. Er trainiert Bauchmuskeln, Gesäß und Schultern im Zusammenspiel. Er erhöht den Druck im Bauchraum, deshalb kommt es in einer Beckenbodenroutine vor allem darauf an, ihn atmend und ohne Nach-unten-Drücken zu halten.",
+  "feel": "Du solltest Bauch und Gesäß arbeiten spüren und die Schultern stabil über den Ellbogen. Du solltest keinen schmerzenden unteren Rücken, keinen stockenden Atem und kein Schweregefühl, keinen Druck und keinen Urinverlust im Becken spüren. Wenn du beim Halten einen kurzen Satz sprechen kannst, ist deine Atmung in Ordnung. Druck nach unten im Becken heißt, dass der volle Unterarmstütz im Moment zu schwer ist.",
+  "mistakes": [
+    {
+      "wrong": "Die Luft anhalten, um länger durchzuhalten",
+      "right": "Atme die ganze Zeit langsam. Wenn das nicht geht, beende das Halten früher."
+    },
+    {
+      "wrong": "Die Hüfte hoch in die Luft strecken",
+      "right": "Senke die Hüfte, bis Schultern, Hüfte und Fersen eine Linie bilden. Ein Handyvideo hilft dir beim Kontrollieren."
+    },
+    {
+      "wrong": "Nach unten pressen, um den Bauch fest zu halten",
+      "right": "Spanne an, indem du den Unterbauch sanft nach innen und oben ziehst. Presse nie und drücke nicht ins Becken."
+    }
+  ],
+  "easier": "Mach den Unterarmstütz auf den Knien oder mit den Unterarmen auf einer Bank. Mehrere Halte von 10 Sekunden sind in Ordnung.",
+  "harder": "Steigere die Zeit in kleinen Schritten, heb einen Fuß für ein paar Sekunden an, oder füge eine sanfte Kegel-Anspannung hinzu, während du atmest, und entspanne dann vollständig.",
+  "who": "Gut für Menschen ohne Beckenbeschwerden, die einen kräftigeren Rumpf wollen, darunter Kraftsportler, Läufer und alle, die im Alltag Dinge heben.",
+  "skip": "Passe den vollen Unterarmstütz an oder lass ihn aus, wenn du Anzeichen einer Senkung, Urinverlust bei Anstrengung, einen Leistenbruch, eine Vorwölbung entlang der Bauchmitte oder eine kürzliche Operation im Bauch- oder Beckenbereich hast. Wenn du schwanger bist oder gerade entbunden hast, sprich zuerst mit einer Ärztin, einem Arzt oder einer Beckenboden-Physiotherapeutin. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Ist der Unterarmstütz schlecht für den Beckenboden?",
+      "a": "Für die meisten Menschen nicht, aber er erhöht den Druck im Bauchraum. Wenn du ein Schweregefühl spürst oder Urin verlierst, wechsle zum Stütz auf den Knien oder zur erhöhten Variante und lass dich untersuchen."
+    },
+    {
+      "q": "Soll ich beim Unterarmstütz den Beckenboden anspannen?",
+      "a": "Ein sanftes Anheben ist in Ordnung, wenn du weiteratmen kannst. Spanne nicht die ganze Zeit fest an und entspanne danach vollständig."
+    }
+  ]
+}

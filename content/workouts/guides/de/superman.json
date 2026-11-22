@@ -1,0 +1,33 @@
+{
+  "description": "„Superman“-Übung für Männer: Arme, Brust und Beine leicht anheben für Rückenmuskeln und Gesäß. Fehler sowie leichtere und schwerere Varianten.",
+  "intro": "Der „Superman“ wird in Bauchlage gemacht: Du hebst Arme, Brust und Beine ein Stück an, hältst kurz und senkst wieder ab. Er stärkt die Rückenmuskeln und das Gesäß, die deinen Rumpf und dein Becken aufrecht halten. Er trainiert den Beckenboden nicht direkt, gleicht aber die auf die Vorderseite ausgerichtete Rumpfarbeit in einer Routine aus.",
+  "feel": "Du solltest die Muskeln entlang der Wirbelsäule und das Gesäß gleichmäßig arbeiten spüren. Du solltest kein scharfes Einklemmen im unteren Rücken, keinen nach oben überstreckten Nacken und keinen stockenden Atem spüren. Behalte den Blick auf dem Boden kurz vor dir. Wenn sich der untere Rücken gestaucht anfühlt, heb weniger an.",
+  "mistakes": [
+    {
+      "wrong": "So hoch wie möglich heben",
+      "right": "Ein paar Zentimeter reichen. Lass Gesäß und Rücken die Arbeit machen, statt die untere Wirbelsäule zu überstrecken."
+    },
+    {
+      "wrong": "Den Kopf in den Nacken werfen",
+      "right": "Halte den Nacken lang und den Blick nach unten, damit sich der Kopf mit der Brust bewegt."
+    },
+    {
+      "wrong": "Oben die Luft anhalten",
+      "right": "Atme aus, während du anhebst, atme beim Halten normal weiter und senke langsam ab."
+    }
+  ],
+  "easier": "Heb nur Arme und Brust oder nur die Beine an, oder jeweils einen Arm und das gegenüberliegende Bein.",
+  "harder": "Halte oben drei bis fünf Sekunden, senke in drei Sekunden ab, oder füge beim Halten eine sanfte Kegel-Anspannung hinzu und entspanne beim Absenken vollständig.",
+  "who": "Nützlich für Männer, die viel sitzen oder Gewichte heben, für Männer über 40 mit dem Wunsch nach einem stärkeren Rücken und für alle, deren Routine meist aus Rumpfarbeit an der Vorderseite besteht.",
+  "skip": "Lass ihn aus oder nimm die leichtere Variante, wenn das Wölben den unteren Rücken schmerzt, nach einer kürzlichen Operation an Rücken, Bauch oder Becken oder bei einem Leistenbruch. Geh zu einer Ärztin, einem Arzt oder einer Physiotherapeutin, wenn Rückenschmerzen nach dem Training anhalten. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Was trainiert die „Superman“-Übung?",
+      "a": "Die Muskeln entlang der Wirbelsäule, das Gesäß und die Schulterrückseiten. Es ist eine Übung für die Rückenkraft, keine für den Beckenboden."
+    },
+    {
+      "q": "Ist der „Superman“ schlecht für den unteren Rücken?",
+      "a": "Nicht, wenn das Anheben klein und kontrolliert ist. Große, schnelle Bögen können den unteren Rücken reizen, halte es also niedrig und langsam."
+    }
+  ]
+}

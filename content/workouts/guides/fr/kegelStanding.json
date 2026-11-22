@@ -1,0 +1,33 @@
+{
+  "description": "Guide du Kegel debout : la contraction du périnée la plus difficile et la plus fonctionnelle, la sensation attendue, les erreurs fréquentes, les variantes.",
+  "intro": "Le Kegel debout entraîne le périnée là où il doit travailler dans la vie réelle. À la verticale, les muscles se soulèvent contre la gravité et le poids des organes qui les surmontent : c’est donc la version la plus difficile. Elle fait le lien entre l’entraînement allongé et des moments comme tousser, soulever ou se lever.",
+  "feel": "Vous devez sentir un soulèvement vers le haut et l’intérieur depuis la base du bassin, puis un relâchement complet, tandis que les jambes, les fessiers et le ventre restent tranquilles. Les genoux restent souples et le poids est réparti également sur les deux pieds. Surveillez la poussée vers le bas, la respiration retenue ou les genoux verrouillés. Si le bassin se rétroverse ou si les talons se soulèvent, d’autres muscles ont pris le relais.",
+  "mistakes": [
+    {
+      "wrong": "Genoux verrouillés et bassin rétroversé",
+      "right": "Déverrouillez les genoux et gardez le dos neutre, le poids au milieu des pieds."
+    },
+    {
+      "wrong": "Passer trop tôt à la position debout",
+      "right": "Si les maintiens faiblissent ou si les fessiers se crispent, retournez à la position allongée ou assise et progressez-y d’abord."
+    },
+    {
+      "wrong": "Serrer fort et oublier de relâcher",
+      "right": "Utilisez un effort modéré que vous pouvez garder pendant tout le maintien, puis relâchez complètement avant la répétition suivante."
+    }
+  ],
+  "easier": "Tenez-vous au dossier d’une chaise ou appuyez-vous contre un mur, et commencez par des maintiens de 2 à 3 secondes.",
+  "harder": "Contractez juste avant de tousser, d’éternuer ou de soulever un sac, ou associez-le à un lever de chaise lent.",
+  "who": "Les coureurs, les cyclistes, les personnes qui soulèvent des charges et toutes celles qui ont de petites fuites en toussant ou en sautant. Les hommes qui ont des gouttes après avoir uriné peuvent trouver utile une contraction après la miction.",
+  "skip": "Si vous sentez une pesanteur ou une boule dans le vagin ou le bassin, consultez un médecin ou un kinésithérapeute spécialisé en rééducation périnéale avant d’ajouter de la charge. Même chose en cas de douleur pelvienne, d’opération récente, d’accouchement récent ou de périnée hyperactif, où la détente passe d’abord. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "Pourquoi les Kegel debout sont-ils plus difficiles ?",
+      "a": "Debout, tout le poids du corps se trouve au-dessus du périnée, qui se soulève donc contre une charge plus grande, pendant que les jambes et le tronc assurent l’équilibre."
+    },
+    {
+      "q": "Dois-je contracter avant de tousser ou de soulever quelque chose ?",
+      "a": "Une contraction rapide et douce juste avant de tousser, d’éternuer ou de soulever est une technique courante qui peut aider à réduire les petites fuites. Entraînez-vous d’abord allongé et assis."
+    }
+  ]
+}

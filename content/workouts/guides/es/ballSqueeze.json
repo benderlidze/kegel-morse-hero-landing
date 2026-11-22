@@ -1,0 +1,33 @@
+{
+  "description": "Apretar una pelota entre las rodillas con un Kegel: cómo hacerlo, cómo saber que funciona, errores comunes y variantes más fáciles o difíciles.",
+  "intro": "Apretar la pelota es un movimiento sentado: presionas una pelota entre las rodillas y añades al mismo tiempo una contracción del suelo pélvico. Los muslos internos trabajan junto con el suelo pélvico, por lo que a muchas personas les resulta más fácil localizar el Kegel. A diferencia de la mayoría de los movimientos de cadera y pierna, entrena directamente el suelo pélvico.",
+  "feel": "Los muslos internos presionan y, por dentro, notas una elevación y una contracción suaves, como si cortaras el chorro de orina y retuvieras gases. Tras mantener, todo se suelta por completo. No debes sentir que las nalgas hacen todo el trabajo, ni empujar hacia abajo ni contener el aire. Autocomprobación: haz una repetición sin la pelota; si no notas nada por dentro, lo hicieron todo los muslos.",
+  "mistakes": [
+    {
+      "wrong": "Apretar la pelota con toda tu fuerza",
+      "right": "Usa una presión moderada y concéntrate en la elevación interna."
+    },
+    {
+      "wrong": "Saltarte la fase de relajación",
+      "right": "Suelta por completo la pelota y el suelo pélvico, y descansa tanto como apretaste."
+    },
+    {
+      "wrong": "Hundirte en la silla",
+      "right": "Siéntate erguido sobre los isquiones con los pies apoyados. Encorvarte dificulta activar el suelo pélvico."
+    }
+  ],
+  "easier": "Mantén 2 o 3 segundos en lugar de cinco y haz menos repeticiones. O aprieta primero solo la pelota y añade el Kegel cuando ya lo notes.",
+  "harder": "Ve aumentando hasta una contracción de 10 segundos respirando con normalidad, o añade unas cuantas contracciones rápidas tras cada una.",
+  "who": "Útil para quienes trabajan en escritorio, mujeres que trabajan el control de la vejiga, hombres con goteo tras orinar y cualquiera a quien le cueste encontrar el suelo pélvico.",
+  "skip": "Si tienes dolor pélvico, dolor en las relaciones sexuales o el suelo pélvico tenso, consulta primero a un fisioterapeuta de suelo pélvico, porque apretar más puede no ayudar. Hazte también una revisión tras una cirugía pélvica o un parto recientes. Para si te duele.",
+  "faq": [
+    {
+      "q": "¿Ayuda apretar la pelota con el control de la vejiga?",
+      "a": "Puede ayudar, porque entrena los músculos del suelo pélvico que sostienen la vejiga. Requiere práctica regular durante semanas, y si las pérdidas persisten conviene hacerse una revisión."
+    },
+    {
+      "q": "¿Pueden los hombres apretar la pelota?",
+      "a": "Sí. El suelo pélvico funciona básicamente igual en los hombres, y la pelota puede facilitar la localización de los músculos. Encaja fácilmente en una pausa en el escritorio."
+    }
+  ]
+}

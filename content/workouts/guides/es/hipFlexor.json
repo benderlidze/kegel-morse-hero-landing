@@ -1,0 +1,33 @@
+{
+  "description": "Estiramiento de flexores de la cadera para quienes trabajan sentados, conductores y corredores: cómo hacerlo, cómo apoya la pelvis, errores y variantes.",
+  "intro": "El estiramiento de flexores de la cadera trabaja los músculos de la parte delantera de la cadera, que se acortan y se endurecen al estar mucho tiempo sentado y pueden tirar de la pelvis. No entrena el suelo pélvico. Ayuda a que las caderas y la pelvis se muevan con libertad, de modo que el suelo pélvico pueda trabajar y relajarse con más facilidad.",
+  "feel": "Debes notar un estiramiento en la parte delantera de la cadera y la parte alta del muslo del lado de la rodilla trasera, con el glúteo de atrás ligeramente apretado y el torso erguido. Si lo notas sobre todo en la zona lumbar, estás arqueando la espalda. Autocomprobación: si el estiramiento desaparece al dejar de arquear, mantén el glúteo apretado y desplázate menos hacia delante.",
+  "mistakes": [
+    {
+      "wrong": "Arquear la zona lumbar para llegar más lejos",
+      "right": "Mete ligeramente el coxis y mantén las costillas sobre las caderas. Un pequeño desplazamiento con la pelvis nivelada es suficiente."
+    },
+    {
+      "wrong": "Lanzarte mucho hacia delante",
+      "right": "Muévete solo uno o dos centímetros. En cuanto notes la parte delantera de la cadera, detente y respira."
+    },
+    {
+      "wrong": "Apretar el suelo pélvico junto con el glúteo",
+      "right": "Aprieta el glúteo, pero mantén relajados el vientre y el suelo pélvico."
+    }
+  ],
+  "easier": "Acolcha la rodilla de atrás, agárrate a una silla para mantener el equilibrio o hazlo de pie con un pie atrás. Basta con mantener de 15 a 20 segundos.",
+  "harder": "Levanta por encima de la cabeza el brazo del lado de la rodilla trasera e inclínate ligeramente en dirección contraria. Mantén los 30 segundos completos de cada lado respirando despacio.",
+  "who": "Bueno para quienes trabajan sentados, conductores, corredores y ciclistas, y para cualquiera que note rigidez en las caderas o en la zona lumbar después de estar sentado.",
+  "skip": "Adáptalo si arrodillarte te duele en las rodillas, o si tienes dolor en la ingle, una hernia o una cirugía reciente de cadera o abdomen. En el embarazo, agárrate a algo y mantén un recorrido pequeño. Para si te duele.",
+  "faq": [
+    {
+      "q": "¿Afectan los flexores de la cadera tensos al suelo pélvico?",
+      "a": "Pueden afectar a la posición de la pelvis y a la tensión que acumulas a su alrededor. Estirarlos no es un tratamiento del suelo pélvico, pero puede hacer más cómodo sentarse y estar de pie."
+    },
+    {
+      "q": "¿Puedo hacer este estiramiento en el escritorio?",
+      "a": "Sí. Ponte de pie, da un paso atrás con un pie, aprieta ese glúteo y desplázate un poco hacia delante agarrado al escritorio. Es una buena pausa tras estar mucho tiempo sentado."
+    }
+  ]
+}

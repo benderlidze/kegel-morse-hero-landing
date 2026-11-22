@@ -1,0 +1,33 @@
+{
+  "description": "Bauchatmung: langsame Zwerchfellatmung, die den Beckenboden entspannt und sanft anhebt. Gefühl, häufige Fehler, leichtere und schwerere Varianten.",
+  "intro": "Die Bauchatmung verbindet das Zwerchfell, deinen wichtigsten Atemmuskel, mit dem Beckenboden. Beim Einatmen wird der Beckenboden weich und senkt sich ein wenig; beim Ausatmen hebt er sich. Das Loslassen zu lernen ist genauso wichtig wie das Anspannen.",
+  "feel": "Beim Einatmen hebt sich die Hand auf dem Bauch, und die Beckenbasis fühlt sich weiter und weicher an. Beim Ausatmen sinkt der Bauch, und du bemerkst vielleicht ein leichtes Anheben im Inneren. Schultern, Nacken und Kiefer bleiben entspannt. Vermeide reine Brustatmung, den Bauch herauszudrücken und Pressen.",
+  "mistakes": [
+    {
+      "wrong": "Nur in den oberen Brustkorb atmen",
+      "right": "Leg eine Hand auf den Bauch und eine auf die Brust. Die untere Hand sollte sich mehr bewegen, und die Rippen weiten sich zur Seite."
+    },
+    {
+      "wrong": "Den Bauch stark herausdrücken",
+      "right": "Lass den Atem von selbst kommen. Wenn du ihn erzwingst, drückst du auf den Beckenboden, statt ihn weich werden zu lassen."
+    },
+    {
+      "wrong": "Zu schnell oder zu tief atmen",
+      "right": "Atme in einem langsamen, angenehmen Tempo. Wenn dir schwindlig wird, atme flacher und ruhe dich aus."
+    }
+  ],
+  "easier": "Lieg auf dem Rücken mit angewinkelten Knien und einem Kissen unter dem Kopf und mach jeweils nur ein paar Atemzüge.",
+  "harder": "Füge bei jedem Ausatmen eine sanfte Kegel-Anspannung hinzu und bei jedem Einatmen ein vollständiges Loslassen. Übe auch im Sitzen oder Stehen.",
+  "who": "Alle, besonders Menschen mit verspanntem Beckenboden, Beckenschmerzen oder Stress, und Menschen nach einer Geburt, sobald es freigegeben ist. Kraftsportler können damit Atemkontrolle lernen.",
+  "skip": "Die Übung ist sanft und passt für die meisten Menschen. Wenn dir schwindlig wird, du kurzatmig oder ängstlich wirst, kehre zur normalen Atmung zurück, und sprich mit einer Ärztin oder einem Arzt, wenn eine Lungen- oder Herzerkrankung deine Atmung beeinflusst. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Wie beeinflusst die Atmung den Beckenboden?",
+      "a": "Zwerchfell und Beckenboden bewegen sich zusammen wie ein Kolben. Beim Einatmen senkt sich der Beckenboden und entspannt, beim Ausatmen hebt er sich."
+    },
+    {
+      "q": "Kann Atmen bei einem verspannten Beckenboden helfen?",
+      "a": "Langsame Bauchatmung kann den Muskeln helfen loszulassen, oft ist das der erste Schritt bei einem zu angespannten Beckenboden. Entspanne zuerst, statt noch mehr anzuspannen, und lass dich von einer Beckenboden-Physiotherapeutin oder einem -Physiotherapeuten beraten, wenn die Beschwerden bleiben."
+    }
+  ]
+}

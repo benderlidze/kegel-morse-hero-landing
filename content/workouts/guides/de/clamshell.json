@@ -1,0 +1,33 @@
+{
+  "description": "„Muschel“: Öffne das obere Knie bei zusammenbleibenden Füßen, um die seitlichen Gesäßmuskeln zu trainieren. Fehler sowie leichtere und schwerere Varianten.",
+  "intro": "Die „Muschel“ ist eine Übung in Seitenlage, bei der du das obere Knie wie eine Muschel öffnest, während die Füße zusammenbleiben. Sie zielt auf die seitlichen Gesäßmuskeln, die dein Becken beim Gehen, Laufen oder Stehen auf einem Bein gerade halten. Sie trainiert den Beckenboden nicht direkt, aber stärkere Hüften geben dem Becken besseren Halt.",
+  "feel": "Du solltest eine warme Anstrengung an der Außenseite der oberen Hüfte spüren, hinter dem Hüftknochen. Du solltest sie nicht hauptsächlich an der Oberschenkelvorderseite oder im unteren Rücken spüren, und du atmest weiter. Leg eine Hand auf das obere Gesäß: Es sollte fest werden, wenn sich das Knie öffnet. Wenn der Rücken übernimmt, ist die Hüfte wahrscheinlich nach hinten gerollt.",
+  "mistakes": [
+    {
+      "wrong": "Das Knie so hoch wie möglich heben",
+      "right": "Öffne nur so weit, wie die Hüften übereinander bleiben. Ein kleines Anheben mit arbeitendem Gesäß ist besser als ein großes mit rollendem Becken."
+    },
+    {
+      "wrong": "Die Wiederholungen überstürzen",
+      "right": "Heb ein bis zwei Sekunden an, halte kurz und senke langsam ab."
+    },
+    {
+      "wrong": "Die Füße auseinandergehen lassen",
+      "right": "Lass die Fersen sich berühren, damit die Hüfte die Bewegung antreibt und nicht der Unterschenkel."
+    }
+  ],
+  "easier": "Öffne weniger weit, mach weniger Wiederholungen, oder leg den Kopf auf ein Kissen, damit der Nacken entspannt bleibt.",
+  "harder": "Leg ein leichtes Widerstandsband über die Knie, halte oben drei Sekunden, oder heb beim Öffnen des Knies beide Füße leicht an.",
+  "who": "Nützlich für Läufer, Menschen mit schwachen Hüften, Frauen nach einer Geburt, sobald es freigegeben ist, und alle über 40, die besseres Gleichgewicht und mehr Halt im Becken wollen.",
+  "skip": "Sprich zuerst mit einer Ärztin, einem Arzt oder einer Physiotherapeutin, wenn das Liegen auf der Seite der Hüfte wehtut, nach einer kürzlichen Operation an Hüfte oder Becken oder bei Beckenschmerzen in der Schwangerschaft. Ein Kissen zwischen den Knien kann helfen. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Helfen „Muscheln“ dem Beckenboden?",
+      "a": "Nicht direkt. Sie stärken die seitlichen Gesäßmuskeln, die das Becken stabil halten, und können so getrennt gemachte Beckenbodenübungen unterstützen."
+    },
+    {
+      "q": "Warum spüre ich die „Muschel“ im unteren Rücken?",
+      "a": "Meist ist die obere Hüfte nach hinten gerollt. Stapel die Hüften übereinander, heb weniger an und halte den Bauch leicht aktiv."
+    }
+  ]
+}

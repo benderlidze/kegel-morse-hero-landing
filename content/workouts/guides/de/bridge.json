@@ -1,0 +1,33 @@
+{
+  "description": "Gesäßbrücke: Hüfte heben, um Gesäß und Beinrückseite zu stärken, die das Becken stützen. Gefühl, häufige Fehler, leichtere und schwerere Varianten.",
+  "intro": "Die Gesäßbrücke stärkt Gesäß und Beinrückseite rund um die Rückseite des Beckens. Sie trainiert den Beckenboden nicht direkt, aber kräftige Hüften stützen das Becken, und eine sanfte Kegel-Anspannung beim Heben verbindet beides.",
+  "feel": "Du solltest Gesäß und Oberschenkelrückseite arbeiten spüren, oben mit einer Linie von den Knien bis zu den Schultern. Dein unterer Rücken fühlt sich neutral an, nicht eingeklemmt. Achte auf Luftanhalten, Kopf in den Boden pressen oder Krämpfe in der Beinrückseite. Wenn du es hauptsächlich im unteren Rücken spürst, heb die Hüfte etwas weniger hoch und spanne das Gesäß stärker an.",
+  "mistakes": [
+    {
+      "wrong": "Über die Zehen drücken",
+      "right": "Drücke dich über die Fersen hoch. Wenn die Beinrückseite krampft, stell die Füße etwas näher an die Hüfte."
+    },
+    {
+      "wrong": "Knie, die nach innen oder außen kippen",
+      "right": "Halte die Knie beim Heben und Senken in einer Linie mit Hüfte und Füßen."
+    },
+    {
+      "wrong": "Schnell absacken",
+      "right": "Senke dich langsam ab, Wirbel für Wirbel, und entspanne unten vollständig."
+    }
+  ],
+  "easier": "Heb dich nur halb hoch, oder mach weniger Wiederholungen mit kurzer Pause dazwischen.",
+  "harder": "Halte die obere Position 3 bis 5 Sekunden, senke langsamer ab, oder gehe zur Brücke mit Marschieren oder zur einbeinigen Brücke über.",
+  "who": "Menschen mit Schreibtischjob und schwachen oder steifen Hüften, Einsteiger und Menschen über 40, die Hüftkraft für Alltagsbewegungen aufbauen wollen.",
+  "skip": "Passe die Übung an oder lass sie aus nach einer kürzlichen Operation an Rücken, Hüfte oder Bauch, bei einem Leistenbruch oder wenn Rückenschmerzen beim Heben stärker werden. In der späteren Schwangerschaft kann flaches Liegen unangenehm sein, frag deshalb deine Ärztin, deinen Arzt oder deine Physiotherapeutin. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Stärkt die Gesäßbrücke den Beckenboden?",
+      "a": "Brücken trainieren vor allem Gesäß und Beinrückseite. Der Beckenboden arbeitet ein wenig mit, und du kannst oben eine sanfte Kegel-Anspannung hinzufügen, aber mach weiterhin auch Kegel-Übungen."
+    },
+    {
+      "q": "Warum spüre ich die Brücke im unteren Rücken?",
+      "a": "Meist wölbt sich der Rücken oben ins Hohlkreuz, oder das Gesäß leistet zu wenig. Halte die Rippen unten, heb die Hüfte etwas weniger hoch und spanne das Gesäß an."
+    }
+  ]
+}

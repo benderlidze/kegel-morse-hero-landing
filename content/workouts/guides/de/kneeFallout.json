@@ -1,0 +1,33 @@
+{
+  "description": "Knie zur Seite sinken lassen: ein angewinkeltes Knie bei ruhigem Becken absenken, für Oberschenkelinnenseite und Hüfte. Fehler und Varianten.",
+  "intro": "Das seitliche Absenken der Knie ist eine sanfte Übung im Liegen: Ein angewinkeltes Knie öffnet sich langsam zur Seite und kehrt zurück, während das Becken ruhig bleibt. Sie trainiert die Kontrolle von Oberschenkelinnenseite und Hüfte. In einer Beckenbodenroutine bringt sie außerdem eine leichte Dehnung der Oberschenkelinnenseite und die Gelegenheit, den Beckenbereich entspannen zu üben.",
+  "feel": "Du solltest spüren, wie dein Unterbauch das Becken waagerecht hält, dazu eine leichte Dehnung oder Anstrengung an der Oberschenkelinnenseite. Du solltest nicht spüren, wie sich die gegenüberliegende Hüfte hebt, der Rücken ins Hohlkreuz geht oder der Atem stockt. Leg die Hände auf die Vorderseite der Hüftknochen: Sie sollten beim Absenken des Knies auf gleicher Höhe bleiben.",
+  "mistakes": [
+    {
+      "wrong": "Das Becken mit dem Knie mitrollen lassen",
+      "right": "Senke das Knie nur so weit, wie die Hüften auf gleicher Höhe bleiben. Ein kleinerer, sauberer Bewegungsradius ist besser."
+    },
+    {
+      "wrong": "Das Knie schnell fallen lassen",
+      "right": "Senke etwa drei Sekunden lang ab und kehre genauso langsam zurück."
+    },
+    {
+      "wrong": "Den Beckenboden die ganze Zeit anspannen",
+      "right": "Lass ihn zwischen den Wiederholungen weich. Bei dieser Übung geht es um Kontrolle, nicht um ständiges Anspannen."
+    }
+  ],
+  "easier": "Leg ein Kissen unter den äußeren Oberschenkel, damit das Knie einen kürzeren Weg hat, oder mach weniger Wiederholungen.",
+  "harder": "Halte das Knie auf halbem Weg für zwei Atemzüge, oder streck das andere Bein auf dem Boden aus, sodass das Becken mehr Arbeit hat, ruhig zu bleiben.",
+  "who": "Hilfreich nach einer Geburt, sobald du zum Training freigegeben bist, für alle, die eine ruhige Abendroutine wollen, und für Menschen mit verspannter Oberschenkelinnenseite oder einem Beckenboden, der gern angespannt bleibt.",
+  "skip": "Sprich zuerst mit einer Ärztin, einem Arzt oder einer Beckenboden-Physiotherapeutin, wenn du Schmerzen am Schambein oder in der Leiste hast, kürzlich im Becken operiert wurdest oder während oder nach einer Schwangerschaft Schmerzen an der Beckenvorderseite hast. Wenn die Hüfte einklemmt, verkleinere den Bewegungsradius. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Sind Knie zur Seite sinken lassen nach einem Kaiserschnitt gut?",
+      "a": "Es ist eine verbreitete frühe Übung, weil die Belastung gering ist. Warte, bis deine Ärztin, dein Arzt oder deine Hebamme sagt, dass du mit sanften Übungen beginnen darfst."
+    },
+    {
+      "q": "Soll ich dabei eine Kegel-Anspannung machen?",
+      "a": "Du kannst beim Zurückkehren des Knies sanft anspannen und dann vollständig loslassen. Viele Menschen haben hier mehr davon, den Beckenboden weich zu lassen."
+    }
+  ]
+}

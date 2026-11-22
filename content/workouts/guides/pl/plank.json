@@ -1,0 +1,33 @@
+{
+  "description": "Deska: utrzymaj prostą linię na przedramionach, by trenować brzuch, pośladki i barki bez przeciążenia. Jak to czuć, błędy, wersje ćwiczenia.",
+  "intro": "Deska na przedramionach to pozycja utrzymywana z ciałem w prostej linii od głowy do pięt. Trenuje mięśnie brzucha, pośladki i barki, by pracowały razem. Podnosi ciśnienie w jamie brzusznej, więc w zestawie na dno miednicy kluczową umiejętnością jest utrzymanie jej przy oddychaniu i bez parcia w dół.",
+  "feel": "Poczujesz pracę brzucha i pośladków oraz barki stabilnie nad łokciami. Nie powinno być czuć bólu dolnych pleców, zatrzymania oddechu ani ciężaru, ucisku lub popuszczania w miednicy. Jeśli możesz powiedzieć krótkie zdanie podczas utrzymania, oddychasz prawidłowo. Ucisk w dół w miednicy oznacza, że pełna deska jest na razie za trudna.",
+  "mistakes": [
+    {
+      "wrong": "Wstrzymywanie oddechu, żeby wytrzymać dłużej",
+      "right": "Oddychaj powoli przez cały czas. Jeśli nie możesz, zakończ utrzymanie wcześniej."
+    },
+    {
+      "wrong": "Biodra wypchnięte wysoko w górę",
+      "right": "Opuść biodra, aż barki, biodra i pięty będą w jednej linii. Pomocne jest nagranie telefonem, żeby to sprawdzić."
+    },
+    {
+      "wrong": "Parcie w dół, by utrzymać napięty brzuch",
+      "right": "Usztywniaj się, delikatnie wciągając dolną część brzucha do środka i w górę. Nigdy nie napinaj się i nie przyj w stronę miednicy."
+    }
+  ],
+  "easier": "Rób deskę na kolanach albo z przedramionami na ławce. Kilka utrzymań po 10 sekund w zupełności wystarczy.",
+  "harder": "Wydłużaj czas małymi krokami, unieś jedną stopę na kilka sekund albo dodaj delikatne napięcie Kegla podczas oddychania, a potem pełne rozluźnienie.",
+  "who": "Dobre dla osób bez objawów ze strony miednicy, które chcą mocniejszego tułowia, w tym osób podnoszących ciężary, biegaczy i każdego, kto dźwiga rzeczy na co dzień.",
+  "skip": "Zmodyfikuj lub pomiń pełną deskę, jeśli masz objawy wypadania narządów, popuszczanie podczas wysiłku, przepuklinę, wybrzuszenie wzdłuż środka brzucha albo niedawną operację brzucha lub miednicy. Jeśli jesteś w ciąży lub po niedawnym porodzie, najpierw zapytaj lekarza lub fizjoterapeutę dna miednicy. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Czy deska szkodzi dnu miednicy?",
+      "a": "Nie dla większości osób, ale podnosi ciśnienie w jamie brzusznej. Jeśli czujesz ciężar lub popuszczasz, przejdź na deskę na kolanach lub z podparciem na podwyższeniu i zgłoś się na kontrolę."
+    },
+    {
+      "q": "Czy podczas deski napinać dno miednicy?",
+      "a": "Delikatne uniesienie jest w porządku, jeśli możesz dalej oddychać. Nie zaciskaj mocno przez cały czas i po ćwiczeniu całkowicie się rozluźnij."
+    }
+  ]
+}

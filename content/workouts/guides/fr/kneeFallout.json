@@ -1,0 +1,33 @@
+{
+  "description": "Guide des genoux sur les côtés : abaissez un genou fléchi sur le côté, bassin immobile, pour l’intérieur des cuisses et les hanches. Erreurs, variantes.",
+  "intro": "Les genoux sur les côtés sont un mouvement doux sur le dos : un genou fléchi s’ouvre lentement sur le côté puis revient pendant que le bassin reste stable. Ils entraînent le contrôle de l’intérieur des cuisses et des hanches. Dans une routine pour le périnée, ils donnent aussi un léger étirement de l’intérieur des cuisses et une occasion de pratiquer le relâchement de la zone pelvienne.",
+  "feel": "Vous devez sentir le bas du ventre garder le bassin à niveau et un étirement léger ou un effort le long de l’intérieur de la cuisse. Vous ne devez pas sentir la hanche opposée se soulever, le dos se cambrer ou la respiration s’arrêter. Posez les mains sur l’avant des os des hanches : elles doivent rester à niveau quand le genou descend.",
+  "mistakes": [
+    {
+      "wrong": "Laisser le bassin rouler avec le genou",
+      "right": "N’abaissez le genou que jusqu’où les hanches restent à niveau. Une petite amplitude propre vaut mieux."
+    },
+    {
+      "wrong": "Laisser tomber le genou rapidement",
+      "right": "Descendez en environ trois secondes et revenez tout aussi lentement."
+    },
+    {
+      "wrong": "Contracter le périnée pendant tout l’exercice",
+      "right": "Gardez-le souple entre les répétitions. Ce mouvement est une affaire de contrôle, pas de contraction constante."
+    }
+  ],
+  "easier": "Placez un coussin sous la cuisse extérieure pour que le genou ait un court trajet, ou faites moins de répétitions.",
+  "harder": "Marquez une pause avec le genou à mi-chemin pendant deux respirations, ou tendez l’autre jambe sur le sol pour que le bassin travaille davantage à rester immobile.",
+  "who": "Utile après un accouchement, une fois l’accord obtenu pour faire de l’exercice, pour toute personne qui veut une routine calme le soir, et pour celles qui ont l’intérieur des cuisses tendu ou un périnée qui reste facilement tendu.",
+  "skip": "Demandez d’abord l’avis d’un médecin ou d’un kinésithérapeute spécialisé en rééducation périnéale si vous avez une douleur au pubis ou à l’aine, une opération récente du bassin, ou une douleur à l’avant du bassin pendant ou après la grossesse. Si la hanche pince, réduisez l’amplitude. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "Les genoux sur les côtés sont-ils bons après une césarienne ?",
+      "a": "C’est un mouvement précoce courant, car la charge est faible. Attendez que votre médecin ou votre sage-femme vous dise que vous pouvez commencer des exercices doux."
+    },
+    {
+      "q": "Dois-je faire un Kegel pendant les genoux sur les côtés ?",
+      "a": "Vous pouvez ajouter une contraction douce quand le genou revient, puis relâcher complètement. Beaucoup de gens en tirent plus de bénéfices en gardant le périnée souple ici."
+    }
+  ]
+}

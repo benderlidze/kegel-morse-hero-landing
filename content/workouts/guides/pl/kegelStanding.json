@@ -1,0 +1,33 @@
+{
+  "description": "Ćwiczenie Kegla stojąc: najtrudniejsze i najbardziej funkcjonalne napięcie dna miednicy. Jak to czuć w pionie, błędy, wersje łatwiejsza i trudniejsza.",
+  "intro": "Ćwiczenie Kegla stojąc trenuje dno miednicy tam, gdzie musi pracować w prawdziwym życiu. W pozycji pionowej mięśnie unoszą się wbrew grawitacji i ciężarowi narządów nad nimi, więc to najtrudniejsza wersja. Łączy trening w leżeniu z takimi chwilami jak kaszel, podnoszenie ciężaru czy wstawanie.",
+  "feel": "Poczujesz uniesienie do góry i do środka od podstawy miednicy, a potem pełne rozluźnienie, podczas gdy nogi, pośladki i brzuch pozostają spokojne. Kolana są lekko ugięte, a ciężar rozłożony równo na obie stopy. Uważaj na parcie w dół, wstrzymywanie oddechu i zablokowane kolana. Jeśli miednica podwija się pod spód albo unoszą się pięty, przejęły to inne mięśnie.",
+  "mistakes": [
+    {
+      "wrong": "Zablokowane kolana i podwinięta miednica",
+      "right": "Odblokuj kolana i utrzymaj neutralną pozycję kręgosłupa, z ciężarem nad środkiem stóp."
+    },
+    {
+      "wrong": "Przechodzenie do pozycji stojącej zbyt wcześnie",
+      "right": "Jeśli napięcie słabnie albo pośladki się zaciskają, wróć do leżenia lub siedzenia i najpierw tam się wzmocnij."
+    },
+    {
+      "wrong": "Mocne zaciskanie i zapominanie o rozluźnieniu",
+      "right": "Użyj umiarkowanego wysiłku, który utrzymasz przez całe napięcie, a potem całkowicie się rozluźnij przed kolejnym powtórzeniem."
+    }
+  ],
+  "easier": "Przytrzymaj się oparcia krzesła lub oprzyj o ścianę i zacznij od napięcia przez 2–3 sekundy.",
+  "harder": "Napnij tuż przed kaszlem, kichnięciem lub podniesieniem torby albo dodaj to do powolnego wstawania z krzesła.",
+  "who": "Biegaczom, rowerzystom, osobom podnoszącym ciężary oraz każdemu, kto lekko popuszcza przy kaszlu lub skokach. Mężczyznom z popuszczaniem po oddaniu moczu może pomóc napięcie tuż po wyjściu z toalety.",
+  "skip": "Jeśli czujesz ciężar lub wybrzuszenie w pochwie albo miednicy, zgłoś się do lekarza lub fizjoterapeuty dna miednicy, zanim dodasz obciążenie. To samo dotyczy bólu miednicy, niedawnej operacji, niedawnego porodu lub nadmiernie napiętego dna miednicy, gdzie najpierw trzeba się rozluźnić. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Dlaczego ćwiczenia Kegla stojąc są trudniejsze?",
+      "a": "W pozycji stojącej cały ciężar ciała jest nad dnem miednicy, więc unosi się ono przeciw większemu obciążeniu, a nogi i tułów utrzymują równowagę."
+    },
+    {
+      "q": "Czy napinać mięśnie przed kaszlem lub podnoszeniem?",
+      "a": "Szybkie, delikatne napięcie tuż przed kaszlem, kichnięciem lub podniesieniem ciężaru to znana technika, która może pomóc ograniczyć drobne popuszczanie. Najpierw poćwicz ją leżąc i siedząc."
+    }
+  ]
+}

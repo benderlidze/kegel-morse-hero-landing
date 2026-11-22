@@ -1,0 +1,33 @@
+{
+  "description": "Silla en la pared con un Kegel: cómo hacerla, dónde notarla, cómo respirar, errores comunes y variantes más fáciles o difíciles para cada nivel.",
+  "intro": "La silla en la pared es una posición estática con la espalda apoyada en la pared y las rodillas dobladas. Desarrolla la resistencia de muslos y glúteos, que sostienen la pelvis. Un Kegel suave durante la pausa enseña al suelo pélvico a trabajar mientras las piernas están ocupadas, como tiene que hacer en la vida diaria.",
+  "feel": "Los muslos trabajan de forma constante, con algo de ayuda de los glúteos. El Kegel se siente como una elevación y una contracción suaves por dentro, como si cortaras el chorro de orina, y luego una relajación completa. No debes notar dolor de rodillas, que contienes el aire, que son las nalgas apretadas las que hacen el trabajo ni que empujas hacia abajo. Autocomprobación: puedes contar en voz alta mientras mantienes la posición.",
+  "mistakes": [
+    {
+      "wrong": "Bajar demasiado",
+      "right": "Noventa grados es el objetivo, pero más alto está bien mientras vas progresando."
+    },
+    {
+      "wrong": "Mantener el Kegel durante toda la silla en la pared",
+      "right": "Aprieta unos segundos y luego suelta por completo antes del siguiente. La relajación es tan importante como la contracción."
+    },
+    {
+      "wrong": "Contener la respiración para aguantar",
+      "right": "Respira de forma constante todo el tiempo. Si no puedes, acorta la pausa."
+    }
+  ],
+  "easier": "Baja solo parcialmente, mantén de 10 a 15 segundos o deja el Kegel hasta que la posición te resulte fácil.",
+  "harder": "Mantén hasta unos 40 segundos y haz unos cuantos Kegel cortos durante la pausa, relajando por completo entre ellos. También puedes sujetar un peso sobre el regazo.",
+  "who": "Bueno para adultos de más de 40 años que quieren sostén de piernas y pelvis sin impacto, para quienes levantan pesas y calientan, y para cualquiera a quien las sentadillas en movimiento le resulten duras para las rodillas.",
+  "skip": "Adáptala o evítala si tienes dolor de rodilla, una hernia, una cirugía pélvica o abdominal reciente, o hipertensión que tu médico no haya autorizado para hacer ejercicio. Si el suelo pélvico está tenso o te duele, omite el Kegel y limítate a respirar. Para si te duele.",
+  "faq": [
+    {
+      "q": "¿Debo hacer Kegel durante la silla en la pared?",
+      "a": "Sí, con suavidad. Aprieta y eleva unos segundos, suelta por completo y sigue respirando. Si tu suelo pélvico tiende a estar tenso, omite la contracción y limítate a mantener la posición."
+    },
+    {
+      "q": "¿Cuánto tiempo debe mantener un principiante la silla en la pared?",
+      "a": "Empieza con 15 a 20 segundos y ve subiendo hacia los 40. Para antes de que los muslos tiemblen con fuerza."
+    }
+  ]
+}

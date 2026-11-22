@@ -1,0 +1,33 @@
+{
+  "description": "Opuszczanie kolan na boki: opuszczaj jedno zgięte kolano na bok przy nieruchomej miednicy, by trenować wewnętrzne strony ud i biodra. Błędy i wersje.",
+  "intro": "Opuszczanie kolan na boki to łagodne ćwiczenie w leżeniu: jedno zgięte kolano powoli odchyla się na bok i wraca, podczas gdy miednica pozostaje stabilna. Trenuje kontrolę wewnętrznych stron ud i bioder. W zestawie na dno miednicy daje też lekkie rozciągnięcie przywodzicieli i okazję, by poćwiczyć rozluźnianie okolicy miednicy.",
+  "feel": "Poczujesz, jak dolna część brzucha utrzymuje miednicę poziomo, oraz lekkie rozciągnięcie lub wysiłek wzdłuż wewnętrznej strony uda. Nie powinno być czuć unoszenia przeciwnego biodra, wyginania pleców ani zatrzymania oddechu. Połóż dłonie na przodzie kości biodrowych: powinny pozostać na tym samym poziomie, gdy kolano opada.",
+  "mistakes": [
+    {
+      "wrong": "Pozwalanie, by miednica przetaczała się razem z kolanem",
+      "right": "Opuszczaj kolano tylko tak daleko, by biodra pozostały poziomo. Mniejszy, czysty zakres jest lepszy."
+    },
+    {
+      "wrong": "Szybkie opuszczanie kolana",
+      "right": "Opuszczaj przez około trzy sekundy i wracaj równie wolno."
+    },
+    {
+      "wrong": "Zaciskanie dna miednicy przez cały czas",
+      "right": "Między powtórzeniami zostaw je miękkie. To ćwiczenie dotyczy kontroli, a nie ciągłego napinania."
+    }
+  ],
+  "easier": "Podłóż poduszkę pod zewnętrzną stronę uda, żeby kolano miało krótszą drogę, albo zrób mniej powtórzeń.",
+  "harder": "Zatrzymaj kolano w połowie drogi na dwa oddechy albo wyprostuj drugą nogę wzdłuż podłogi, żeby miednica musiała mocniej pracować nad utrzymaniem bezruchu.",
+  "who": "Pomaga po porodzie, gdy lekarz pozwoli ćwiczyć, każdemu, kto chce spokojnego wieczornego zestawu, oraz osobom z napiętymi wewnętrznymi stronami ud lub dnem miednicy, które ma tendencję do pozostawania w napięciu.",
+  "skip": "Najpierw skonsultuj się z lekarzem lub fizjoterapeutą dna miednicy, jeśli masz ból w okolicy łonowej lub pachwinowej, niedawną operację miednicy albo ból z przodu miednicy w trakcie ciąży lub po niej. Jeśli biodro „zacina”, zmniejsz zakres. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Czy opuszczanie kolan na boki jest dobre po cesarskim cięciu?",
+      "a": "To częsty wczesny ruch, bo obciążenie jest małe. Poczekaj, aż lekarz lub położna powie, że możesz zacząć delikatne ćwiczenia."
+    },
+    {
+      "q": "Czy podczas opuszczania kolan na boki robić ćwiczenie Kegla?",
+      "a": "Możesz dodać delikatne napięcie, gdy kolano wraca, a potem całkowicie się rozluźnić. Wiele osób zyskuje więcej, gdy w tym ćwiczeniu dno miednicy zostaje miękkie."
+    }
+  ]
+}

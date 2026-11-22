@@ -1,0 +1,33 @@
+{
+  "description": "Kegel im Sitzen: unauffälliges Anspannen des Beckenbodens auf dem Stuhl oder im Auto. Gefühl, häufige Fehler, leichtere und schwerere Varianten.",
+  "intro": "Die Kegel-Übung im Sitzen ist dasselbe Anheben und Anspannen, nur aufrecht auf einem Stuhl. Sie lässt sich am leichtesten in den Alltag einbauen: am Schreibtisch, im Bus oder an der roten Ampel, niemand merkt etwas. Im Sitzen ist die Belastung etwas höher als im Liegen, und die Sitzfläche gibt dir hilfreiche Rückmeldung.",
+  "feel": "Du sitzt auf deinen Sitzbeinhöckern und solltest spüren, wie sich der Bereich dazwischen nach oben von der Sitzfläche weg zieht und beim Entspannen wieder absinkt. Das Gesäß bleibt weich, du hebst dich also nicht vom Stuhl ab. Atme weiter und halte die Schultern locker. Wenn du nach unten drückst oder der Nacken steif wird, ist das Anspannen zu stark.",
+  "mistakes": [
+    {
+      "wrong": "Ins Steißbein zurücksinken",
+      "right": "Sitz aufrecht auf den Sitzbeinhöckern, die Füße stehen flach auf dem Boden. Bei einem eingesunkenen Becken ist das Anspannen schwerer zu finden und schwerer zu lösen."
+    },
+    {
+      "wrong": "Sich durch Zusammenkneifen des Gesäßes von der Sitzfläche abheben",
+      "right": "Wenn sich dein Körper hebt, war das dein Gesäß. Lass den Kontakt zur Sitzfläche gleich und suche ein kleineres, inneres Anheben."
+    },
+    {
+      "wrong": "Jedes Mal anspannen, wenn du dich hinsetzt",
+      "right": "Verbinde ein paar Sätze mit festen Momenten, etwa Ampeln oder dem Abschluss einer E-Mail. Ständiges Anspannen kann die Muskeln verspannt zurücklassen."
+    }
+  ],
+  "easier": "Halte 2 bis 3 Sekunden, oder sitz leicht zurückgelehnt mit gestütztem Rücken. Wenn du nichts spürst, geh zur Variante im Liegen zurück.",
+  "harder": "Verlängere die Haltezeit bei normaler Atmung, oder setz dich auf die vordere Stuhlkante. Schließe mit ein paar schnellen Anspannungen ab.",
+  "who": "Menschen mit Schreibtischjob, Autofahrer und Pendler sowie Menschen über 50, denen das Hinlegen auf den Boden schwerer fällt.",
+  "skip": "Wenn sich dein Beckenboden schon verspannt anfühlt oder du Schmerzen beim Sitzen oder beim Sex hast, konzentriere dich zuerst aufs Entspannen und lass dich von einer Beckenboden-Physiotherapeutin oder einem -Physiotherapeuten beraten. Lass dich beim Üben nie vom Straßenverkehr ablenken. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Kann man Kegel-Übungen am Schreibtisch machen?",
+      "a": "Ja. Sitz aufrecht, die Füße flach am Boden, und mach einen langsamen Satz bei normaler Atmung. Wenn du ihn an eine feste Aufgabe knüpfst, wird er leicht zur Gewohnheit."
+    },
+    {
+      "q": "Ist es sicher, beim Autofahren Kegel-Übungen zu machen?",
+      "a": "Ein paar sanfte Wiederholungen an der roten Ampel sind für die meisten Menschen in Ordnung. Lass es, wenn es dich ablenkt."
+    }
+  ]
+}

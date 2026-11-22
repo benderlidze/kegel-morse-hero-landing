@@ -1,0 +1,33 @@
+{
+  "description": "Respiración abdominal: respiraciones lentas con el diafragma que relajan y elevan con suavidad el suelo pélvico. Sensaciones, errores y variantes.",
+  "intro": "La respiración abdominal conecta el diafragma, tu principal músculo respiratorio, con el suelo pélvico. Al inspirar, el suelo pélvico se ablanda y desciende un poco; al espirar, sube. Aprender a dejar que se relaje es tan importante como aprender a contraerlo.",
+  "feel": "Al inspirar, la mano que tienes sobre el vientre sube y la base de la pelvis parece ensancharse y ablandarse. Al espirar, el vientre baja y puedes notar una ligera elevación por dentro. Hombros, cuello y mandíbula permanecen relajados. Evita respirar solo con el pecho, forzar el vientre hacia fuera o hacer esfuerzo.",
+  "mistakes": [
+    {
+      "wrong": "Respirar solo con la parte alta del pecho",
+      "right": "Pon una mano sobre el vientre y otra sobre el pecho. La mano de abajo debe moverse más, con las costillas ensanchándose hacia los lados."
+    },
+    {
+      "wrong": "Empujar el vientre con fuerza hacia fuera",
+      "right": "Deja que el aire llegue solo. Forzarlo empuja el suelo pélvico hacia abajo en lugar de dejar que se ablande."
+    },
+    {
+      "wrong": "Respirar demasiado rápido o demasiado profundo",
+      "right": "Mantén un ritmo lento y cómodo. Si te mareas, haz respiraciones más pequeñas y descansa."
+    }
+  ],
+  "easier": "Túmbate boca arriba con las rodillas dobladas y una almohada bajo la cabeza, y haz unas pocas respiraciones cada vez.",
+  "harder": "Añade una contracción suave de Kegel en cada espiración y una relajación completa en cada inspiración. Practica también sentado o de pie.",
+  "who": "Todo el mundo, en especial quienes tienen el suelo pélvico tenso, dolor pélvico o estrés, y personas tras un parto, una vez recibido el alta. Quienes levantan pesas pueden usarlo para aprender a controlar la respiración.",
+  "skip": "Es un ejercicio suave y apto para la mayoría de las personas. Si te mareas, te falta el aire o sientes ansiedad, vuelve a respirar con normalidad, y habla con un médico si una enfermedad pulmonar o cardíaca afecta a tu respiración. Para si te duele.",
+  "faq": [
+    {
+      "q": "¿Cómo influye la respiración en el suelo pélvico?",
+      "a": "El diafragma y el suelo pélvico se mueven juntos, como un pistón. Al inspirar, el suelo pélvico desciende y se relaja; al espirar, sube."
+    },
+    {
+      "q": "¿Puede la respiración ayudar con un suelo pélvico tenso?",
+      "a": "La respiración abdominal lenta puede ayudar a que los músculos se suelten, y suele ser el primer paso cuando el suelo pélvico está demasiado tenso. Relaja primero en lugar de apretar más, y consulta a un fisioterapeuta de suelo pélvico si los síntomas persisten."
+    }
+  ]
+}

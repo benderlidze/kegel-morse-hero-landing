@@ -1,0 +1,33 @@
+{
+  "description": "Guía del puente a una pierna: elevación de cadera con una pierna para glúteos, isquiotibiales y estabilidad del core. Sensaciones, errores y variantes.",
+  "intro": "En el puente a una pierna, un pie permanece apoyado mientras la otra pierna se eleva. Cada lado soporta toda la carga y debe mantener nivelada la pelvis, lo que desarrolla la fuerza y el control de cadera que se usan al correr y al montar en bici. Sostiene la pelvis en lugar de entrenar directamente el suelo pélvico.",
+  "feel": "Debes notar el trabajo del glúteo y del isquiotibial de la pierna apoyada, y del core profundo evitando que las caderas se inclinen. Imagina la pelvis como una bandeja que no quieres derramar. Evita contener el aire, arquear la zona lumbar o los calambres en los isquiotibiales. Autocomprobación: con las manos sobre los huesos de la cadera, ambos deben mantenerse a la misma altura.",
+  "mistakes": [
+    {
+      "wrong": "Que el lado elevado se caiga",
+      "right": "Sube solo hasta donde puedas mantener las dos caderas niveladas. Un puente más bajo y nivelado vale más que uno alto e inclinado."
+    },
+    {
+      "wrong": "Empujar con la punta del pie apoyado",
+      "right": "Empuja con el talón y mantén esa rodilla alineada con la cadera y el pie."
+    },
+    {
+      "wrong": "Hacer las repeticiones con prisa",
+      "right": "Sube y baja a un ritmo lento y uniforme, y descansa brevemente entre lados."
+    }
+  ],
+  "easier": "Mantén doblada la pierna elevada, o haz un puente normal desplazando el peso hacia un pie.",
+  "harder": "Haz una pausa de 3 segundos arriba, baja despacio o apoya el pie de apoyo en un escalón bajo. Un Kegel suave arriba añade otra capa de trabajo.",
+  "who": "Corredores, ciclistas y cualquiera que domine el puente con las dos piernas y quiera más fuerza de cadera y equilibrio entre ambos lados.",
+  "skip": "Evítalo si un puente normal todavía te causa dolor de espalda, o si tienes dolor de cadera, rodilla o isquiotibial en el lado que trabaja. Tras una cirugía reciente, un parto reciente o con una hernia, consulta antes a tu médico o fisioterapeuta. Para si te duele.",
+  "faq": [
+    {
+      "q": "¿Es bueno el puente a una pierna para corredores?",
+      "a": "Al correr se aterriza sobre una pierna cada vez, y este movimiento entrena cada cadera por separado de la misma manera. Es una opción habitual para la fuerza de glúteos y el control pélvico."
+    },
+    {
+      "q": "¿Por qué un lado me parece más débil?",
+      "a": "La mayoría de las personas tiene un lado más fuerte. Haz las mismas repeticiones en ambos, empezando por el más débil para no escatimarle trabajo."
+    }
+  ]
+}

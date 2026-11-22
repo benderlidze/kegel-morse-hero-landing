@@ -1,0 +1,33 @@
+{
+  "description": "Knieheben im Liegen: Hebe die angewinkelten Knie abwechselnd an, für untere Bauchmuskeln, Hüftbeuger und Beckenkontrolle. Fehler und Varianten.",
+  "intro": "Das Knieheben im Liegen ist eine Übung, bei der du ein angewinkeltes Knie anhebst und wieder absenkst und dann wechselst. Es trainiert die unteren Bauchmuskeln, das Becken stabil zu halten, während sich jedes Bein bewegt, eine Fähigkeit, die beim Gehen und Treppensteigen gebraucht wird. Es ist ein sanfter Schritt nach dem Fersengleiten.",
+  "feel": "Du solltest deinen Unterbauch ruhig arbeiten spüren und die Vorderseite der Hüfte, die das Bein anhebt. Unterer Rücken, Becken und der aufgestellte Fuß bleiben ruhig. Atme aus, während du anhebst, und ein, während du absenkst. Achte auf Luftanhalten, einen vorgewölbten Bauch oder Nach-unten-Drücken ins Becken. Selbsttest: Hände auf den Hüftknochen sollten nicht kippen, wenn das Knie steigt.",
+  "mistakes": [
+    {
+      "wrong": "Das Bein schnell fallen lassen",
+      "right": "Senke langsam ab und setz sanft auf. Beim Absenken entsteht die Kontrolle."
+    },
+    {
+      "wrong": "Beim Heben des Knies ins Hohlkreuz gehen",
+      "right": "Halte die Rippen unten und zieh den Unterbauch leicht ein. Heb weniger an, wenn dein Rücken sich trotzdem wölbt."
+    },
+    {
+      "wrong": "Mit dem anderen Fuß fest in den Boden drücken",
+      "right": "Lass diesen Fuß entspannt. Starkes Drücken heißt, dass Gesäß und Rücken übernehmen."
+    }
+  ],
+  "easier": "Heb den Fuß nur einen Zentimeter an, oder übe Fersengleiten, bis sich die Bewegung stabil anfühlt.",
+  "harder": "Halte das Knie 2 bis 3 Sekunden bei 90 Grad, senke langsamer ab, oder füge beim Heben eine sanfte Kegel-Anspannung hinzu.",
+  "who": "Menschen über 50, Einsteiger und alle, die eine schonende Rumpfübung für den Morgen suchen.",
+  "skip": "Nach Bauchoperationen, bei einem Leistenbruch oder bei auseinandergewichenen Bauchmuskeln sprich zuerst mit deiner Ärztin, deinem Arzt oder deiner Physiotherapeutin. Wenn du eine Vorwölbung am Bauch, ein Schweregefühl im Becken oder Rückenschmerzen bemerkst, mach die Bewegung kleiner oder ruhe dich aus. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Was ist der Unterschied zwischen dem Knieheben im Liegen und dem Fersengleiten?",
+      "a": "Beim Fersengleiten bleibt der Fuß auf dem Boden. Beim Knieheben im Liegen hebt er ab, sodass die unteren Bauchmuskeln mehr vom Gewicht des Beins tragen."
+    },
+    {
+      "q": "Ist das Knieheben im Liegen eine Beckenbodenübung?",
+      "a": "Es trainiert hauptsächlich die unteren Bauchmuskeln und Hüftbeuger, die mit dem Beckenboden zusammenarbeiten, um das Becken zu stabilisieren. Du kannst bei jedem Heben eine sanfte Kegel-Anspannung hinzufügen, mach aber weiterhin auch Kegel-Übungen für sich."
+    }
+  ]
+}

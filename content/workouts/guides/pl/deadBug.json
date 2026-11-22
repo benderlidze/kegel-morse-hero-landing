@@ -1,0 +1,33 @@
+{
+  "description": "„Martwy robak”: opuszczaj przeciwną rękę i nogę z płaskimi plecami, by trenować głębokie mięśnie brzucha. Jak to czuć, błędy, wersje ćwiczenia.",
+  "intro": "„Martwy robak” to powolne ćwiczenie core w leżeniu na plecach: opuszczasz jedną rękę i przeciwną nogę, podczas gdy tułów pozostaje nieruchomy. Nie trenuje bezpośrednio dna miednicy, ale uczy głębokie mięśnie brzucha współpracować z oddechem, co podtrzymuje miednicę od góry.",
+  "feel": "Poczujesz równy, niewielki wysiłek głęboko w brzuchu. Nie powinno być czuć wyginania dolnych pleców, napięcia karku ani zatrzymania oddechu. Wsuń dłoń pod dolny odcinek pleców: jeśli szczelina się powiększa, gdy noga opada, zakres ruchu jest za duży. Dno miednicy zostaw rozluźnione, nie zaciskaj go.",
+  "mistakes": [
+    {
+      "wrong": "Wstrzymywanie oddechu przy każdym wyciągnięciu",
+      "right": "Wydychaj powietrze, gdy ręka i noga opadają, a wdychaj, gdy wracają."
+    },
+    {
+      "wrong": "Szybkie ruchy i wymachiwanie kończynami",
+      "right": "Poświęć około trzech sekund na opuszczanie i trzy na powrót, żeby pracował brzuch, a nie rozpęd."
+    },
+    {
+      "wrong": "Wypychanie brzucha lub parcie w dół",
+      "right": "Delikatnie wciągaj dolną część brzucha do środka i w górę, nigdy w dół do miednicy. Jeśli czujesz ucisk na dole, zmniejsz zakres."
+    }
+  ],
+  "easier": "Trzymaj ręce na podłodze i opuszczaj jedną nogę naraz, dotykając podłogi piętą przy zgiętym kolanie.",
+  "harder": "Prostuj nogę całkowicie podczas opuszczania albo dodaj delikatne napięcie Kegla na każdym wydechu i pełne rozluźnienie na wdechu.",
+  "who": "Przydatne dla osób pracujących przy biurku, osób podnoszących ciężary, które chcą stabilnego tułowia, oraz każdego wracającego do ćwiczeń, kto potrzebuje startu z małym obciążeniem.",
+  "skip": "Najpierw skonsultuj się z lekarzem lub fizjoterapeutą dna miednicy po niedawnej operacji brzucha lub miednicy, jeśli zauważysz wybrzuszenie wzdłuż środka brzucha albo jesteś w ciąży lub po niedawnym porodzie. Jeśli ból pleców się nasila, zmniejsz zakres. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Czy „martwy robak” jest dobry dla dna miednicy?",
+      "a": "Pośrednio. Trenuje głębokie mięśnie brzucha i oddychanie, które współpracują z dnem miednicy, więc połącz go z osobnymi ćwiczeniami Kegla."
+    },
+    {
+      "q": "Dlaczego dolny odcinek pleców odrywa się od podłogi?",
+      "a": "Mięśnie brzucha nie potrafią jeszcze kontrolować takiego zakresu. Opuszczaj nogę mniej, zegnij kolano bardziej i poruszaj się wolniej, aż plecy pozostaną przy podłodze."
+    }
+  ]
+}

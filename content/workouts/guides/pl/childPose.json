@@ -1,0 +1,33 @@
+{
+  "description": "Poza dziecka na rozluźnienie dna miednicy: jak ją wykonać, gdzie czuć rozciągnięcie, błędy oraz łatwiejsza i trudniejsza wersja przy spiętych biodrach.",
+  "intro": "Poza dziecka to pozycja odpoczynku w klęku, która delikatnie rozciąga dolny odcinek pleców i biodra. Nie buduje siły; jej wartość to rozluźnienie: daje dnu miednicy szansę, by puściło, co pomaga, jeśli jest napięte albo zaciskasz je, nawet o tym nie wiedząc.",
+  "feel": "Poczujesz lekkie rozciągnięcie w dolnych plecach i biodrach, miękki brzuch i powolny oddech. Nie powinno być czuć ściskania w kolanach, napięcia karku ani chęci wstrzymania oddechu. Samokontrola: na wdechu zauważ lekkie rozszerzenie między guzami kulszowymi, a na wydechu pozwól mu opaść bez zaciskania.",
+  "mistakes": [
+    {
+      "wrong": "Wciskanie bioder na siłę do pięt",
+      "right": "Zatrzymaj się tam, gdzie jest wygodnie. Poduszka między biodrami a piętami daje to samo rozluźnienie bez przeciążenia."
+    },
+    {
+      "wrong": "Napinanie brzucha lub dna miednicy",
+      "right": "Pozwól, by podłoga niosła twój ciężar. Nic tu nie musi pracować, więc rozluźnij szczękę, brzuch i dno miednicy."
+    },
+    {
+      "wrong": "Płytki oddech klatką piersiową",
+      "right": "Oddychaj powoli w dolny odcinek pleców. Nieco dłuższy wydech pomaga dnu miednicy puścić."
+    }
+  ],
+  "easier": "Podłóż poduszkę pod biodra lub klatkę piersiową albo oprzyj czoło na ułożonych pięściach. Jeśli klęczenie przeszkadza kolanom, podłóż pod nie coś miękkiego.",
+  "harder": "Przesuń dłonie na jedną stronę, potem na drugą, żeby rozciągnąć bok. Utrzymaj pozycję dłużej przy wolniejszym oddechu; bez napinania.",
+  "who": "Przydatne dla osób, które godzinami siedzą lub prowadzą auto, i każdego, kogo dno miednicy jest napięte lub trudno się rozluźnia po treningu.",
+  "skip": "Zmodyfikuj pozycję przy bólu kolan lub niedawnej operacji kolana albo biodra; w ciąży rozsuń szerzej kolana i podeprzyj klatkę piersiową. Jeśli masz ból miednicy lub ból podczas seksu, może ci pomóc fizjoterapeuta dna miednicy. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Czy poza dziecka jest dobra dla dna miednicy?",
+      "a": "Pomaga w rozluźnieniu, a nie w budowaniu siły. Pozycja i powolny oddech ułatwiają dnu miednicy puszczenie napięcia."
+    },
+    {
+      "q": "Czy w pozie dziecka robić ćwiczenia Kegla?",
+      "a": "Lepiej sprawdza się jako część zestawu służąca rozluźnieniu. Jeśli twoje dno miednicy ma tendencję do napięcia, rozwiązaniem nie jest dalsze napinanie, tylko pełne puszczenie."
+    }
+  ]
+}

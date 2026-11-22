@@ -1,0 +1,33 @@
+{
+  "description": "Ćwiczenie Kegla siedząc: dyskretne napięcie dna miednicy na krześle, przy biurku lub w aucie. Jak to czuć, częste błędy, wersje łatwiejsza i trudniejsza.",
+  "intro": "Ćwiczenie Kegla siedząc to to samo uniesienie i napięcie, tylko w pozycji wyprostowanej na krześle. Najłatwiej włączyć je do codziennego życia: przy biurku, w autobusie czy na czerwonym świetle nikt tego nie zauważy. Siedząc, masz trochę większe obciążenie niż leżąc, a siedzisko daje przydatną informację zwrotną.",
+  "feel": "Siedząc na guzach kulszowych, poczujesz, jak okolica między nimi unosi się i odsuwa od siedziska, a potem opada z powrotem przy rozluźnieniu. Pośladki pozostają miękkie, więc nie unosisz się na krześle. Oddychaj dalej i trzymaj ramiona luźno. Parcie w dół lub sztywny kark oznaczają, że napięcie jest zbyt mocne.",
+  "mistakes": [
+    {
+      "wrong": "Garbienie się i opieranie na kości ogonowej",
+      "right": "Usiądź prosto na guzach kulszowych, stopy płasko. Przy zgarbionej miednicy trudniej znaleźć napięcie i je rozluźnić."
+    },
+    {
+      "wrong": "Unoszenie się z siedziska przez zaciskanie pośladków",
+      "right": "Jeśli ciało się unosi, to były pośladki. Utrzymaj ten sam kontakt z siedziskiem i szukaj mniejszego, wewnętrznego uniesienia."
+    },
+    {
+      "wrong": "Napinanie za każdym razem, gdy siadasz",
+      "right": "Powiąż kilka serii ze stałymi momentami, jak światła na skrzyżowaniu albo skończenie maila. Ciągłe napinanie może zostawić mięśnie w napięciu."
+    }
+  ],
+  "easier": "Utrzymuj napięcie 2–3 sekundy albo usiądź lekko odchylony, z oparciem pleców. Jeśli nic nie czujesz, wróć do wersji leżącej.",
+  "harder": "Wydłuż napięcie, oddychając normalnie, albo usiądź na przedniej krawędzi krzesła. Na koniec zrób kilka szybkich skurczów.",
+  "who": "Osobom pracującym przy biurku, kierowcom i osobom dojeżdżającym do pracy oraz osobom po 50. roku życia, którym trudniej schodzić na podłogę.",
+  "skip": "Jeśli dno miednicy jest już napięte albo czujesz ból podczas siedzenia lub seksu, skup się najpierw na rozluźnieniu i zgłoś się do fizjoterapeuty dna miednicy. Nigdy nie pozwól, by ćwiczenie odciągało uwagę od drogi. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Czy można ćwiczyć Kegla przy biurku?",
+      "a": "Tak. Usiądź prosto, stopy płasko, i zrób powoli serię, oddychając normalnie. Powiązanie ćwiczenia ze stałą czynnością ułatwia wyrobienie nawyku."
+    },
+    {
+      "q": "Czy ćwiczenie Kegla podczas prowadzenia auta jest bezpieczne?",
+      "a": "Kilka delikatnych powtórzeń na czerwonym świetle jest dla większości osób w porządku. Odpuść, jeśli rozprasza."
+    }
+  ]
+}

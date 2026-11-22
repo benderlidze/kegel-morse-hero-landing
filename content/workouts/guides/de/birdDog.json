@@ -1,0 +1,33 @@
+{
+  "description": "„Bird Dog“: Strecke gegenüberliegenden Arm und Bein bei flachem Rücken für Rückenmuskeln, Gesäß und tiefe Rumpfmuskeln. Fehler und Varianten.",
+  "intro": "Der „Bird Dog“ wird im Vierfüßlerstand gemacht: Du streckst einen Arm nach vorn und das gegenüberliegende Bein nach hinten, während der Rumpf ruhig bleibt. Er trainiert Rückenmuskeln, Gesäß und tiefe Rumpfmuskeln, die Wirbelsäule und Becken stabil halten. Er stützt den Beckenboden, statt ihn direkt zu trainieren.",
+  "feel": "Du solltest Rückenmuskeln und das Gesäß des angehobenen Beins arbeiten spüren, dazu eine gleichmäßige, geringe Anstrengung im Bauch. Du solltest nicht spüren, wie der untere Rücken durchhängt, die Hüfte sich verdreht oder der Nacken sich anstrengt. Stell dir ein Glas Wasser auf deinem unteren Rücken vor: Wenn es beim Strecken überschwappen würde, geht Arm oder Bein zu hoch.",
+  "mistakes": [
+    {
+      "wrong": "Das Bein zu hoch heben und ins Hohlkreuz gehen",
+      "right": "Streck das Bein nach hinten, nicht nach oben, und höre auf Hüfthöhe auf, damit der untere Rücken flach bleibt."
+    },
+    {
+      "wrong": "Die Hüfte zum Standbein verschieben",
+      "right": "Verteile das Gewicht gleichmäßig und halte die Hüfte parallel zum Boden. Verkürze das Strecken, wenn sie kippt."
+    },
+    {
+      "wrong": "Beim Strecken die Luft anhalten",
+      "right": "Atme aus, während du streckst, und ein, während du zurückkommst."
+    }
+  ],
+  "easier": "Bewege nur das Bein oder nur den Arm und lass die anderen drei Stützpunkte unten, oder schieb das Bein auf dem Boden nach hinten.",
+  "harder": "Halte das Strecken fünf Sekunden, bewege dich langsamer, oder füge beim Ausatmen eine sanfte Kegel-Anspannung hinzu und entspanne danach vollständig.",
+  "who": "Nützlich für Menschen mit Schreibtischjob und steifem Rücken, Menschen über 40, Kraftsportler, die einen stabilen Rumpf wollen, und alle, die schonendes Rumpftraining brauchen.",
+  "skip": "Wenn deine Handgelenke wehtun, nutze Fäuste oder Unterarme. Sprich zuerst mit einer Ärztin, einem Arzt oder einer Physiotherapeutin, wenn du akute Rückenschmerzen hast, kürzlich im Bauch- oder Beckenbereich operiert wurdest oder dir beim Knien die Knie wehtun. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Ist der „Bird Dog“ gut bei Schmerzen im unteren Rücken?",
+      "a": "Er wird oft in der Rückenreha eingesetzt, weil er die Stabilität bei geringer Belastung der Wirbelsäule trainiert. Wenn du Schmerzen hast, frag eine Physiotherapeutin oder einen Physiotherapeuten, ob er für dich passt."
+    },
+    {
+      "q": "Wie lange soll ich jeden „Bird Dog“ halten?",
+      "a": "Beginne mit einer Pause von ein bis zwei Sekunden und steigere dich auf fünf Sekunden, sobald dein Rücken flach bleibt."
+    }
+  ]
+}

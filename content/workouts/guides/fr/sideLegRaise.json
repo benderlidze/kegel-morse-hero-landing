@@ -1,0 +1,33 @@
+{
+  "description": "Guide de l’élévation latérale de jambe : levez la jambe tendue du dessus pour travailler les fessiers latéraux du bassin. Erreurs, variantes.",
+  "intro": "L’élévation latérale de jambe est une simple levée d’une jambe tendue, allongé sur le côté. Elle renforce les fessiers latéraux et les muscles des hanches qui gardent votre bassin à niveau à chaque pas. Pour les coureurs et les cyclistes, elle soutient le bassin de l’extérieur ; ce n’est pas un exercice direct du périnée.",
+  "feel": "Vous devez sentir un effort à l’extérieur de la hanche du dessus et sur le côté de la fesse. Vous ne devez pas le sentir surtout à l’avant de la cuisse, dans le bas du dos ou à la taille. Posez une main sur le côté de la hanche : elle doit se raffermir quand la jambe monte. Si vos orteils se tournent vers le plafond, l’avant de la cuisse a pris le relais.",
+  "mistakes": [
+    {
+      "wrong": "Lever la jambe trop haut",
+      "right": "Ne la levez que sur une courte distance. Au-delà, la taille et le dos prennent le relais."
+    },
+    {
+      "wrong": "Faire rouler la hanche du dessus vers l’arrière",
+      "right": "Gardez les hanches empilées et la jambe dans l’alignement du corps ou légèrement en arrière, jamais devant."
+    },
+    {
+      "wrong": "Balancer la jambe vers le haut et la laisser retomber",
+      "right": "Montez en deux secondes, descendez en deux à trois secondes, et ne posez pas la jambe entre les répétitions."
+    }
+  ],
+  "easier": "Fléchissez le genou du dessous pour une base plus stable, levez moins haut, ou faites l’élévation debout en vous tenant à une chaise.",
+  "harder": "Maintenez le haut trois secondes, ajoutez un lest léger à la cheville ou un élastique autour des chevilles, ou allez plus lentement.",
+  "who": "Convient aux coureurs, aux cyclistes, aux personnes qui ont les hanches faibles et aux femmes qui veulent un soutien plus fort autour du bassin.",
+  "skip": "Demandez d’abord l’avis d’un médecin ou d’un kinésithérapeute si être couché sur le côté fait mal à la hanche ou au dos, après une opération récente de la hanche ou du bassin, ou en cas de douleurs de la ceinture pelvienne pendant la grossesse. Un coussin sous la tête et entre les genoux peut aider. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "Quels muscles l’élévation latérale de jambe travaille-t-elle ?",
+      "a": "Surtout le moyen et le petit fessier sur le côté de la hanche, ainsi que des muscles profonds de la hanche qui aident à garder le bassin à niveau."
+    },
+    {
+      "q": "L’élévation latérale de jambe est-elle bonne pour les coureurs ?",
+      "a": "Oui. Elle fait couramment partie du renforcement des hanches chez les coureurs, car ces muscles contrôlent le bassin à chaque foulée."
+    }
+  ]
+}

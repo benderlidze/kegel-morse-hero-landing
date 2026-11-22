@@ -1,0 +1,33 @@
+{
+  "description": "Guía del ejercicio superman: eleva un poco brazos, pecho y piernas para trabajar los músculos de la espalda y los glúteos. Errores y variantes.",
+  "intro": "El superman se hace tumbado boca abajo: elevas un poco los brazos, el pecho y las piernas, mantienes brevemente y bajas. Fortalece los músculos de la espalda y los glúteos que mantienen erguidos el tronco y la pelvis. No entrena directamente el suelo pélvico, pero equilibra el trabajo de core centrado en la parte delantera de una rutina.",
+  "feel": "Debes notar que los músculos a lo largo de la columna y los glúteos trabajan por igual. No debes notar un pinzamiento agudo en la zona lumbar, el cuello forzado hacia arriba ni que la respiración se detiene. Mantén la mirada en el suelo, justo delante de ti. Si la zona lumbar se siente comprimida, sube menos.",
+  "mistakes": [
+    {
+      "wrong": "Subir lo más alto posible",
+      "right": "Basta con unos pocos centímetros. Deja que trabajen los glúteos y la espalda en lugar de forzar la zona lumbar."
+    },
+    {
+      "wrong": "Echar la cabeza hacia atrás",
+      "right": "Mantén el cuello largo y la mirada hacia abajo, para que la cabeza se mueva junto con el pecho."
+    },
+    {
+      "wrong": "Contener la respiración arriba",
+      "right": "Espira al subir, respira con normalidad durante la pausa y baja despacio."
+    }
+  ],
+  "easier": "Levanta solo los brazos y el pecho, o solo las piernas, o un brazo y la pierna contraria cada vez.",
+  "harder": "Mantén la posición alta de tres a cinco segundos, baja durante tres segundos o añade un Kegel suave durante la pausa y relaja por completo al bajar.",
+  "who": "Útil para hombres que pasan mucho tiempo sentados o que levantan pesas, para hombres de más de 40 años que quieren una espalda más fuerte y para cualquiera cuya rutina sea sobre todo trabajo de core frontal.",
+  "skip": "Evítalo o usa la versión más fácil si arquear la espalda te duele en la zona lumbar, tras una cirugía reciente de espalda, abdomen o pelvis, o si tienes una hernia. Consulta a un médico o fisioterapeuta si el dolor de espalda persiste después del ejercicio. Para si te duele.",
+  "faq": [
+    {
+      "q": "¿Qué trabaja el ejercicio superman?",
+      "a": "Los músculos a lo largo de la columna, los glúteos y la parte posterior de los hombros. Es un movimiento de fuerza de espalda, no de suelo pélvico."
+    },
+    {
+      "q": "¿Es malo el superman para la zona lumbar?",
+      "a": "No cuando la elevación es pequeña y controlada. Los arcos grandes y rápidos pueden irritar la zona lumbar, así que mantenlo bajo y lento."
+    }
+  ]
+}

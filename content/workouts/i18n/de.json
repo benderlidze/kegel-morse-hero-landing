@@ -11,7 +11,11 @@
     "cardMeta": "{n} Übungen · ~{m} Min. · {level}",
     "eyebrowMen": "Workout für Männer · {n} Übungen · ~{m} Min.",
     "eyebrowWomen": "Workout für Frauen · {n} Übungen · ~{m} Min.",
-    "levels": { "Beginner": "Für Einsteiger", "Easy": "Leichtes Niveau", "Intermediate": "Mittleres Niveau" },
+    "levels": {
+      "Beginner": "Für Einsteiger",
+      "Easy": "Leichtes Niveau",
+      "Intermediate": "Mittleres Niveau"
+    },
     "equipmentNone": "Ohne Geräte",
     "equipmentBall": "Kleiner Ball oder Kissen",
     "atHome": "Zu Hause",
@@ -48,45 +52,369 @@
     "altSingle": "Position",
     "altAnatomy": "{name}: {pos}, hervorgehoben: {works}",
     "altFlat": "{name}: {pos}",
-    "std": ["Mach die Übungen der Reihe nach, einmal durch.", "Ruhe dich zwischen den Übungen etwa 30 Sekunden aus.", "Drei- bis viermal pro Woche ist ein guter Anfang; Qualität schlägt Tempo."],
+    "std": [
+      "Mach die Übungen der Reihe nach, einmal durch.",
+      "Ruhe dich zwischen den Übungen etwa 30 Sekunden aus.",
+      "Drei- bis viermal pro Woche ist ein guter Anfang; Qualität schlägt Tempo."
+    ],
     "muscles": {
-      "Pelvic floor": "Beckenboden", "Diaphragm": "Zwerchfell", "Glutes": "Gesäßmuskeln", "Hamstrings": "Beinrückseite", "Inner thighs": "Oberschenkelinnenseite",
-      "Deep core": "Tiefe Rumpfmuskeln", "Lower abdominals": "Untere Bauchmuskeln", "Hip flexors": "Hüftbeuger", "Deep abdominals": "Tiefe Bauchmuskeln", "Lower back": "Unterer Rücken",
-      "Hips": "Hüftbereich", "Side glutes": "Seitliche Gesäßmuskeln", "Back muscles": "Rückenmuskeln", "Spine": "Wirbelsäule", "Abdominals": "Bauchmuskeln",
-      "Shoulders": "Schultern", "Obliques": "Schräge Bauchmuskeln", "Thighs": "Oberschenkelmuskeln"
+      "Pelvic floor": "Beckenboden",
+      "Diaphragm": "Zwerchfell",
+      "Glutes": "Gesäßmuskeln",
+      "Hamstrings": "Beinrückseite",
+      "Inner thighs": "Oberschenkelinnenseite",
+      "Deep core": "Tiefe Rumpfmuskeln",
+      "Lower abdominals": "Untere Bauchmuskeln",
+      "Hip flexors": "Hüftbeuger",
+      "Deep abdominals": "Tiefe Bauchmuskeln",
+      "Lower back": "Unterer Rücken",
+      "Hips": "Hüftbereich",
+      "Side glutes": "Seitliche Gesäßmuskeln",
+      "Back muscles": "Rückenmuskeln",
+      "Spine": "Wirbelsäule",
+      "Abdominals": "Bauchmuskeln",
+      "Shoulders": "Schultern",
+      "Obliques": "Schräge Bauchmuskeln",
+      "Thighs": "Oberschenkelmuskeln"
+    },
+    "guide": {
+      "feel": "Woran du merkst, dass es wirkt",
+      "mistakes": "Häufige Fehler",
+      "variations": "Leichter oder schwerer machen",
+      "easier": "Leichter:",
+      "harder": "Schwerer:",
+      "who": "Für wen es hilft",
+      "skip": "Wann auslassen oder erst abklären lassen",
+      "faq": "Fragen"
     }
   },
   "exercises": {
-    "kegelLying": { "name": "Kegel-Übung im Liegen", "short": "Anspannen, halten, loslassen", "cues": ["Lege dich auf den Rücken, Knie angewinkelt, Füße flach auf dem Boden", "Spanne an, als würdest du den Urinstrahl stoppen, und zieh nach oben und innen", "Entspanne zwischen den Wiederholungen vollständig"], "reps": "10 Wiederholungen · 3 s halten", "tip": "Atme normal weiter. Wenn Bauch, Po oder Oberschenkel mitspannen, ist das Anspannen zu stark: mach es leichter." },
-    "kegelSitting": { "name": "Kegel-Übung im Sitzen", "short": "Dasselbe Anspannen, aufrecht sitzend", "cues": ["Sitze aufrecht, Füße flach auf dem Boden", "Spanne an und zieh nach oben, der Po bleibt locker", "Atme ruhig weiter"], "reps": "10 Wiederholungen · 5 s halten", "tip": "Geht auf dem Stuhl, im Auto oder am Schreibtisch: Niemand sieht es. Schultern locker." },
-    "kegelStanding": { "name": "Kegel-Übung im Stehen", "short": "Am schwersten: gegen die Schwerkraft", "cues": ["Stelle dich aufrecht hin, Knie leicht gebeugt", "Spanne an und zieh nach oben und innen", "Bauch und Po bleiben entspannt"], "reps": "10 Wiederholungen · 5 s halten", "tip": "Die schwerste Position, weil die Schwerkraft dagegen arbeitet. Beherrsche zuerst die Variante im Liegen." },
-    "breathing": { "name": "Bauchatmung", "short": "Langsame Atemzüge in den Bauch", "cues": ["Eine Hand auf dem Bauch", "Einatmen: Der Bauch hebt sich, der Beckenboden entspannt", "Ausatmen: sanftes Anheben nach oben"], "reps": "1–2 Min.", "tip": "Lass den Beckenboden beim Einatmen weich werden. Das ist genauso wichtig wie das Anspannen." },
-    "bridge": { "name": "Gesäßbrücke", "short": "Hüfte heben, oben das Gesäß anspannen", "cues": ["Füße flach, hüftbreit", "Ausatmen, Gesäß anspannen und die Hüfte heben", "Langsam wieder absenken"], "reps": "12 Wiederholungen", "mistake": { "wrong": "Hohlkreuz oben", "right": "Rippen unten, gerade Linie von den Knien bis zu den Schultern" } },
-    "bridgeBall": { "name": "Brücke mit Ball zwischen den Knien", "short": "Brücke und Ball mit den Knien drücken", "cues": ["Ball oder Kissen zwischen den Knien", "Drücke den Ball zusammen und hebe die Hüfte", "Halte oben 2 s"], "reps": "10 Wiederholungen", "tip": "Kein Ball? Nimm ein Kissen oder ein aufgerolltes Handtuch." },
-    "singleLegBridge": { "name": "Einbeinige Brücke", "short": "Ein Fuß am Boden, ein Bein oben", "cues": ["Ein Bein gestreckt in der Luft", "Drücke dich über die Ferse des Standbeins hoch", "Die Hüfte bleibt gerade"], "reps": "8 pro Seite" },
-    "bridgeMarch": { "name": "Brücke mit Marschieren", "short": "Brücke halten und marschieren", "cues": ["Hebe die Hüfte in die Brücke", "Hebe einen Fuß, dann den anderen", "Die Hüfte sinkt nicht ab"], "reps": "10 Schritte" },
-    "heelSlides": { "name": "Fersengleiten", "short": "Ferse nach vorn und zurück gleiten lassen", "cues": ["Lege dich auf den Rücken, Knie angewinkelt", "Beim Ausatmen eine Ferse wegschieben", "Der Rücken bleibt ruhig"], "reps": "10 pro Seite" },
-    "supineMarch": { "name": "Knieheben im Liegen", "short": "Angewinkelte Knie abwechselnd heben", "cues": ["Lege dich auf den Rücken, Knie angewinkelt", "Hebe ein Knie auf 90°", "Langsam absenken und wechseln"], "reps": "10 pro Seite" },
-    "deadBug": { "name": "„Dead Bug“", "short": "Gegenüberliegenden Arm und Bein absenken", "cues": ["Arme nach oben, Knie über der Hüfte", "Senke gegenüberliegenden Arm und Bein ab", "Der untere Rücken bleibt am Boden"], "reps": "8 pro Seite", "mistake": { "wrong": "Der untere Rücken hebt sich vom Boden", "right": "Drücke den Rücken nach unten und bewege dich langsamer" } },
-    "pelvicTilt": { "name": "Beckenkippen", "short": "Becken nach oben und unten kippen", "cues": ["Lege dich auf den Rücken, Knie angewinkelt", "Drücke den unteren Rücken auf den Boden", "Löse und wiederhole"], "reps": "12 Wiederholungen" },
-    "kneeFallout": { "name": "Knie zur Seite sinken lassen", "short": "Ein Knie zur Seite absenken", "cues": ["Lege dich auf den Rücken, Knie angewinkelt", "Senke ein Knie langsam zur Seite", "Das Becken bleibt ruhig"], "reps": "10 pro Seite" },
-    "clamshell": { "name": "„Muschel“", "short": "Oberes Knie öffnen, Füße zusammen", "cues": ["Lege dich auf die Seite, Knie angewinkelt", "Füße zusammen, hebe das obere Knie", "Kippe die Hüfte nicht nach hinten"], "reps": "12 pro Seite" },
-    "sideLegRaise": { "name": "Beinheben in Seitenlage", "short": "Das obere Bein gerade anheben", "cues": ["Lege dich auf die Seite, Beine gestreckt", "Hebe das obere Bein langsam an", "Die Zehen zeigen nach vorn"], "reps": "12 pro Seite" },
-    "birdDog": { "name": "„Bird Dog“", "short": "Gegenüberliegenden Arm und Bein strecken", "cues": ["Hände unter den Schultern, Knie unter der Hüfte", "Strecke gegenüberliegenden Arm und Bein lang aus", "Halte den Rücken gerade"], "reps": "8 pro Seite" },
-    "catCow": { "name": "„Katze-Kuh“", "short": "Erst runden, dann durchhängen", "cues": ["Beginne im Vierfüßlerstand", "Ausatmen: Rücken nach oben runden", "Einatmen: Bauch senken, Blick nach oben"], "reps": "8 langsame Runden", "tip": "Bewege dich langsam und passe die Bewegung deinem Atem an." },
-    "plank": { "name": "Unterarmstütz (Plank)", "short": "Gerade Linie auf den Unterarmen", "cues": ["Ellbogen unter den Schultern", "Gesäß anspannen, Bauch festigen", "Atme weiter"], "reps": "20–40 s", "mistake": { "wrong": "Die Hüfte hängt durch", "right": "Gerade Linie von Kopf bis Fersen" }, "tip": "Ist die volle Variante zu schwer, geh auf die Knie. Ein sauberes kurzes Halten ist besser als ein langes mit durchhängender Hüfte." },
-    "sidePlank": { "name": "Seitstütz", "short": "Hüfte hoch auf einem Unterarm", "cues": ["Ellbogen unter der Schulter", "Hebe die Hüfte in eine gerade Linie", "Knie am Boden = leichter"], "reps": "15–30 s pro Seite" },
-    "superman": { "name": "„Superman“", "short": "Arme und Beine vom Boden abheben", "cues": ["Lege dich auf den Bauch", "Hebe Arme, Brust und Beine ein Stück an", "2 s halten, langsam absenken"], "reps": "10 Wiederholungen" },
-    "childPose": { "name": "Kindhaltung", "short": "Nach hinten setzen, Arme lang", "cues": ["Knie weit, große Zehen zusammen", "Setze dich auf die Fersen", "Atme in den unteren Rücken"], "reps": "30–60 s", "tip": "Lass Bauch und Beckenboden hier vollständig los. Dehne nicht in den Schmerz." },
-    "happyBaby": { "name": "„Glückliches Baby“", "short": "Füße greifen, Knie weit", "cues": ["Lege dich auf den Rücken", "Greife die Füße, Knie Richtung Achseln", "Schaukle sanft von Seite zu Seite"], "reps": "30–60 s" },
-    "butterfly": { "name": "Schmetterling-Dehnung", "short": "Fußsohlen zusammen, nach vorn lehnen", "cues": ["Sitze aufrecht, Fußsohlen aneinander", "Lass die Knie nach außen sinken", "Lehne dich aus der Hüfte nach vorn"], "reps": "30–60 s" },
-    "frogStretch": { "name": "Frosch-Dehnung", "short": "Knie weit, Hüfte nach hinten", "cues": ["Im Vierfüßlerstand die Knie weit öffnen", "Knöchel in einer Linie mit den Knien", "Schiebe die Hüfte langsam nach hinten"], "reps": "30–60 s" },
-    "hipFlexor": { "name": "Hüftbeuger-Dehnung", "short": "Hinknien und nach vorn schieben", "cues": ["Halber Kniestand, hinteres Knie am Boden", "Spanne das hintere Gesäß an", "Schiebe die Hüfte sanft nach vorn"], "reps": "30 s pro Seite" },
-    "squat": { "name": "Kniebeuge mit Körpergewicht", "short": "Nach unten gehen, wieder aufstehen", "cues": ["Füße schulterbreit", "Setze die Hüfte nach hinten, Brust hoch", "Beim Aufstehen ausatmen"], "reps": "12 Wiederholungen", "mistake": { "wrong": "Runder Rücken", "right": "Brust hoch, Rücken lang" } },
-    "sumoSquat": { "name": "Sumo-Kniebeuge", "short": "Breiter Stand, Zehen nach außen", "cues": ["Breiter Stand, Zehen nach außen gedreht", "Knie folgen den Zehen", "Komm hoch und spanne dabei das Gesäß an"], "reps": "12 Wiederholungen" },
-    "wallSit": { "name": "Wandsitzen", "short": "Rücken an der Wand, halten", "cues": ["Rücken flach an der Wand", "Rutsche nach unten, Knie im 90°-Winkel", "Füge beim Halten das Kegel-Anspannen hinzu"], "reps": "20–40 s", "tip": "Hör auf, bevor die Oberschenkel stark zittern. Atme die ganze Zeit." },
-    "lunge": { "name": "Ausfallschritt rückwärts", "short": "Schritt zurück, runter, hoch", "cues": ["Mach mit einem Fuß einen Schritt zurück", "Senke das hintere Knie ab", "Drücke dich über die vordere Ferse hoch"], "reps": "8 pro Seite" },
-    "ballSqueeze": { "name": "Ball mit den Knien zusammendrücken", "short": "Einen Ball zwischen den Knien drücken", "cues": ["Sitze aufrecht, Ball zwischen den Knien", "Drücke Ball und Beckenboden zusammen", "5 s halten, dann loslassen"], "reps": "10 Wiederholungen", "tip": "Kein Ball? Ein aufgerolltes Handtuch oder ein Kissen geht auch." }
+    "kegelLying": {
+      "name": "Kegel-Übung im Liegen",
+      "short": "Anspannen, halten, loslassen",
+      "cues": [
+        "Lege dich auf den Rücken, Knie angewinkelt, Füße flach auf dem Boden",
+        "Spanne an, als würdest du den Urinstrahl stoppen, und zieh nach oben und innen",
+        "Entspanne zwischen den Wiederholungen vollständig"
+      ],
+      "reps": "10 Wiederholungen · 3 s halten",
+      "tip": "Atme normal weiter. Wenn Bauch, Po oder Oberschenkel mitspannen, ist das Anspannen zu stark: mach es leichter."
+    },
+    "kegelSitting": {
+      "name": "Kegel-Übung im Sitzen",
+      "short": "Dasselbe Anspannen, aufrecht sitzend",
+      "cues": [
+        "Sitze aufrecht, Füße flach auf dem Boden",
+        "Spanne an und zieh nach oben, der Po bleibt locker",
+        "Atme ruhig weiter"
+      ],
+      "reps": "10 Wiederholungen · 5 s halten",
+      "tip": "Geht auf dem Stuhl, im Auto oder am Schreibtisch: Niemand sieht es. Schultern locker."
+    },
+    "kegelStanding": {
+      "name": "Kegel-Übung im Stehen",
+      "short": "Am schwersten: gegen die Schwerkraft",
+      "cues": [
+        "Stelle dich aufrecht hin, Knie leicht gebeugt",
+        "Spanne an und zieh nach oben und innen",
+        "Bauch und Po bleiben entspannt"
+      ],
+      "reps": "10 Wiederholungen · 5 s halten",
+      "tip": "Die schwerste Position, weil die Schwerkraft dagegen arbeitet. Beherrsche zuerst die Variante im Liegen."
+    },
+    "breathing": {
+      "name": "Bauchatmung",
+      "short": "Langsame Atemzüge in den Bauch",
+      "cues": [
+        "Eine Hand auf dem Bauch",
+        "Einatmen: Der Bauch hebt sich, der Beckenboden entspannt",
+        "Ausatmen: sanftes Anheben nach oben"
+      ],
+      "reps": "1–2 Min.",
+      "tip": "Lass den Beckenboden beim Einatmen weich werden. Das ist genauso wichtig wie das Anspannen."
+    },
+    "bridge": {
+      "name": "Gesäßbrücke",
+      "short": "Hüfte heben, oben das Gesäß anspannen",
+      "cues": [
+        "Füße flach, hüftbreit",
+        "Ausatmen, Gesäß anspannen und die Hüfte heben",
+        "Langsam wieder absenken"
+      ],
+      "reps": "12 Wiederholungen",
+      "mistake": {
+        "wrong": "Hohlkreuz oben",
+        "right": "Rippen unten, gerade Linie von den Knien bis zu den Schultern"
+      }
+    },
+    "bridgeBall": {
+      "name": "Brücke mit Ball zwischen den Knien",
+      "short": "Brücke und Ball mit den Knien drücken",
+      "cues": [
+        "Ball oder Kissen zwischen den Knien",
+        "Drücke den Ball zusammen und hebe die Hüfte",
+        "Halte oben 2 s"
+      ],
+      "reps": "10 Wiederholungen",
+      "tip": "Kein Ball? Nimm ein Kissen oder ein aufgerolltes Handtuch."
+    },
+    "singleLegBridge": {
+      "name": "Einbeinige Brücke",
+      "short": "Ein Fuß am Boden, ein Bein oben",
+      "cues": [
+        "Ein Bein gestreckt in der Luft",
+        "Drücke dich über die Ferse des Standbeins hoch",
+        "Die Hüfte bleibt gerade"
+      ],
+      "reps": "8 pro Seite"
+    },
+    "bridgeMarch": {
+      "name": "Brücke mit Marschieren",
+      "short": "Brücke halten und marschieren",
+      "cues": [
+        "Hebe die Hüfte in die Brücke",
+        "Hebe einen Fuß, dann den anderen",
+        "Die Hüfte sinkt nicht ab"
+      ],
+      "reps": "10 Schritte"
+    },
+    "heelSlides": {
+      "name": "Fersengleiten",
+      "short": "Ferse nach vorn und zurück gleiten lassen",
+      "cues": [
+        "Lege dich auf den Rücken, Knie angewinkelt",
+        "Beim Ausatmen eine Ferse wegschieben",
+        "Der Rücken bleibt ruhig"
+      ],
+      "reps": "10 pro Seite"
+    },
+    "supineMarch": {
+      "name": "Knieheben im Liegen",
+      "short": "Angewinkelte Knie abwechselnd heben",
+      "cues": [
+        "Lege dich auf den Rücken, Knie angewinkelt",
+        "Hebe ein Knie auf 90°",
+        "Langsam absenken und wechseln"
+      ],
+      "reps": "10 pro Seite"
+    },
+    "deadBug": {
+      "name": "„Dead Bug“",
+      "short": "Gegenüberliegenden Arm und Bein absenken",
+      "cues": [
+        "Arme nach oben, Knie über der Hüfte",
+        "Senke gegenüberliegenden Arm und Bein ab",
+        "Der untere Rücken bleibt am Boden"
+      ],
+      "reps": "8 pro Seite",
+      "mistake": {
+        "wrong": "Der untere Rücken hebt sich vom Boden",
+        "right": "Drücke den Rücken nach unten und bewege dich langsamer"
+      }
+    },
+    "pelvicTilt": {
+      "name": "Beckenkippen",
+      "short": "Becken nach oben und unten kippen",
+      "cues": [
+        "Lege dich auf den Rücken, Knie angewinkelt",
+        "Drücke den unteren Rücken auf den Boden",
+        "Löse und wiederhole"
+      ],
+      "reps": "12 Wiederholungen"
+    },
+    "kneeFallout": {
+      "name": "Knie zur Seite sinken lassen",
+      "short": "Ein Knie zur Seite absenken",
+      "cues": [
+        "Lege dich auf den Rücken, Knie angewinkelt",
+        "Senke ein Knie langsam zur Seite",
+        "Das Becken bleibt ruhig"
+      ],
+      "reps": "10 pro Seite"
+    },
+    "clamshell": {
+      "name": "„Muschel“",
+      "short": "Oberes Knie öffnen, Füße zusammen",
+      "cues": [
+        "Lege dich auf die Seite, Knie angewinkelt",
+        "Füße zusammen, hebe das obere Knie",
+        "Kippe die Hüfte nicht nach hinten"
+      ],
+      "reps": "12 pro Seite"
+    },
+    "sideLegRaise": {
+      "name": "Beinheben in Seitenlage",
+      "short": "Das obere Bein gerade anheben",
+      "cues": [
+        "Lege dich auf die Seite, Beine gestreckt",
+        "Hebe das obere Bein langsam an",
+        "Die Zehen zeigen nach vorn"
+      ],
+      "reps": "12 pro Seite"
+    },
+    "birdDog": {
+      "name": "„Bird Dog“",
+      "short": "Gegenüberliegenden Arm und Bein strecken",
+      "cues": [
+        "Hände unter den Schultern, Knie unter der Hüfte",
+        "Strecke gegenüberliegenden Arm und Bein lang aus",
+        "Halte den Rücken gerade"
+      ],
+      "reps": "8 pro Seite"
+    },
+    "catCow": {
+      "name": "„Katze-Kuh“",
+      "short": "Erst runden, dann durchhängen",
+      "cues": [
+        "Beginne im Vierfüßlerstand",
+        "Ausatmen: Rücken nach oben runden",
+        "Einatmen: Bauch senken, Blick nach oben"
+      ],
+      "reps": "8 langsame Runden",
+      "tip": "Bewege dich langsam und passe die Bewegung deinem Atem an."
+    },
+    "plank": {
+      "name": "Unterarmstütz (Plank)",
+      "short": "Gerade Linie auf den Unterarmen",
+      "cues": [
+        "Ellbogen unter den Schultern",
+        "Gesäß anspannen, Bauch festigen",
+        "Atme weiter"
+      ],
+      "reps": "20–40 s",
+      "mistake": {
+        "wrong": "Die Hüfte hängt durch",
+        "right": "Gerade Linie von Kopf bis Fersen"
+      },
+      "tip": "Ist die volle Variante zu schwer, geh auf die Knie. Ein sauberes kurzes Halten ist besser als ein langes mit durchhängender Hüfte."
+    },
+    "sidePlank": {
+      "name": "Seitstütz",
+      "short": "Hüfte hoch auf einem Unterarm",
+      "cues": [
+        "Ellbogen unter der Schulter",
+        "Hebe die Hüfte in eine gerade Linie",
+        "Knie am Boden = leichter"
+      ],
+      "reps": "15–30 s pro Seite"
+    },
+    "superman": {
+      "name": "„Superman“",
+      "short": "Arme und Beine vom Boden abheben",
+      "cues": [
+        "Lege dich auf den Bauch",
+        "Hebe Arme, Brust und Beine ein Stück an",
+        "2 s halten, langsam absenken"
+      ],
+      "reps": "10 Wiederholungen"
+    },
+    "childPose": {
+      "name": "Kindhaltung",
+      "short": "Nach hinten setzen, Arme lang",
+      "cues": [
+        "Knie weit, große Zehen zusammen",
+        "Setze dich auf die Fersen",
+        "Atme in den unteren Rücken"
+      ],
+      "reps": "30–60 s",
+      "tip": "Lass Bauch und Beckenboden hier vollständig los. Dehne nicht in den Schmerz."
+    },
+    "happyBaby": {
+      "name": "„Glückliches Baby“",
+      "short": "Füße greifen, Knie weit",
+      "cues": [
+        "Lege dich auf den Rücken",
+        "Greife die Füße, Knie Richtung Achseln",
+        "Schaukle sanft von Seite zu Seite"
+      ],
+      "reps": "30–60 s"
+    },
+    "butterfly": {
+      "name": "Schmetterling-Dehnung",
+      "short": "Fußsohlen zusammen, nach vorn lehnen",
+      "cues": [
+        "Sitze aufrecht, Fußsohlen aneinander",
+        "Lass die Knie nach außen sinken",
+        "Lehne dich aus der Hüfte nach vorn"
+      ],
+      "reps": "30–60 s"
+    },
+    "frogStretch": {
+      "name": "Frosch-Dehnung",
+      "short": "Knie weit, Hüfte nach hinten",
+      "cues": [
+        "Im Vierfüßlerstand die Knie weit öffnen",
+        "Knöchel in einer Linie mit den Knien",
+        "Schiebe die Hüfte langsam nach hinten"
+      ],
+      "reps": "30–60 s"
+    },
+    "hipFlexor": {
+      "name": "Hüftbeuger-Dehnung",
+      "short": "Hinknien und nach vorn schieben",
+      "cues": [
+        "Halber Kniestand, hinteres Knie am Boden",
+        "Spanne das hintere Gesäß an",
+        "Schiebe die Hüfte sanft nach vorn"
+      ],
+      "reps": "30 s pro Seite"
+    },
+    "squat": {
+      "name": "Kniebeuge mit Körpergewicht",
+      "short": "Nach unten gehen, wieder aufstehen",
+      "cues": [
+        "Füße schulterbreit",
+        "Setze die Hüfte nach hinten, Brust hoch",
+        "Beim Aufstehen ausatmen"
+      ],
+      "reps": "12 Wiederholungen",
+      "mistake": {
+        "wrong": "Runder Rücken",
+        "right": "Brust hoch, Rücken lang"
+      }
+    },
+    "sumoSquat": {
+      "name": "Sumo-Kniebeuge",
+      "short": "Breiter Stand, Zehen nach außen",
+      "cues": [
+        "Breiter Stand, Zehen nach außen gedreht",
+        "Knie folgen den Zehen",
+        "Komm hoch und spanne dabei das Gesäß an"
+      ],
+      "reps": "12 Wiederholungen"
+    },
+    "wallSit": {
+      "name": "Wandsitzen",
+      "short": "Rücken an der Wand, halten",
+      "cues": [
+        "Rücken flach an der Wand",
+        "Rutsche nach unten, Knie im 90°-Winkel",
+        "Füge beim Halten das Kegel-Anspannen hinzu"
+      ],
+      "reps": "20–40 s",
+      "tip": "Hör auf, bevor die Oberschenkel stark zittern. Atme die ganze Zeit."
+    },
+    "lunge": {
+      "name": "Ausfallschritt rückwärts",
+      "short": "Schritt zurück, runter, hoch",
+      "cues": [
+        "Mach mit einem Fuß einen Schritt zurück",
+        "Senke das hintere Knie ab",
+        "Drücke dich über die vordere Ferse hoch"
+      ],
+      "reps": "8 pro Seite"
+    },
+    "ballSqueeze": {
+      "name": "Ball mit den Knien zusammendrücken",
+      "short": "Einen Ball zwischen den Knien drücken",
+      "cues": [
+        "Sitze aufrecht, Ball zwischen den Knien",
+        "Drücke Ball und Beckenboden zusammen",
+        "5 s halten, dann loslassen"
+      ],
+      "reps": "10 Wiederholungen",
+      "tip": "Kein Ball? Ein aufgerolltes Handtuch oder ein Kissen geht auch."
+    }
   },
   "programs": {
     "pelvic-floor-exercises-for-men-beginner": {

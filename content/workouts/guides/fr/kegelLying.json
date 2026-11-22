@@ -1,0 +1,33 @@
+{
+  "description": "Guide du Kegel sur le dos : la façon la plus simple de repérer et d’entraîner son périnée, la sensation attendue, les erreurs fréquentes, les variantes.",
+  "intro": "Le Kegel sur le dos est le point de départ de la rééducation du périnée. Allongé, vous n’avez pas la gravité qui pèse sur le périnée : les muscles ont le moins de charge à soulever et vous pouvez vous concentrer sur le fait de les repérer.",
+  "feel": "Vous devez sentir un petit soulèvement à l’intérieur du bassin, puis un relâchement net. Le ventre, les fessiers et les cuisses restent mous et la respiration continue. Pousser vers le bas, retenir son souffle ou serrer la mâchoire signifient qu’il faut alléger. Auto-contrôle : une main sur le bas du ventre peut sentir un léger durcissement, mais pas de crispation forte ni de ventre qui gonfle.",
+  "mistakes": [
+    {
+      "wrong": "Serrer à la place les fessiers ou les cuisses",
+      "right": "Gardez les fesses posées au sol et les genoux immobiles. Si les hanches se soulèvent ou si les genoux se rapprochent, d’autres muscles ont pris le relais."
+    },
+    {
+      "wrong": "Sauter la phase de relâchement entre les répétitions",
+      "right": "Reposez-vous au moins aussi longtemps que vous avez tenu. Le relâchement complet fait partie de l’exercice."
+    },
+    {
+      "wrong": "Ajouter des séries parce que c’est facile",
+      "right": "Plus n’est pas mieux. N’allongez la durée que lorsque chaque maintien reste contrôlé jusqu’à la dernière seconde."
+    }
+  ],
+  "easier": "Maintenez 1 à 2 secondes et faites moins de répétitions. Un coussin sous les genoux aide le ventre et le dos à se détendre.",
+  "harder": "Allongez progressivement les maintiens avec un repos égal, ou ajoutez quelques contractions rapides après les lentes.",
+  "who": "Toute personne qui débute les Kegel, celles qui ne sont pas sûres de bien contracter, et celles qui reprennent après une pause ou un accouchement, une fois l’accord obtenu.",
+  "skip": "En cas de douleur pelvienne, de douleur pendant les rapports ou d’un périnée qui paraît tendu, contracter davantage peut ne pas aider ; commencez par la respiration et consultez un kinésithérapeute spécialisé en rééducation périnéale. Après une opération du bassin ou du ventre, ou un accouchement récent, demandez à votre médecin quand commencer. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "Pourquoi commencer les Kegel allongé ?",
+      "a": "Allongé, le poids des organes ne pèse plus sur le périnée, qui se soulève donc plus facilement. Il est aussi plus simple de remarquer quand d’autres muscles se joignent au mouvement."
+    },
+    {
+      "q": "Comment savoir si je fais bien un Kegel ?",
+      "a": "Vous sentez un soulèvement et une contraction à l’intérieur, puis un relâchement, sans retenir votre souffle. Les hommes peuvent remarquer un léger soulèvement de la verge et des testicules ; les femmes peuvent sentir l’entrée du vagin se resserrer doucement."
+    }
+  ]
+}

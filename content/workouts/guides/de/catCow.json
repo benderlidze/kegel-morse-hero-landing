@@ -1,0 +1,33 @@
+{
+  "description": "„Katze-Kuh“: Rücken im Atemrhythmus runden und wölben, um ihn zu lockern und den Beckenboden zu entspannen. Fehler sowie leichtere und schwerere Varianten.",
+  "intro": "„Katze-Kuh“ ist eine langsame Wirbelsäulenbewegung im Vierfüßlerstand im Rhythmus deines Atems. In einer Beckenbodenroutine geht es dabei vor allem um Entspannung und Beweglichkeit, nicht um Kraft. Sie hilft dir zu spüren, wie sich der Beckenboden mit dem Atem hebt und loslässt, was wichtig ist, wenn deine Muskeln zum Verspannen neigen.",
+  "feel": "Du solltest spüren, wie sich die Wirbelsäule Segment für Segment bewegt, mit einer leichten Dehnung im Rücken beim Runden und an der Vorderseite beim Wölben. Du solltest kein Einklemmen im unteren Rücken, keine Nackenanspannung und keine gehetzte Atmung spüren. Wenn du einatmest und den Bauch sinken lässt, achte darauf, wie der Beckenboden weich und weit wird. Wenn sich die Bewegung ruckartig anfühlt, mach sie kleiner und langsamer.",
+  "mistakes": [
+    {
+      "wrong": "Nur Hals und Kopf bewegen",
+      "right": "Beginne am Steißbein und lass die Bewegung die Wirbelsäule hinaufwandern. Der Kopf folgt zuletzt."
+    },
+    {
+      "wrong": "Ein tiefes Hohlkreuz erzwingen",
+      "right": "Halte das Wölben angenehm. Ziel ist eine leichte Bewegung, nicht das Äußerste."
+    },
+    {
+      "wrong": "Nicht im Takt mit der Bewegung atmen",
+      "right": "Atme aus, während du dich nach oben rundest, und ein, während der Bauch sinkt, und lass den Atem das Tempo bestimmen."
+    }
+  ],
+  "easier": "Mach es sitzend auf einem Stuhl mit den Händen auf den Knien, oder polstere die Knie, wenn Knien unangenehm ist.",
+  "harder": "Verlangsame jede Runde auf fünf bis sechs Sekunden, oder füge beim Ausatmen ein sanftes Anheben des Beckenbodens hinzu und beim Einatmen ein vollständiges Loslassen.",
+  "who": "Großartig für Menschen mit Schreibtischjob und Autofahrer, die stundenlang sitzen, für alle, die morgens steif sind, und für Menschen, deren Beckenboden sich angespannt oder überaktiv anfühlt.",
+  "skip": "Wenn deine Handgelenke wehtun, nutze Fäuste oder Unterarme oder probiere die sitzende Variante. Sprich zuerst mit einer Ärztin, einem Arzt oder einer Physiotherapeutin, wenn du akute Rückenschmerzen hast oder kürzlich an Wirbelsäule, Bauch oder Becken operiert wurdest. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Hilft „Katze-Kuh“ bei der Entspannung des Beckenbodens?",
+      "a": "Das kann sein. Das Wölben mit einem langsamen Einatmen zu verbinden hilft vielen Menschen zu spüren, wie der Beckenboden loslässt, was nützlich ist, wenn er zum Verkrampfen neigt."
+    },
+    {
+      "q": "Ist „Katze-Kuh“ in der Schwangerschaft sicher?",
+      "a": "Sie wird in der Schwangerschaft häufig eingesetzt, weil sie den Druck auf den Rücken lindern kann. Frag deine Hebamme oder deinen Arzt, wenn du Komplikationen hast."
+    }
+  ]
+}

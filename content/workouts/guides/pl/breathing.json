@@ -1,0 +1,33 @@
+{
+  "description": "Oddychanie brzuchem: powolne oddechy przeponą, które rozluźniają i delikatnie unoszą dno miednicy. Jak to czuć, błędy, wersje łatwiejsza i trudniejsza.",
+  "intro": "Oddychanie brzuchem łączy przeponę, główny mięsień oddechowy, z dnem miednicy. Na wdechu dno miednicy mięknie i lekko się obniża, a na wydechu unosi. Nauczenie się, jak je rozluźniać, jest równie ważne jak nauka napinania.",
+  "feel": "Na wdechu dłoń na brzuchu się unosi, a podstawa miednicy jakby się rozszerza i mięknie. Na wydechu brzuch opada i możesz poczuć lekkie uniesienie w środku. Barki, kark i szczęka pozostają rozluźnione. Unikaj oddychania wyłącznie klatką piersiową, wypychania brzucha na siłę i parcia.",
+  "mistakes": [
+    {
+      "wrong": "Oddychanie tylko górną częścią klatki piersiowej",
+      "right": "Trzymaj jedną dłoń na brzuchu, a drugą na klatce piersiowej. Dolna dłoń powinna ruszać się bardziej, a żebra rozszerzać na boki."
+    },
+    {
+      "wrong": "Mocne wypychanie brzucha",
+      "right": "Pozwól, by oddech przyszedł sam. Wymuszanie dociska dno miednicy w dół zamiast pozwolić mu zmięknąć."
+    },
+    {
+      "wrong": "Oddychanie zbyt szybko lub zbyt głęboko",
+      "right": "Utrzymaj powolne, wygodne tempo. Jeśli kręci ci się w głowie, oddychaj płycej i odpocznij."
+    }
+  ],
+  "easier": "Połóż się na plecach z ugiętymi kolanami i poduszką pod głową i rób po kilka oddechów naraz.",
+  "harder": "Dodaj delikatne napięcie Kegla na każdym wydechu i pełne rozluźnienie na każdym wdechu. Ćwicz też siedząc lub stojąc.",
+  "who": "Każdemu, zwłaszcza osobom z napiętym dnem miednicy, bólem miednicy lub stresem oraz osobom po porodzie, gdy lekarz na to pozwoli. Osoby podnoszące ciężary mogą w ten sposób uczyć się kontroli oddechu.",
+  "skip": "To ćwiczenie jest łagodne i odpowiednie dla większości osób. Jeśli czujesz zawroty głowy, duszność lub niepokój, wróć do normalnego oddychania, a jeśli choroba płuc lub serca wpływa na twój oddech, porozmawiaj z lekarzem. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Jak oddychanie wpływa na dno miednicy?",
+      "a": "Przepona i dno miednicy poruszają się razem jak tłok. Na wdechu dno miednicy obniża się i rozluźnia, a na wydechu unosi."
+    },
+    {
+      "q": "Czy oddychanie może pomóc przy napiętym dnie miednicy?",
+      "a": "Powolne oddychanie brzuchem może pomóc mięśniom puścić, co często jest pierwszym krokiem przy zbyt napiętym dnie miednicy. Najpierw się rozluźnij, zamiast napinać jeszcze mocniej, a jeśli objawy się utrzymują, zgłoś się do fizjoterapeuty dna miednicy."
+    }
+  ]
+}

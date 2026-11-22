@@ -1,0 +1,33 @@
+{
+  "description": "Étirement « Papillon » pour détendre les hanches et le périnée : comment le faire, où le sentir, les erreurs fréquentes, les variantes à essayer.",
+  "intro": "L’étirement « papillon » est un étirement assis, les plantes des pieds jointes et les genoux qui retombent vers l’extérieur. Il étire l’intérieur des cuisses et les hanches, juste à côté du périnée. Sa valeur est la détente et la mobilité, pas la force.",
+  "feel": "Vous devez sentir une traction douce le long de l’intérieur des cuisses, et peut-être dans les hanches et le bas du dos quand vous vous penchez en avant. Vous ne devez pas sentir le dos s’arrondir fortement, de douleur au genou ni de respiration retenue. Auto-contrôle : expirez lentement et remarquez si vos genoux descendent un peu d’eux-mêmes ; si vous luttez contre l’étirement, relâchez.",
+  "mistakes": [
+    {
+      "wrong": "Pousser les genoux vers le bas avec les mains",
+      "right": "Laissez la gravité faire le travail. Les muscles se raidissent face à la force."
+    },
+    {
+      "wrong": "Arrondir le dos pour descendre la tête",
+      "right": "Penchez-vous en avant depuis les hanches avec la colonne allongée. Une petite inclinaison avec le dos droit étire plus qu’un affaissement."
+    },
+    {
+      "wrong": "S’asseoir en arrière sur le coccyx",
+      "right": "Asseyez-vous sur le bord d’un coussin ou d’une serviette pliée pour que le bassin bascule vers l’avant et que rester droit ne demande aucun effort."
+    }
+  ],
+  "easier": "Éloignez les pieds de votre corps et asseyez-vous sur un coussin. Vous pouvez aussi renoncer à l’inclinaison et simplement rester droit en respirant.",
+  "harder": "Rapprochez les talons et penchez-vous plus loin en avant, le dos long, en vous servant des expirations lentes pour relâcher.",
+  "who": "Utile aux personnes qui restent assises des heures, aux hommes et aux femmes qui ont les hanches tendues et à toute personne qui veut un étirement facile le soir après les Kegel.",
+  "skip": "Évitez ou adaptez si vous avez une douleur à l’aine ou au genou, une hernie ou une opération récente de l’aine, de la hanche ou du ventre. Si votre périnée paraît tendu ou douloureux, un kinésithérapeute spécialisé en rééducation périnéale peut vous aider à associer étirements et respiration. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "L’étirement « papillon » est-il bon pour le périnée ?",
+      "a": "Il peut favoriser la détente et la mobilité des hanches. Les muscles de l’intérieur des cuisses s’attachent près du périnée : les assouplir peut l’aider à lâcher prise. Il ne le renforcera pas."
+    },
+    {
+      "q": "Pourquoi mes genoux sont-ils si hauts dans le « papillon » ?",
+      "a": "En général, l’intérieur des cuisses ou les hanches sont tendus. Asseyez-vous sur un coussin, éloignez les pieds et laissez du temps."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Wandsitzen mit Kegel-Anspannung: Ausführung, wo du es spürst, Atmung, häufige Fehler sowie leichtere und schwerere Varianten für jedes Niveau.",
+  "intro": "Das Wandsitzen ist ein statisches Halten mit dem Rücken an der Wand und gebeugten Knien. Es baut Ausdauer in Oberschenkeln und Gesäß auf, die das Becken stützen. Eine sanfte Kegel-Anspannung während des Haltens bringt dem Beckenboden bei, zu arbeiten, während deine Beine beschäftigt sind, so wie er es im Alltag muss.",
+  "feel": "Deine Oberschenkel arbeiten gleichmäßig, mit etwas Hilfe vom Gesäß. Die Kegel-Anspannung fühlt sich wie ein leichtes Anheben und Zusammenziehen innen an, als würdest du den Urinstrahl stoppen, danach ein vollständiges Loslassen. Du solltest keine Knieschmerzen, kein Luftanhalten, kein zusammengekniffenes Gesäß, das die Arbeit macht, und kein Nach-unten-Drücken spüren. Selbsttest: Du kannst beim Halten laut zählen.",
+  "mistakes": [
+    {
+      "wrong": "Zu tief rutschen",
+      "right": "Neunzig Grad sind das Ziel, aber höher ist in Ordnung, solange du dich aufbaust."
+    },
+    {
+      "wrong": "Die Kegel-Anspannung das ganze Wandsitzen über halten",
+      "right": "Spanne ein paar Sekunden an und lass dann vollständig los, bevor die nächste kommt. Das Loslassen ist genauso wichtig wie das Anspannen."
+    },
+    {
+      "wrong": "Die Luft anhalten, um durchzukommen",
+      "right": "Atme die ganze Zeit gleichmäßig. Wenn das nicht geht, verkürze das Halten."
+    }
+  ],
+  "easier": "Rutsch nur ein Stück nach unten, halte 10 bis 15 Sekunden, oder lass die Kegel-Anspannung weg, bis sich das Halten leicht anfühlt.",
+  "harder": "Halte bis zu 40 Sekunden und mach während des Haltens ein paar kurze Kegel-Anspannungen, dazwischen jeweils vollständig entspannt. Du kannst auch ein Gewicht auf dem Schoß halten.",
+  "who": "Gut für Erwachsene über 40, die ohne Stoßbelastung Bein- und Beckenhalt wollen, für Kraftsportler beim Aufwärmen und für alle, denen bewegte Kniebeugen die Knie belasten.",
+  "skip": "Passe es an oder lass es aus bei Knieschmerzen, einem Leistenbruch, einer kürzlichen Operation im Becken- oder Bauchbereich oder hohem Blutdruck, den deine Ärztin oder dein Arzt nicht für Sport freigegeben hat. Wenn dein Beckenboden verspannt ist oder schmerzt, lass die Kegel-Anspannung weg und atme nur. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Soll ich beim Wandsitzen Kegel-Übungen machen?",
+      "a": "Ja, sanft. Spanne ein paar Sekunden an und heb an, lass vollständig los und atme weiter. Wenn dein Beckenboden zur Verspannung neigt, lass das Anspannen weg und halte einfach."
+    },
+    {
+      "q": "Wie lange sollte ein Einsteiger das Wandsitzen halten?",
+      "a": "Beginne mit 15 bis 20 Sekunden und arbeite dich auf 40 hoch. Hör auf, bevor deine Oberschenkel stark zittern."
+    }
+  ]
+}

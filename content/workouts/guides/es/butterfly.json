@@ -1,0 +1,33 @@
+{
+  "description": "Estiramiento mariposa para relajar caderas y suelo pélvico: cómo hacerlo, dónde notarlo, errores comunes y variantes más fáciles y más difíciles.",
+  "intro": "La mariposa es un estiramiento sentado con las plantas de los pies juntas y las rodillas abiertas hacia los lados. Estira los muslos internos y las caderas, junto al suelo pélvico. Su valor está en la relajación y la movilidad, no en la fuerza.",
+  "feel": "Debes notar un tirón suave a lo largo de los muslos internos, y quizá en las caderas y la zona lumbar al inclinarte hacia delante. No debes notar que la espalda se redondea mucho, dolor de rodillas ni que contienes el aire. Autocomprobación: espira despacio y fíjate en si las rodillas bajan un poco por sí solas; si estás luchando contra el estiramiento, afloja.",
+  "mistakes": [
+    {
+      "wrong": "Empujar las rodillas hacia abajo con las manos",
+      "right": "Deja que la gravedad haga el trabajo. Los músculos se tensan frente a la fuerza."
+    },
+    {
+      "wrong": "Redondear la espalda para bajar la cabeza",
+      "right": "Inclínate hacia delante desde las caderas con la columna larga. Una pequeña inclinación con la espalda recta estira más que dejarte caer."
+    },
+    {
+      "wrong": "Sentarte echado hacia atrás sobre el coxis",
+      "right": "Siéntate en el borde de un cojín o de una toalla doblada para que la pelvis se incline hacia delante y mantenerte erguido no cueste esfuerzo."
+    }
+  ],
+  "easier": "Aleja los pies del cuerpo y siéntate sobre un cojín. También puedes omitir la inclinación y limitarte a sentarte erguido y respirar.",
+  "harder": "Acerca los talones y inclínate más hacia delante con la espalda larga, usando espiraciones lentas para soltar.",
+  "who": "Útil para quienes pasan horas sentados, hombres y mujeres con las caderas tensas, y cualquiera que quiera un estiramiento sencillo por la noche después de los Kegel.",
+  "skip": "Evítalo o adáptalo si tienes dolor en la ingle o en las rodillas, una hernia o una cirugía reciente de ingle, cadera o abdomen. Si notas el suelo pélvico tenso o dolorido, un fisioterapeuta de suelo pélvico puede ayudarte a combinar los estiramientos con la respiración. Para si te duele.",
+  "faq": [
+    {
+      "q": "¿Es bueno el estiramiento mariposa para el suelo pélvico?",
+      "a": "Puede favorecer la relajación y la movilidad de la cadera. Los músculos internos del muslo se insertan cerca del suelo pélvico, así que aliviarlos puede ayudar a que el suelo pélvico se suelte. No lo fortalecerá."
+    },
+    {
+      "q": "¿Por qué tengo las rodillas tan altas en la mariposa?",
+      "a": "Normalmente por muslos internos o caderas tensos. Siéntate sobre un cojín, aleja los pies y dale tiempo."
+    }
+  ]
+}

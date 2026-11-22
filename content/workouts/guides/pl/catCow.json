@@ -1,0 +1,33 @@
+{
+  "description": "„Kot-krowa”: zaokrąglaj i wyginaj plecy w rytmie oddechu, by rozluźnić kręgosłup i dno miednicy. Jak to czuć, błędy, wersje ćwiczenia.",
+  "intro": "„Kot-krowa” to powolny ruch kręgosłupa w podporze na rękach i kolanach, zsynchronizowany z oddechem. W zestawie na dno miednicy jego głównym zadaniem jest rozluźnienie i ruchomość, a nie siła. Pomaga poczuć, jak dno miednicy unosi się i puszcza wraz z oddechem, co ma znaczenie, jeśli twoje mięśnie mają tendencję do pozostawania napiętymi.",
+  "feel": "Poczujesz, jak kręgosłup porusza się odcinek po odcinku, z lekkim rozciągnięciem pleców przy zaokrąglaniu i z przodu ciała przy wyginaniu. Nie powinno być czuć ściskania w dolnych plecach, napięcia karku ani pośpiesznego oddechu. Na wdechu, gdy opuszczasz brzuch, zwróć uwagę, jak dno miednicy mięknie i się rozszerza. Jeśli ruch jest szarpany, zrób go mniejszy i wolniejszy.",
+  "mistakes": [
+    {
+      "wrong": "Poruszanie tylko szyją i głową",
+      "right": "Zacznij od kości ogonowej i pozwól, by ruch przechodził w górę kręgosłupa. Głowa podąża na końcu."
+    },
+    {
+      "wrong": "Wymuszanie głębokiego wygięcia dolnych pleców",
+      "right": "Wygięcie ma być wygodne. Celem jest łatwy ruch, a nie skrajny zakres."
+    },
+    {
+      "wrong": "Oddychanie niezgodne z ruchem",
+      "right": "Wydychaj powietrze przy zaokrąglaniu, wdychaj przy opuszczaniu brzucha i pozwól, by oddech nadawał tempo."
+    }
+  ],
+  "easier": "Wykonuj ćwiczenie siedząc na krześle, z dłońmi na kolanach, albo podłóż coś pod kolana, jeśli klęczenie jest niewygodne.",
+  "harder": "Wydłuż każdy ruch do pięciu lub sześciu sekund albo dodaj delikatne uniesienie dna miednicy na wydechu i pełne rozluźnienie na wdechu.",
+  "who": "Świetne dla osób pracujących przy biurku i kierowców, którzy siedzą godzinami, każdego sztywnego rano oraz osób, których dno miednicy jest napięte lub nadaktywne.",
+  "skip": "Jeśli bolą cię nadgarstki, oprzyj się na pięściach lub przedramionach albo spróbuj wersji siedzącej. Najpierw skonsultuj się z lekarzem lub fizjoterapeutą przy ostrym bólu pleców lub niedawnej operacji kręgosłupa, brzucha albo miednicy. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Czy „kot-krowa” pomaga rozluźnić dno miednicy?",
+      "a": "Może pomóc. Połączenie wygięcia z powolnym wdechem pomaga wielu osobom poczuć, jak dno miednicy puszcza, co jest przydatne, jeśli ma tendencję do pozostawania zaciśniętym."
+    },
+    {
+      "q": "Czy „kot-krowa” jest bezpieczny w ciąży?",
+      "a": "Często stosuje się go w ciąży, bo może zmniejszyć ucisk na plecy. Zapytaj położną lub lekarza, jeśli masz jakiekolwiek powikłania."
+    }
+  ]
+}

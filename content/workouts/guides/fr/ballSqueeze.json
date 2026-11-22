@@ -1,0 +1,33 @@
+{
+  "description": "Ballon serré entre les genoux avec un Kegel : comment le faire, comment savoir que ça marche, erreurs fréquentes, variantes plus faciles ou plus dures.",
+  "intro": "Le ballon serré entre les genoux est un mouvement assis : vous pressez un ballon entre les genoux en ajoutant en même temps une contraction du périnée. L’intérieur des cuisses travaille avec le périnée, donc beaucoup de gens trouvent le Kegel plus facile à repérer. Contrairement à la plupart des mouvements de hanches et de jambes, il entraîne directement le périnée.",
+  "feel": "L’intérieur des cuisses presse, et à l’intérieur vous sentez un soulèvement et une contraction doux, comme pour arrêter le jet d’urine et retenir un gaz. Après le maintien, tout se relâche complètement. Vous ne devez pas sentir les fesses faire tout le travail, de poussée vers le bas ni de souffle retenu. Auto-contrôle : essayez une répétition sans le ballon ; si vous ne sentez rien à l’intérieur, ce sont les cuisses qui ont tout fait.",
+  "mistakes": [
+    {
+      "wrong": "Serrer le ballon aussi fort que possible",
+      "right": "Utilisez une pression modérée et concentrez-vous sur le soulèvement à l’intérieur."
+    },
+    {
+      "wrong": "Sauter la phase de relâchement",
+      "right": "Relâchez complètement le ballon et le périnée, et reposez-vous aussi longtemps que vous avez contracté."
+    },
+    {
+      "wrong": "S’affaisser sur la chaise",
+      "right": "Asseyez-vous droit sur les ischions, pieds à plat. S’affaisser rend le périnée plus difficile à solliciter."
+    }
+  ],
+  "easier": "Tenez 2 à 3 secondes au lieu de cinq et faites moins de répétitions. Ou serrez d’abord le ballon seul et ajoutez le Kegel quand vous pouvez le sentir.",
+  "harder": "Progressez vers un maintien de 10 secondes en respirant normalement, ou ajoutez quelques contractions rapides après chaque maintien.",
+  "who": "Utile aux personnes qui travaillent au bureau, aux femmes qui travaillent sur le contrôle de la vessie, aux hommes qui ont des gouttes après avoir uriné et à toute personne qui a du mal à trouver son périnée.",
+  "skip": "Si vous avez une douleur pelvienne, une douleur pendant les rapports ou un périnée qui paraît tendu, consultez d’abord un kinésithérapeute spécialisé en rééducation périnéale, car contracter davantage peut ne pas aider. Faites-vous aussi examiner après une opération récente du bassin ou un accouchement. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "Le ballon serré entre les genoux aide-t-il à contrôler la vessie ?",
+      "a": "Il peut aider, car il entraîne les muscles du périnée qui soutiennent la vessie. Cela demande une pratique régulière pendant des semaines, et des fuites qui persistent méritent d’être examinées."
+    },
+    {
+      "q": "Les hommes peuvent-ils faire le ballon serré entre les genoux ?",
+      "a": "Oui. Le périnée fonctionne de la même façon de base chez les hommes, et le ballon peut rendre les muscles plus faciles à repérer. Il s’intègre facilement à une pause au bureau."
+    }
+  ]
+}

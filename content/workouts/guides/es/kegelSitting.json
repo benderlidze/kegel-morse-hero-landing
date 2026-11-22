@@ -1,0 +1,33 @@
+{
+  "description": "Guía del Kegel sentado: una contracción discreta del suelo pélvico en una silla, en el escritorio o en el coche, cómo debe sentirse y errores comunes.",
+  "intro": "El Kegel sentado es la misma elevación y contracción, hecha con la espalda recta en una silla. Es la versión más fácil de integrar en el día a día: en el escritorio, en el autobús o en un semáforo, nadie lo nota. Sentado hay algo más de carga que tumbado, y el asiento da una referencia útil.",
+  "feel": "Sentado sobre los isquiones, debes notar que la zona entre ellos se eleva y se separa del asiento, y luego vuelve a su sitio al relajar. Los glúteos permanecen blandos, así que no te elevas en la silla. Sigue respirando y mantén los hombros sueltos. Empujar hacia abajo o tener el cuello rígido significa que aprietas demasiado.",
+  "mistakes": [
+    {
+      "wrong": "Hundirte hacia atrás sobre el coxis",
+      "right": "Siéntate erguido sobre los isquiones, con los pies planos. Con la pelvis caída cuesta más encontrar la contracción y soltarla."
+    },
+    {
+      "wrong": "Levantarte del asiento apretando las nalgas",
+      "right": "Si el cuerpo se eleva, eran los glúteos. Mantén el mismo contacto con el asiento y busca una elevación más pequeña e interna."
+    },
+    {
+      "wrong": "Apretar cada vez que te sientas",
+      "right": "Asocia unas cuantas series a momentos fijos, como los semáforos o al terminar un correo. Apretar constantemente puede dejar los músculos tensos."
+    }
+  ],
+  "easier": "Mantén 2 o 3 segundos, o siéntate ligeramente reclinado con la espalda apoyada. Si no notas nada, vuelve a la versión tumbada.",
+  "harder": "Alarga la contracción respirando con normalidad, o siéntate en el borde delantero de la silla. Termina con unas cuantas contracciones rápidas.",
+  "who": "Personas que trabajan en escritorio, conductores y quienes viajan a diario, y personas de más de 50 años a las que les cuesta más tumbarse en el suelo.",
+  "skip": "Si ya notas el suelo pélvico tenso o tienes dolor al sentarte o en las relaciones sexuales, céntrate primero en relajar y consulta a un fisioterapeuta de suelo pélvico. No dejes nunca que la práctica te distraiga de la carretera. Para si te duele.",
+  "faq": [
+    {
+      "q": "¿Se pueden hacer Kegel en el escritorio?",
+      "a": "Sí. Siéntate erguido, con los pies planos, y haz una serie lenta respirando con normalidad. Asociarlo a una tarea habitual facilita convertirlo en hábito."
+    },
+    {
+      "q": "¿Es seguro hacer Kegel al conducir?",
+      "a": "Unas pocas repeticiones suaves en un semáforo en rojo están bien para la mayoría de las personas. Omítelos si te distraen."
+    }
+  ]
+}

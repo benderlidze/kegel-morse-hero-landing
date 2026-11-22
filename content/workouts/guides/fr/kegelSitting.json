@@ -1,0 +1,33 @@
+{
+  "description": "Guide du Kegel assis : une contraction discrète du périnée sur une chaise, au bureau ou en voiture, la sensation attendue, les erreurs et les variantes.",
+  "intro": "Le Kegel assis est la même contraction vers le haut, faite bien droit sur une chaise. C’est la version la plus facile à glisser dans la vie quotidienne : au bureau, dans le bus ou à un feu rouge, personne ne le remarque. Assis, la charge est un peu plus grande qu’allongé, et l’assise donne un retour utile.",
+  "feel": "Assis sur vos ischions, vous devez sentir la zone entre eux se rétracter et s’éloigner du siège, puis se reposer quand vous relâchez. Les fessiers restent mous, donc vous ne vous soulevez pas de la chaise. Continuez à respirer et gardez les épaules détendues. Pousser vers le bas ou avoir la nuque raide signifie que la contraction est trop forte.",
+  "mistakes": [
+    {
+      "wrong": "S’affaisser en arrière sur le coccyx",
+      "right": "Asseyez-vous droit sur vos ischions, pieds à plat. Un bassin affaissé rend la contraction plus difficile à trouver et à relâcher."
+    },
+    {
+      "wrong": "Se soulever du siège en serrant les fesses",
+      "right": "Si votre corps se soulève, c’étaient les fessiers. Gardez le même contact avec le siège et cherchez un soulèvement plus petit, interne."
+    },
+    {
+      "wrong": "Contracter chaque fois que vous vous asseyez",
+      "right": "Associez quelques séries à des moments fixes, comme les feux rouges ou la fin d’un e-mail. Contracter en permanence peut laisser les muscles tendus."
+    }
+  ],
+  "easier": "Maintenez 2 à 3 secondes, ou asseyez-vous légèrement incliné en arrière, le dos soutenu. Si vous ne sentez rien, revenez à la version allongée.",
+  "harder": "Allongez le maintien en respirant normalement, ou installez-vous sur le bord avant de la chaise. Terminez par quelques contractions rapides.",
+  "who": "Les personnes qui travaillent au bureau, les conducteurs et les personnes en transport, et celles de plus de 50 ans pour qui descendre au sol est plus difficile.",
+  "skip": "Si votre périnée est déjà tendu, ou si vous avez mal en position assise ou pendant les rapports, concentrez-vous d’abord sur la détente et consultez un kinésithérapeute spécialisé en rééducation périnéale. Ne laissez jamais l’exercice détourner votre attention de la route. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "Peut-on faire des Kegel au bureau ?",
+      "a": "Oui. Asseyez-vous droit, pieds à plat, et faites une série lente en respirant normalement. L’associer à une tâche régulière en fait une habitude facile."
+    },
+    {
+      "q": "Peut-on faire des Kegel en conduisant ?",
+      "a": "Quelques répétitions douces à un feu rouge ne posent pas de problème à la plupart des gens. Évitez si cela vous distrait."
+    }
+  ]
+}

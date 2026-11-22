@@ -1,0 +1,33 @@
+{
+  "description": "Guide de la planche latérale : soulevez les hanches en ligne droite sur un avant-bras pour travailler obliques et fessiers latéraux. Erreurs, variantes.",
+  "intro": "La planche latérale est une position tenue sur un avant-bras, le corps de profil. Elle entraîne les obliques le long de la taille et les fessiers latéraux qui stabilisent le bassin. Elle soutient le bassin par les côtés plutôt que d’entraîner le périnée, et elle doit se faire en respirant normalement.",
+  "feel": "Vous devez sentir travailler le côté de la taille et l’extérieur de la hanche de la jambe du dessous. Vous ne devez pas sentir l’épaule s’affaisser, la nuque forcer, la respiration s’arrêter ni de pression dans le bassin. Vérifiez que la hanche du dessus reste empilée sur celle du dessous, sans rouler vers l’avant. Quand vos hanches commencent à descendre, terminez le maintien.",
+  "mistakes": [
+    {
+      "wrong": "S’affaisser dans l’épaule",
+      "right": "Repoussez le sol avec l’avant-bras pour que l’épaule reste solide et la nuque allongée."
+    },
+    {
+      "wrong": "Les hanches qui s’affaissent vers le sol",
+      "right": "Soulevez-les jusqu’à ce que le corps soit droit de la tête aux genoux ou aux pieds. Des maintiens plus courts aident à garder la ligne."
+    },
+    {
+      "wrong": "Faire rouler la hanche du dessus vers l’avant ou l’arrière",
+      "right": "Empilez hanches et épaules comme si votre dos était contre un mur."
+    }
+  ],
+  "easier": "Gardez les deux genoux fléchis au sol, ou faites-la debout, l’avant-bras contre un mur et les pieds écartés.",
+  "harder": "Tendez les deux jambes et empilez les pieds, ajoutez quelques descentes lentes des hanches, ou levez légèrement la jambe du dessus quelques secondes.",
+  "who": "Convient aux coureurs, aux adeptes de la musculation et à toute personne qui veut des hanches et une taille plus fortes, tant que l’effort ne cause aucun symptôme pelvien.",
+  "skip": "Utilisez la version sur les genoux ou contre le mur, ou évitez-la, si vous avez une douleur à l’épaule, des symptômes de prolapsus, des fuites à l’effort, une hernie ou une opération récente du ventre ou du bassin. Si vous êtes enceinte ou avez accouché récemment, demandez d’abord l’avis d’un médecin ou d’un kinésithérapeute spécialisé en rééducation périnéale. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "Que travaille la planche latérale ?",
+      "a": "Surtout les obliques, les abdominaux latéraux profonds et le fessier latéral de la jambe du dessous, ainsi que l’épaule qui soutient."
+    },
+    {
+      "q": "La version sur les genoux est-elle encore utile ?",
+      "a": "Oui. Elle entraîne les mêmes muscles avec moins de charge et c’est le bon choix tant que vous ne pouvez pas tenir une ligne droite, jambes tendues."
+    }
+  ]
+}

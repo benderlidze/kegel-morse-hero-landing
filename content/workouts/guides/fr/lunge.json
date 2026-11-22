@@ -1,0 +1,33 @@
+{
+  "description": "Fente arrière pour les fessiers, les cuisses et la stabilité du bassin : comment la faire, respiration pour le périnée, erreurs fréquentes, variantes.",
+  "intro": "La fente arrière est un mouvement sur une jambe : vous reculez d’un pas, abaissez le genou arrière et poussez dans le talon avant pour remonter. Elle développe la force des fessiers et des cuisses et l’équilibre sur une jambe, qui garde le bassin stable quand vous courez ou montez des escaliers. Elle soutient la zone autour du périnée plutôt que de l’entraîner directement.",
+  "feel": "Le fessier et la cuisse avant font l’essentiel du travail, avec un léger étirement à l’avant de la hanche arrière. Le buste reste droit et le bassin à niveau. Vous ne devez pas sentir de douleur au genou, le bas du dos se cambrer ni votre souffle se retenir en poussant. Auto-contrôle : vous pouvez marquer une pause d’une seconde en bas sans vaciller.",
+  "mistakes": [
+    {
+      "wrong": "Pousser avec le pied arrière",
+      "right": "Poussez dans le talon avant pour vous relever. Le pied arrière sert surtout à l’équilibre."
+    },
+    {
+      "wrong": "Le genou avant qui rentre vers l’intérieur",
+      "right": "Gardez le genou avant au-dessus du milieu du pied. Ralentissez s’il vacille."
+    },
+    {
+      "wrong": "Retenir son souffle en se relevant",
+      "right": "Inspirez en descendant et expirez en poussant, pour que le périnée puisse se soulever avec l’effort."
+    }
+  ],
+  "easier": "Tenez-vous à un mur ou à une chaise, faites un pas plus court et descendez seulement en partie. Vous pouvez aussi faire 4 à 5 répétitions de chaque côté.",
+  "harder": "Descendez en trois secondes, marquez une pause juste au-dessus du sol ou tenez des poids le long du corps. Vous pouvez aussi ajouter un Kegel doux en remontant et le relâcher complètement en bas.",
+  "who": "Utile aux coureurs, aux cyclistes et aux adeptes de la musculation, et à toute personne qui veut un meilleur équilibre et un meilleur contrôle des hanches sur une jambe.",
+  "skip": "Évitez ou adaptez si vous avez une douleur au genou, à la hanche ou à l’aine, des problèmes d’équilibre, une hernie, une opération récente du bassin ou du ventre, ou si vous êtes enceinte ou en post-partum sans avoir encore obtenu l’accord. Des fuites ou une pesanteur pendant les fentes sont une raison de consulter un kinésithérapeute spécialisé en rééducation périnéale. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "Pourquoi des fentes arrière plutôt que des fentes avant ?",
+      "a": "Reculer est en général plus doux pour les genoux et plus facile à contrôler, car le poids reste au-dessus du pied avant. C’est un bon point de départ."
+    },
+    {
+      "q": "Les fentes sont-elles bonnes pour le périnée ?",
+      "a": "Elles renforcent les muscles qui stabilisent le bassin, ce qui peut soutenir le périnée. Elles ne remplacent pas les Kegel."
+    }
+  ]
+}

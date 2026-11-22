@@ -1,0 +1,33 @@
+{
+  "description": "Posture de l’enfant pour détendre le périnée : comment la faire, où la sentir, les erreurs fréquentes, les variantes plus faciles ou plus difficiles.",
+  "intro": "La posture de l’enfant est une position de repos à genoux qui étire doucement le bas du dos et les hanches. Elle ne développe pas la force ; sa valeur est la détente : elle donne au périnée l’occasion de lâcher prise, ce qui aide si le vôtre paraît tendu ou si vous contractez sans vous en rendre compte.",
+  "feel": "Vous devez sentir un étirement léger dans le bas du dos et les hanches, avec le ventre mou et une respiration lente. Vous ne devez pas sentir de pincement dans les genoux, de tension dans la nuque ni l’envie de retenir votre souffle. Auto-contrôle : à l’inspiration, remarquez un léger élargissement entre les ischions ; à l’expiration, laissez-le se poser sans contracter.",
+  "mistakes": [
+    {
+      "wrong": "Forcer les hanches vers les talons",
+      "right": "Arrêtez-vous là où c’est confortable. Un coussin entre les hanches et les talons donne la même détente sans effort."
+    },
+    {
+      "wrong": "Crisper le ventre ou le périnée",
+      "right": "Laissez le sol porter votre poids. Rien n’a besoin de travailler ici : détendez la mâchoire, le ventre et le périnée."
+    },
+    {
+      "wrong": "Respirer superficiellement avec la poitrine",
+      "right": "Respirez lentement vers le bas du dos. Une expiration un peu plus longue aide le périnée à se relâcher."
+    }
+  ],
+  "easier": "Placez un coussin sous les hanches ou la poitrine, ou posez le front sur vos poings empilés. Si être à genoux gêne vos genoux, protégez-les.",
+  "harder": "Marchez avec les mains vers un côté, puis vers l’autre, pour un étirement latéral. Tenez plus longtemps avec une respiration plus lente ; sans contractions.",
+  "who": "Utile aux personnes qui restent assises ou conduisent pendant des heures et à toute personne dont le périnée paraît tendu ou difficile à relâcher après l’entraînement.",
+  "skip": "Adaptez-la si vous avez mal aux genoux ou une opération récente du genou ou de la hanche ; pendant la grossesse, écartez les genoux et soutenez la poitrine. Si vous avez une douleur pelvienne ou une douleur pendant les rapports, un kinésithérapeute spécialisé en rééducation périnéale peut vous guider. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "La posture de l’enfant est-elle bonne pour le périnée ?",
+      "a": "Elle aide à la détente plutôt qu’à la force. La position et la respiration lente permettent au périnée de lâcher plus facilement."
+    },
+    {
+      "q": "Dois-je faire des Kegel dans la posture de l’enfant ?",
+      "a": "Elle fonctionne mieux comme la partie détente de votre routine. Si votre périnée a tendance à être tendu, contracter davantage n’est pas la solution ; le laisser se relâcher complètement l’est."
+    }
+  ]
+}

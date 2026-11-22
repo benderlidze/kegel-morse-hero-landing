@@ -1,0 +1,33 @@
+{
+  "description": "Guía de la plancha lateral: eleva las caderas en línea recta sobre un antebrazo para trabajar oblicuos y glúteos laterales. Errores y variantes.",
+  "intro": "La plancha lateral es una posición mantenida sobre un antebrazo con el cuerpo de lado. Entrena los oblicuos a lo largo de la cintura y los glúteos laterales que estabilizan la pelvis. Sostiene la pelvis desde los lados en lugar de entrenar el suelo pélvico, y debe hacerse con respiración normal.",
+  "feel": "Debes notar el trabajo del costado de la cintura y de la parte exterior de la cadera de la pierna de abajo. No debes notar que el hombro se hunde, tensión en el cuello, que la respiración se detiene ni presión en la pelvis. Comprueba que la cadera de arriba se mantiene apilada sobre la de abajo, sin rodar hacia delante. Cuando las caderas empiecen a bajar, termina la plancha.",
+  "mistakes": [
+    {
+      "wrong": "Hundirte sobre el hombro",
+      "right": "Empuja el suelo con el antebrazo para que el hombro se mantenga firme y el cuello largo."
+    },
+    {
+      "wrong": "Caderas que se hunden hacia el suelo",
+      "right": "Elévalas hasta que el cuerpo esté recto de la cabeza a las rodillas o a los pies. Mantener menos tiempo ayuda a conservar la línea."
+    },
+    {
+      "wrong": "Hacer rodar la cadera de arriba hacia delante o hacia atrás",
+      "right": "Apila caderas y hombros como si tuvieras la espalda contra una pared."
+    }
+  ],
+  "easier": "Mantén ambas rodillas dobladas y apoyadas, o hazla de pie con el antebrazo en una pared y los pies separados de ella.",
+  "harder": "Estira ambas piernas y apila los pies, añade unas cuantas bajadas lentas de cadera o levanta ligeramente la pierna de arriba durante unos segundos.",
+  "who": "Bueno para corredores, para quienes levantan pesas y para cualquiera que quiera caderas y cintura más fuertes, siempre que el esfuerzo no cause síntomas pélvicos.",
+  "skip": "Usa la versión de rodillas o de pared, o evítala, si tienes dolor de hombro, síntomas de prolapso, pérdidas de orina con el esfuerzo, una hernia o una cirugía abdominal o pélvica reciente. Si estás embarazada o has dado a luz hace poco, consulta antes a un médico o fisioterapeuta de suelo pélvico. Para si te duele.",
+  "faq": [
+    {
+      "q": "¿Qué trabaja la plancha lateral?",
+      "a": "Principalmente los oblicuos, los abdominales laterales profundos y los glúteos laterales de la pierna de abajo, además del hombro de apoyo."
+    },
+    {
+      "q": "¿Sigue siendo útil la versión de rodillas?",
+      "a": "Sí. Trabaja los mismos músculos con menos carga y es la opción adecuada hasta que puedas mantener una línea recta con las piernas estiradas."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Wykrok do tyłu na pośladki, uda i stabilność miednicy: jak go wykonać, oddychanie dla dna miednicy, częste błędy oraz łatwiejsza i trudniejsza wersja.",
+  "intro": "Wykrok do tyłu to ruch na jednej nodze: krok w tył, opuszczenie tylnego kolana, odepchnięcie się przednią piętą. Buduje siłę pośladków i ud oraz równowagę na jednej nodze, która utrzymuje miednicę stabilnie podczas biegania lub wchodzenia po schodach. Wspiera okolicę dna miednicy, a nie trenuje go bezpośrednio.",
+  "feel": "Przedni pośladek i udo wykonują większość pracy, z lekkim rozciągnięciem z przodu tylnego biodra. Tułów pozostaje wyprostowany, a miednica pozioma. Nie powinno być czuć bólu kolana, wyginania dolnych pleców ani wstrzymywania oddechu przy wstawaniu. Samokontrola: możesz zatrzymać się na dole na sekundę bez chwiania.",
+  "mistakes": [
+    {
+      "wrong": "Odpychanie się tylną stopą",
+      "right": "Wstawaj, dociskając przednią piętę. Tylna stopa służy głównie do równowagi."
+    },
+    {
+      "wrong": "Przednie kolano zapadające się do środka",
+      "right": "Trzymaj przednie kolano nad środkiem stopy. Zwolnij, jeśli się chwieje."
+    },
+    {
+      "wrong": "Wstrzymywanie oddechu przy wstawaniu",
+      "right": "Wdychaj powietrze przy opuszczaniu, a wydychaj przy odpychaniu się w górę, żeby dno miednicy mogło unosić się razem z wysiłkiem."
+    }
+  ],
+  "easier": "Przytrzymaj się ściany lub krzesła, zrób krótszy krok i opuszczaj się tylko częściowo. Możesz też zrobić 4–5 powtórzeń na stronę.",
+  "harder": "Opuszczaj się przez trzy sekundy, zatrzymaj się tuż nad podłogą albo trzymaj ciężarki po bokach. Możesz też dodać delikatne uniesienie dna miednicy przy wstawaniu i pełne rozluźnienie na dole.",
+  "who": "Przydatne dla biegaczy, rowerzystów i osób podnoszących ciężary oraz każdego, kto chce lepszej równowagi i kontroli bioder na jednej nodze.",
+  "skip": "Pomiń lub zmodyfikuj przy bólu kolana, biodra lub pachwiny, problemach z równowagą, przepuklinie, niedawnej operacji miednicy lub brzucha albo w ciąży lub po porodzie bez zgody lekarza. Popuszczanie lub uczucie ciężaru podczas wykroku to powód, by zgłosić się do fizjoterapeuty dna miednicy. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Dlaczego wykrok do tyłu, a nie do przodu?",
+      "a": "Krok w tył jest zwykle łagodniejszy dla kolan i łatwiejszy do kontrolowania, bo ciężar pozostaje nad przednią stopą. To dobry punkt wyjścia."
+    },
+    {
+      "q": "Czy wykroki są dobre dla dna miednicy?",
+      "a": "Wzmacniają mięśnie stabilizujące miednicę, co może wspierać dno miednicy. Nie zastępują ćwiczeń Kegla."
+    }
+  ]
+}

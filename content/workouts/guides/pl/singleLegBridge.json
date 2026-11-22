@@ -1,0 +1,33 @@
+{
+  "description": "Mostek na jednej nodze: unoszenie bioder na jednej nodze dla pośladków, tyłu ud i stabilności głębokiego core. Jak to czuć, błędy, wersje ćwiczenia.",
+  "intro": "W mostku na jednej nodze jedna stopa zostaje na podłodze, a druga noga się unosi. Każda strona przejmuje pełne obciążenie i musi utrzymać miednicę poziomo, co buduje siłę bioder i kontrolę używane w bieganiu i jeździe na rowerze. Ćwiczenie podtrzymuje miednicę, a nie trenuje bezpośrednio dna miednicy.",
+  "feel": "Poczujesz pracę pośladka i tyłu uda nogi podporowej oraz głębokich mięśni core, które powstrzymują biodra przed przechyleniem. Wyobraź sobie miednicę jako tacę, z której nie chcesz nic rozlać. Unikaj wstrzymywania oddechu, wyginania dolnych pleców i skurczów tylnej strony ud. Samokontrola: z dłońmi na kościach biodrowych obie powinny pozostać na tej samej wysokości.",
+  "mistakes": [
+    {
+      "wrong": "Opadanie strony z uniesioną nogą",
+      "right": "Unoś się tylko tak wysoko, by utrzymać oba biodra na jednym poziomie. Niższy, równy mostek jest lepszy niż wysoki i przechylony."
+    },
+    {
+      "wrong": "Odpychanie się palcami stopy podporowej",
+      "right": "Dociskaj piętę i utrzymaj to kolano w jednej linii z biodrem i stopą."
+    },
+    {
+      "wrong": "Pośpiech przy powtórzeniach",
+      "right": "Unoś się i opuszczaj w powolnym, równym tempie, a między stronami krótko odpocznij."
+    }
+  ],
+  "easier": "Zostaw uniesioną nogę zgiętą albo zrób zwykły mostek z ciężarem przesuniętym na jedną stopę.",
+  "harder": "Zatrzymaj się na górze na 3 sekundy, opuszczaj się powoli albo połóż stopę podporową na niskim stopniu. Delikatne napięcie Kegla na górze dodaje kolejny poziom trudności.",
+  "who": "Biegaczom, rowerzystom i każdemu, kto opanował mostek na dwóch nogach i chce większej siły bioder oraz równowagi między stronami.",
+  "skip": "Pomiń, jeśli zwykły mostek nadal powoduje ból pleców albo przy bólu biodra, kolana lub tylnej strony uda po stronie pracującej nogi. Po niedawnej operacji, niedawnym porodzie lub przy przepuklinie najpierw skonsultuj się z lekarzem lub fizjoterapeutą. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Czy mostek na jednej nodze jest dobry dla biegaczy?",
+      "a": "W bieganiu lądujesz na jednej nodze naraz, a to ćwiczenie trenuje każde biodro osobno w ten sam sposób. To częsty wybór dla siły pośladków i kontroli miednicy."
+    },
+    {
+      "q": "Dlaczego jedna strona wydaje się słabsza?",
+      "a": "Większość osób ma silniejszą stronę. Rób tyle samo powtórzeń po obu stronach, zaczynając od słabszej, żeby jej nie pokrzywdzić."
+    }
+  ]
+}

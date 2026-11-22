@@ -1,0 +1,33 @@
+{
+  "description": "Seitstütz: Heb die Hüfte auf einem Unterarm in eine gerade Linie, um schräge Bauchmuskeln und seitliches Gesäß zu trainieren. Fehler und Varianten.",
+  "intro": "Der Seitstütz ist eine gehaltene Position auf einem Unterarm, bei der dein Körper seitlich liegt. Er trainiert die schrägen Bauchmuskeln an der Taille und die seitlichen Gesäßmuskeln, die dein Becken stabilisieren. Er stützt das Becken von den Seiten, statt den Beckenboden zu trainieren, und sollte bei normaler Atmung gemacht werden.",
+  "feel": "Du solltest die Taillenseite und die äußere Hüfte des unteren Beins arbeiten spüren. Du solltest nicht spüren, wie die Schulter einsinkt, der Nacken sich anstrengt, der Atem stockt oder Druck im Becken entsteht. Achte darauf, dass die obere Hüfte über der unteren bleibt und nicht nach vorn gerollt ist. Wenn deine Hüfte zu sinken beginnt, beende das Halten.",
+  "mistakes": [
+    {
+      "wrong": "In die Schulter einsinken",
+      "right": "Drücke mit dem Unterarm den Boden weg, damit die Schulter stark und der Nacken lang bleibt."
+    },
+    {
+      "wrong": "Die Hüfte zum Boden durchhängen lassen",
+      "right": "Heb sie, bis dein Körper von Kopf bis Knie oder Füße gerade ist. Kürzere Haltezeiten helfen, die Linie zu halten."
+    },
+    {
+      "wrong": "Die obere Hüfte nach vorn oder hinten rollen",
+      "right": "Stapel Hüften und Schultern, als läge dein Rücken an einer Wand."
+    }
+  ],
+  "easier": "Lass beide Knie angewinkelt am Boden, oder mach ihn im Stehen mit dem Unterarm an einer Wand und mit nach außen gesetzten Füßen.",
+  "harder": "Streck beide Beine und stapel die Füße, füge ein paar langsame Hüftsenker hinzu, oder heb das obere Bein für ein paar Sekunden leicht an.",
+  "who": "Gut für Läufer, Kraftsportler und alle, die kräftigere Hüften und Taille wollen, solange die Anstrengung keine Beckenbeschwerden auslöst.",
+  "skip": "Nimm die Variante auf den Knien oder an der Wand oder lass ihn aus, wenn du Schulterschmerzen, Anzeichen einer Senkung, Urinverlust bei Anstrengung, einen Leistenbruch oder eine kürzliche Operation im Bauch- oder Beckenbereich hast. Wenn du schwanger bist oder gerade entbunden hast, sprich zuerst mit einer Ärztin, einem Arzt oder einer Beckenboden-Physiotherapeutin. Brich ab, wenn es wehtut.",
+  "faq": [
+    {
+      "q": "Was trainiert der Seitstütz?",
+      "a": "Vor allem die schrägen Bauchmuskeln, die tiefen seitlichen Bauchmuskeln und die seitlichen Gesäßmuskeln des unteren Beins, dazu die stützende Schulter."
+    },
+    {
+      "q": "Ist die Variante auf den Knien trotzdem sinnvoll?",
+      "a": "Ja. Sie trainiert dieselben Muskeln mit weniger Last und ist die richtige Wahl, bis du eine gerade Linie mit gestreckten Beinen halten kannst."
+    }
+  ]
+}

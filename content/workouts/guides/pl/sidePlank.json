@@ -1,0 +1,33 @@
+{
+  "description": "Deska boczna: unieś biodra do prostej linii na jednym przedramieniu, by trenować mięśnie skośne i boczne pośladki. Błędy i wersje ćwiczenia.",
+  "intro": "Deska boczna to pozycja utrzymywana na jednym przedramieniu, z ciałem ustawionym bokiem. Trenuje mięśnie skośne wzdłuż talii i boczne mięśnie pośladkowe, które stabilizują miednicę. Podtrzymuje miednicę z boków, a nie trenuje dna miednicy, i należy ją wykonywać przy normalnym oddychaniu.",
+  "feel": "Poczujesz pracę boku talii i zewnętrznej strony biodra dolnej nogi. Nie powinno być czuć zapadania się barku, napięcia karku, zatrzymania oddechu ani ucisku w miednicy. Sprawdź, czy górne biodro pozostaje nad dolnym, a nie przetacza się do przodu. Gdy biodra zaczynają opadać, zakończ utrzymanie.",
+  "mistakes": [
+    {
+      "wrong": "Zapadanie się w barku",
+      "right": "Odpychaj podłogę przedramieniem, żeby bark pozostał mocny, a szyja długa."
+    },
+    {
+      "wrong": "Biodra opadające ku podłodze",
+      "right": "Unoś je, aż ciało będzie proste od głowy do kolan lub stóp. Krótsze utrzymania pomagają zachować linię."
+    },
+    {
+      "wrong": "Przetaczanie górnego biodra do przodu lub do tyłu",
+      "right": "Ułóż biodra i barki jedne nad drugimi, jakby plecy opierały się o ścianę."
+    }
+  ],
+  "easier": "Zostaw oba kolana zgięte i na podłodze albo wykonaj ćwiczenie na stojąco, z przedramieniem na ścianie i stopami odsuniętymi.",
+  "harder": "Wyprostuj obie nogi i ułóż stopy jedna na drugiej, dodaj kilka powolnych opuszczeń bioder albo na kilka sekund unieś górną nogę.",
+  "who": "Dobre dla biegaczy, osób podnoszących ciężary i każdego, kto chce mocniejszych bioder i talii, o ile wysiłek nie wywołuje objawów ze strony miednicy.",
+  "skip": "Użyj wersji na kolanach lub przy ścianie albo pomiń ćwiczenie, jeśli masz ból barku, objawy wypadania narządów, popuszczanie podczas wysiłku, przepuklinę lub niedawną operację brzucha lub miednicy. Jeśli jesteś w ciąży lub po niedawnym porodzie, najpierw zapytaj lekarza lub fizjoterapeutę dna miednicy. Przerwij, jeśli coś boli.",
+  "faq": [
+    {
+      "q": "Co pracuje w desce bocznej?",
+      "a": "Głównie mięśnie skośne, głębokie mięśnie brzucha po bokach i boczne mięśnie pośladkowe dolnej nogi, a także bark podpierający ciało."
+    },
+    {
+      "q": "Czy wersja na kolanach nadal się przydaje?",
+      "a": "Tak. Trenuje te same mięśnie przy mniejszym obciążeniu i jest właściwym wyborem, dopóki nie utrzymasz prostej linii z wyprostowanymi nogami."
+    }
+  ]
+}

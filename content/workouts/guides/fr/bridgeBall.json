@@ -1,0 +1,33 @@
+{
+  "description": "Guide du pont avec ballon entre les genoux : un pont fessier avec ballon pour les fessiers, l’intérieur des cuisses et le périnée, erreurs, variantes.",
+  "intro": "Ce pont ajoute un ballon ou un coussin entre les genoux : l’intérieur des cuisses travaille pendant que les fessiers soulèvent les hanches. Les muscles de l’intérieur des cuisses s’attachent près du périnée, et beaucoup de femmes sentent plus facilement un soulèvement doux du périnée quand les cuisses se pressent l’une contre l’autre.",
+  "feel": "Vous devez sentir travailler les fesses, l’intérieur des cuisses presser le ballon et un léger soulèvement à l’intérieur du bassin pendant la montée. Après le maintien de deux secondes, redescendez et laissez tout se relâcher. La respiration continue et le bas du dos reste neutre. Pousser vers le bas, retenir son souffle ou crisper la nuque signifient qu’il faut serrer moins.",
+  "mistakes": [
+    {
+      "wrong": "Écraser le ballon aussi fort que possible",
+      "right": "Gardez une pression régulière et modérée. Une pression maximale se propage au ventre et vous fait retenir votre souffle."
+    },
+    {
+      "wrong": "Laisser le ballon glisser pendant la montée",
+      "right": "Gardez la pression constante du début de la montée jusqu’à la fin de la descente."
+    },
+    {
+      "wrong": "Rester tendu en bas",
+      "right": "Relâchez complètement le ballon, les fessiers et le périnée avant la répétition suivante."
+    }
+  ],
+  "easier": "Serrez le ballon sans soulever les hanches, ou montez seulement de quelques centimètres.",
+  "harder": "Maintenez plus longtemps en haut, descendez plus lentement, ou ajoutez un Kegel doux à la montée et un relâchement complet à la descente.",
+  "who": "Les femmes qui veulent plus de soutien autour du bassin, notamment celles de plus de 40 ans ou qui travaillent sur le contrôle de la vessie, et toute personne qui a du mal à sentir son périnée dans un pont simple.",
+  "skip": "Évitez ou adaptez en cas de douleur pelvienne, de douleur à l’aine ou à l’intérieur des cuisses, ou d’un périnée qui paraît tendu, car serrer davantage peut ne pas aider. Après une opération récente, un accouchement récent ou en fin de grossesse, demandez d’abord l’avis de votre médecin ou d’un kinésithérapeute spécialisé en rééducation périnéale. Arrêtez si cela fait mal.",
+  "faq": [
+    {
+      "q": "Pourquoi serrer un ballon pendant un pont ?",
+      "a": "Cela fait travailler l’intérieur des cuisses en plus des fessiers, et beaucoup de gens sentent ainsi plus facilement leur périnée. Cela ajoute du soutien mais ne remplace pas les Kegel."
+    },
+    {
+      "q": "Quelle taille de ballon utiliser ?",
+      "a": "Un ballon souple de la taille d’un petit ballon de jeu convient bien. Un coussin ferme ou une serviette roulée marche tout aussi bien."
+    }
+  ]
+}
