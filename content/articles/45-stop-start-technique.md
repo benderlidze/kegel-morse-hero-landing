@@ -16,6 +16,7 @@ content_status: "editorially ready; medical review recommended"
 schema_type: "Article"
 category_slug: "technique"
 category_label: "Technique"
+cover_image: "stop-start-technique.webp"
 ---
 
 # The Stop-Start Technique: How to Do It, Step by Step

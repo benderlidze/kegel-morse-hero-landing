@@ -16,6 +16,7 @@ content_status: "editorially ready; medical review recommended"
 schema_type: "Article"
 category_slug: "technique"
 category_label: "Technique"
+cover_image: "how-to-control-ejaculation.webp"
 ---
 
 # How to Control Ejaculation With Your Pelvic Floor

@@ -16,6 +16,7 @@ content_status: "editorially ready; medical review recommended"
 schema_type: "Article"
 category_slug: "technique"
 category_label: "Technique"
+cover_image: "pc-muscle-exercises-for-men.webp"
 ---
 
 # PC Muscle Exercises for Men: Find It and Train It

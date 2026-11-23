@@ -16,6 +16,7 @@ content_status: "editorially ready; medical review recommended"
 schema_type: "Article"
 category_slug: "technique"
 category_label: "Technique"
+cover_image: "pelvic-floor-exercises-for-erectile-dysfunction.webp"
 ---
 
 # Pelvic Floor Exercises for Erectile Dysfunction: A Routine

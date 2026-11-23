@@ -18,6 +18,7 @@ content_status: "editorially ready; medical review recommended"
 schema_type: "Article"
 category_slug: "science"
 category_label: "Science & Safety"
+cover_image: "how-to-last-longer-in-bed-naturally.webp"
 ---
 
 # How to Last Longer in Bed Naturally (No Pills): 7 Methods

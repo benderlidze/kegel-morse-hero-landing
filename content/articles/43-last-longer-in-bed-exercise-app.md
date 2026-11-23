@@ -17,6 +17,7 @@ content_status: "editorially ready; medical review recommended"
 schema_type: "Article"
 category_slug: "apps"
 category_label: "Apps & Gear"
+cover_image: "last-longer-in-bed-exercise-app.webp"
 ---
 
 # Last Longer in Bed Exercise App: 5 Minutes a Day

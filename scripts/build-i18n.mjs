@@ -186,7 +186,8 @@ ${P.sections.map(([h, p]) => `<section><h2>${esc(h)}</h2><p>${esc(p)}</p></secti
   const cards = [];
   let mdCount = 0;
   for (const en of EN_ARTICLES) {
-    const cover = `/assets/articles/${en.cover_image}`;
+    // No cover yet (new EN article): use the site-wide image instead of a broken /assets/articles/undefined.
+    const cover = en.cover_image ? `/assets/articles/${en.cover_image}` : '/assets/og-image.png';
     const categoryLabel = extra.categories[en.category_slug] || extra.categories.technique;
     if (en.slug === HAND_BUILT_ARTICLE) {
       cards.push({ href: `${base}/articles/${ARTICLE_SLUGS[code]}/`, cover, category: AR.category, title: AR.h1, description: AR.description, reviewed: `${AR.reviewed} ${AR.reviewedDate}` });

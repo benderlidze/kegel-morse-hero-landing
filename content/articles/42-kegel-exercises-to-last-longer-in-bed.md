@@ -18,6 +18,7 @@ content_status: "editorially ready; medical review recommended"
 schema_type: "Article"
 category_slug: "technique"
 category_label: "Technique"
+cover_image: "kegel-exercises-to-last-longer-in-bed.webp"
 ---
 
 # Kegel Exercises to Last Longer in Bed: 4-Week Plan for Men
