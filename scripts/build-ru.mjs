@@ -5,7 +5,7 @@ import { writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { hreflangTags, langRow, LANG_MENU, homeGuideLinks } from './i18n/routes.mjs';
-import { seoTitle, seoDesc } from './lib/seo.mjs';
+import { seoTitle, seoDesc, breadcrumbLd, crumbName } from './lib/seo.mjs';
 const SMART_BANNER = '<meta name="apple-itunes-app" content="app-id=6761460873">';
 import { loadTr as loadWorkoutsTr, PUBLISH as WORKOUTS_PUBLISHED, hubPath as workoutsHub } from './lib/workouts-data.mjs';
 const wkLabel = WORKOUTS_PUBLISHED && loadWorkoutsTr('ru') ? loadWorkoutsTr('ru').ui.navWorkouts : null; // /ru/workouts/ section
@@ -36,7 +36,7 @@ ${hreflangTags(enPath)}
 <meta property="og:type" content="${type}"><meta property="og:locale" content="ru_RU"><meta property="og:site_name" content="Kegel Morse Hero"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${ogImage}"><meta property="og:image:alt" content="Приложение Kegel Morse Hero для тренировки мышц тазового дна">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(title)}"><meta name="twitter:description" content="${esc(description)}"><meta name="twitter:image" content="${ogImage}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/blog/blog.css">
-${jsonLd}</head>`;
+${jsonLd}${canonical === `${site}/ru/` || jsonLd.includes('BreadcrumbList') ? '' : breadcrumbLd([['Главная', `${site}/ru/`], [crumbName(title), canonical]])}</head>`;
 }
 
 let currentEn = '/';
@@ -87,7 +87,7 @@ await write('ru', `${head({ title: 'Упражнения Кегеля для м�
   <div class="cta-row">${storeButtons()}<a class="home-how-link" href="/ru/how-to-use/">Как это работает</a></div>
   <p class="fine-print">Бесплатная загрузка. Есть покупки в приложении. Требуется iOS 17.2 или новее.</p>
   <p class="home-privacy">Приватные занятия. Без аккаунта, рекламы и отслеживания.</p></div>
-  <div class="home-hero-preview"><img class="shot" src="/assets/screenshot-hero.png" alt="Kegel Morse Hero на iPhone: таймер упражнений Кегеля с подсказками" width="884" height="1920" fetchpriority="high" decoding="async"></div>
+  <div class="home-hero-preview"><img class="shot" src="/assets/screenshot-hero.webp" alt="Kegel Morse Hero на iPhone: таймер упражнений Кегеля с подсказками" width="884" height="1920" fetchpriority="high" decoding="async"></div>
 </div></section>
 <section class="feature-section on-surface"><div class="feature-section-inner center-heading"><h2 class="section-heading">Почему Kegel Morse Hero?</h2>
 <div class="feature-grid">${homeFeatures.map(([h, p]) => `<div class="feature-tile"><h3>${esc(h)}</h3><p>${esc(p)}</p></div>`).join('')}</div>
@@ -96,9 +96,9 @@ await write('ru', `${head({ title: 'Упражнения Кегеля для м�
 <div class="fact-grid"><p><strong>Платформа:</strong> iOS и Android</p><p><strong>Цена:</strong> бесплатная загрузка, подписка по желанию</p><p><strong>Работает офлайн:</strong> да, занятия не требуют интернета</p><p><strong>Нужен аккаунт:</strong> нет</p><p><strong>Данные:</strong> хранятся на устройстве, без рекламы и отслеживания</p><p><strong>Подходит для:</strong> приватных упражнений Кегеля с таймером</p></div>
 </section>
 <section class="feature-section center-heading"><h2 class="section-heading">Kegel Morse Hero в действии</h2>
-<div class="home-media"><div class="video-frame"><iframe src="https://www.youtube.com/embed/VtgtSG_DCYI" title="Демонстрация приложения Kegel Morse Hero" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-<img class="shot" src="/assets/screenshot-main.png" alt="Основной экран Kegel Morse Hero с визуализацией азбуки Морзе" width="590" height="1280" loading="lazy" decoding="async">
-<img class="shot" src="/assets/screenshot-detail.png" alt="Экран тренировки Kegel Morse Hero с кольцом-анимацией" width="884" height="1920" loading="lazy" decoding="async"></div>
+<div class="home-media"><div class="video-frame"><button class="yt-lite" type="button" data-yt="VtgtSG_DCYI" aria-label="Демонстрация приложения Kegel Morse Hero"><img src="https://i.ytimg.com/vi/VtgtSG_DCYI/hqdefault.jpg" alt="" width="480" height="360" loading="lazy" decoding="async"><span class="yt-play" aria-hidden="true"></span></button><script>document.addEventListener('click',function(e){var b=e.target.closest&&e.target.closest('.yt-lite');if(!b)return;var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+b.getAttribute('data-yt')+'?autoplay=1&playsinline=1';f.title=b.getAttribute('aria-label');f.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';f.allowFullscreen=true;b.replaceWith(f)});</script></div>
+<img class="shot" src="/assets/screenshot-main.webp" alt="Основной экран Kegel Morse Hero с визуализацией азбуки Морзе" width="590" height="1280" loading="lazy" decoding="async">
+<img class="shot" src="/assets/screenshot-detail.webp" alt="Экран тренировки Kegel Morse Hero с кольцом-анимацией" width="884" height="1920" loading="lazy" decoding="async"></div>
 </section>
 <section class="feature-section center-heading"><h2 class="section-heading">Полезные статьи</h2>
 ${homeGuideLinks('ru', 'Упражнения Кегеля для мужчин: сколько раз в день делать').map((g) => `<p><a href="${g.href}">${esc(g.title)}</a></p>`).join('')}
@@ -155,7 +155,7 @@ const featureFaqs = [
 ];
 await write('ru/features', `${head({ title: 'Возможности Kegel Morse Hero: тренажёр Кегеля', description: 'Возможности Kegel Morse Hero: занятия по азбуке Морзе, вибрация, собственные треки, напоминания и приватная история занятий на устройстве.', path: '/ru/features/', enPath: '/features.html', type: 'article', image: `${site}/assets/screenshot-features.png`, extraMeta: itunes })}<body>${header('features', '/features.html')}
 <main id="main"><section class="feature-section no-border">${intro('Возможности', 'Всё, что есть в Kegel Morse Hero для тренировки мышц тазового дна.')}
-<div class="home-media" style="margin-top:2.5rem"><img class="shot" src="/assets/screenshot-main.png" alt="Экран упражнений Kegel Morse Hero" loading="lazy"><img class="shot" src="/assets/screenshot-features.png" alt="Выбор трека в Kegel Morse Hero: собственные треки, напоминания и журнал истории" loading="lazy"></div>
+<div class="home-media" style="margin-top:2.5rem"><img class="shot" src="/assets/screenshot-main.webp" alt="Экран упражнений Kegel Morse Hero" width="590" height="1280" loading="lazy" decoding="async"><img class="shot" src="/assets/screenshot-features.webp" alt="Выбор трека в Kegel Morse Hero: собственные треки, напоминания и журнал истории" width="884" height="1920" loading="lazy" decoding="async"></div>
 ${qa(featureFaqs)}
 ${store}
 </section></main>${footer}</body></html>`);

@@ -1,9 +1,10 @@
 import { readFile, writeFile, mkdir, readdir, rm } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { hreflangTags, localizedPaths, LANGS, LANG_MENU, HOME_GUIDES, ORG_ID, PERSON_ID, ORG_NODE, PERSON_NODE, MERGED_ARTICLES, localizedSlug } from './i18n/routes.mjs';
+import { hreflangTags, localizedPaths, LANGS, LANG_MENU, HOME_GUIDES, ORG_ID, PERSON_ID, ORG_NODE, PERSON_NODE, MERGED_ARTICLES, localizedSlug, MD_TRANSLATIONS } from './i18n/routes.mjs';
 import { articleCtaMarkup } from './lib/markdown.mjs';
-import { seoTitle, seoDesc } from './lib/seo.mjs';
+import { seoTitle, seoDesc, breadcrumbLd, crumbName } from './lib/seo.mjs';
+import { gitDates } from './lib/gitdates.mjs';
 const SMART_BANNER = '<meta name="apple-itunes-app" content="app-id=6761460873">';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -173,7 +174,7 @@ function documentHead({ title, description, canonical, type = 'website', modifie
 <meta property="og:type" content="${type}"><meta property="og:site_name" content="Kegel Morse Hero"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${esc(canonical)}"><meta property="og:image" content="${ogImage}"><meta property="og:image:alt" content="Kegel Morse Hero pelvic floor training app">${modified ? `<meta property="article:modified_time" content="${modified}">` : ''}
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(title)}"><meta name="twitter:description" content="${esc(description)}"><meta name="twitter:image" content="${ogImage}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/blog/blog.css">
-${jsonLd}</head>`;
+${jsonLd}${noindex || canonical === `${site}/` || jsonLd.includes('BreadcrumbList') ? '' : breadcrumbLd([['Home', `${site}/`], [crumbName(title), canonical]])}</head>`;
 }
 
 // Deterministic Morse pattern used as cover art per article, so covers differ but are stable across rebuilds.
@@ -343,7 +344,7 @@ const homeHtml = `${documentHead({
   <div class="cta-row">${storeButtons()}<a class="home-how-link" href="/how-to-use.html">See how it works</a></div>
   <p class="fine-print">Free download. In-app purchases. Requires iOS 17.2 or later.</p>
   <p class="home-privacy">Private exercise sessions. No account, ads, or tracking.</p></div>
-  <div class="home-hero-preview"><img class="shot" src="/assets/screenshot-hero.png" alt="Kegel Morse Hero on iPhone showing its guided exercise timer" width="884" height="1920" fetchpriority="high" decoding="async"></div>
+  <div class="home-hero-preview"><img class="shot" src="/assets/screenshot-hero.webp" alt="Kegel Morse Hero on iPhone showing its guided exercise timer" width="884" height="1920" fetchpriority="high" decoding="async"></div>
 </div></section>
 <section class="feature-section on-surface"><div class="feature-section-inner center-heading"><h2 class="section-heading">Why choose Kegel Morse Hero?</h2>
 <div class="feature-grid">${homeFeatures.map(([h, p]) => `<div class="feature-tile"><h3>${esc(h)}</h3><p>${esc(p)}</p></div>`).join('')}</div>
@@ -353,9 +354,9 @@ const homeHtml = `${documentHead({
 <div class="fact-grid"><p><strong>Platform:</strong> iOS and Android</p><p><strong>Price:</strong> Free download, optional subscription</p><p><strong>Works offline:</strong> Yes, for exercise sessions</p><p><strong>Account required:</strong> No</p><p><strong>Data policy:</strong> Local-first, no ads, no tracking</p><p><strong>Best for:</strong> Guided timing and private Kegel training</p></div>
 </section>
 <section class="feature-section center-heading"><h2 class="section-heading">See Kegel Morse Hero in action</h2>
-<div class="home-media"><div class="video-frame"><iframe src="https://www.youtube.com/embed/VtgtSG_DCYI" title="Kegel Morse Hero app demo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-<img class="shot" src="/assets/screenshot-main.png" alt="Kegel Morse Hero main exercise screen with Morse code visualization" width="590" height="1280" loading="lazy" decoding="async">
-<img class="shot" src="/assets/screenshot-detail.png" alt="Kegel Morse Hero detailed training view with ring animation" width="884" height="1920" loading="lazy" decoding="async"></div>
+<div class="home-media"><div class="video-frame"><button class="yt-lite" type="button" data-yt="VtgtSG_DCYI" aria-label="Kegel Morse Hero app demo"><img src="https://i.ytimg.com/vi/VtgtSG_DCYI/hqdefault.jpg" alt="" width="480" height="360" loading="lazy" decoding="async"><span class="yt-play" aria-hidden="true"></span></button><script>document.addEventListener('click',function(e){var b=e.target.closest&&e.target.closest('.yt-lite');if(!b)return;var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+b.getAttribute('data-yt')+'?autoplay=1&playsinline=1';f.title=b.getAttribute('aria-label');f.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';f.allowFullscreen=true;b.replaceWith(f)});</script></div>
+<img class="shot" src="/assets/screenshot-main.webp" alt="Kegel Morse Hero main exercise screen with Morse code visualization" width="590" height="1280" loading="lazy" decoding="async">
+<img class="shot" src="/assets/screenshot-detail.webp" alt="Kegel Morse Hero detailed training view with ring animation" width="884" height="1920" loading="lazy" decoding="async"></div>
 </section>
 <section class="cta-banner"><div class="cta-banner-inner"><h2>Start training today</h2><p>Kegel Morse Hero is free to download and you can start your first session in seconds.</p><div class="cta-row">${storeButtons('on-cyan')}</div></div></section>
 </main>${footer()}</body></html>`;
@@ -384,7 +385,7 @@ const featuresHtml = `${documentHead({
   extraMeta: '<meta name="apple-itunes-app" content="app-id=6761460873">'
 })}<body>${header('features')}
 <main id="main"><section class="feature-section no-border"><p class="eyebrow">Kegel Morse Hero</p><h1 style="font:800 clamp(2.1rem,6vw,3.4rem)/1.1 Sora,sans-serif;letter-spacing:-.03em;margin:0">Features</h1><p class="lede" style="max-width:620px">Everything included in Kegel Morse Hero to support your pelvic floor training.</p>
-<div class="home-media" style="margin-top:2.5rem"><img class="shot" src="/assets/screenshot-main.png" alt="Kegel Morse Hero exercise screen" loading="lazy"><img class="shot" src="/assets/screenshot-features.png" alt="Kegel Morse Hero track selection with custom tracks, reminders, and history log" loading="lazy"></div>
+<div class="home-media" style="margin-top:2.5rem"><img class="shot" src="/assets/screenshot-main.webp" alt="Kegel Morse Hero exercise screen" width="590" height="1280" loading="lazy" decoding="async"><img class="shot" src="/assets/screenshot-features.webp" alt="Kegel Morse Hero track selection with custom tracks, reminders, and history log" width="884" height="1920" loading="lazy" decoding="async"></div>
 <div class="qa-list">${featureFaqs.map(([h, p]) => `<div class="qa-item"><h2>${esc(h)}</h2><p>${esc(p)}</p></div>`).join('')}</div>
 <div class="center-cta">${storeButtons()}</div>
 </section></main>${footer()}</body></html>`;
@@ -503,11 +504,17 @@ await mkdir(path.join(root, 'languages'), { recursive: true });
 await writeFile(path.join(root, 'languages', 'index.html'), languagesHtml, 'utf8');
 
 const staticUrls = [
-  ['/', '1.0', 'weekly', '2026-09-29'], ['/features.html', '.8', 'monthly', '2026-07-09'], ['/how-to-use.html', '.8', 'monthly', '2026-07-09'], ['/faq.html', '.7', 'monthly', '2026-07-09'], ['/privacy.html', '.4', 'yearly', '2026-07-09'],
-  ['/articles/', '.9', 'weekly', '2026-08-04'], ['/about/', '.5', 'yearly', '2026-08-04'], ['/editorial-policy/', '.5', 'yearly', '2026-08-04'], ['/medical-disclaimer/', '.5', 'yearly', '2026-08-04'], ['/llms.txt', '.6', 'monthly', '2026-08-04'], ['/llms-full.txt', '.5', 'monthly', '2026-08-04']
+  ['/', '1.0', 'weekly', '2026-11-22'], ['/features.html', '.8', 'monthly', '2026-11-22'], ['/how-to-use.html', '.8', 'monthly', '2026-11-22'], ['/faq.html', '.7', 'monthly', '2026-11-22'], ['/privacy.html', '.4', 'yearly', '2026-07-09'],
+  ['/articles/', '.9', 'weekly', '2026-08-04'], ['/about/', '.5', 'yearly', '2026-11-22'], ['/editorial-policy/', '.5', 'yearly', '2026-08-04'], ['/medical-disclaimer/', '.5', 'yearly', '2026-08-04'], ['/llms.txt', '.6', 'monthly', '2026-08-04'], ['/llms-full.txt', '.5', 'monthly', '2026-08-04']
 ];
 // Localized pages are built by scripts/build-ru.mjs and scripts/build-i18n.mjs (plus hand-written Russian article).
-const ruUrls = localizedPaths().map((p) => [p, /\/articles\/.+\//.test(p) ? '.8' : '.6', 'monthly', '2026-10-18']);
+// lastmod: translated articles from git (real change date); home/features/how-to/faq/about rewritten 2026-11-22.
+const localizedArticleDates = {};
+for (const article of articles) for (const [lang, t] of Object.entries(MD_TRANSLATIONS[article.slug] || {})) localizedArticleDates[`/${lang}/articles/${t.slug}/`] = gitDates(t.file).last;
+const REWRITTEN = /^\/[a-z]{2}\/(features\/|how-to-use\/|faq\/|about\/)?$/;
+const WORKOUTS_UPDATED = JSON.parse(await readFile(path.join(root, 'content', 'workouts', 'workouts.json'), 'utf8')).updated;
+const ruUrls = localizedPaths().map((p) => [p, /\/articles\/.+\//.test(p) ? '.8' : '.6', 'monthly',
+  localizedArticleDates[p] || (/\/workouts\//.test(p) ? WORKOUTS_UPDATED : REWRITTEN.test(p) ? '2026-11-22' : '2026-10-18')]);
 // /workouts/ pages: scripts/build-workouts.mjs writes content/workouts/urls.json (empty unless "publish": true)
 let workoutUrls = [];
 try { workoutUrls = JSON.parse(await readFile(path.join(root, 'content', 'workouts', 'urls.json'), 'utf8')); } catch {}

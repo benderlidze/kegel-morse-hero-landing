@@ -26,6 +26,16 @@ export function seoTitle(title, max = 60) {
   return comma >= 25 ? cut.slice(0, comma) : cut;
 }
 
+// BreadcrumbList JSON-LD from [[name, absoluteUrl], ...]; empty string when there is nothing to describe.
+export function breadcrumbLd(items) {
+  const list = items.filter(([name, url]) => name && url);
+  if (list.length < 2) return '';
+  const obj = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: list.map(([name, item], i) => ({ '@type': 'ListItem', position: i + 1, name, item })) };
+  return `<script type="application/ld+json">${JSON.stringify(obj).replace(/</g, '\\u003c')}</script>`;
+}
+// Page name for a breadcrumb: the title without the brand tail or " - …" suffix.
+export const crumbName = (title = '') => title.split(' | ')[0].split(' - ')[0].trim();
+
 // 1) fits -> as is; 2) whole sentences up to 155 chars; 3) cut at a word boundary + "…".
 export function seoDesc(description, max = 160, target = 155) {
   if (!description || len(description) <= max) return description;

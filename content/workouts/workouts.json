@@ -1,6 +1,6 @@
 {
   "publish": true,
-  "updated": "2026-10-28",
+  "updated": "2026-11-22",
   "_note": "Workout section (/workouts/). Exercises: names, cues and reps come from the carousel factory (E:/kmh-video-gen/catalog.js); pictures are the 'anatomy' character (assets/workouts/anatomy/<id>.webp, two poses = start -> finish). Wording rule: technique cues only, no health promises. Built by scripts/build-workouts.mjs.",
   "exercises": {
     "kegelLying": {

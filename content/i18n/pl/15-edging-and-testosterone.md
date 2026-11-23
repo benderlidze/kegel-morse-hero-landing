@@ -1,6 +1,6 @@
 ---
 en: edging-and-testosterone
-meta_title: "Czy edging szkodzi testosteronowi?"
+meta_title: "Czy edging jest zdrowy? Co mówią badania"
 meta_description: "Edging bywa oskarżany o obniżanie testosteronu i chwalony za jego zwiększanie. Co naprawdę wiadomo, jakie są realne korzyści i ryzyka oraz jak może reagować dno miednicy."
 slug: edging-a-testosteron
 ---

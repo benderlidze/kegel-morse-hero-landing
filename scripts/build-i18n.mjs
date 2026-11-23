@@ -7,7 +7,8 @@ import { fileURLToPath } from 'node:url';
 import { readFileSync } from 'node:fs';
 import { site, LANGS, ARTICLE_SLUGS, EN_ARTICLE, EN_ARTICLES, MD_TRANSLATIONS, HAND_BUILT_ARTICLE, homeGuideLinks, ORG_ID, PERSON_ID, ORG_NODE, PERSON_NODE, AUTHOR_NAME, alternatesFor, hreflangTags, langRow, LANG_MENU } from './i18n/routes.mjs';
 import { articleCtaMarkup, createRenderer, parseFrontMatter } from './lib/markdown.mjs';
-import { seoTitle, seoDesc } from './lib/seo.mjs';
+import { seoTitle, seoDesc, breadcrumbLd, crumbName } from './lib/seo.mjs';
+import { gitDates } from './lib/gitdates.mjs';
 const SMART_BANNER = '<meta name="apple-itunes-app" content="app-id=6761460873">';
 import uiExtra from './i18n/ui-extra.mjs';
 import { loadTr as loadWorkoutsTr, PUBLISH as WORKOUTS_PUBLISHED, hubPath as workoutsHub } from './lib/workouts-data.mjs';
@@ -56,7 +57,7 @@ ${hreflangTags(enPath)}
 <meta property="og:type" content="${type}"><meta property="og:locale" content="${meta.og}"><meta property="og:site_name" content="Kegel Morse Hero"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${ogImage}"><meta property="og:image:alt" content="${esc(u.ogAlt)}">${modified ? `<meta property="article:modified_time" content="${modified}">` : ''}
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(title)}"><meta name="twitter:description" content="${esc(description)}"><meta name="twitter:image" content="${ogImage}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/blog/blog.css">
-${jsonLd}</head>`;
+${jsonLd}${canonical === `${site}${base}/` || jsonLd.includes('BreadcrumbList') ? '' : breadcrumbLd([[u.nav.home, `${site}${base}/`], [crumbName(title), canonical]])}</head>`;
   };
 
   const wk = WORKOUTS_PUBLISHED && loadWorkoutsTr(code) ? loadWorkoutsTr(code).ui.navWorkouts : null; // /workouts/ section (content/workouts/i18n/<lang>.json)
@@ -95,7 +96,7 @@ ${jsonLd}</head>`;
   <div class="cta-row">${storeButtons()}<a class="home-how-link" href="${base}/how-to-use/">${esc(H.how)}</a></div>
   <p class="fine-print">${esc(H.fine)}</p>
   <p class="home-privacy">${esc(H.priv)}</p></div>
-  <div class="home-hero-preview"><img class="shot" src="/assets/screenshot-hero.png" alt="${esc(H.heroAlt)}" width="884" height="1920" fetchpriority="high" decoding="async"></div>
+  <div class="home-hero-preview"><img class="shot" src="/assets/screenshot-hero.webp" alt="${esc(H.heroAlt)}" width="884" height="1920" fetchpriority="high" decoding="async"></div>
 </div></section>
 <section class="feature-section on-surface"><div class="feature-section-inner center-heading"><h2 class="section-heading">${esc(H.whyTitle)}</h2>
 <div class="feature-grid">${H.features.map(([h, p]) => `<div class="feature-tile"><h3>${esc(h)}</h3><p>${esc(p)}</p></div>`).join('')}</div>
@@ -104,9 +105,9 @@ ${jsonLd}</head>`;
 <div class="fact-grid">${H.facts.map(([k, v]) => `<p><strong>${esc(k)}</strong> ${esc(v)}</p>`).join('')}</div>
 </section>
 <section class="feature-section center-heading"><h2 class="section-heading">${esc(H.actionTitle)}</h2>
-<div class="home-media"><div class="video-frame"><iframe src="https://www.youtube.com/embed/VtgtSG_DCYI" title="${esc(H.videoTitle)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-<img class="shot" src="/assets/screenshot-main.png" alt="${esc(H.mainAlt)}" width="590" height="1280" loading="lazy" decoding="async">
-<img class="shot" src="/assets/screenshot-detail.png" alt="${esc(H.detailAlt)}" width="884" height="1920" loading="lazy" decoding="async"></div>
+<div class="home-media"><div class="video-frame"><button class="yt-lite" type="button" data-yt="VtgtSG_DCYI" aria-label="${esc(H.videoTitle)}"><img src="https://i.ytimg.com/vi/VtgtSG_DCYI/hqdefault.jpg" alt="" width="480" height="360" loading="lazy" decoding="async"><span class="yt-play" aria-hidden="true"></span></button><script>document.addEventListener('click',function(e){var b=e.target.closest&&e.target.closest('.yt-lite');if(!b)return;var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+b.getAttribute('data-yt')+'?autoplay=1&playsinline=1';f.title=b.getAttribute('aria-label');f.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';f.allowFullscreen=true;b.replaceWith(f)});</script></div>
+<img class="shot" src="/assets/screenshot-main.webp" alt="${esc(H.mainAlt)}" width="590" height="1280" loading="lazy" decoding="async">
+<img class="shot" src="/assets/screenshot-detail.webp" alt="${esc(H.detailAlt)}" width="884" height="1920" loading="lazy" decoding="async"></div>
 </section>
 <section class="feature-section center-heading"><h2 class="section-heading">${esc(H.usefulTitle)}</h2>
 ${homeGuideLinks(code, L.article.h1).map((g) => `<p><a href="${g.href}">${esc(g.title)}</a></p>`).join('')}
@@ -137,7 +138,7 @@ ${body}</article><aside class="toc" aria-label="${esc(u.tocTitle)}"><p>${esc(u.t
   const F = L.features;
   await write(`${code}/features`, `${head({ title: F.title, description: F.description, path: `${base}/features/`, enPath: '/features.html', type: 'article', image: `${site}/assets/screenshot-features.png`, extraMeta: itunes })}<body>${header('features', '/features.html')}
 <main id="main"><section class="feature-section no-border">${intro(F.h1, F.lede)}
-<div class="home-media" style="margin-top:2.5rem"><img class="shot" src="/assets/screenshot-main.png" alt="${esc(F.alt1)}" loading="lazy"><img class="shot" src="/assets/screenshot-features.png" alt="${esc(F.alt2)}" loading="lazy"></div>
+<div class="home-media" style="margin-top:2.5rem"><img class="shot" src="/assets/screenshot-main.webp" alt="${esc(F.alt1)}" width="590" height="1280" loading="lazy" decoding="async"><img class="shot" src="/assets/screenshot-features.webp" alt="${esc(F.alt2)}" width="884" height="1920" loading="lazy" decoding="async"></div>
 ${qa(F.faqs)}
 ${store}
 </section></main>${footer('/features.html')}</body></html>`);
@@ -205,13 +206,15 @@ ${P.sections.map(([h, p]) => `<section><h2>${esc(h)}</h2><p>${esc(p)}</p></secti
     const url = `${site}${pagePath}`;
     const enPath = `/articles/${en.slug}/`;
     const reviewedText = `${AR.reviewed} ${fmtDate(en.last_reviewed)}`;
+    const dates = gitDates(translation.file); // real first/last change of this translation
+    const published = dates.first || '2026-10-18', modifiedDate = dates.last || published;
     const coverUrl = `${site}${cover}`;
     const toc = rendered.headings.slice(0, 9).map((h) => `<li><a href="#${h.id}">${esc(h.text)}</a></li>`).join('');
     const articleLd = ld({ '@context': 'https://schema.org', '@graph': [
-      { '@type': 'Article', headline: h1, description: parsed.data.meta_description, mainEntityOfPage: url, url, datePublished: '2026-10-18', dateModified: '2026-10-18', author: { '@id': PERSON_ID }, publisher: { '@id': ORG_ID }, image: coverUrl, articleSection: categoryLabel, inLanguage: code }, ORG_NODE, PERSON_NODE,
+      { '@type': 'Article', headline: h1, description: parsed.data.meta_description, mainEntityOfPage: url, url, datePublished: published, dateModified: modifiedDate, author: { '@id': PERSON_ID }, publisher: { '@id': ORG_ID }, image: coverUrl, articleSection: categoryLabel, inLanguage: code }, ORG_NODE, PERSON_NODE,
       { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: u.nav.home, item: `${site}${base}/` }, { '@type': 'ListItem', position: 2, name: u.nav.articles, item: `${site}${base}/articles/` }, { '@type': 'ListItem', position: 3, name: h1, item: url }] }
     ] });
-    await write(`${code}/articles/${slug}`, `${head({ title: parsed.data.meta_title, description: parsed.data.meta_description, path: pagePath, enPath, type: 'article', image: coverUrl, modified: '2026-10-18', jsonLd: articleLd })}<body>${header('articles', enPath)}
+    await write(`${code}/articles/${slug}`, `${head({ title: parsed.data.meta_title, description: parsed.data.meta_description, path: pagePath, enPath, type: 'article', image: coverUrl, modified: modifiedDate, jsonLd: articleLd })}<body>${header('articles', enPath)}
 <main id="main"><nav class="breadcrumbs" aria-label="${esc(u.crumbAria)}"><ol><li><a href="${base}/">${esc(u.nav.home)}</a></li><li><a href="${base}/articles/">${esc(u.nav.articles)}</a></li><li aria-current="page">${esc(h1)}</li></ol></nav>
 <header class="article-hero"><div class="article-hero-inner"><p class="eyebrow">${esc(categoryLabel)}</p><h1>${esc(h1)}</h1><div class="article-meta"><span>${esc(AR.reviewed)} <time datetime="${en.last_reviewed}">${esc(fmtDate(en.last_reviewed))}</time></span><span>${esc(AR.by)} <a href="${base}/about/" rel="author">${AUTHOR_NAME}</a></span><span>${esc(AR.evidence)}</span></div></div><img class="article-cover" src="${cover}" width="400" height="220" alt="" loading="eager"></header>
 <div class="article-layout"><article class="article-body">${rendered.html}</article><aside class="toc" aria-label="${esc(u.tocTitle)}"><p>${esc(u.tocTitle)}</p><ol>${toc}</ol></aside></div>

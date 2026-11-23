@@ -36,6 +36,22 @@ export function loadTr(lang) {
   return trCache[lang];
 }
 
+// Pixel size of a WebP file (VP8 / VP8L / VP8X headers), so <img> tags can carry width/height (no layout shift).
+const sizeCache = {};
+export function webpSize(webPath) {
+  if (webPath in sizeCache) return sizeCache[webPath];
+  const file = path.join(root, webPath.replace(/^\//, ''));
+  let size = null;
+  if (existsSync(file)) {
+    const b = readFileSync(file);
+    const kind = b.toString('ascii', 12, 16);
+    if (kind === 'VP8X') size = { w: 1 + b.readUIntLE(24, 3), h: 1 + b.readUIntLE(27, 3) };
+    else if (kind === 'VP8 ') size = { w: b.readUInt16LE(26) & 0x3fff, h: b.readUInt16LE(28) & 0x3fff };
+    else if (kind === 'VP8L') { const bits = b.readUInt32LE(21); size = { w: (bits & 0x3fff) + 1, h: ((bits >> 14) & 0x3fff) + 1 }; }
+  }
+  return (sizeCache[webPath] = size);
+}
+
 // Long-form exercise guide: content/workouts/guides/<lang>/<exerciseId>.json (optional, per language).
 export function loadGuide(lang, id) {
   const file = path.join(root, 'content', 'workouts', 'guides', lang, `${id}.json`);

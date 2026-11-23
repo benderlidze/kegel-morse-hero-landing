@@ -7,9 +7,9 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { data, PUBLISH, loadTr, loadGuide, programPath, exercisePath, hubPath, prefix } from './lib/workouts-data.mjs';
+import { data, PUBLISH, loadTr, loadGuide, webpSize, programPath, exercisePath, hubPath, prefix } from './lib/workouts-data.mjs';
 import { site, LANGS, hreflangTags, langRow, LANG_MENU } from './i18n/routes.mjs';
-import { seoTitle, seoDesc } from './lib/seo.mjs';
+import { seoTitle, seoDesc, breadcrumbLd, crumbName } from './lib/seo.mjs';
 import ru from './i18n/ru.mjs';
 import pl from './i18n/pl.mjs';
 import de from './i18n/de.mjs';
@@ -127,7 +127,7 @@ async function buildLang(lang) {
   const hdr = (enPath) => (lang === 'en' ? C.header : C.header(enPath));
   const ftr = (enPath) => (lang === 'en' ? C.footer : C.footer(enPath));
 
-  const head = ({ title, description, path: pagePath, enPath, jsonLd = '' }) => {
+  const head = ({ title, description, path: pagePath, enPath, jsonLd = '', image = '/assets/og-image.png', crumb = '' }) => {
     title = seoTitle(title); description = seoDesc(description); // length rules: scripts/lib/seo.mjs
     const canonical = `${site}${pagePath}`;
     return `<!doctype html><html lang="${lang}"><head>
@@ -136,16 +136,17 @@ async function buildLang(lang) {
 <meta name="robots" content="${PUBLISH ? 'index,follow,max-image-preview:large' : 'noindex,follow'}">
 <meta name="theme-color" content="#070a0b"><meta name="apple-itunes-app" content="app-id=6761460873"><link rel="canonical" href="${canonical}">${hreflangTags(enPath)}
 <link rel="icon" href="/assets/favicon-48.png" type="image/png" sizes="48x48"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
-<meta property="og:type" content="article">${meta ? `<meta property="og:locale" content="${meta.og}">` : ''}<meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${canonical}">
+<meta property="og:type" content="article">${meta ? `<meta property="og:locale" content="${meta.og}">` : ''}<meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${site}${image}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${site}${image}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/blog/blog.css"><link rel="stylesheet" href="/assets/workouts/workouts.css">
-${jsonLd}</head>`;
+${jsonLd}${breadcrumbLd([[C.home, `${site}${homeHref}`], [T.navWorkouts, `${site}${hubHref}`], ...(crumb ? [[crumb, canonical]] : [])])}</head>`;
   };
 
   const img = (id, e, character, lazy = true) => {
     const pos = e.single ? T.altSingle : T.altPair;
     const works = lang === 'en' ? e.works.join(', ').toLowerCase() : e.works.join(', ');
     const alt = character === 'woman' ? fill(T.altFlat, { name: e.name, pos }) : fill(T.altAnatomy, { name: e.name, pos, works });
-    return `<img src="${src(id, character)}" alt="${esc(alt)}"${lazy ? ' loading="lazy"' : ''} decoding="async">`;
+    const size = webpSize(src(id, character));
+    return `<img src="${src(id, character)}" alt="${esc(alt)}"${size ? ` width="${size.w}" height="${size.h}"` : ''}${lazy ? ' loading="lazy"' : ''} decoding="async">`;
   };
   const safety = `<p class="wk-safety">${esc(T.safety)} <a href="${medHref}">${esc(T.safetyLink)}</a>.</p>`;
   const appBlock = `<section class="wk-app"><h2>${esc(T.appH2)}</h2><p>${esc(T.appP)}</p>${C.store}</section>`;
@@ -201,7 +202,7 @@ ${jsonLd}</head>`;
     const pv = sib[(at - 1 + sib.length) % sib.length], nx = sib[(at + 1) % sib.length];
     const pn = sib.length > 1 ? `<nav class="wk-pn" aria-label="${esc(T.moreAria)}"><a href="${programPath(lang, pv.slug)}"><span>${esc(T.prev)}</span>${esc(prog(pv).title)}</a><a href="${programPath(lang, nx.slug)}"><span>${esc(T.next)}</span>${esc(prog(nx).title)}</a></nav>` : '';
     const g = GROUPS.find((x) => x.character === ch);
-    return `${head({ title: `${p.title} | Kegel Morse Hero`, description: p.description, path: path_, enPath, jsonLd })}<body>${hdr(enPath)}
+    return `${head({ title: `${p.title} | Kegel Morse Hero`, description: p.description, path: path_, enPath, jsonLd, crumb: p.title, image: src(p0.items[0] === 'kegelLying' && p0.items[1] ? p0.items[1] : p0.items[0], p0.character) })}<body>${hdr(enPath)}
 ${crumbs(p.title.split(':')[0])}
 <main id="main" class="wk">
 <header class="wk-hero"><p class="eyebrow">${esc(fill(T[g.eyebrow], { n, m: p0.minutes }))}</p><h1>${esc(p.h1)}</h1><p class="lede">${esc(p.lede)}</p>
@@ -231,7 +232,7 @@ ${safety}
       const ps = programsOf(id).filter((p) => p.character === g.character);
       return ps.length ? `<h3>${esc(T[g.key])}</h3><ul>${ps.map((p) => `<li><a href="${programPath(lang, p.slug)}">${esc(prog(p).title)}</a></li>`).join('')}</ul>` : '';
     }).join('');
-    return `${head({ title: `${title} | Kegel Morse Hero`, description, path: path_, enPath, jsonLd })}<body>${hdr(enPath)}
+    return `${head({ title: `${title} | Kegel Morse Hero`, description, path: path_, enPath, jsonLd, crumb: e.name, image: src(id, 'anatomy') })}<body>${hdr(enPath)}
 ${crumbs(e.name)}
 <main id="main" class="wk">
 <header class="wk-hero"><p class="eyebrow">${esc(fill(T.exerciseEyebrow, { reps: e.reps }))}</p><h1>${esc(fill(T.exerciseH1, { name: e.name }))}</h1><p class="lede">${esc(e.short)}.</p></header>
