@@ -104,5 +104,4 @@ slug: edging-i-testosteron
 
 - [Mayo Clinic: мужской гипогонадизм](https://www.mayoclinic.org/diseases-conditions/male-hypogonadism/symptoms-causes/syc-20354881)
 - [Cleveland Clinic: временный дискомфорт при возбуждении без оргазма](https://health.clevelandclinic.org/blue-balls)
-- [PubMed: эякуляция и уровень тестостерона в сыворотке](https://pubmed.ncbi.nlm.nih.gov/12659241/)
 - [PubMed: расслабление тазового дна и боль, связанная с эякуляцией](https://pubmed.ncbi.nlm.nih.gov/35576002/)

@@ -104,5 +104,4 @@ Nutze Edging als optionale Sexualtechnik, nicht als Hormonbehandlung. Nur eine q
 
 - [Mayo Clinic: männlicher Hypogonadismus](https://www.mayoclinic.org/diseases-conditions/male-hypogonadism/symptoms-causes/syc-20354881)
 - [Cleveland Clinic: vorübergehende Beschwerden bei Erregung ohne Orgasmus](https://health.clevelandclinic.org/blue-balls)
-- [PubMed: Ejakulation und Serum-Testosteron](https://pubmed.ncbi.nlm.nih.gov/12659241/)
 - [PubMed: Beckenbodenentspannung und ejakulationsbezogene Schmerzen](https://pubmed.ncbi.nlm.nih.gov/35576002/)

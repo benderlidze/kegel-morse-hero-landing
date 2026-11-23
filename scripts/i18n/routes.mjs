@@ -74,7 +74,7 @@ export const ORG_NODE = { '@type': 'Organization', '@id': ORG_ID, name: 'Kegel M
 export const PERSON_NODE = { '@type': 'Person', '@id': PERSON_ID, name: AUTHOR_NAME, url: `${site}/about/`, worksFor: { '@id': ORG_ID } };
 
 // Key guides linked from every home page (EN + translations). Home links are the strongest crawl signal we control.
-export const HOME_GUIDES = ['reverse-kegels-for-men', 'do-kegels-help-premature-ejaculation', 'kegels-erectile-dysfunction', 'kegels-after-prostate-surgery', 'dribbling-after-peeing-men', 'how-many-kegels-a-day-for-men', 'best-kegel-apps-for-men', 'am-i-doing-kegels-wrong'];
+export const HOME_GUIDES = ['kegel-exercises-to-last-longer-in-bed', 'increase-male-sensitivity', 'reverse-kegels-for-men', 'do-kegels-help-premature-ejaculation', 'kegels-erectile-dysfunction', 'kegels-after-prostate-surgery', 'dribbling-after-peeing-men', 'how-many-kegels-a-day-for-men', 'best-kegel-apps-for-men', 'am-i-doing-kegels-wrong'];
 
 // Localized [{ href, title }] for HOME_GUIDES. The hand-built article has no Markdown file, so its title is passed in.
 export function homeGuideLinks(code, handBuiltTitle) {

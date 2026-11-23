@@ -104,5 +104,4 @@ El edging no es un truco demostrado para aumentar la testosterona ni una causa c
 
 - [Mayo Clinic: hipogonadismo masculino](https://www.mayoclinic.org/diseases-conditions/male-hypogonadism/symptoms-causes/syc-20354881)
 - [Cleveland Clinic: molestia temporal por excitación sin orgasmo](https://health.clevelandclinic.org/blue-balls)
-- [PubMed: eyaculación y testosterona sérica](https://pubmed.ncbi.nlm.nih.gov/12659241/)
 - [PubMed: relajación del suelo pélvico y dolor relacionado con la eyaculación](https://pubmed.ncbi.nlm.nih.gov/35576002/)

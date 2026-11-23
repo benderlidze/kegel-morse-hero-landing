@@ -104,5 +104,4 @@ Considérez-le comme une technique sexuelle facultative, pas comme un traitement
 
 - [Mayo Clinic : hypogonadisme masculin](https://www.mayoclinic.org/diseases-conditions/male-hypogonadism/symptoms-causes/syc-20354881)
 - [Cleveland Clinic : gêne temporaire liée à l’excitation sans orgasme](https://health.clevelandclinic.org/blue-balls)
-- [PubMed : éjaculation et testostérone sérique](https://pubmed.ncbi.nlm.nih.gov/12659241/)
 - [PubMed : relâchement du périnée et douleur liée à l’éjaculation](https://pubmed.ncbi.nlm.nih.gov/35576002/)

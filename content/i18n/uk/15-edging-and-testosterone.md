@@ -104,5 +104,4 @@ slug: edzhynh-i-testosteron
 
 - [Mayo Clinic: чоловічий гіпогонадизм](https://www.mayoclinic.org/diseases-conditions/male-hypogonadism/symptoms-causes/syc-20354881)
 - [Cleveland Clinic: тимчасовий дискомфорт від збудження без оргазму](https://health.clevelandclinic.org/blue-balls)
-- [PubMed: еякуляція та рівень тестостерону в сироватці](https://pubmed.ncbi.nlm.nih.gov/12659241/)
 - [PubMed: розслаблення тазового дна й біль, пов’язаний з еякуляцією](https://pubmed.ncbi.nlm.nih.gov/35576002/)

@@ -104,5 +104,4 @@ Traktuj go jako opcjonalną technikę seksualną, a nie leczenie hormonalne. Tyl
 
 - [Mayo Clinic: hipogonadyzm męski](https://www.mayoclinic.org/diseases-conditions/male-hypogonadism/symptoms-causes/syc-20354881)
 - [Cleveland Clinic: przejściowy dyskomfort przy pobudzeniu bez orgazmu](https://health.clevelandclinic.org/blue-balls)
-- [PubMed: wytrysk a stężenie testosteronu w surowicy](https://pubmed.ncbi.nlm.nih.gov/12659241/)
 - [PubMed: rozluźnienie dna miednicy a ból związany z wytryskiem](https://pubmed.ncbi.nlm.nih.gov/35576002/)

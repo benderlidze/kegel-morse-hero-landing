@@ -118,5 +118,4 @@ Use it as an optional sexual technique—not as a hormone treatment. Only a qual
 
 - [Mayo Clinic: Male Hypogonadism](https://www.mayoclinic.org/diseases-conditions/male-hypogonadism/symptoms-causes/syc-20354881)
 - [Cleveland Clinic: Temporary Discomfort From Arousal Without Orgasm](https://health.clevelandclinic.org/blue-balls)
-- [PubMed: Ejaculation and Serum Testosterone](https://pubmed.ncbi.nlm.nih.gov/12659241/)
 - [PubMed: Pelvic Floor Relaxation and Ejaculation-Related Pain](https://pubmed.ncbi.nlm.nih.gov/35576002/)
