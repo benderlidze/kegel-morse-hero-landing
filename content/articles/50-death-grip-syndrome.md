@@ -16,6 +16,7 @@ content_status: "editorially ready; medical review recommended"
 schema_type: "Article"
 category_slug: "science"
 category_label: "Science & Safety"
+cover_image: "death-grip-syndrome.webp"
 ---
 
 # Death Grip Syndrome: Can You Get Sensitivity Back?

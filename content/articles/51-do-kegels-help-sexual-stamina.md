@@ -16,6 +16,7 @@ content_status: "editorially ready; medical review recommended"
 schema_type: "Article"
 category_slug: "science"
 category_label: "Science & Safety"
+cover_image: "do-kegels-help-sexual-stamina.webp"
 ---
 
 # Do Kegels Help Sexual Stamina? An Honest Answer

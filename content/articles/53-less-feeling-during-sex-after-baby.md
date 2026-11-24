@@ -15,6 +15,7 @@ content_status: "editorially ready; medical review recommended"
 schema_type: "Article"
 category_slug: "science"
 category_label: "Science & Safety"
+cover_image: "less-feeling-during-sex-after-baby.webp"
 ---
 
 # Less Feeling During Sex After a Baby? What Helps

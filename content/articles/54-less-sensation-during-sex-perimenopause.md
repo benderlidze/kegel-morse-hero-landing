@@ -15,6 +15,7 @@ content_status: "editorially ready; medical review recommended"
 schema_type: "Article"
 category_slug: "science"
 category_label: "Science & Safety"
+cover_image: "less-sensation-during-sex-perimenopause.webp"
 ---
 
 # Less Sensation During Sex in Perimenopause: What Helps
